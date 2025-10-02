@@ -21,6 +21,11 @@ jobs:
     - name: Install all necessary packages
       run: pip install pandas paramiko numpy
 
+    - name: Show working directory and contents
+      run: |
+        pwd
+        ls -al
+
     - name: Scraping the data
       run: python 01_hent_data.py
 
