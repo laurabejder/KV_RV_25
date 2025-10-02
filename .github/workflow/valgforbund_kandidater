@@ -2,7 +2,7 @@ name: hourly_valgforbund
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 16 * * *'
+    - cron: '01 * * * *'
 jobs:
   daily:
     runs-on: ubuntu-latest
