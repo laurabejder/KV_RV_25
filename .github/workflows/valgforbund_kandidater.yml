@@ -19,7 +19,7 @@ jobs:
         python-version: '3.11'
 
     - name: Install all necessary packages
-      run: pip install pandas paramiko
+      run: pip install pandas paramiko numpy
 
     - name: Scraping the data
       run: python 01_hent_data.py
