@@ -4,7 +4,8 @@ import glob
 import json
 import datetime
 
-from helper_functions import kombiner_resultater, strip_kommune
+from helper_functions import kombiner_resultater
+from helper_functions import strip_kommune
 
 # Paths
 from_path = "data/raw/"
@@ -56,9 +57,12 @@ kv_resultater = get_kv_resultater(from_path, to_path, "kv", "valgresultater")
 df_kv_partier = pd.DataFrame(kv_resultater[0])
 df_kv_kandidater = pd.DataFrame(kv_resultater[1])
 
+
 # fix the datetime columns in dd-mm-yyyy hh:mm:ss format
 df_kv_partier['godkendelsesdato'] = pd.to_datetime(df_kv_partier['godkendelsesdato'], format='%d-%m-%Y %H:%M:%S')
 df_kv_partier['frigivelsestidspunkt'] = pd.to_datetime(df_kv_partier['frigivelsestidspunkt'], format='%d-%m-%Y %H:%M:%S')
+df_kv_kandidater['godkendelsesdato'] = pd.to_datetime(df_kv_kandidater['godkendelsesdato'], format='%d-%m-%Y %H:%M:%S')
+df_kv_kandidater['frigivelsestidspunkt'] = pd.to_datetime(df_kv_kandidater['frigivelsestidspunkt'], format='%d-%m-%Y %H:%M:%S')
 
 df_kv_partier.to_csv("data/struktureret/kv25_resultater_partier.csv", index=False)
 df_kv_kandidater.to_csv("data/struktureret/kv25_resultater_kandidater.csv", index=False)
