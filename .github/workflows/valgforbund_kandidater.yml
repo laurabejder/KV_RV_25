@@ -26,6 +26,10 @@ jobs:
         pwd
         ls -al
 
+    - name: Show NumPy import path
+      run: |
+        python3 -c "import numpy; print('NumPy is being imported from:', numpy.__file__)"
+
     - name: Scraping the data
       run: python 01_hent_data.py
 
