@@ -1,0 +1,29 @@
+name: hourly_valgforbund
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 16 * * *'
+jobs:
+  daily:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out this repo
+      uses: actions/checkout@v2
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.11'
+    - name: Install all necessary packages
+      run: pip install jupyter pandas paramiko os glob json datetime
+    - name: Scraping the data
+      run: jupyter nbconvert --to notebook --execute "01_hent_data.py" --stdout
+    - name: restructure the data
+      run: jupyter nbconvert --to notebook --execute "02b_strukturer_kv25_kandidatdata.py" --stdout
+    - name: Commit and push any changes
+      run: |-
+        git config user.name "Automated"
+        git config user.email "actions@users.noreply.github.com"
+        git add -A
+        timestamp=$(date -u)
+        git commit -m "Latest data: ${timestamp}" || exit 0
+        git push
