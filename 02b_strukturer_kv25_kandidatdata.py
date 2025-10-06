@@ -3,7 +3,7 @@ import glob
 import json
 import datetime
 
-from helper_functions import kombiner_resultater, strip_kommune
+from helper_functions import kombiner_resultater
 
 # Paths
 from_path = "data/raw/"

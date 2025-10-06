@@ -7,7 +7,3 @@ def kombiner_resultater(from_path, to_path, valg, data_type):
     all_files = glob.glob(file_pattern)
 
     return all_files 
-
-
-def strip_kommune(kommune):
-    return kommune.replace([" Kommune", " kommune"], "").strip()
