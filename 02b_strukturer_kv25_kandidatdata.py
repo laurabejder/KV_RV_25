@@ -43,6 +43,7 @@ def get_kv_kandidatdata(from_path, to_path, valg, data_type):
                         'parti_bogstav': kandidater['Bogstavbetegnelse'],
                         'parti_opstillingsform': kandidater['Opstillingsform'],
                         'kandidatliste_id': kandidater['KandidatlisteId'],
+                        'kandidat_id': kandidat['Id'],
                         'kandidat_navn': kandidat['Navn'],
                         'kandidat_stemmeseddelnavn': kandidat['Stemmeseddelnavn'],
                         'kandidat_stilling': kandidat['Stilling']
