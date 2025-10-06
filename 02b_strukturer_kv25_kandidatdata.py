@@ -27,6 +27,7 @@ def get_kv_kandidatdata(from_path, to_path, valg, data_type):
                     'valgforbund_navn': valgforbund['Navn'],
                     'kandidatliste_id': valgforbund['KandidatlisteId']
                 })
+                    
         except Exception as e:
             print(f"Fejl ved læsning af valgforbund i {file}: {e}")
 
@@ -62,7 +63,29 @@ def convert_to_datetime(date_str):
         return datetime.datetime.strptime(date_str, '%d-%m-%Y %H:%M:%S')
     except ValueError:
         return pd.NaT
-
+    
+# loop over the column kandidatliste_id in the df_valgforbund_data and print each element in the list
+for index, row in df_valgforbund_data.iterrows():
+    # create a new column called kandidatliste_partier and set it to an empty string
+    df_valgforbund_data.at[index, 'valgforbund_partier'] = ""
+    df_valgforbund_data.at[index, 'valgforbund_partibogstav'] = ""
+    if isinstance(row['kandidatliste_id'], list):
+        # add a list to the column kandidatliste_partier
+        df_valgforbund_data.at[index, 'valgforbund_partier'] = []
+        df_valgforbund_data.at[index, 'valgforbund_partibogstav'] = []
+        for id in row['kandidatliste_id']:
+            # tjek in df_kandidat_data if id is in the column kandidatliste_id
+            if id in df_kandidat_data['kandidatliste_id'].values:
+                # print the id and the name 
+                parti_bogstav = df_kandidat_data[df_kandidat_data['kandidatliste_id'] == id]['parti_bogstav'].values[0]
+                parti_navn = df_kandidat_data[df_kandidat_data['kandidatliste_id'] == id]['parti_navn'].values[0]
+                # append the name to the list in the column kandidatliste_partier
+                df_valgforbund_data.at[index, 'valgforbund_partier'].append(parti_navn)
+                df_valgforbund_data.at[index, 'valgforbund_partibogstav'].append(parti_bogstav)
+            else:
+                print(f"ID: {id} not found in df_kandidat_data")
+    else:
+        print(row['kandidatliste_id'])
 
 df_kandidat_data['opdateringstidspunkt'] = df_kandidat_data['opdateringstidspunkt'].apply(convert_to_datetime)
 df_kandidat_data['frigivelsestidspunkt'] = df_kandidat_data['frigivelsestidspunkt'].apply(convert_to_datetime)
