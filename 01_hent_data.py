@@ -35,7 +35,7 @@ download_folders(folders)
 # Download RV25 data
 remote_path = "/data/regionsrådsvalg-134-18-11-2025/verifikation"
 local_path = "data/raw/rv"
-folders = ["verifikation/valgresultater", "verifikation/mandatfordeling", "verifikation/valgdeltagelse"]
+folders = ["verifikation/valgresultater", "kandidat-data", "verifikation/mandatfordeling", "verifikation/valgdeltagelse"]
 download_folders(folders)
 
 # Luk forbindelsen
