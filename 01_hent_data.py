@@ -26,15 +26,15 @@ def download_folders(folders):
     for folder in folders:
         download_files(sftp, remote_path, local_path, folder)
 
-# Download KV25 data
-remote_path = "/data/kommunalvalg-134-18-11-2025"
-local_path = "data/raw/kv"
+# Download RV25 data
+remote_path = "/data/regionsrådsvalg-134-18-11-2025"
+local_path = "data/raw/rv"
 folders = ["verifikation/valgresultater", "kandidat-data", "verifikation/mandatfordeling", "verifikation/valgdeltagelse"]
 download_folders(folders)
 
-# Download RV25 data
-remote_path = "/data/regionsrådsvalg-134-18-11-2025/verifikation"
-local_path = "data/raw/rv"
+# Download KV25 data
+remote_path = "/data/kommunalvalg-134-18-11-2025"
+local_path = "data/raw/kv"
 folders = ["verifikation/valgresultater", "kandidat-data", "verifikation/mandatfordeling", "verifikation/valgdeltagelse"]
 download_folders(folders)
 
