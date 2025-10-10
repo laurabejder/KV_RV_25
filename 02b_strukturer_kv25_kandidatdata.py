@@ -47,7 +47,8 @@ def get_kv_kandidatdata(from_path, to_path, valg, data_type):
                         'kandidat_id': kandidat['Id'],
                         'kandidat_navn': kandidat['Navn'],
                         'kandidat_stemmeseddelnavn': kandidat['Stemmeseddelnavn'],
-                        'kandidat_stilling': kandidat['Stilling']
+                        'kandidat_stilling': kandidat['Stilling'],
+                        'kandidat_adresse': kandidat['BopaelPaaStemmeseddel'],
                     })
         except Exception as e:  
             print(f"Fejl ved læsning af {file}: {e}")
