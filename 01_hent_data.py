@@ -1,5 +1,6 @@
 import paramiko
 import os
+import re
 
 # FTP login information
 host = "data.valg.dk"
@@ -17,8 +18,9 @@ def download_files(sftp, remote_dir, local_dir, folder_name):
     files = sftp.listdir(remote_dir+"/"+folder_name)
 
     for file in files:   # download each file
+        new_file = re.sub(r'-\d{12}(?=\.)', '', file)
         remote_file_path = remote_dir + "/" + folder_name + "/" + file
-        local_file_path = os.path.join(local_dir, folder_name, file)
+        local_file_path = os.path.join(local_dir, folder_name, new_file)
         os.makedirs(os.path.dirname(local_file_path), exist_ok=True)
         sftp.get(remote_file_path, local_file_path)
 
