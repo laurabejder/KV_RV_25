@@ -83,10 +83,10 @@ for index, row in df_valgforbund_data.iterrows():
     else:
         print("No list available")
 
-df_kandidat_data['opdateringstidspunkt'] = df_kandidat_data['opdateringstidspunkt'].apply(convert_to_datetime)
-df_kandidat_data['frigivelsestidspunkt'] = df_kandidat_data['frigivelsestidspunkt'].apply(convert_to_datetime)
-df_valgforbund_data['opdateringstidspunkt'] = df_valgforbund_data['opdateringstidspunkt'].apply(convert_to_datetime)
-df_valgforbund_data['frigivelsestidspunkt'] = df_valgforbund_data['frigivelsestidspunkt'].apply(convert_to_datetime)
+def apply_functions(df, file):
+    df['opdateringstidspunkt'] = df['opdateringstidspunkt'].apply(convert_to_datetime)
+    df['frigivelsestidspunkt'] = df['frigivelsestidspunkt'].apply(convert_to_datetime)
+    df.to_csv("data/struktureret/"+file, index=False)
 
-df_kandidat_data.to_csv("data/struktureret/kv25_kandidat_data.csv", index=False)
-df_valgforbund_data.to_csv("data/struktureret/kv25_valgforbund_data.csv", index=False)
+apply_functions(df_kandidat_data, "kv25_kandidat_data.csv")
+apply_functions(df_valgforbund_data, "kv25_valgforbund_data.csv")
