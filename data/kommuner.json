@@ -18,7 +18,7 @@
     {
         "kommune_id": "151",
         "kommune_navn": "Ballerup",
-        "kommune_dagi_id": null,
+        "kommune_dagi_id": 389105,
         "chart_id": null,
         "table_id": null,
         "map_id": null
@@ -218,7 +218,7 @@
     {
         "kommune_id": "259",
         "kommune_navn": "Køge",
-        "kommune_dagi_id": null,
+        "kommune_dagi_id": 389136,
         "chart_id": null,
         "table_id": null,
         "map_id": null
