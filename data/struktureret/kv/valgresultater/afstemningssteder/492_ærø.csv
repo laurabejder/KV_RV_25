@@ -1,0 +1,4 @@
+dagi_id,navn,nummer,afstemningssted_navn,kommune_id,opstillingskreds_nummer,opstillingskreds_dagi_id,afstemningssted_adresse,kommune_navn,kommune_dagi_id
+702246,Ærøskøbing,2,Ærø Rådhus,492,48,403616,"Statene 2, 5970 Ærøskøbing",Ærø,389165
+706902,Marstal,1,Marstal Skole,492,48,403616,"Halvejen 24, 5960 Marstal",Ærø,389165
+700952,Søby,3,Café Arthur,492,48,403616,"Ellehøjvej 1, 5985 Søby Ærø",Ærø,389165

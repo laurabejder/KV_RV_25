@@ -1,0 +1,10 @@
+dagi_id,navn,nummer,afstemningssted_navn,kommune_id,opstillingskreds_nummer,opstillingskreds_dagi_id,afstemningssted_adresse,kommune_navn,kommune_dagi_id
+704050,Virum,6,Virum Skole,173,14,403557,"Skolebakken 9, 2830 Virum",Lyngby-Taarbæk,389115
+706998,Engelsborg,4,Engelsborghallen,173,14,403557,"Engelsborgvej 93, 2800 Kongens Lyngby",Lyngby-Taarbæk,389115
+711474,Taarbæk,5,Taarbæk Skole,173,14,403557,"Taarbæk Strandvej 96, 2930 Klampenborg",Lyngby-Taarbæk,389115
+704030,Trongård,3,Trongårdsskolen,173,14,403557,"Trongårdsvej 50, 2800 Kongens Lyngby",Lyngby-Taarbæk,389115
+708642,Lyngby Idrætsby,2,"Lyngby Idrætsby, Hal 2",173,14,403557,"Lundtoftevej 53A, 2800 Kongens Lyngby",Lyngby-Taarbæk,389115
+710170,Hummeltofte,7,Hummeltofteskolen,173,14,403557,"Grønnevej 218, 2830 Virum",Lyngby-Taarbæk,389115
+702310,Virumhallerne,8,Virumhallerne,173,14,403557,"Geels Plads 40, 2830 Virum",Lyngby-Taarbæk,389115
+710194,Lundtofte,9,Lundtofte Skole,173,14,403557,"Nøjsomhedsvej 1, 2800 Kongens Lyngby",Lyngby-Taarbæk,389115
+710178,Lyngby Midt,1,Lyngby Rådhus,173,14,403557,"Lyngby Torv 17, 2800 Kongens Lyngby",Lyngby-Taarbæk,389115

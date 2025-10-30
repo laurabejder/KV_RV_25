@@ -1,0 +1,9 @@
+dagi_id,navn,nummer,afstemningssted_navn,kommune_id,opstillingskreds_nummer,opstillingskreds_dagi_id,afstemningssted_adresse,kommune_navn,kommune_dagi_id
+709818,Kokkedal,5,Egedalshallen,210,22,403554,"Holmegårdsvej 3, 2980 Kokkedal",Fredensborg,389123
+702010,Niverød,7,Nivå Skole Nord,210,22,403554,"Mariehøj 501, Niverød, 2990 Nivå",Fredensborg,389123
+703808,Asminderød,1,Fredensborg-Hallen,210,22,403554,"Kastanievej 18, 3480 Fredensborg",Fredensborg,389123
+703814,Baunebjerg,4,Humlebæk Skole,210,22,403554,"Baunebjergvej 401, 3050 Humlebæk",Fredensborg,389123
+700760,Karlebo,8,Karlebo Kro,210,22,403554,"Karlebovej 10, 2980 Kokkedal",Fredensborg,389123
+703766,Humlebæk,3,Humlebæk-Hallen,210,22,403554,"Gl Strandvej 130B, 3050 Humlebæk",Fredensborg,389123
+708376,Nivå,9,Nivaagaards Malerisamling,210,22,403554,"Gammel Strandvej 2, 2990 Nivå",Fredensborg,389123
+709824,Fredensborg,2,Endrupskolens Hal,210,22,403554,"Endrupvej 32, 3480 Fredensborg",Fredensborg,389123

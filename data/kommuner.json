@@ -1,0 +1,794 @@
+[
+    {
+        "kommune_id": "101",
+        "kommune_navn": "København",
+        "kommune_dagi_id": 389103,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "147",
+        "kommune_navn": "Frederiksberg",
+        "kommune_dagi_id": 389104,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "151",
+        "kommune_navn": "Ballerup",
+        "kommune_dagi_id": null,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "153",
+        "kommune_navn": "Brøndby",
+        "kommune_dagi_id": 389106,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "155",
+        "kommune_navn": "Dragør",
+        "kommune_dagi_id": 389107,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "157",
+        "kommune_navn": "Gentofte",
+        "kommune_dagi_id": 389108,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "159",
+        "kommune_navn": "Gladsaxe",
+        "kommune_dagi_id": 389109,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "161",
+        "kommune_navn": "Glostrup",
+        "kommune_dagi_id": 389110,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "163",
+        "kommune_navn": "Herlev",
+        "kommune_dagi_id": 389111,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "165",
+        "kommune_navn": "Albertslund",
+        "kommune_dagi_id": 389112,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "167",
+        "kommune_navn": "Hvidovre",
+        "kommune_dagi_id": 389113,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "169",
+        "kommune_navn": "Høje-Taastrup",
+        "kommune_dagi_id": 389114,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "173",
+        "kommune_navn": "Lyngby-Taarbæk",
+        "kommune_dagi_id": 389115,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "175",
+        "kommune_navn": "Rødovre",
+        "kommune_dagi_id": 389116,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "183",
+        "kommune_navn": "Ishøj",
+        "kommune_dagi_id": 389118,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "185",
+        "kommune_navn": "Tårnby",
+        "kommune_dagi_id": 389119,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "187",
+        "kommune_navn": "Vallensbæk",
+        "kommune_dagi_id": 389120,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "190",
+        "kommune_navn": "Furesø",
+        "kommune_dagi_id": 389122,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "201",
+        "kommune_navn": "Allerød",
+        "kommune_dagi_id": 389121,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "210",
+        "kommune_navn": "Fredensborg",
+        "kommune_dagi_id": 389123,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "217",
+        "kommune_navn": "Helsingør",
+        "kommune_dagi_id": 389124,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "219",
+        "kommune_navn": "Hillerød",
+        "kommune_dagi_id": 389125,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "223",
+        "kommune_navn": "Hørsholm",
+        "kommune_dagi_id": 389126,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "230",
+        "kommune_navn": "Rudersdal",
+        "kommune_dagi_id": 389127,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "240",
+        "kommune_navn": "Egedal",
+        "kommune_dagi_id": 389129,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "250",
+        "kommune_navn": "Frederikssund",
+        "kommune_dagi_id": 389130,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "253",
+        "kommune_navn": "Greve",
+        "kommune_dagi_id": 389135,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "259",
+        "kommune_navn": "Køge",
+        "kommune_dagi_id": null,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "260",
+        "kommune_navn": "Halsnæs",
+        "kommune_dagi_id": 389131,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "265",
+        "kommune_navn": "Roskilde",
+        "kommune_dagi_id": 389137,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "269",
+        "kommune_navn": "Solrød",
+        "kommune_dagi_id": 389138,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "270",
+        "kommune_navn": "Gribskov",
+        "kommune_dagi_id": 389132,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "306",
+        "kommune_navn": "Odsherred",
+        "kommune_dagi_id": 389139,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "316",
+        "kommune_navn": "Holbæk",
+        "kommune_dagi_id": 389140,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "320",
+        "kommune_navn": "Faxe",
+        "kommune_dagi_id": 389143,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "326",
+        "kommune_navn": "Kalundborg",
+        "kommune_dagi_id": 389141,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "329",
+        "kommune_navn": "Ringsted",
+        "kommune_dagi_id": 389142,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "330",
+        "kommune_navn": "Slagelse",
+        "kommune_dagi_id": 389144,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "336",
+        "kommune_navn": "Stevns",
+        "kommune_dagi_id": 389147,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "340",
+        "kommune_navn": "Sorø",
+        "kommune_dagi_id": 389145,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "350",
+        "kommune_navn": "Lejre",
+        "kommune_dagi_id": 389146,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "360",
+        "kommune_navn": "Lolland",
+        "kommune_dagi_id": 389150,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "370",
+        "kommune_navn": "Næstved",
+        "kommune_dagi_id": 389148,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "376",
+        "kommune_navn": "Guldborgsund",
+        "kommune_dagi_id": 389151,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "390",
+        "kommune_navn": "Vordingborg",
+        "kommune_dagi_id": 389149,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "400",
+        "kommune_navn": "Bornholm",
+        "kommune_dagi_id": 389133,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "410",
+        "kommune_navn": "Middelfart",
+        "kommune_dagi_id": 389156,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "411",
+        "kommune_navn": "Christiansø",
+        "kommune_dagi_id": null,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "420",
+        "kommune_navn": "Assens",
+        "kommune_dagi_id": 389157,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "430",
+        "kommune_navn": "Faaborg-Midtfyn",
+        "kommune_dagi_id": 389158,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "440",
+        "kommune_navn": "Kerteminde",
+        "kommune_dagi_id": 389159,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "450",
+        "kommune_navn": "Nyborg",
+        "kommune_dagi_id": 389160,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "461",
+        "kommune_navn": "Odense",
+        "kommune_dagi_id": 389161,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "479",
+        "kommune_navn": "Svendborg",
+        "kommune_dagi_id": 389162,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "480",
+        "kommune_navn": "Nordfyns",
+        "kommune_dagi_id": 389163,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "482",
+        "kommune_navn": "Langeland",
+        "kommune_dagi_id": 389164,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "492",
+        "kommune_navn": "Ærø",
+        "kommune_dagi_id": 389165,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "510",
+        "kommune_navn": "Haderslev",
+        "kommune_dagi_id": 389166,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "530",
+        "kommune_navn": "Billund",
+        "kommune_dagi_id": 389172,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "540",
+        "kommune_navn": "Sønderborg",
+        "kommune_dagi_id": 389167,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "550",
+        "kommune_navn": "Tønder",
+        "kommune_dagi_id": 389168,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "561",
+        "kommune_navn": "Esbjerg",
+        "kommune_dagi_id": 389170,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "563",
+        "kommune_navn": "Fanø",
+        "kommune_dagi_id": 389171,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "573",
+        "kommune_navn": "Varde",
+        "kommune_dagi_id": 389173,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "575",
+        "kommune_navn": "Vejen",
+        "kommune_dagi_id": 389174,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "580",
+        "kommune_navn": "Aabenraa",
+        "kommune_dagi_id": 389169,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "607",
+        "kommune_navn": "Fredericia",
+        "kommune_dagi_id": 389175,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "615",
+        "kommune_navn": "Horsens",
+        "kommune_dagi_id": 389179,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "621",
+        "kommune_navn": "Kolding",
+        "kommune_dagi_id": 389176,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "630",
+        "kommune_navn": "Vejle",
+        "kommune_dagi_id": 389177,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "657",
+        "kommune_navn": "Herning",
+        "kommune_dagi_id": 389181,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "661",
+        "kommune_navn": "Holstebro",
+        "kommune_dagi_id": 389182,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "665",
+        "kommune_navn": "Lemvig",
+        "kommune_dagi_id": 389183,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "671",
+        "kommune_navn": "Struer",
+        "kommune_dagi_id": 389185,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "706",
+        "kommune_navn": "Syddjurs",
+        "kommune_dagi_id": 389186,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "707",
+        "kommune_navn": "Norddjurs",
+        "kommune_dagi_id": 389187,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "710",
+        "kommune_navn": "Favrskov",
+        "kommune_dagi_id": 389188,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "727",
+        "kommune_navn": "Odder",
+        "kommune_dagi_id": 389189,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "730",
+        "kommune_navn": "Randers",
+        "kommune_dagi_id": 389190,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "740",
+        "kommune_navn": "Silkeborg",
+        "kommune_dagi_id": 389192,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "741",
+        "kommune_navn": "Samsø",
+        "kommune_dagi_id": 389191,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "746",
+        "kommune_navn": "Skanderborg",
+        "kommune_dagi_id": 389193,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "751",
+        "kommune_navn": "Aarhus",
+        "kommune_dagi_id": 389194,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "756",
+        "kommune_navn": "Ikast-Brande",
+        "kommune_dagi_id": 389180,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "760",
+        "kommune_navn": "Ringkøbing-Skjern",
+        "kommune_dagi_id": 389184,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "766",
+        "kommune_navn": "Hedensted",
+        "kommune_dagi_id": 389178,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "773",
+        "kommune_navn": "Morsø",
+        "kommune_dagi_id": 389197,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "779",
+        "kommune_navn": "Skive",
+        "kommune_dagi_id": 389195,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "787",
+        "kommune_navn": "Thisted",
+        "kommune_dagi_id": 389198,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "791",
+        "kommune_navn": "Viborg",
+        "kommune_dagi_id": 389196,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "810",
+        "kommune_navn": "Brønderslev",
+        "kommune_dagi_id": 389199,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "813",
+        "kommune_navn": "Frederikshavn",
+        "kommune_dagi_id": 389200,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "820",
+        "kommune_navn": "Vesthimmerlands",
+        "kommune_dagi_id": 389207,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "825",
+        "kommune_navn": "Læsø",
+        "kommune_dagi_id": 389203,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "840",
+        "kommune_navn": "Rebild",
+        "kommune_dagi_id": 389204,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "846",
+        "kommune_navn": "Mariagerfjord",
+        "kommune_dagi_id": 389202,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "849",
+        "kommune_navn": "Jammerbugt",
+        "kommune_dagi_id": 389205,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "851",
+        "kommune_navn": "Aalborg",
+        "kommune_dagi_id": 389206,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    },
+    {
+        "kommune_id": "860",
+        "kommune_navn": "Hjørring",
+        "kommune_dagi_id": 389201,
+        "chart_id": null,
+        "table_id": null,
+        "map_id": null
+    }
+]

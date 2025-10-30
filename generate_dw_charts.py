@@ -12,7 +12,7 @@ if DW_TOKEN is None:
     raise ValueError("DW_TOKEN not found in .env file")
 
 ## LOAD IN THE DATA AND TOPOJSONS
-kommuner = pd.read_json("data/struktureret/kommuner_DK.json")
+kommuner = pd.read_json("data/kommuner.json")
 topojsons = [f for f in os.listdir("data/shapes/") if f.endswith(".topojson")]
 
 
@@ -22,7 +22,7 @@ for col in ["table_id", "chart_id", "map_id"]:
     kommuner[col] = kommuner[col].astype("object")
 
 def create_tables(row):
-    kommune_name = row['kommune']
+    kommune_name = row['kommune_navn']
 
     url = "https://api.datawrapper.de/v3/charts"
     headers = {
@@ -36,7 +36,7 @@ def create_tables(row):
         "metadata" : {
             "describe": {
                 "intro": "Her kan du se, hvordan der blev stemt i " + kommune_name + " Kommune ved kommunalvalget den 18. november 2025.",
-                "source-name": "Kilde: Valgdata fra valg.dk",
+                "source-name": "Valgdata fra valg.dk",
                 "source-url": "https://www.valg.dk",
                 "byline": "Laura Bejder Jensen"},
         'language': 'da-DK'
@@ -47,7 +47,7 @@ def create_tables(row):
     return response
 
 def create_charts(row):
-    kommune_name = row['kommune']
+    kommune_name = row['kommune_navn']
 
     url = "https://api.datawrapper.de/v3/charts"
     headers = {
@@ -61,7 +61,7 @@ def create_charts(row):
         "metadata" : {
             "describe": {
                 "intro": "Her kan du se, hvordan der blev stemt i " + kommune_name + " Kommune ved kommunalvalget den 18. november 2025.",
-                "source-name": "Kilde: Valgdata fra valg.dk",
+                "source-name": "Valgdata fra valg.dk",
                 "source-url": "https://www.valg.dk",
                 "byline": "Laura Bejder Jensen"}
         },
@@ -72,7 +72,7 @@ def create_charts(row):
     return response
 
 def create_maps(row):
-    kommune_name = row['kommune']
+    kommune_name = row['kommune_navn']
 
     url = "https://api.datawrapper.de/v3/charts"
     headers = {
@@ -86,7 +86,7 @@ def create_maps(row):
         "metadata" : {
             "describe": {
                 "intro": "Her kan du se, hvordan der blev stemt i " + kommune_name + " Kommune ved kommunalvalget den 18. november 2025.",
-                "source-name": "Kilde: Valgdata fra valg.dk",
+                "source-name": "Valgdata fra valg.dk",
                 "source-url": "https://www.valg.dk",
                 "byline": "Laura Bejder Jensen"}
         },
@@ -158,70 +158,31 @@ def add_topojson_to_map(row, map_id):
     #     "publish": publish_response.status_code
     # }
 
-def create_custom_map_chart(chart_title, topojson_path):
-    # Step 1: Create choropleth chart
-    create_resp = requests.post(
-        "https://api.datawrapper.de/v3/charts",
-        headers={
-            "Authorization": f"Bearer {DW_TOKEN}",
-            "Content-Type": "application/json"
-        },
-        json={
-            "type": "d3-maps-choropleth",
-            "title": chart_title
-        }
-    )
-    create_resp.raise_for_status()
-    chart_id = create_resp.json()["id"]
-
-    # Step 2: Upload TopoJSON
-    with open(topojson_path, "r", encoding="utf-8") as f:
-        topojson = f.read()
-
-    upload_resp = requests.put(
-        f"https://api.datawrapper.de/v3/charts/{chart_id}/assets/{chart_id}.map.json",
-        headers={
-            "Authorization": f"Bearer {DW_TOKEN}",
-            "Content-Type": "application/json"
-        },
-        data=topojson
-    )
-    upload_resp.raise_for_status()
-
-    print(f"✅ Map chart created: https://app.datawrapper.de/chart/{chart_id}/edit")
-    return chart_id
-
-
-# call the function create_custom_map_chart
-
-chart_id = create_custom_map_chart(
-    chart_title="Sådan stemte Helsingør Kommune",
-    topojson_path="data/shapes/helsingør_afstemningsområder.topojson"
-)  
 
 
 
 
-# for index, row in kommuner[:3].iterrows():
-#     #create_tables(row)
-#     #create_charts(row)
-#     map_response = create_maps(row)
-#     map_id = map_response.json()['id']
-#     row['map_id'] = map_id
-#     kommuner.at[index, 'map_id'] = map_id  # Save to DataFrame
-#     add_topojson_to_map(row, map_id)
+
+for index, row in kommuner[:3].iterrows():
+    #create_tables(row)
+    #create_charts(row)
+    map_response = create_maps(row)
+    map_id = map_response.json()['id']
+    row['map_id'] = map_id
+    kommuner.at[index, 'map_id'] = map_id  # Save to DataFrame
+    add_topojson_to_map(row, map_id)
 
 
-#     url = f"https://api.datawrapper.de/v3/charts/{map_id}"
-#     headers = {
-#         "Authorization": f"Bearer {DW_TOKEN}"
-#     }
+    url = f"https://api.datawrapper.de/v3/charts/{map_id}"
+    headers = {
+        "Authorization": f"Bearer {DW_TOKEN}"
+    }
 
-#     response = requests.get(url, headers=headers)
-#     response.raise_for_status()
+    response = requests.get(url, headers=headers)
+    response.raise_for_status()
 
-#     # Pretty print the full metadata
-#     chart = response.json()
-#     print(json.dumps(chart["metadata"], indent=2))
+    # Pretty print the full metadata
+    chart = response.json()
+    print(json.dumps(chart["metadata"], indent=2))
     
 

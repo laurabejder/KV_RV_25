@@ -1,0 +1,8 @@
+dagi_id,navn,nummer,afstemningssted_navn,kommune_id,opstillingskreds_nummer,opstillingskreds_dagi_id,afstemningssted_adresse,kommune_navn,kommune_dagi_id
+701374,Sdr. Omme,2,Sdr. Omme Kro,530,55,403623,"Hovedgaden 1, 7260 Sønder Omme",Billund,389172
+710594,St./Krogager,5,Teglgaardshallen,530,55,403623,"Teglgaardsvej 7, Stend-Krogag, 7200 Grindsted",Billund,389172
+707400,Grindsted,6,"Magion, Hal 3",530,55,403623,"Tinghusgade 15, 7200 Grindsted",Billund,389172
+704500,Billund,1,Hans Jensensvej 6,530,55,403623,"Hans Jensensvej 6, 7190 Billund",Billund,389172
+702968,Filskov,4,Filskov Kro,530,55,403623,"Amtsvejen 34, Filskov, 7200 Grindsted",Billund,389172
+708930,Hejnsvig,7,Hejnsvig Skole,530,55,403623,"Bakkevej 9, 7250 Hejnsvig",Billund,389172
+704532,Vorbasse,3,Vorbasse Fritidscenter,530,55,403623,"Drivvejen 1, 6623 Vorbasse",Billund,389172
