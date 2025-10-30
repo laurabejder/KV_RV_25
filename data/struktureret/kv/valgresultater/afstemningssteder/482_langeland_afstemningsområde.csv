@@ -1,0 +1,6 @@
+dagi_id,navn,nummer,afstemningssted_navn,kommune_id,opstillingskreds_nummer,opstillingskreds_dagi_id,afstemningssted_adresse,kommune_navn,kommune_dagi_id,største_parti
+748510,Snøde,11,Nordlangelandshallen,482,47,403615,"Snødevej 140B, Snøde, 5953 Tranekær",Langeland,389164,
+704594,Rudkøbing,5,Værkstedsgården,482,47,403615,"Havnegade 118B, 5900 Rudkøbing",Langeland,389164,
+701464,Tullebølle,7,Tullebøllehallen,482,47,403615,"Løkkebyvej 2A, Tullebølle, 5953 Tranekær",Langeland,389164,
+704630,Humble,2,Humblehallen,482,47,403615,"Hallinggade 25B, 5932 Humble",Langeland,389164,
+707504,Bagenkop,1,Bagenkophallen,482,47,403615,"Stationsvej 6A, 5935 Bagenkop",Langeland,389164,

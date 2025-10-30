@@ -1,0 +1,4 @@
+dagi_id,navn,nummer,afstemningssted_navn,kommune_id,opstillingskreds_nummer,opstillingskreds_dagi_id,afstemningssted_adresse,kommune_navn,kommune_dagi_id,største_parti
+701152,Kildegårdhallen,3,Kildegårdhallen,163,16,403562,"Dildhaven 40, 2730 Herlev",Herlev,389111,
+710346,Herlev Hallerne,2,"Herlev Hallerne, Annekshallen",163,16,403562,"Tvedvangen 198, 2730 Herlev",Herlev,389111,
+705798,Herlev Medborgerhus,1,Herlev Medborgerhus,163,16,403562,"Herlevgårdsvej 18, 2730 Herlev",Herlev,389111,

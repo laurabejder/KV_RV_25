@@ -5,10 +5,9 @@ import json
 import datetime
 
 from helper_functions import kombiner_resultater
-from helper_functions import strip_kommune
 
 # Paths
-from_path = "data/raw/"
+from_path = "data/raw/verifikation/"
 to_path = "data/struktureret/"
 
 # KV25 - Valgresultater
@@ -27,7 +26,6 @@ def get_kv_resultater(from_path, to_path, valg, data_type):
                     'kommune_kode': data['Kommunekode'],
                     'afstemningsområde': data['Afstemningsområde'],
                     'afstemningsområde_dagi_id': data['AfstemningsområdeDagiId'],
-                    'godkendelsesdato': data['GodkendelsesDatoUTC'],
                     'frigivelsestidspunkt': data['FrigivelsesTidspunktUTC'],
                     'parti': parti['Navn'],
                     'stemmer': parti['Stemmer'],
@@ -42,7 +40,6 @@ def get_kv_resultater(from_path, to_path, valg, data_type):
                         'kommune_kode': data['Kommunekode'],
                         'afstemningsområde': data['Afstemningsområde'],
                         'afstemningsområde_dagi_id': data['AfstemningsområdeDagiId'],
-                        'godkendelsesdato': data['GodkendelsesDatoUTC'],
                         'frigivelsestidspunkt': data['FrigivelsesTidspunktUTC'],
                         'parti': parti['Navn'],
                         'kandidat': kandidat['Stemmeseddelnavn'],
@@ -64,5 +61,5 @@ df_kv_partier['frigivelsestidspunkt'] = pd.to_datetime(df_kv_partier['frigivelse
 df_kv_kandidater['godkendelsesdato'] = pd.to_datetime(df_kv_kandidater['godkendelsesdato'], format='%d-%m-%Y %H:%M:%S')
 df_kv_kandidater['frigivelsestidspunkt'] = pd.to_datetime(df_kv_kandidater['frigivelsestidspunkt'], format='%d-%m-%Y %H:%M:%S')
 
-df_kv_partier.to_csv("data/struktureret/kv25_resultater_partier.csv", index=False)
-df_kv_kandidater.to_csv("data/struktureret/kv25_resultater_kandidater.csv", index=False)
+# df_kv_partier.to_csv("data/struktureret/kv25_resultater_partier.csv", index=False)
+# df_kv_kandidater.to_csv("data/struktureret/kv25_resultater_kandidater.csv", index=False)
