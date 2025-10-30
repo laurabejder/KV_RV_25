@@ -1,0 +1,77 @@
+[
+    {
+        "navn": "Socialdemokratiet",
+        "bokstav": "S",
+        "farve": "#F00B2F"
+    },
+    {
+        "navn": "Venstre",
+        "bokstav": "V",
+        "farve": "#0781DD"
+    },
+    {
+        "navn": "Dansk Folkeparti",
+        "bokstav": "DF",
+        "farve": "#F6BA00"
+    },
+    {
+        "navn": "Radikale",
+        "bokstav": "R",
+        "farve": "#662690"
+    },
+    {
+        "navn": "Enhedslisten",
+        "bokstav": "EL",
+        "farve": "#FF7400"
+    },
+    {
+        "navn": "Konservative",
+        "bokstav": "K",
+        "farve": "#06691E"
+    },
+    {
+        "navn": "SF",
+        "bokstav": "SF",
+        "farve": "#F257A9"
+    },
+    {
+        "navn": "Nye Borgerlige",
+        "bokstav": "NB",
+        "farve": "#004E62"
+    },
+    {
+        "navn": "Alternativet",
+        "bokstav": "ALT",
+        "farve": "#3CE63D"
+    },
+    {
+        "navn": "Liberal Alliance",
+        "bokstav": "LA",
+        "farve": "#48CEF3"
+    },
+    {
+        "navn": "Frie Grønne",
+        "bokstav": "FG",
+        "farve": "#eecbc6"
+    },
+    {
+        "navn": "Kristendemokraterne",
+        "bokstav": "KD",
+        "farve": "#8B8474"
+    },
+    {
+        "navn": "Moderaterne",
+        "bokstav": "M",
+        "farve": "#911995"
+    },
+    {
+        "navn": "Danmarksdemokraterne",
+        "bokstav": "DD",
+        "farve": "#0075c9"
+    },
+    {
+        "navn": "Slesvigsk Parti",
+        "bokstav": "SP",
+        "farve": "#FFD700"
+    }
+]
