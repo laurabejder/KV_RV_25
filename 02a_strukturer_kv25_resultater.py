@@ -7,7 +7,7 @@ import datetime
 from helper_functions import kombiner_resultater
 
 # Paths
-from_path = "data/raw/verifikation/"
+from_path = "data/raw/"
 to_path = "data/struktureret/"
 
 # KV25 - Valgresultater
@@ -26,11 +26,14 @@ def get_kv_resultater(from_path, to_path, valg, data_type):
                     'kommune_kode': data['Kommunekode'],
                     'afstemningsområde': data['Afstemningsområde'],
                     'afstemningsområde_dagi_id': data['AfstemningsområdeDagiId'],
-                    'frigivelsestidspunkt': data['FrigivelsesTidspunktUTC'],
+                    'frigivelsestidspunkt': data.get('FrigivelsesTidspunktUTC', None),
                     'parti': parti['Navn'],
                     'stemmer': parti['Stemmer'],
                     'listestemmer': parti['Listestemmer'],
-                    'difference_forrige_valg' : parti['StemmerDifferenceFraForrigeValg']
+                    'difference_forrige_valg' : parti['StemmerDifferenceFraForrigeValg'],
+                    'total_gyldige_stemmer': data['GyldigeStemmer'],
+                    'total_afgivne_stemmer': data['AfgivneStemmer'],
+                    'resultat_art': data['Resultatart']
                 })
 
                 for kandidat in parti['Kandidater']:
@@ -40,10 +43,13 @@ def get_kv_resultater(from_path, to_path, valg, data_type):
                         'kommune_kode': data['Kommunekode'],
                         'afstemningsområde': data['Afstemningsområde'],
                         'afstemningsområde_dagi_id': data['AfstemningsområdeDagiId'],
-                        'frigivelsestidspunkt': data['FrigivelsesTidspunktUTC'],
+                        'frigivelsestidspunkt': data.get('FrigivelsesTidspunktUTC', None),
                         'parti': parti['Navn'],
                         'kandidat': kandidat['Stemmeseddelnavn'],
-                        'stemmer': kandidat['Stemmer']
+                        'stemmer': kandidat['Stemmer'],
+                        'total_gyldige_stemmer': data['GyldigeStemmer'],
+                        'total_afgivne_stemmer': data['AfgivneStemmer'],
+                        'resultat_art': data['Resultatart']
                     })
         except Exception as e:
             print(f"Fejl ved læsning af {file}: {e}")
@@ -54,12 +60,9 @@ kv_resultater = get_kv_resultater(from_path, to_path, "kv", "valgresultater")
 df_kv_partier = pd.DataFrame(kv_resultater[0])
 df_kv_kandidater = pd.DataFrame(kv_resultater[1])
 
-
 # fix the datetime columns in dd-mm-yyyy hh:mm:ss format
-df_kv_partier['godkendelsesdato'] = pd.to_datetime(df_kv_partier['godkendelsesdato'], format='%d-%m-%Y %H:%M:%S')
-df_kv_partier['frigivelsestidspunkt'] = pd.to_datetime(df_kv_partier['frigivelsestidspunkt'], format='%d-%m-%Y %H:%M:%S')
-df_kv_kandidater['godkendelsesdato'] = pd.to_datetime(df_kv_kandidater['godkendelsesdato'], format='%d-%m-%Y %H:%M:%S')
-df_kv_kandidater['frigivelsestidspunkt'] = pd.to_datetime(df_kv_kandidater['frigivelsestidspunkt'], format='%d-%m-%Y %H:%M:%S')
+# df_kv_partier['frigivelsestidspunkt'] = pd.to_datetime(df_kv_partier['frigivelsestidspunkt'], format='%d-%m-%Y %H:%M:%S')
+# df_kv_kandidater['frigivelsestidspunkt'] = pd.to_datetime(df_kv_kandidater['frigivelsestidspunkt'], format='%d-%m-%Y %H:%M:%S')
 
-# df_kv_partier.to_csv("data/struktureret/kv25_resultater_partier.csv", index=False)
-# df_kv_kandidater.to_csv("data/struktureret/kv25_resultater_kandidater.csv", index=False)
+df_kv_partier.to_csv("data/struktureret/kv/kv25_resultater_partier.csv", index=False)
+df_kv_kandidater.to_csv("data/struktureret/kv/kv25_resultater_kandidater.csv", index=False)
