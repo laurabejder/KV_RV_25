@@ -18,7 +18,7 @@ Dette repository indeholder scripts til at hente og strukturere data for kommuna
         - `kv25_resultater_partier.csv` : Valgresultater på partiniveau
         - `kv25_resultater_kandidater.csv` : Valgresultater på kandidat
         - `valgresultater/afstemningssteder/` : indeholder en fil per kommune med valgresultater på afstemningsstedsniveau. Skal bruges til visualiseringer på afstemningsstedsniveau.
-        - `valgresultater/kommuner` : indeholder en fil per kommune med valgresultater på kommuneniveau. Skal bruges til visualiseringer på kommuneniveau.
+        - `valgresultater/kommuner/` : indeholder en fil per kommune med valgresultater på kommuneniveau. Skal bruges til visualiseringer på kommuneniveau.
         - `kandidat-info/` : Indeholder to filer: én med kandidatdata og én med valgforbundsdata for kommunalvalget 2025.
     - `rv/` : Strukturerede data for regionsvalg 2025
         - `rv25_resultater_partier.csv` : Valgresultater på partiniveau.
