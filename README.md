@@ -3,7 +3,7 @@
 ### Struktur
 Dette repository indeholder scripts til at hente og strukturere data for kommunalvalg og regionsvalg 2025 i Danmark. Dataene hentes fra kombits offentlige SFTP forbindelse og struktureres i et format, der er nemt at analysere og bruge til videre formål. En del af filerne er også direkte datainput til Altingets valgvisualiseringer.
 
-data/
+#### data/
 - **raw/** : Indeholder de rå datafiler hentet direkte fra kombits SFTP server. Filstrukturen her spejler den, der findes på SFTP serveren, med undermapper for `kandidat-data`, `valgresultater`, `mandatfordeling`, `valgdeltagelse` og `verifikation` (til midlertidige "testfiler").
 - **struktureret/** : Indeholder de strukturerede datafiler efter behandling af scripts. Her findes separate filer for kommunalvalg og regionsvalg, opdelt i partier og kandidater.
 - **kommuner.json** : En JSON-fil, der indeholder information om danske kommuner, herunder deres tilknytning til regioner, dagi id og id numre til de tilhørende grafikker
