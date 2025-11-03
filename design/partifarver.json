@@ -73,5 +73,10 @@
         "navn": "Slesvigsk Parti",
         "bokstav": "SP",
         "farve": "#FFD700"
+    },
+    {
+        "navn": "Nyt Odsherred",
+        "bokstav": "NO",
+        "farve": "#1d6d71"
     }
 ]
