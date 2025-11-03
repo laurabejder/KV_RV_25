@@ -1,9 +1,9 @@
-valgart,kommune,kommune_kode,resultat_art,frigivelsestidspunkt,nummer,mandat_type,kandidat,kandidat_id,parti,parti_id
-Kommunalvalg,Københavns Kommune,101,Fintælling,19-08-2025 06:43:34,1,PersonligeMandater,Line Barfod,7c64ce9f-8cdb-4016-af41-7d009c596ccb,Enhedslisten - De Rød-Grønne,267721a6-87c9-43c1-8c7e-d47734d58d6b
-Kommunalvalg,Københavns Kommune,101,Fintælling,19-08-2025 06:43:34,2,PersonligeMandater,Sophie Hæstorp Andersen,b11d209c-5557-4365-8d76-c09269c66d65,Socialdemokratiet,b57015f1-c4b2-4505-b8bd-5417287e1c87
-Kommunalvalg,Københavns Kommune,101,Fintælling,19-08-2025 06:43:34,3,PersonligeMandater,Jakob Næsager,430737c7-9b6f-4cc4-98ab-0e7ccb0755d1,Det Konservative Folkeparti,e3873fc9-4120-499b-823e-89d5772a8f0f
-Kommunalvalg,Københavns Kommune,101,Fintælling,19-08-2025 06:43:34,4,PersonligeMandater,Karina Vestergård Madsen,f77d8348-06a8-479c-b452-ee732f399627,Enhedslisten - De Rød-Grønne,63c55ff2-d9eb-4057-84bc-f54d08dcd3d1
-Kommunalvalg,Københavns Kommune,101,Fintælling,19-08-2025 06:43:34,5,PersonligeMandater,Mia Nyegaard,73e99c5b-a4de-43a9-b59e-279509979ca1,Radikale Venstre,ae050eea-8dfa-4cef-b951-3d5b78e11fb4
-Kommunalvalg,Københavns Kommune,101,Fintælling,19-08-2025 06:43:34,1,ListeMandater,,,Venstre,8e0732ac-72b9-4669-9cfd-0a9f480cd2d5
-Kommunalvalg,Københavns Kommune,101,Fintælling,19-08-2025 06:43:34,2,ListeMandater,,,Radikale Venstre,a14d6c8f-5dbf-47ca-8385-9ae44cc2892b
-Kommunalvalg,Københavns Kommune,101,Fintælling,19-08-2025 06:43:34,3,ListeMandater,,,Det Konservative Folkeparti,3e3f0a2b-b3e1-4b0b-a3ce-bfbbfd459a02
+valgart,kommune,kommune_kode,resultat_art,frigivelsestidspunkt,nummer,mandat_type,kandidat,kandidat_id,parti,parti_id,parti_bogstav
+Kommunalvalg,Københavns Kommune,101,Fintælling,19-08-2025 06:43:34,1,PersonligeMandater,Line Barfod,7c64ce9f-8cdb-4016-af41-7d009c596ccb,Enhedslisten - De Rød-Grønne,267721a6-87c9-43c1-8c7e-d47734d58d6b,Ø
+Kommunalvalg,Københavns Kommune,101,Fintælling,19-08-2025 06:43:34,2,PersonligeMandater,Sophie Hæstorp Andersen,b11d209c-5557-4365-8d76-c09269c66d65,Socialdemokratiet,b57015f1-c4b2-4505-b8bd-5417287e1c87,A
+Kommunalvalg,Københavns Kommune,101,Fintælling,19-08-2025 06:43:34,3,PersonligeMandater,Jakob Næsager,430737c7-9b6f-4cc4-98ab-0e7ccb0755d1,Det Konservative Folkeparti,e3873fc9-4120-499b-823e-89d5772a8f0f,C
+Kommunalvalg,Københavns Kommune,101,Fintælling,19-08-2025 06:43:34,4,PersonligeMandater,Karina Vestergård Madsen,f77d8348-06a8-479c-b452-ee732f399627,Enhedslisten - De Rød-Grønne,63c55ff2-d9eb-4057-84bc-f54d08dcd3d1,Ø
+Kommunalvalg,Københavns Kommune,101,Fintælling,19-08-2025 06:43:34,5,PersonligeMandater,Mia Nyegaard,73e99c5b-a4de-43a9-b59e-279509979ca1,Radikale Venstre,ae050eea-8dfa-4cef-b951-3d5b78e11fb4,B
+Kommunalvalg,Københavns Kommune,101,Fintælling,19-08-2025 06:43:34,1,ListeMandater,,,Venstre,8e0732ac-72b9-4669-9cfd-0a9f480cd2d5,V
+Kommunalvalg,Københavns Kommune,101,Fintælling,19-08-2025 06:43:34,2,ListeMandater,,,Radikale Venstre,a14d6c8f-5dbf-47ca-8385-9ae44cc2892b,B
+Kommunalvalg,Københavns Kommune,101,Fintælling,19-08-2025 06:43:34,3,ListeMandater,,,Det Konservative Folkeparti,3e3f0a2b-b3e1-4b0b-a3ce-bfbbfd459a02,C

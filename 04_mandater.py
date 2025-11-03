@@ -50,6 +50,7 @@ def get_mandater(from_path=FROM_PATH, to_path=TO_PATH, folder=FOLDERS, valg="kv"
                     "kandidat_id": mandat.get("KandidatId", None),
                     "parti": mandat.get("KandidatlisteNavn"),
                     "parti_id": mandat.get("KandidatlisteId"),
+                    "parti_bogstav": mandat.get("Bogstavbetegnelse"),
                 })
     return mandater
 
