@@ -6,17 +6,16 @@ import datetime
 from pathlib import Path
 
 from helper_functions import kombiner_resultater
+from config import FROM_PATH, TO_PATH, KOMMUNE_INFO, FOLDERS
 
-from_path = "data/raw/"
-to_path = "data/struktureret/"
 
 # load kommune info for region mapping
-with open("data/kommuner.json", "r", encoding="utf-8") as f:
+with open(KOMMUNE_INFO, "r", encoding="utf-8") as f:
     kommune_info = json.load(f)
 
 # KV25 - Valgresultater
-def get_rv_resultater(from_path=from_path, to_path=to_path, kommune_info=kommune_info, *_unused):
-    files = kombiner_resultater(from_path, to_path, "rv", "valgresultater")
+def get_rv_resultater(from_path=FROM_PATH, to_path=TO_PATH, folders=FOLDERS, kommune_info=kommune_info, *_unused):
+    files = kombiner_resultater(from_path, to_path, "rv", folders[0])  # "valgresultater"
     partier, kandidater = [], []
 
     for file in files:
@@ -81,7 +80,7 @@ def get_rv_resultater(from_path=from_path, to_path=to_path, kommune_info=kommune
 
     return partier, kandidater
 
-partier, kandidater = get_rv_resultater(from_path, to_path, kommune_info, "rv", "valgresultater")
+partier, kandidater = get_rv_resultater(FROM_PATH, TO_PATH, FOLDERS, kommune_info, "rv", "valgresultater")
 
 df_partier = pd.DataFrame(partier)
 df_kandidater = pd.DataFrame(kandidater)
@@ -92,7 +91,7 @@ for df in (df_partier, df_kandidater):
         if col in df:
             df[col] = pd.to_datetime(df[col], format="%d-%m-%Y %H:%M:%S", errors="coerce")
 
-outdir = Path(to_path) / "rv"
+outdir = Path(TO_PATH) / "rv"
 outdir.mkdir(parents=True, exist_ok=True)
 df_partier.to_csv(outdir / "rv25_resultater_partier.csv", index=False)
 df_kandidater.to_csv(outdir / "rv25_resultater_kandidater.csv", index=False)

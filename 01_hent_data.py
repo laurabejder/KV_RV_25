@@ -2,15 +2,11 @@ import paramiko
 import os
 import re
 
-# FTP login information
-host = "data.valg.dk"
-port = 22
-username = "Valg"
-password = "Valg"
+from config import FROM_PATH, TO_PATH, HOST, PORT, USERNAME, PASSWORD, FOLDERS, KV_REMOTE_PATH, RV_REMOTE_PATH
 
 # Forbindelse til FTP-server
-transport = paramiko.Transport((host, port))
-transport.connect(username=username, password=password)
+transport = paramiko.Transport((HOST, PORT))
+transport.connect(username=USERNAME, password=PASSWORD)
 sftp = paramiko.SFTPClient.from_transport(transport)
 
 # Funktioner til download af filer og mapper
@@ -29,15 +25,15 @@ def download_folders(folders):
         download_files(sftp, remote_path, local_path, folder)
 
 # Download RV25 data
-remote_path = "/data/regionsrådsvalg-134-18-11-2025"
-local_path = "data/raw/rv"
-folders = ["verifikation/valgresultater", "kandidat-data", "verifikation/mandatfordeling", "verifikation/valgdeltagelse"]
+remote_path = RV_REMOTE_PATH
+local_path = FROM_PATH + "rv"
+folders = FOLDERS
 download_folders(folders)
 
 # Download KV25 data
-remote_path = "/data/kommunalvalg-134-18-11-2025"
-local_path = "data/raw/kv"
-folders = ["verifikation/valgresultater", "kandidat-data", "verifikation/mandatfordeling", "verifikation/valgdeltagelse"]
+remote_path = KV_REMOTE_PATH
+local_path = FROM_PATH + "kv"
+folders = FOLDERS
 download_folders(folders)
 
 # Luk forbindelsen

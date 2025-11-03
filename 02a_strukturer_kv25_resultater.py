@@ -6,13 +6,11 @@ import datetime
 from pathlib import Path
 
 from helper_functions import kombiner_resultater
-
-from_path = "data/raw/"
-to_path = "data/struktureret/"
+from config import FROM_PATH, TO_PATH, FOLDERS
 
 # KV25 - Valgresultater
-def get_kv_resultater(from_path=from_path, to_path=to_path, *_unused):
-    files = kombiner_resultater(from_path, to_path, "kv", "valgresultater")
+def get_kv_resultater(from_path=FROM_PATH, to_path=TO_PATH, folders=FOLDERS, *_unused):
+    files = kombiner_resultater(from_path, to_path, "kv", folders[0])
     partier, kandidater = [], []
 
     for file in files:
@@ -67,7 +65,7 @@ def get_kv_resultater(from_path=from_path, to_path=to_path, *_unused):
 
     return partier, kandidater
 
-kv_partier, kv_kandidater = get_kv_resultater(from_path, to_path, "kv", "valgresultater")
+kv_partier, kv_kandidater = get_kv_resultater(FROM_PATH, TO_PATH, FOLDERS, "kv",)
 
 df_kv_partier = pd.DataFrame(kv_partier)
 df_kv_kandidater = pd.DataFrame(kv_kandidater)
@@ -78,7 +76,7 @@ for df in (df_kv_partier, df_kv_kandidater):
         if col in df:
             df[col] = pd.to_datetime(df[col], format="%d-%m-%Y %H:%M:%S", errors="coerce")
 
-outdir = Path(to_path) / "kv"
+outdir = Path(TO_PATH) / "kv"
 outdir.mkdir(parents=True, exist_ok=True)
 df_kv_partier.to_csv(outdir / "kv25_resultater_partier.csv", index=False)
 df_kv_kandidater.to_csv(outdir / "kv25_resultater_kandidater.csv", index=False)

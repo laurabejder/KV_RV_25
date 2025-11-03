@@ -86,7 +86,7 @@ for index, row in df_valgforbund_data.iterrows():
 def apply_functions(df, file):
     df['opdateringstidspunkt'] = df['opdateringstidspunkt'].apply(convert_to_datetime)
     df['frigivelsestidspunkt'] = df['frigivelsestidspunkt'].apply(convert_to_datetime)
-    df.to_csv("data/struktureret/"+file, index=False)
+    df.to_csv("data/struktureret/kv/kandidat-info/"+file, index=False)
 
 apply_functions(df_kandidat_data, "kv25_kandidat_data.csv")
 apply_functions(df_valgforbund_data, "kv25_valgforbund_data.csv")
