@@ -1,1 +1,107 @@
-{"Valgart":"Kommunalvalg","Valgdag":"18-11-2025","FrigivelsesTidspunktUTC":"19-08-2025 06:43:34","Kommune":"Københavns Kommune","Kommunekode":101,"Resultatart":"Fintælling","PersonligeMandater":[{"Nummer":1,"NummerAnførtPåListen":1,"KandidatId":"7c64ce9f-8cdb-4016-af41-7d009c596ccb","Stemmeseddelnavn":"Line Barfod","KandidatlisteId":"267721a6-87c9-43c1-8c7e-d47734d58d6b","KandidatlisteNavn":"Enhedslisten - De Rød-Grønne","Bogstavbetegnelse":"Ø"},{"Nummer":2,"NummerAnførtPåListen":1,"KandidatId":"b11d209c-5557-4365-8d76-c09269c66d65","Stemmeseddelnavn":"Sophie Hæstorp Andersen","KandidatlisteId":"b57015f1-c4b2-4505-b8bd-5417287e1c87","KandidatlisteNavn":"Socialdemokratiet","Bogstavbetegnelse":"A"},{"Nummer":3,"NummerAnførtPåListen":1,"KandidatId":"430737c7-9b6f-4cc4-98ab-0e7ccb0755d1","Stemmeseddelnavn":"Jakob Næsager","KandidatlisteId":"e3873fc9-4120-499b-823e-89d5772a8f0f","KandidatlisteNavn":"Det Konservative Folkeparti","Bogstavbetegnelse":"C"},{"Nummer":4,"NummerAnførtPåListen":2,"KandidatId":"f77d8348-06a8-479c-b452-ee732f399627","Stemmeseddelnavn":"Karina Vestergård Madsen","KandidatlisteId":"63c55ff2-d9eb-4057-84bc-f54d08dcd3d1","KandidatlisteNavn":"Enhedslisten - De Rød-Grønne","Bogstavbetegnelse":"Ø"},{"Nummer":5,"NummerAnførtPåListen":1,"KandidatId":"73e99c5b-a4de-43a9-b59e-279509979ca1","Stemmeseddelnavn":"Mia Nyegaard","KandidatlisteId":"ae050eea-8dfa-4cef-b951-3d5b78e11fb4","KandidatlisteNavn":"Radikale Venstre","Bogstavbetegnelse":"B"}],"ListeMandater":[{"Nummer":1,"KandidatlisteId":"8e0732ac-72b9-4669-9cfd-0a9f480cd2d5","KandidatlisteNavn":"Venstre","Bogstavbetegnelse":"V"},{"Nummer":2,"KandidatlisteId":"a14d6c8f-5dbf-47ca-8385-9ae44cc2892b","KandidatlisteNavn":"Radikale Venstre","Bogstavbetegnelse":"B"},{"Nummer":3,"KandidatlisteId":"3e3f0a2b-b3e1-4b0b-a3ce-bfbbfd459a02","KandidatlisteNavn":"Det Konservative Folkeparti","Bogstavbetegnelse":"C"}],"Kandidatliste":[{"KandidatlisteId":"4260b96b-d89f-4622-9424-4587e189da22","KandidatlisteNavn":"Radikale Venstre","Bogstavbetegnelse":"B","Stedfortrædere":[{"Nummer":1,"KandidatId":"1f2cc457-77fc-44d7-9e59-9530fcaf3092","Stemmeseddelnavn":"Mia Nyegaard"},{"Nummer":2,"KandidatId":"3908c439-03b5-46c0-8959-f4da38406b8a","Stemmeseddelnavn":"Ida Næsager"}]},{"KandidatlisteId":"d3503269-77f2-467d-ac1f-84284caca816","KandidatlisteNavn":"Det Konservative Folkeparti","Bogstavbetegnelse":"C","Stedfortrædere":[{"Nummer":1,"KandidatId":"ef6c153a-a112-4d2e-bb81-9bcd9fc35eb7","Stemmeseddelnavn":"Jakob Hansen"}]}],"BaseretPåOptællinger":null}
+{
+    "Valgart": "Kommunalvalg",
+    "Valgdag": "18-11-2025",
+    "FrigivelsesTidspunktUTC": "19-08-2025 06:43:34",
+    "Kommune": "Københavns Kommune",
+    "Kommunekode": 101,
+    "Resultatart": "Fintælling",
+    "PersonligeMandater": [
+        {
+            "Nummer": 1,
+            "NummerAnførtPåListen": 1,
+            "KandidatId": "7c64ce9f-8cdb-4016-af41-7d009c596ccb",
+            "Stemmeseddelnavn": "Line Barfod",
+            "KandidatlisteId": "267721a6-87c9-43c1-8c7e-d47734d58d6b",
+            "KandidatlisteNavn": "Enhedslisten - De Rød-Grønne",
+            "Bogstavbetegnelse": "Ø"
+        },
+        {
+            "Nummer": 2,
+            "NummerAnførtPåListen": 1,
+            "KandidatId": "b11d209c-5557-4365-8d76-c09269c66d65",
+            "Stemmeseddelnavn": "Sophie Hæstorp Andersen",
+            "KandidatlisteId": "b57015f1-c4b2-4505-b8bd-5417287e1c87",
+            "KandidatlisteNavn": "Socialdemokratiet",
+            "Bogstavbetegnelse": "A"
+        },
+        {
+            "Nummer": 3,
+            "NummerAnførtPåListen": 1,
+            "KandidatId": "430737c7-9b6f-4cc4-98ab-0e7ccb0755d1",
+            "Stemmeseddelnavn": "Jakob Næsager",
+            "KandidatlisteId": "e3873fc9-4120-499b-823e-89d5772a8f0f",
+            "KandidatlisteNavn": "Det Konservative Folkeparti",
+            "Bogstavbetegnelse": "C"
+        },
+        {
+            "Nummer": 4,
+            "NummerAnførtPåListen": 2,
+            "KandidatId": "f77d8348-06a8-479c-b452-ee732f399627",
+            "Stemmeseddelnavn": "Karina Vestergård Madsen",
+            "KandidatlisteId": "63c55ff2-d9eb-4057-84bc-f54d08dcd3d1",
+            "KandidatlisteNavn": "Enhedslisten - De Rød-Grønne",
+            "Bogstavbetegnelse": "Ø"
+        },
+        {
+            "Nummer": 5,
+            "NummerAnførtPåListen": 1,
+            "KandidatId": "73e99c5b-a4de-43a9-b59e-279509979ca1",
+            "Stemmeseddelnavn": "Mia Nyegaard",
+            "KandidatlisteId": "ae050eea-8dfa-4cef-b951-3d5b78e11fb4",
+            "KandidatlisteNavn": "Radikale Venstre",
+            "Bogstavbetegnelse": "B"
+        }
+    ],
+    "ListeMandater": [
+        {
+            "Nummer": 1,
+            "KandidatlisteId": "8e0732ac-72b9-4669-9cfd-0a9f480cd2d5",
+            "KandidatlisteNavn": "Venstre",
+            "Bogstavbetegnelse": "V"
+        },
+        {
+            "Nummer": 2,
+            "KandidatlisteId": "a14d6c8f-5dbf-47ca-8385-9ae44cc2892b",
+            "KandidatlisteNavn": "Radikale Venstre",
+            "Bogstavbetegnelse": "B"
+        },
+        {
+            "Nummer": 3,
+            "KandidatlisteId": "3e3f0a2b-b3e1-4b0b-a3ce-bfbbfd459a02",
+            "KandidatlisteNavn": "Det Konservative Folkeparti",
+            "Bogstavbetegnelse": "C"
+        }
+    ],
+    "Kandidatliste": [
+        {
+            "KandidatlisteId": "4260b96b-d89f-4622-9424-4587e189da22",
+            "KandidatlisteNavn": "Radikale Venstre",
+            "Bogstavbetegnelse": "B",
+            "Stedfortrædere": [
+                {
+                    "Nummer": 1,
+                    "KandidatId": "1f2cc457-77fc-44d7-9e59-9530fcaf3092",
+                    "Stemmeseddelnavn": "Mia Nyegaard"
+                },
+                {
+                    "Nummer": 2,
+                    "KandidatId": "3908c439-03b5-46c0-8959-f4da38406b8a",
+                    "Stemmeseddelnavn": "Ida Næsager"
+                }
+            ]
+        },
+        {
+            "KandidatlisteId": "d3503269-77f2-467d-ac1f-84284caca816",
+            "KandidatlisteNavn": "Det Konservative Folkeparti",
+            "Bogstavbetegnelse": "C",
+            "Stedfortrædere": [
+                {
+                    "Nummer": 1,
+                    "KandidatId": "ef6c153a-a112-4d2e-bb81-9bcd9fc35eb7",
+                    "Stemmeseddelnavn": "Jakob Hansen"
+                }
+            ]
+        }
+    ],
+    "BaseretPåOptællinger": null
+}

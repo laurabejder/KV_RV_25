@@ -9,6 +9,7 @@ Dette repository indeholder scripts til at hente og strukturere data for kommuna
 - **`02a_strukturer_kv25_resultater.py`** : Strukturerer de resultater, der er hentet for kommunalvalget 2025. Scriptet genererer to forskellige filer: én for partiernes resultater og én for kandidaternes resultater. Begge er på valgstedsniveau.
 - **`02b_strukturer_kv25_kandidatdata.py`** : Strukturerer data på kandidater og valgforbundet. Begge filer genereres for at journalister og andre brugere nemt kan få adgang til kandidatdata for kommunalvalget 2025.
 - **`03a_strukturer_rv25_resultater.py`** : Strukturerer de resultater, der er hentet for regionsrådsvalget 2025. Scriptet genererer to forskellige filer: én for partiernes resultater og én for kandidaternes resultater. Begge er på valgstedsniveau. Scriptet trækker også på filen `data/kommuner.json` for at tilføje regionsinformation baseret på kommuneinformation.
+- **`04_opdater_datafiler.py`** : 
 
 
 ### `data/`
