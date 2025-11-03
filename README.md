@@ -6,6 +6,15 @@ Dette repository indeholder scripts til at hente og strukturere data for kommuna
 #### `data/`
 - **`raw/`** : Indeholder de rå datafiler hentet direkte fra kombits SFTP server. Filstrukturen her spejler den, der findes på SFTP serveren, med undermapper for `kandidat-data`, `valgresultater`, `mandatfordeling`, `valgdeltagelse` og `verifikation` (til midlertidige "testfiler").
 - **`struktureret/`** : Indeholder de strukturerede datafiler efter behandling af scripts. Her findes separate filer for kommunalvalg og regionsvalg, opdelt i partier og kandidater.
+    - `kv/` : Strukturerede data for kommunalvalg 2025
+        - `kv25_resultater_partier.csv` : Valgresultater på partiniveau
+        - `kv25_resultater_kandidater.csv` : Valgresultater på kandidat
+        - `valgresultater/afstemningssteder/` : indeholder en fil per kommune med valgresultater på afstemningsstedsniveau. Skal bruges til visualiseringer på afstemningsstedsniveau.
+        - `valgresultater/kommuner` : indeholder en fil per kommune med valgresultater på kommuneniveau. Skal bruges til visualiseringer på kommuneniveau.
+        - `kandidat-info/` : Indeholder to filer: én med kandidatdata og én med valgforbundsdata for kommunalvalget 2025.
+    - `rv/` : Strukturerede data for regionsvalg 2025
+        - `parti-resultater/` : Valgresultater på partiniveau
+        - `kandidat-resultater/` : Valgresultater på kandidatniveau
 - **`kommuner.json`** : En JSON-fil, der indeholder information om danske kommuner, herunder deres tilknytning til regioner, dagi id og id numre til de tilhørende grafikker
 - **`shapes`** : Mappe med geografiske filer over hvert afstemningsområde i GeoJSON og TopoJSON format. Der er en fil per kommune. 
 
