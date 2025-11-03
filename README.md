@@ -25,3 +25,6 @@ Dette repository indeholder scripts til at hente og strukturere data for kommuna
         - `rv25_resultater_kandidater.csv` : Valgresultater på kandidatniveau.
 - **`kommuner.json`** : En JSON-fil, der indeholder information om danske kommuner, herunder deres tilknytning til regioner, dagi id og id numre til de tilhørende grafikker
 - **`shapes`** : Mappe med geografiske filer over hvert afstemningsområde i GeoJSON og TopoJSON format. Der er en fil per kommune. 
+
+### `design/`
+Indeholder filen `partifarver.json` med navn, forkortelse og farvekoder for de politiske partier i Danmark. Denne fil bruges til at sikre konsistente farver i valgvisualiseringer.
