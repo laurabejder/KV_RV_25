@@ -49,6 +49,7 @@ def get_kv_resultater(from_path=from_path, to_path=to_path, *_unused):
             partier.append({
                 **base,
                 "parti": parti.get("Navn"),
+                "parti_id": parti.get("KandidatlisteId"),
                 "stemmer": parti.get("Stemmer", 0),
                 "listestemmer": parti.get("Listestemmer", 0),
                 "difference_forrige_valg": parti.get("StemmerDifferenceFraForrigeValg", 0),
@@ -57,8 +58,10 @@ def get_kv_resultater(from_path=from_path, to_path=to_path, *_unused):
             for kandidat in (parti.get("Kandidater") or []):
                 kandidater.append({
                     **base,
-                    "parti": parti.get("Navn"),
                     "kandidat": kandidat.get("Stemmeseddelnavn"),
+                    'kandidat_id': kandidat.get("Id"),
+                    "parti": parti.get("Navn"),
+                    "parti_id": parti.get("KandidatlisteId"),
                     "stemmer": kandidat.get("Stemmer", 0),
                 })
 
