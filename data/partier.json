@@ -1,82 +1,98 @@
 [
     {
         "navn": "Socialdemokratiet",
-        "bokstav": "S",
+        "bogstav": "S",
+        "listebogstav": "A",
         "farve": "#F00B2F"
     },
     {
         "navn": "Venstre",
-        "bokstav": "V",
+        "bogstav": "V",
+        "listebogstav": "V",
         "farve": "#0781DD"
     },
     {
         "navn": "Dansk Folkeparti",
-        "bokstav": "DF",
+        "bogstav": "DF",
+        "listebogstav": "O",
         "farve": "#F6BA00"
     },
     {
         "navn": "Radikale",
-        "bokstav": "R",
+        "bogstav": "R",
+        "listebogstav": "B",
         "farve": "#662690"
     },
     {
         "navn": "Enhedslisten",
-        "bokstav": "EL",
+        "bogstav": "EL",
+        "listebogstav": "Ø",
         "farve": "#FF7400"
     },
     {
         "navn": "Konservative",
-        "bokstav": "K",
+        "bogstav": "K",
+        "listebogstav": "C",
         "farve": "#06691E"
     },
     {
         "navn": "SF",
-        "bokstav": "SF",
+        "bogstav": "SF",
+        "listebogstav": "F",
         "farve": "#F257A9"
     },
     {
         "navn": "Nye Borgerlige",
-        "bokstav": "NB",
+        "bogstav": "NB",
+        "listebogstav": null,
         "farve": "#004E62"
     },
     {
         "navn": "Alternativet",
-        "bokstav": "ALT",
+        "bogstav": "ALT",
+        "listebogstav": "Å",
         "farve": "#3CE63D"
     },
     {
         "navn": "Liberal Alliance",
         "bokstav": "LA",
+        "listebogstav": "I",
         "farve": "#48CEF3"
     },
     {
         "navn": "Frie Grønne",
         "bokstav": "FG",
+        "listebogstav": "Q",
         "farve": "#eecbc6"
     },
     {
         "navn": "Kristendemokraterne",
-        "bokstav": "KD",
+        "bogstav": "KD",
+        "listebogstav": "K",
         "farve": "#8B8474"
     },
     {
         "navn": "Moderaterne",
-        "bokstav": "M",
+        "bogstav": "M",
+        "listebogstav": "M",
         "farve": "#911995"
     },
     {
         "navn": "Danmarksdemokraterne",
-        "bokstav": "DD",
+        "bogstav": "DD",
+        "listebogstav": "Æ",
         "farve": "#0075c9"
     },
     {
         "navn": "Slesvigsk Parti",
-        "bokstav": "SP",
+        "bogstav": "SP",
+        "listebogstav": "S",
         "farve": "#FFD700"
     },
     {
         "navn": "Nyt Odsherred",
-        "bokstav": "NO",
+        "bogstav": "NO",
+        "listebogstav": null,
         "farve": "#1D6D71"
     }
 ]
