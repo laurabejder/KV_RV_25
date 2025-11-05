@@ -3,6 +3,7 @@ import json
 
 # Load in the files with the structured data
 kv_parti_resultater = pd.read_csv("data/struktureret/kv/kv25_resultater_partier.csv")
+kv_parti_resultater.drop_duplicates(inplace=True)
 # And the file with party information
 partier_info = json.load(open("data/partier.json", "r", encoding="utf-8"))
 
@@ -36,7 +37,7 @@ for kommune_id in kv_parti_resultater["kommune_kode"].unique():
     kommunedata["bogstav"] = kommunedata["parti_bogstav"].map(bogstav_to_bogstav).fillna(kommunedata["parti_bogstav"])
 
     # --- Kommune-level results ---
-    gyldige_total = kommunedata.drop_duplicates("afstemningsområde_dagi_id")["total_gyldige_stemmer"].sum() # get the total number of gyldige stemmer in the kommune
+    gyldige_total = (kommunedata.groupby("afstemningsområde_dagi_id")["total_gyldige_stemmer"].first().sum())
     parti_sum = (
         kommunedata.groupby(["parti",'bogstav','parti_bogstav'], as_index=False)["stemmer"].sum()
         .assign(
@@ -53,7 +54,8 @@ for kommune_id in kv_parti_resultater["kommune_kode"].unique():
         pd.concat([kom_geo, parti_sum], ignore_index=True)
         .dropna(subset=["partier", "procent_25"])
     )
-
+    df_stacked = df_stacked.drop_duplicates(subset= ["kommune_id","kommune_dagi_id","kommune_navn","listebogstav","partier"], keep='last')
+    print(df_stacked)
     # save the file back with the new results
     df_stacked.to_csv(kommune_path + f"/{kommune_id}_{kommunenavn_lower}_kommune.csv", index=False)
 
