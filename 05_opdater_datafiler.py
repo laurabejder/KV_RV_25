@@ -76,8 +76,9 @@ for kommune_id in kv_parti_resultater["kommune_kode"].unique():
     # drop unnecessary columns and rename
     afst_geo = (
         afst_geo
-        .drop(columns=["største_parti_x", "afstemningsområde_dagi_id", "afstemningsområde", "kommune", "kommune_kode"])
-        .rename(columns={"største_parti_y": "største_parti"})
+        .drop(columns=["største_parti_x", "afstemningsområde_dagi_id", "afstemningsområde", "kommune", "kommune_kode",'resultat_art_x'])
+        .rename(columns={"største_parti_y": "største_parti",
+                         "resultat_art_y": "resultat_art"} )
     )
 
     # reorder columns, putting these first
@@ -86,6 +87,7 @@ for kommune_id in kv_parti_resultater["kommune_kode"].unique():
         "opstillingskreds_nummer", "opstillingskreds_dagi_id", "afstemningssted_adresse",
         "kommune_navn", "kommune_dagi_id", "største_parti", "resultat_art"
     ]
+    print(afst_geo.columns)
     afst_geo = afst_geo[first_cols + [c for c in afst_geo.columns if c not in first_cols]]
 
     # save the file back with the new results
@@ -97,7 +99,6 @@ for kommune_id in kv_parti_resultater["kommune_kode"].unique():
     summary_df = pd.read_csv(base_path + f"/status/{kommune_id}_{kommunenavn_lower}_status.csv")
 
     # and update the values in the columns "andel_af_afstemningssteder_talt" and "borgmester"
-
     # find the share of afstemningssteder where resultat_art is "Fintælling" or "ForeløbigtResultat"
     done_share = afst_geo[afst_geo["resultat_art"].isin(["Fintælling", "ForeløbigtResultat"])].shape[0] / afst_geo.shape[0]
     summary_df["andel_af_afstemningssteder_talt"] = done_share * 100

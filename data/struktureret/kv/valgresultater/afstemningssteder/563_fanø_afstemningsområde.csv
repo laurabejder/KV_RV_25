@@ -1,3 +1,3 @@
-dagi_id,navn,nummer,afstemningssted_navn,kommune_id,opstillingskreds_nummer,opstillingskreds_dagi_id,afstemningssted_adresse,kommune_navn,kommune_dagi_id,største_parti,resultat_art,Slesvigsk Parti,T
-710532,Sønderho,2,Sønderho Forsamlingshus,563,52,403625,"Gammel Byvej 8, Sønderho, 6720 Fanø",Fanø,389171,Slesvigsk Parti,Fintælling,75.0,25.0
-702962,Nordby,1,Fanø Hallen,563,52,403625,"Stadionvej 13, Nordby, 6720 Fanø",Fanø,389171,Slesvigsk Parti,Fintælling,66.66666666666666,33.33333333333333
+dagi_id,navn,nummer,afstemningssted_navn,kommune_id,opstillingskreds_nummer,opstillingskreds_dagi_id,afstemningssted_adresse,kommune_navn,kommune_dagi_id,største_parti,resultat_art,Slesvigsk Parti_x,T_x,Slesvigsk Parti_y,T_y
+710532,Sønderho,2,Sønderho Forsamlingshus,563,52,403625,"Gammel Byvej 8, Sønderho, 6720 Fanø",Fanø,389171,Slesvigsk Parti,Fintælling,75.0,25.0,75.0,25.0
+702962,Nordby,1,Fanø Hallen,563,52,403625,"Stadionvej 13, Nordby, 6720 Fanø",Fanø,389171,Slesvigsk Parti,Fintælling,66.66666666666666,33.33333333333333,66.66666666666666,33.33333333333333
