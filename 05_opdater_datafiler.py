@@ -23,6 +23,12 @@ for kommune_id in kv_parti_resultater["kommune_kode"].unique():
     kom_geo = pd.read_csv(kommune_path + f"/{kommune_id}_{kommunenavn_lower}_kommune.csv")
     afst_geo = pd.read_csv(afstem_path + f"/{kommune_id}_{kommunenavn_lower}_afstemningsområde.csv")
 
+    afst_geo = afst_geo[[
+        "dagi_id","navn","nummer","afstemningssted_navn","kommune_id",
+        "opstillingskreds_nummer","opstillingskreds_dagi_id","afstemningssted_adresse",
+        "kommune_navn","kommune_dagi_id"
+    ]]
+
     # We use different letters and names for the parties in our coverage, so we standardize these here 
     bogstav_to_navn = {p["listebogstav"]: p["navn"] for p in partier_info}
     bogstav_to_bogstav = {p["listebogstav"]: p["bogstav"] for p in partier_info}
@@ -76,16 +82,14 @@ for kommune_id in kv_parti_resultater["kommune_kode"].unique():
     # drop unnecessary columns and rename
     afst_geo = (
         afst_geo
-        .drop(columns=["største_parti_x", "afstemningsområde_dagi_id", "afstemningsområde", "kommune", "kommune_kode",'resultat_art_x'])
-        .rename(columns={"største_parti_y": "største_parti",
-                         "resultat_art_y": "resultat_art"} )
+        .drop(columns=["afstemningsområde_dagi_id", "afstemningsområde", "kommune", "kommune_kode"])
     )
 
     # reorder columns, putting these first
     first_cols = [
         "dagi_id", "navn", "nummer", "afstemningssted_navn", "kommune_id",
         "opstillingskreds_nummer", "opstillingskreds_dagi_id", "afstemningssted_adresse",
-        "kommune_navn", "kommune_dagi_id", "største_parti", "resultat_art"
+        "kommune_navn", "kommune_dagi_id","resultat_art"
     ]
     afst_geo = afst_geo[first_cols + [c for c in afst_geo.columns if c not in first_cols]]
 
