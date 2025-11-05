@@ -48,6 +48,7 @@ def get_kv_resultater(from_path=FROM_PATH, to_path=TO_PATH, folders=FOLDERS, *_u
                 **base,
                 "parti": parti.get("Navn"),
                 "parti_id": parti.get("KandidatlisteId"),
+                "parti_bogstav": parti.get("Bogstavbetegnelse"),
                 "stemmer": parti.get("Stemmer", 0),
                 "listestemmer": parti.get("Listestemmer", 0),
                 "difference_forrige_valg": parti.get("StemmerDifferenceFraForrigeValg", 0),
@@ -60,6 +61,7 @@ def get_kv_resultater(from_path=FROM_PATH, to_path=TO_PATH, folders=FOLDERS, *_u
                     'kandidat_id': kandidat.get("Id"),
                     "parti": parti.get("Navn"),
                     "parti_id": parti.get("KandidatlisteId"),
+                    "parti_bogstav": parti.get("Bogstavbetegnelse"),
                     "stemmer": kandidat.get("Stemmer", 0),
                 })
 
