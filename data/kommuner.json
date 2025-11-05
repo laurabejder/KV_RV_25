@@ -158,7 +158,8 @@
         "kommune_dagi_id": 389122,
         "chart_id": null,
         "table_id": null,
-        "map_id": null
+        "map_id": null,
+        "region": "Østdanmark"
     },
     {
         "kommune_id": "201",
@@ -679,7 +680,8 @@
         "kommune_dagi_id": 389187,
         "chart_id": null,
         "table_id": null,
-        "map_id": null
+        "map_id": null,
+        "region": "Midtjylland"
     },
     {
         "kommune_id": "710",
