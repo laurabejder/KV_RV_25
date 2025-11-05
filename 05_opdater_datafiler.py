@@ -73,20 +73,26 @@ for kommune_id in kv_parti_resultater["kommune_kode"].unique():
         kommunedata_wide, left_on="dagi_id", right_on="afstemningsområde_dagi_id", how="left"
     )
 
-    afst_geo = afst_geo.drop(columns=["største_parti_x","afstemningsområde_dagi_id","afstemningsområde","afstemningsområde",'kommune','kommune_kode'])
-    #rename største_parti_y to største_parti
-    afst_geo = afst_geo.rename(columns={"største_parti_y": "største_parti"})
+    # drop unnecessary columns and rename
+    afst_geo = (
+        afst_geo
+        .drop(columns=["største_parti_x", "afstemningsområde_dagi_id", "afstemningsområde", "kommune", "kommune_kode"])
+        .rename(columns={"største_parti_y": "største_parti"})
+    )
 
-    # set the order so that these columns come first: dagi_id,navn,nummer,afstemningssted_navn,kommune_id,opstillingskreds_nummer,opstillingskreds_dagi_id,afstemningssted_adresse,kommune_navn,kommune_dagi_id,største_parti
-    cols = afst_geo.columns.tolist()
-    first_cols = ["dagi_id","navn","nummer","afstemningssted_navn","kommune_id","opstillingskreds_nummer","opstillingskreds_dagi_id","afstemningssted_adresse","kommune_navn","kommune_dagi_id","største_parti","resultat_art"]
-    new_order = first_cols + [col for col in cols if col not in first_cols]
-    afst_geo = afst_geo[new_order]
+    # reorder columns, putting these first
+    first_cols = [
+        "dagi_id", "navn", "nummer", "afstemningssted_navn", "kommune_id",
+        "opstillingskreds_nummer", "opstillingskreds_dagi_id", "afstemningssted_adresse",
+        "kommune_navn", "kommune_dagi_id", "største_parti", "resultat_art"
+    ]
+    afst_geo = afst_geo[first_cols + [c for c in afst_geo.columns if c not in first_cols]]
 
     # save the file back with the new results
     afst_geo.to_csv(afstem_path + f"/{kommune_id}_{kommunenavn_lower}_afstemningsområde.csv", index=False)
+    
+    
     # --- Status for the kommune ---
-    #create a new dataframe with four columns: kommune_id, kommune_navn, andel_af_afstemningssteder_talt, borgmester
     # load in the status file for the kommune
     summary_df = pd.read_csv(base_path + f"/status/{kommune_id}_{kommunenavn_lower}_status.csv")
 
