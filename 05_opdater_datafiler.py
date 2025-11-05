@@ -55,7 +55,6 @@ for kommune_id in kv_parti_resultater["kommune_kode"].unique():
         .dropna(subset=["partier", "procent_25"])
     )
     df_stacked = df_stacked.drop_duplicates(subset= ["kommune_id","kommune_dagi_id","kommune_navn","listebogstav","partier"], keep='last')
-    print(df_stacked)
     # save the file back with the new results
     df_stacked.to_csv(kommune_path + f"/{kommune_id}_{kommunenavn_lower}_kommune.csv", index=False)
 
