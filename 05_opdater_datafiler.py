@@ -87,7 +87,6 @@ for kommune_id in kv_parti_resultater["kommune_kode"].unique():
         "opstillingskreds_nummer", "opstillingskreds_dagi_id", "afstemningssted_adresse",
         "kommune_navn", "kommune_dagi_id", "største_parti", "resultat_art"
     ]
-    print(afst_geo.columns)
     afst_geo = afst_geo[first_cols + [c for c in afst_geo.columns if c not in first_cols]]
 
     # save the file back with the new results
