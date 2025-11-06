@@ -2,6 +2,8 @@ import os
 import json
 import re
 from collections import defaultdict
+from topojson import Topology  # pip install topojson
+
 
 in_path = "/Users/bejder/Library/CloudStorage/OneDrive-AlrowMedia/Skrivebord/geojson/afstemningsomraader.geojson"
 out_dir = "data/shapes"
@@ -31,10 +33,19 @@ for feature in afstemningsområder["features"]:
     kommunenavn_slug = slugify(kommunenavn)
     groups[(kommune_id, kommunenavn_slug)].append(feature)
 
-# write one file per kommune
+# write one file per kommune (GeoJSON + TopoJSON)
 for (kommune_id, kommunenavn_slug), feats in groups.items():
     fc = {"type": "FeatureCollection", "features": feats}
-    out_path = os.path.join(out_dir, f"{kommune_id}_{kommunenavn_slug}_afstemningsomraader.geojson")
+    base_name = f"{kommune_id}_{kommunenavn_slug}_afstemningsomraader"
+
+    # save GeoJSON
+    geojson_path = os.path.join(out_dir, f"{base_name}.geojson")
     print(f"Saving {kommune_id} - {kommunenavn_slug} ({len(feats)} features)")
-    with open(out_path, "w", encoding="utf-8") as f:
+    with open(geojson_path, "w", encoding="utf-8") as f:
         json.dump(fc, f, ensure_ascii=False, indent=2)
+
+    # save TopoJSON
+    topo = Topology(fc)
+    topojson_path = os.path.join(out_dir, f"{base_name}.topojson")
+    with open(topojson_path, "w", encoding="utf-8") as f:
+        json.dump(topo.to_dict(), f, ensure_ascii=False, indent=2)
