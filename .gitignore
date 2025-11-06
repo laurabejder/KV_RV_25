@@ -205,3 +205,11 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+data/shapes/1081_region_nordjylland_afstemningsomraader.geojson
+data/shapes/1081_region_nordjylland_afstemningsomraader.topojson
+data/shapes/1082_region_midtjylland_afstemningsomraader.topojson
+data/shapes/1082_region_midtjylland_afstemningsomraader.geojson
+data/shapes/1083_region_syddanmark_afstemningsomraader.geojson
+data/shapes/1083_region_syddanmark_afstemningsomraader.topojson
+data/shapes/1085_region_østdanmark_afstemningsomraader.geojson
+data/shapes/1085_region_østdanmark_afstemningsomraader.topojson
