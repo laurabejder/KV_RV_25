@@ -39,7 +39,7 @@ for kommune_id in kv_parti_resultater["kommune_kode"].unique():
     kommunedata["bogstav"] = kommunedata["parti_bogstav"].map(bogstav_to_bogstav).fillna(kommunedata["parti_bogstav"])
 
     # --- Kommune-level results ---
-    gyldige_total = (kommunedata.groupby("afstemningsområde_dagi_id")["total_gyldige_stemmer"].max().sum())
+    gyldige_total = (kommunedata.groupby("afstemningsområde_dagi_id")["total_gyldige_stemmer"].max().sum()) # total valid votes in the kommune (tæl kun én gang per afstemningsområde)
     parti_sum = (
         kommunedata.groupby(["parti",'bogstav','parti_bogstav'], as_index=False)["stemmer"].sum()
         .assign(
@@ -67,7 +67,8 @@ for kommune_id in kv_parti_resultater["kommune_kode"].unique():
     # save the file back with the new results
     df_stacked.to_csv(kommune_path + f"/{kommune_id}_{kommunenavn_lower}_kommune.csv", index=False)
 
-    # --- Afstemningsområde-level results ---
+
+    ########## --- Afstemningsområde-level results ---  #############
     kommunedata["parti_procent"] = kommunedata["stemmer"] / kommunedata["total_gyldige_stemmer"] * 100
     kommunedata_wide = (
         kommunedata.pivot_table(
@@ -107,7 +108,7 @@ for kommune_id in kv_parti_resultater["kommune_kode"].unique():
     afst_geo.to_csv(afstem_path + f"/{kommune_id}_{kommunenavn_lower}_afstemningsområde.csv", index=False)
     
     
-    # --- Status for the kommune ---
+    ####### --- Status for the kommune --- #########
     # load in the status file for the kommune
     summary_df = pd.read_csv(base_path + f"/status/{kommune_id}_{kommunenavn_lower}_status.csv")
 
