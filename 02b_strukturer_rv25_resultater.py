@@ -13,7 +13,7 @@ from config import FROM_PATH, TO_PATH, KOMMUNE_INFO, FOLDERS
 with open(KOMMUNE_INFO, "r", encoding="utf-8") as f:
     kommune_info = json.load(f)
 
-# KV25 - Valgresultater
+# RV25 - Valgresultater
 def get_rv_resultater(from_path=FROM_PATH, to_path=TO_PATH, folders=FOLDERS, kommune_info=kommune_info, *_unused):
     files = kombiner_resultater(from_path, to_path, "rv", folders[0])  # "valgresultater"
     partier, kandidater = [], []
@@ -63,6 +63,7 @@ def get_rv_resultater(from_path=FROM_PATH, to_path=TO_PATH, folders=FOLDERS, kom
                 **base,
                 "parti": parti.get("Navn"),
                 "parti_id": parti.get("KandidatlisteId"),
+                "parti_bogstav": parti.get("Bogstavbetegnelse"),
                 "stemmer": parti.get("Stemmer", 0),
                 "listestemmer": parti.get("Listestemmer", 0),
                 "difference_forrige_valg": parti.get("StemmerDifferenceFraForrigeValg", 0),

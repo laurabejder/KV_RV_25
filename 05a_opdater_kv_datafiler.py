@@ -1,15 +1,15 @@
 import pandas as pd
 import json
+from config import PARTIER_INFO, BORGMESTRE
 
 # Load in the files with the structured data
 kv_parti_resultater = pd.read_csv("data/struktureret/kv/kv25_resultater_partier.csv")
 kv_parti_resultater.drop_duplicates(inplace=True)
 kv21_resultater_partier = pd.read_csv("data/kv21_resultater/parti_resultater.csv")
 
-# And the file with party information
-partier_info = json.load(open("data/partier.json", "r", encoding="utf-8"))
-
-borgmestre = pd.read_csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vSyAqdHmvVJX2xvsb0PbIwNcrEOu40HKV6ljA2mnYgpqB-4IbaplSBhCZNFiC6IaGvhNIG_mP6KKrk3/pub?gid=0&single=true&output=csv")
+# Load the files in the config file
+partier_info = json.load(open(PARTIER_INFO, "r", encoding="utf-8"))
+borgmestre = pd.read_csv(BORGMESTRE)
 
 # Define base paths
 base_path = "data/struktureret/kv/valgresultater"

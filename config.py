@@ -2,6 +2,9 @@ FROM_PATH = "data/raw/"
 TO_PATH = "data/struktureret/"
 
 KOMMUNE_INFO = "data/kommuner.json"
+PARTIER_INFO = "data/partier.json"
+BORGMESTRE = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSyAqdHmvVJX2xvsb0PbIwNcrEOu40HKV6ljA2mnYgpqB-4IbaplSBhCZNFiC6IaGvhNIG_mP6KKrk3/pub?gid=0&single=true&output=csv"
+REGIONS_FPS = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSyAqdHmvVJX2xvsb0PbIwNcrEOu40HKV6ljA2mnYgpqB-4IbaplSBhCZNFiC6IaGvhNIG_mP6KKrk3/pub?gid=774356730&single=true&output=csv" 
 
 # SFTP login information
 HOST = "data.valg.dk"
