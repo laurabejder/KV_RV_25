@@ -1,3 +1,3 @@
-kommune_id,kommune_dagi_id,kommune_navn,listebogstav,partier,bogstav,procent_25,stemmer_25,procent_21_x,stemmer_21_x,procent_21_y,stemmer_21_y
-563,389171,Fanø,S,Slesvigsk Parti,SP,71.42857142857143,5.0,,,,
-563,389171,Fanø,T,T,T,28.57142857142857,2.0,,,,
+kommune_id,kommune_dagi_id,kommune_navn,listebogstav,partier,bogstav,procent_25,stemmer_25,procent_21_x,stemmer_21_x,procent_21_y,stemmer_21_y,procent_21,stemmer_21
+563,389171,Fanø,S,Slesvigsk Parti,SP,71.42857142857143,5.0,,,,,,
+563,389171,Fanø,T,T,T,28.57142857142857,2.0,,,,,,

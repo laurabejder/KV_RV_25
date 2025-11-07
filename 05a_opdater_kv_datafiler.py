@@ -115,7 +115,7 @@ for kommune_id in kv_parti_resultater["kommune_kode"].unique():
     # and update the values in the columns "andel_af_afstemningssteder_talt" and "borgmester"
     # find the share of afstemningssteder where resultat_art is "Fintælling" or "ForeløbigtResultat"
     done_share = afst_geo[afst_geo["resultat_art"].isin(["Fintælling", "ForeløbigtResultat"])].shape[0] / afst_geo.shape[0]
-    summary_df["andel_af_afstemningssteder_talt"] = done_share * 100
+    summary_df["Procent optalte afstemningssteder"] = done_share * 100
 
     # find the borgmester party from the borgmestre dataframe
     if kommune_id in borgmestre["kommune_kode"].values:

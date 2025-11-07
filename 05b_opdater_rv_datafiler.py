@@ -101,3 +101,22 @@ for region in rv_parti_resultater["region"].unique():
     afst_geo = afst_geo[first_cols + [c for c in afst_geo.columns if c not in first_cols]]
     
     afst_geo.to_csv(afstem_path + f"/{regionsnavn_lower}_afstemningsområde.csv", index=False)
+
+    
+    
+    ####### --- Status for the kommune --- #########
+    # load in the status file for the kommune
+    summary_df = pd.read_csv(base_path + f"/status/{regionsnavn_lower}_status.csv")
+
+    # and update the values in the columns "andel_af_afstemningssteder_talt" and "borgmester"
+    # find the share of afstemningssteder where resultat_art is "Fintælling" or "ForeløbigtResultat"
+    done_share = afst_geo[afst_geo["resultat_art"].isin(["Fintælling", "ForeløbigtResultat"])].shape[0] / afst_geo.shape[0]
+    summary_df["Procent optalte afstemningssteder"] = done_share * 100
+    
+    if region in regions_fps["region"].values:
+        forperson = regions_fps.loc[regions_fps["formand"] == region, "forperson"].iat[0]
+        summary_df["forperson"] = forperson
+    else:
+        summary_df["forperson"] = "Ikke afgjort"
+    # save the updated summary file
+    summary_df.to_csv(base_path + f"/status/{regionsnavn_lower}_status.csv", index=False) 
