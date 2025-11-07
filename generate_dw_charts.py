@@ -39,6 +39,39 @@ def create_tables(row):
                 "source-name": "Valgdata fra valg.dk",
                 "source-url": "https://www.valg.dk",
                 "byline": "Laura Bejder Jensen"},
+            "visualize": {
+                "custom-colors": {
+                    "Socialdemokratiet": "#F00B2F",
+                    "S": "#F00B2F",
+                    "Venstre": "#0781DD",
+                    "V": "#0781DD",
+                    "Dansk Folkeparti": "#F6BA00",
+                    "DF": "#F6BA00",
+                    "Enhedslisten": "#FF7400",
+                    "EL": "#FF7400",
+                    "Liberal Alliance": "#48CEF3",
+                    "LA": "#48CEF3",
+                    "SF": "#F257A9",
+                    "Radikale": "#662690",
+                    "R": "#662690",
+                    "Konservative": "#06691E",
+                    "K": "#06691E",
+                    "Alternativet": "#3CE63D",
+                    "Alt": "#3CE63D",
+                    "Kristendemokraterne": "#8B8474",
+                    "KD": "#8B8474",
+                    "Nye Borgerlige": "#004E62",
+                    "NB": "#004E62",
+                    "Moderaterne": "#911995",
+                    "M": "#911995",
+                    "Frie grønne": "#eecbc6",
+                    "FG": "#eecbc6",
+                    "Danmarksdemokraterne": "#0075c9",
+                    "DD": "#0075c9",
+                    "Borgernes Parti": "#89b37b",
+                    "BP": "#89b37b"       
+                    }
+                },
         'language': 'da-DK'
         }
     }
@@ -57,92 +90,125 @@ def create_charts(row):
     data = {
         "title": "Sådan stemte " + kommune_name + " Kommune",
         "type": "column-chart",
-        "folderId": "355509",
+        "folderId": "355517",
         "metadata" : {
             "describe": {
                 "intro": "Her kan du se, hvordan der blev stemt i " + kommune_name + " Kommune ved kommunalvalget den 18. november 2025.",
                 "source-name": "Valgdata fra valg.dk",
                 "source-url": "https://www.valg.dk",
-                "byline": "Laura Bejder Jensen"}
-        },
-        'language': 'da-DK'
-    }
-
-    response = requests.post(url, headers=headers, json=data)
-    return response
-
-def create_maps(row):
-    kommune_name = row['kommune_navn']
-
-    url = "https://api.datawrapper.de/v3/charts"
-    headers = {
-        "Authorization": "Bearer " + DW_TOKEN,
-        "Content-Type": "application/json"
-    }
-    data = {
-        "title": "Sådan stemte " + kommune_name + " Kommune",
-        "type": "d3-maps-choropleth",
-        "folderId": "355525",
-        "metadata" : {
-            "describe": {
-                "intro": "Her kan du se, hvordan der blev stemt i " + kommune_name + " Kommune ved kommunalvalget den 18. november 2025.",
-                "source-name": "Valgdata fra valg.dk",
-                "source-url": "https://www.valg.dk",
-                "byline": "Laura Bejder Jensen"}
-        },
-        'language': 'da-DK'
-    }
-
-    response = requests.post(url, headers=headers, json=data)
-    return response
-
-def add_topojson_to_map(row, map_id):
-    kommune_name = row['kommune']
-    
-    # 1. Load the TopoJSON file
-    file_name = kommune_name.lower().replace(" ", "_") + "_afstemningsområder.topojson"
-    file_path = f"data/shapes/{file_name}"
-    
-    with open(file_path, "r", encoding="utf-8") as f:
-        topojson_data = f.read()
-
-    # 2. Upload the TopoJSON asset
-    asset_url = f"https://api.datawrapper.de/v3/charts/{map_id}/assets/{map_id}.map.json"
-    asset_headers = {
-        "Authorization": f"Bearer {DW_TOKEN}",
-        "Content-Type": "application/json"
-    }
-    
-    upload_response = requests.put(asset_url, headers=asset_headers, data=topojson_data)
-    upload_response.raise_for_status()
-
-    # 3. PATCH metadata to tell Datawrapper to use the uploaded map
-    patch_url = f"https://api.datawrapper.de/v3/charts/{map_id}"
-    patch_headers = {
-        "Authorization": f"Bearer {DW_TOKEN}",
-        "Content-Type": "application/json"
-    }
-
-    # overwrite all visualize fields and remove basemap
-    patch_payload = {
-        "metadata": {
+                "byline": "Laura Bejder Jensen"},
             "visualize": {
-                "map-type-set": "locator-map-custom",
-                "map-file": f"{map_id}.map.json",
-                "map-key": "dagi_id",
-            }
+                "custom-colors": {
+                    "Socialdemokratiet": "#F00B2F",
+                    "S": "#F00B2F",
+                    "Venstre": "#0781DD",
+                    "V": "#0781DD",
+                    "Dansk Folkeparti": "#F6BA00",
+                    "DF": "#F6BA00",
+                    "Enhedslisten": "#FF7400",
+                    "EL": "#FF7400",
+                    "Liberal Alliance": "#48CEF3",
+                    "LA": "#48CEF3",
+                    "SF": "#F257A9",
+                    "Radikale": "#662690",
+                    "R": "#662690",
+                    "Konservative": "#06691E",
+                    "K": "#06691E",
+                    "Alternativet": "#3CE63D",
+                    "Alt": "#3CE63D",
+                    "Kristendemokraterne": "#8B8474",
+                    "KD": "#8B8474",
+                    "Nye Borgerlige": "#004E62",
+                    "NB": "#004E62",
+                    "Moderaterne": "#911995",
+                    "M": "#911995",
+                    "Frie grønne": "#eecbc6",
+                    "FG": "#eecbc6",
+                    "Danmarksdemokraterne": "#0075c9",
+                    "DD": "#0075c9",
+                    "Borgernes Parti": "#89b37b",
+                    "BP": "#89b37b"       
+                    }
+                },
+            },
+            'language': 'da-DK'
         }
-    }
 
-    patch_response = requests.patch(
-        f"https://api.datawrapper.de/v3/charts/{map_id}",
-        headers={
-            "Authorization": f"Bearer {DW_TOKEN}",
-            "Content-Type": "application/json"
-        },
-        json=patch_payload
-)
-    patch_response.raise_for_status()
+    response = requests.post(url, headers=headers, json=data)
+    return response
+
+# def create_maps(row):
+#     kommune_name = row['kommune_navn']
+
+#     url = "https://api.datawrapper.de/v3/charts"
+#     headers = {
+#         "Authorization": "Bearer " + DW_TOKEN,
+#         "Content-Type": "application/json"
+#     }
+#     data = {
+#         "title": "Sådan stemte " + kommune_name + " Kommune",
+#         "type": "d3-maps-choropleth",
+#         "folderId": "355525",
+#         "metadata" : {
+#             "describe": {
+#                 "intro": "Her kan du se, hvordan der blev stemt i " + kommune_name + " Kommune ved kommunalvalget den 18. november 2025.",
+#                 "source-name": "Valgdata fra valg.dk",
+#                 "source-url": "https://www.valg.dk",
+#                 "byline": "Laura Bejder Jensen"}
+#         },
+#         'language': 'da-DK'
+#     }
+
+#     response = requests.post(url, headers=headers, json=data)
+#     return response
+
+# def add_topojson_to_map(row, map_id):
+#     kommune_name = row['kommune_navn']
+    
+#     # 1. Load the TopoJSON file
+#     file_name = kommune_name.lower().replace(" ", "_") + "_afstemningsområder.topojson"
+#     file_path = f"data/shapes/{file_name}"
+    
+#     with open(file_path, "r", encoding="utf-8") as f:
+#         topojson_data = f.read()
+
+#     # 2. Upload the TopoJSON asset
+#     asset_url = f"https://api.datawrapper.de/v3/charts/{map_id}/assets/{map_id}.map.json"
+#     asset_headers = {
+#         "Authorization": f"Bearer {DW_TOKEN}",
+#         "Content-Type": "application/json"
+#     }
+    
+#     upload_response = requests.put(asset_url, headers=asset_headers, data=topojson_data)
+#     upload_response.raise_for_status()
+
+#     # 3. PATCH metadata to tell Datawrapper to use the uploaded map
+#     patch_url = f"https://api.datawrapper.de/v3/charts/{map_id}"
+#     patch_headers = {
+#         "Authorization": f"Bearer {DW_TOKEN}",
+#         "Content-Type": "application/json"
+#     }
+
+#     # overwrite all visualize fields and remove basemap
+#     patch_payload = {
+#         "metadata": {
+#             "visualize": {
+#                 "map-type-set": "locator-map-custom",
+#                 "map-file": f"{map_id}.map.json",
+#                 "map-key": "dagi_id",
+#             }
+#         }
+#     }
+
+#     patch_response = requests.patch(
+#         f"https://api.datawrapper.de/v3/charts/{map_id}",
+#         headers={
+#             "Authorization": f"Bearer {DW_TOKEN}",
+#             "Content-Type": "application/json"
+#         },
+#         json=patch_payload
+# )
+#     patch_response.raise_for_status()
     # publish_url = f"https://api.datawrapper.de/v3/charts/{map_id}/publish"
     # publish_headers = {
     #     "Authorization": f"Bearer {DW_TOKEN}"
@@ -164,25 +230,25 @@ def add_topojson_to_map(row, map_id):
 
 
 for index, row in kommuner[:3].iterrows():
-    #create_tables(row)
-    #create_charts(row)
-    map_response = create_maps(row)
-    map_id = map_response.json()['id']
-    row['map_id'] = map_id
-    kommuner.at[index, 'map_id'] = map_id  # Save to DataFrame
-    add_topojson_to_map(row, map_id)
+    create_tables(row)
+    create_charts(row)
+    # map_response = create_maps(row)
+    # map_id = map_response.json()['id']
+    # row['map_id'] = map_id
+    # kommuner.at[index, 'map_id'] = map_id  # Save to DataFrame
+    # add_topojson_to_map(row, map_id)
 
 
-    url = f"https://api.datawrapper.de/v3/charts/{map_id}"
-    headers = {
-        "Authorization": f"Bearer {DW_TOKEN}"
-    }
+    # url = f"https://api.datawrapper.de/v3/charts/{map_id}"
+    # headers = {
+    #     "Authorization": f"Bearer {DW_TOKEN}"
+    # }
 
-    response = requests.get(url, headers=headers)
-    response.raise_for_status()
+    # response = requests.get(url, headers=headers)
+    # response.raise_for_status()
 
-    # Pretty print the full metadata
-    chart = response.json()
-    print(json.dumps(chart["metadata"], indent=2))
+    # # Pretty print the full metadata
+    # chart = response.json()
+    # print(json.dumps(chart["metadata"], indent=2))
     
 
