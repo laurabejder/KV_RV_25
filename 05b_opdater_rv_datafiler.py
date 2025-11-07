@@ -112,11 +112,12 @@ for region in rv_parti_resultater["region"].unique():
     # find the share of afstemningssteder where resultat_art is "Fintælling" or "ForeløbigtResultat"
     done_share = afst_geo[afst_geo["resultat_art"].isin(["Fintælling", "ForeløbigtResultat"])].shape[0] / afst_geo.shape[0]
     summary_df["Procent optalte afstemningssteder"] = done_share * 100
-    
+
+    # find the borgmester party from the borgmestre dataframe
     if region in regions_fps["region"].values:
         forperson = regions_fps.loc[regions_fps["formand"] == region, "forperson"].iat[0]
-        summary_df["forperson"] = forperson
+        summary_df["Regionsrådsforperson"] = forperson
     else:
-        summary_df["forperson"] = "Ikke afgjort"
+        summary_df["Regionsrådsforperson"] = "Ikke afgjort"
     # save the updated summary file
     summary_df.to_csv(base_path + f"/status/{regionsnavn_lower}_status.csv", index=False) 
