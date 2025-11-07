@@ -4,6 +4,9 @@ import requests
 import pandas as pd
 import json
 
+metadata = json.load(open("dw_design.json", "r", encoding="utf-8"))
+print(metadata["column-metadata"])
+
 load_dotenv()  # this will load variables from .env into os.environ
 
 ## LOAD IN THE DW TOKEN
@@ -91,47 +94,8 @@ def create_charts(row):
         "title": "Sådan stemte " + kommune_name + " Kommune",
         "type": "column-chart",
         "folderId": "355517",
-        "metadata" : {
-            "describe": {
-                "intro": "Her kan du se, hvordan der blev stemt i " + kommune_name + " Kommune ved kommunalvalget den 18. november 2025.",
-                "source-name": "Valgdata fra valg.dk",
-                "source-url": "https://www.valg.dk",
-                "byline": "Laura Bejder Jensen"},
-            "visualize": {
-                "custom-colors": {
-                    "Socialdemokratiet": "#F00B2F",
-                    "S": "#F00B2F",
-                    "Venstre": "#0781DD",
-                    "V": "#0781DD",
-                    "Dansk Folkeparti": "#F6BA00",
-                    "DF": "#F6BA00",
-                    "Enhedslisten": "#FF7400",
-                    "EL": "#FF7400",
-                    "Liberal Alliance": "#48CEF3",
-                    "LA": "#48CEF3",
-                    "SF": "#F257A9",
-                    "Radikale": "#662690",
-                    "R": "#662690",
-                    "Konservative": "#06691E",
-                    "K": "#06691E",
-                    "Alternativet": "#3CE63D",
-                    "Alt": "#3CE63D",
-                    "Kristendemokraterne": "#8B8474",
-                    "KD": "#8B8474",
-                    "Nye Borgerlige": "#004E62",
-                    "NB": "#004E62",
-                    "Moderaterne": "#911995",
-                    "M": "#911995",
-                    "Frie grønne": "#eecbc6",
-                    "FG": "#eecbc6",
-                    "Danmarksdemokraterne": "#0075c9",
-                    "DD": "#0075c9",
-                    "Borgernes Parti": "#89b37b",
-                    "BP": "#89b37b"       
-                    }
-                },
-            },
-            'language': 'da-DK'
+        "metadata" : metadata["column-metadata"],  
+        'language': 'da-DK'  
         }
 
     response = requests.post(url, headers=headers, json=data)
@@ -230,8 +194,9 @@ def create_charts(row):
 
 
 for index, row in kommuner[:3].iterrows():
-    create_tables(row)
-    create_charts(row)
+    print("Hi")
+    # create_tables(row)
+    # create_charts(row)
     # map_response = create_maps(row)
     # map_id = map_response.json()['id']
     # row['map_id'] = map_id

@@ -1,3 +1,3 @@
-region_navn,partier,procent_25,stemmer_25,procent_21,stemmer_21,region,bogstav,listebogstav
-Østdanmark,Socialdemokratiet,50.0,36188.0,,,,S,A
-Østdanmark,Venstre,50.0,36188.0,,,,V,V
+region_navn,partier,procent_25,stemmer_25,procent_21,stemmer_21,bogstav,listebogstav
+Østdanmark,Socialdemokratiet,50.0,36188.0,,,S,A
+Østdanmark,Venstre,50.0,36188.0,,,V,V

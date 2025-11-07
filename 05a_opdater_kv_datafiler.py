@@ -58,14 +58,30 @@ for kommune_id in kv_parti_resultater["kommune_kode"].unique():
     )
     df_stacked = df_stacked.drop_duplicates(subset= ["kommune_id","kommune_dagi_id","kommune_navn","listebogstav","partier"], keep='last')
 
-    #join the 2021 results on the dataframe on the listebogstav and parti columns
-    df_stacked = df_stacked.merge(
-        kv21_resultater_partier.query("kommune_id == @kommune_id")[["partier","bogstav","procent_21","stemmer_21"]],
-        left_on=["partier","bogstav"], right_on=["partier","bogstav"], how="left"
+    # remove any 2021 columns from the left to avoid collisions
+    df_stacked = df_stacked.drop(columns=["procent_21", "stemmer_21"], errors="ignore")
+
+    # right side: only the needed cols and no duplicates
+    kv21_right = (
+        kv21_resultater_partier
+        .query("kommune_id == @kommune_id")[["partier","bogstav","procent_21","stemmer_21"]]
+        .drop_duplicates(subset=["partier","bogstav"])
     )
 
+    # now the merge is safe (suffixes won’t be used because there’s no overlap anymore)
+    df_stacked = df_stacked.merge(
+        kv21_right,
+        on=["partier","bogstav"],
+        how="left",
+    )
+
+    first_cols = ["bogstav","procent_25","procent_21"]
+    df_stacked = df_stacked[first_cols + [c for c in df_stacked.columns if c not in first_cols]]
+    df_stacked = df_stacked.drop(columns=["stemmer_25","stemmer_21"])
+    print(df_stacked)
+
     # save the file back with the new results
-    df_stacked.to_csv(kommune_path + f"/{kommune_id}_{kommunenavn_lower}_kommune.csv", index=False)
+    #df_stacked.to_csv(kommune_path + f"/{kommune_id}_{kommunenavn_lower}_kommune.csv", index=False)
 
 
     ########## --- Afstemningsområde-level results ---  #############
