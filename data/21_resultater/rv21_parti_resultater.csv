@@ -1,4 +1,4 @@
-Bogstavbetegnelse,Listenavn,Stemmetal,Procent,bogstav,region_navn
+listebogstav,partier,stemmer_21,procent_21,bogstav,region
 A,Socialdemokratiet,205961,29.323008540875616,S,Region Midtjylland
 V,Venstre,173353,24.68055359794529,V,Region Midtjylland
 C,Konservative,84847,12.079807855213721,K,Region Midtjylland
