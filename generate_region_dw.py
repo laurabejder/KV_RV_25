@@ -124,7 +124,7 @@ for index, row in urls.iterrows():
     if pd.isna(row['geo']) or pd.isna(row['status_tabel']) or pd.isna(row['parti_søjle']):
         print(f"Skipping row {index} due to missing data")
         continue
-    #create_tables(row['geo'], row['stemme_tabel'])
+    create_tables(row['geo'], row['stemme_tabel'])
     create_columns(row['geo'], row['parti_søjle'])
     # map_response = create_maps(row)
     # map_id = map_response.json()['id']
