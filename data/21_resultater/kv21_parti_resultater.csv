@@ -16,7 +16,7 @@ kommune_id,kommune_dagi_id,kommune_navn,listebogstav,partier,bogstav,procent_21,
 751,389194,Aarhus,Y,Frihedslisten,Y,0.15904117919159264,306
 751,389194,Aarhus,U,Bedre Aarhus,U,0.15592272469763985,300
 751,389194,Aarhus,R,Kommunisterne,R,0.1107051345353243,213
-751,389194,Aarhus,Æ,Danmarksdemokraterne,DD,0.04677681740929196,90
+751,389194,Aarhus,Æ,Egalitært Folkeparti,Æ,0.04677681740929196,90
 751,389194,Aarhus,Q,Frie Grønne,FG,0.03846093875875116,74
 360,389150,Lolland,A,Socialdemokratiet,S,41.719500480307396,8686
 360,389150,Lolland,V,Venstre,V,18.784822286263207,3911
@@ -30,16 +30,16 @@ kommune_id,kommune_dagi_id,kommune_navn,listebogstav,partier,bogstav,procent_21,
 360,389150,Lolland,D,Nye Borgerlige,D,3.227665706051873,672
 360,389150,Lolland,J,Vestfronten,J,1.7098943323727185,356
 360,389150,Lolland,B,Radikale,R,0.7060518731988472,147
-185,389119,Tårnby,A,Socialdemokratiet,S,39.674336973478944,8138
-185,389119,Tårnby,V,Venstre,V,14.108814352574104,2894
-185,389119,Tårnby,C,Konservative,K,9.467628705148206,1942
-185,389119,Tårnby,Ø,Enhedslisten,EL,8.731474258970358,1791
-185,389119,Tårnby,O,Dansk Folkeparti,DF,7.361544461778472,1510
-185,389119,Tårnby,T,Tårnby Listen,T,6.289001560062403,1290
-185,389119,Tårnby,F,SF,SF,5.15308112324493,1057
-185,389119,Tårnby,D,Nye Borgerlige,D,4.597308892355694,943
-185,389119,Tårnby,B,Radikale,R,3.783151326053042,776
-185,389119,Tårnby,I,Liberal Alliance,LA,0.8336583463338534,171
+185,389119,Tårnby,A,Socialdemokratiet,S,39.674336973478944,8138
+185,389119,Tårnby,V,Venstre,V,14.108814352574104,2894
+185,389119,Tårnby,C,Konservative,K,9.467628705148206,1942
+185,389119,Tårnby,Ø,Enhedslisten,EL,8.731474258970358,1791
+185,389119,Tårnby,O,Dansk Folkeparti,DF,7.361544461778472,1510
+185,389119,Tårnby,T,Tårnby Listen,T,6.289001560062403,1290
+185,389119,Tårnby,F,SF,SF,5.15308112324493,1057
+185,389119,Tårnby,D,Nye Borgerlige,D,4.597308892355694,943
+185,389119,Tårnby,B,Radikale,R,3.783151326053042,776
+185,389119,Tårnby,I,Liberal Alliance,LA,0.8336583463338534,171
 550,389168,Tønder,T,Tønder Listen,T,29.014984033407025,5906
 550,389168,Tønder,V,Venstre,V,17.057234094816998,3472
 550,389168,Tønder,A,Socialdemokratiet,S,14.787521493490544,3010
@@ -61,7 +61,7 @@ kommune_id,kommune_dagi_id,kommune_navn,listebogstav,partier,bogstav,procent_21,
 671,389185,Struer,O,Dansk Folkeparti,DF,2.4995834027662056,300
 671,389185,Struer,I,Liberal Alliance,LA,1.6663889351774703,200
 671,389185,Struer,J,Fiskerlussing,J,0.5999000166638894,72
-671,389185,Struer,Æ,Danmarksdemokraterne,DD,0.3416097317113814,41
+671,389185,Struer,Æ,Frihedslisten,Æ,0.3416097317113814,41
 350,389146,Lejre,V,Venstre,V,28.16187828236021,4558
 350,389146,Lejre,A,Socialdemokratiet,S,21.556997219647823,3489
 350,389146,Lejre,F,SF,SF,15.162187210379981,2454
@@ -76,13 +76,13 @@ kommune_id,kommune_dagi_id,kommune_navn,listebogstav,partier,bogstav,procent_21,
 183,389118,Ishøj,L,Ishøjlisten,L,16.354759967453212,1608
 183,389118,Ishøj,V,Venstre,V,10.73026851098454,1055
 183,389118,Ishøj,F,SF,SF,7.373881204231083,725
-183,389118,Ishøj,M,Moderaterne,M,6.417819365337672,631
+183,389118,Ishøj,M,Annelise Madsen,M,6.417819365337672,631
 183,389118,Ishøj,C,Konservative,K,6.275427176566314,617
 183,389118,Ishøj,O,Dansk Folkeparti,DF,4.02766476810415,396
 183,389118,Ishøj,Ø,Enhedslisten,EL,3.8140764849471114,375
 183,389118,Ishøj,B,Radikale,R,3.6208299430431246,356
 183,389118,Ishøj,D,Nye Borgerlige,D,3.3258746948738818,327
-183,389118,Ishøj,Æ,Danmarksdemokraterne,DD,0.2949552481692433,29
+183,389118,Ishøj,Æ,Frihedslisten,Æ,0.2949552481692433,29
 440,389159,Kerteminde,A,Socialdemokratiet,S,36.566035016932055,5075
 440,389159,Kerteminde,C,Konservative,K,33.25888032278982,4616
 440,389159,Kerteminde,V,Venstre,V,6.996181281072124,971
@@ -124,7 +124,7 @@ kommune_id,kommune_dagi_id,kommune_navn,listebogstav,partier,bogstav,procent_21,
 153,389106,Brøndby,B,Radikale,R,5.280876625519836,800
 153,389106,Brøndby,D,Nye Borgerlige,D,4.719783484058353,715
 153,389106,Brøndby,I,Liberal Alliance,LA,1.7756947653310449,269
-153,389106,Brøndby,Æ,Danmarksdemokraterne,DD,0.547890949897683,83
+153,389106,Brøndby,Æ,Frihedslisten,Æ,0.547890949897683,83
 155,389107,Dragør,C,Konservative,K,34.27140472215597,2874
 155,389107,Dragør,T,Tværpolitisk Forening,T,18.518960171714763,1553
 155,389107,Dragør,A,Socialdemokratiet,S,14.83424755544956,1244
@@ -161,7 +161,7 @@ kommune_id,kommune_dagi_id,kommune_navn,listebogstav,partier,bogstav,procent_21,
 101,389103,København,O,Dansk Folkeparti,DF,1.922914157361893,5907
 101,389103,København,U,Klimapartiet Momentum,U,0.965851752986751,2967
 101,389103,København,G,Veganerpartiet,G,0.5986522998795534,1839
-101,389103,København,M,Moderaterne,M,0.46420781926495003,1426
+101,389103,København,M,Danmark for Alle,M,0.46420781926495003,1426
 101,389103,København,L,Københavnerlisten,L,0.44955890491226924,1381
 101,389103,København,R,Kommunistisk Parti,R,0.4020313161235718,1235
 101,389103,København,K,Kristendemokraterne,KD,0.3864058074807123,1187
@@ -170,7 +170,7 @@ kommune_id,kommune_dagi_id,kommune_navn,listebogstav,partier,bogstav,procent_21,
 101,389103,København,Y,Kærlighedspartiet (Regnbuefolket /,Y,0.1595104007291904,490
 101,389103,København,Z,Rolig Revolution,Z,0.14486148637650964,445
 101,389103,København,Q,Frie Grønne,FG,0.13184022917412677,405
-101,389103,København,Æ,Danmarksdemokraterne,DD,0.11914450340180345,366
+101,389103,København,Æ,Bæredygtigt samfund,Æ,0.11914450340180345,366
 101,389103,København,N,Kommunisterne,N,0.11458706338096944,352
 101,389103,København,E,Christiania-Listen,E,0.10579771476936098,325
 101,389103,København,H,Grøn Omstilling,H,0.07584882320388033,233
@@ -203,7 +203,7 @@ kommune_id,kommune_dagi_id,kommune_navn,listebogstav,partier,bogstav,procent_21,
 390,389149,Vordingborg,D,Nye Borgerlige,D,4.241240483118746,1064
 390,389149,Vordingborg,O,Dansk Folkeparti,DF,4.233268226571531,1062
 390,389149,Vordingborg,B,Radikale,R,3.2128193885279233,806
-390,389149,Vordingborg,Æ,Danmarksdemokraterne,DD,2.8660262287240403,719
+390,389149,Vordingborg,Æ,Fælleslisten,Æ,2.8660262287240403,719
 390,389149,Vordingborg,Å,Alternativet,ALT,0.9566707856658828,240
 846,389202,Mariagerfjord,A,Socialdemokratiet,S,36.81483136028591,8241
 846,389202,Mariagerfjord,V,Venstre,V,32.334152334152336,7238
@@ -212,7 +212,7 @@ kommune_id,kommune_dagi_id,kommune_navn,listebogstav,partier,bogstav,procent_21,
 846,389202,Mariagerfjord,D,Nye Borgerlige,D,3.3817288362742906,757
 846,389202,Mariagerfjord,Ø,Enhedslisten,EL,3.086888541433996,691
 846,389202,Mariagerfjord,F,SF,SF,3.064552155461246,686
-846,389202,Mariagerfjord,M,Moderaterne,M,2.6044226044226044,583
+846,389202,Mariagerfjord,M,Mariagerfjordlisten,M,2.6044226044226044,583
 846,389202,Mariagerfjord,B,Radikale,R,2.1353584989948624,478
 846,389202,Mariagerfjord,K,Kristendemokraterne,KD,0.509269600178691,114
 740,389192,Silkeborg,A,Socialdemokratiet,S,28.56117755289788,15523
@@ -226,7 +226,7 @@ kommune_id,kommune_dagi_id,kommune_navn,listebogstav,partier,bogstav,procent_21,
 740,389192,Silkeborg,K,Kristendemokraterne,KD,2.001839926402944,1088
 740,389192,Silkeborg,I,Liberal Alliance,LA,1.2732290708371665,692
 740,389192,Silkeborg,Å,Alternativet,ALT,0.7506899724011039,408
-740,389192,Silkeborg,Æ,Danmarksdemokraterne,DD,0.35878564857405704,195
+740,389192,Silkeborg,Æ,Deltagerlisten,Æ,0.35878564857405704,195
 740,389192,Silkeborg,E,Carsten Ørum Skytt,E,0.20055197792088314,109
 820,389207,Vesthimmerlands,V,Venstre,V,31.770399666944215,6105
 820,389207,Vesthimmerlands,C,Konservative,K,23.860324729392175,4585
@@ -280,7 +280,7 @@ kommune_id,kommune_dagi_id,kommune_navn,listebogstav,partier,bogstav,procent_21,
 450,389160,Nyborg,D,Nye Borgerlige,D,2.037559184976326,383
 450,389160,Nyborg,O,Dansk Folkeparti,DF,2.0215991913603233,380
 450,389160,Nyborg,B,Radikale,R,1.7821992871202852,335
-450,389160,Nyborg,M,Moderaterne,M,0.7181997127201148,135
+450,389160,Nyborg,M,Vi Lokale Demokrater,M,0.7181997127201148,135
 450,389160,Nyborg,I,Liberal Alliance,LA,0.4415598233760707,83
 187,389120,Vallensbæk,C,Konservative,K,53.88452425489463,4321
 187,389120,Vallensbæk,A,Socialdemokratiet,S,20.81306896121711,1669
@@ -322,7 +322,7 @@ kommune_id,kommune_dagi_id,kommune_navn,listebogstav,partier,bogstav,procent_21,
 157,389108,Gentofte,I,Liberal Alliance,LA,2.50257544159401,996
 157,389108,Gentofte,D,Nye Borgerlige,D,2.193522450312822,873
 157,389108,Gentofte,O,Dansk Folkeparti,DF,0.6055428528354984,241
-157,389108,Gentofte,Æ,Danmarksdemokraterne,DD,0.3216161210080655,128
+157,389108,Gentofte,Æ,Frihedslisten,Æ,0.3216161210080655,128
 157,389108,Gentofte,K,Kristendemokraterne,KD,0.28895198371818387,115
 849,389205,Jammerbugt,V,Venstre,V,46.00285674791503,9984
 849,389205,Jammerbugt,A,Socialdemokratiet,S,28.558263834492926,6198
@@ -353,7 +353,7 @@ kommune_id,kommune_dagi_id,kommune_navn,listebogstav,partier,bogstav,procent_21,
 773,389197,Morsø,O,Dansk Folkeparti,DF,6.118806832667629,720
 773,389197,Morsø,C,Konservative,K,5.319962607291578,626
 773,389197,Morsø,B,Radikale,R,3.6797824424237278,433
-773,389197,Morsø,M,Moderaterne,M,3.2293702727968046,380
+773,389197,Morsø,M,Demokratisk Balance,M,3.2293702727968046,380
 773,389197,Morsø,Ø,Enhedslisten,EL,2.5240078184753973,297
 773,389197,Morsø,F,SF,SF,2.099090677317923,247
 773,389197,Morsø,D,Nye Borgerlige,D,1.4277215942891135,168
@@ -376,8 +376,8 @@ kommune_id,kommune_dagi_id,kommune_navn,listebogstav,partier,bogstav,procent_21,
 540,389167,Sønderborg,B,Radikale,R,1.034046668485134,417
 540,389167,Sønderborg,L,Fælleslisten,L,0.7637562923103628,308
 540,389167,Sønderborg,I,Liberal Alliance,LA,0.33476330994123044,135
-540,389167,Sønderborg,Æ,Danmarksdemokraterne,DD,0.26285119150941055,106
-540,389167,Sønderborg,M,Moderaterne,M,0.13142559575470528,53
+540,389167,Sønderborg,Æ,Frihedslisten,Æ,0.26285119150941055,106
+540,389167,Sønderborg,M,Alsisk Parti,M,0.13142559575470528,53
 540,389167,Sønderborg,H,Sønderborglisten,H,0.034716195105016494,14
 269,389138,Solrød,V,Venstre,V,19.564717602881444,2553
 269,389138,Solrød,A,Socialdemokratiet,S,16.759904973561195,2187
@@ -452,7 +452,7 @@ kommune_id,kommune_dagi_id,kommune_navn,listebogstav,partier,bogstav,procent_21,
 190,389122,Furesø,I,Liberal Alliance,LA,2.1787538750382045,499
 190,389122,Furesø,Å,Alternativet,ALT,1.5456490416102693,354
 190,389122,Furesø,O,Dansk Folkeparti,DF,1.2225472645504956,280
-190,389122,Furesø,Æ,Danmarksdemokraterne,DD,0.3885953805178361,89
+190,389122,Furesø,Æ,Frihedslisten,Æ,0.3885953805178361,89
 330,389144,Slagelse,V,Venstre,V,33.559431524547804,13507
 330,389144,Slagelse,A,Socialdemokratiet,S,27.897038362154642,11228
 330,389144,Slagelse,C,Konservative,K,8.860067580997812,3566
@@ -464,7 +464,7 @@ kommune_id,kommune_dagi_id,kommune_navn,listebogstav,partier,bogstav,procent_21,
 330,389144,Slagelse,I,Liberal Alliance,LA,1.0161995627111906,409
 330,389144,Slagelse,G,Veganerpartiet,G,0.5838799443450606,235
 330,389144,Slagelse,K,Kristendemokraterne,KD,0.29566686543430726,119
-330,389144,Slagelse,Æ,Danmarksdemokraterne,DD,0.23355197773802425,94
+330,389144,Slagelse,Æ,Frihedslisten,Æ,0.23355197773802425,94
 219,389125,Hillerød,A,Socialdemokratiet,S,24.649553334981107,6981
 219,389125,Hillerød,V,Venstre,V,21.60234454998058,6118
 219,389125,Hillerød,C,Konservative,K,15.89986229299813,4503
@@ -475,7 +475,7 @@ kommune_id,kommune_dagi_id,kommune_navn,listebogstav,partier,bogstav,procent_21,
 219,389125,Hillerød,O,Dansk Folkeparti,DF,4.367783623459624,1237
 219,389125,Hillerød,I,Liberal Alliance,LA,1.564210303308499,443
 219,389125,Hillerød,K,Kristendemokraterne,KD,0.6143850852724126,174
-219,389125,Hillerød,Æ,Danmarksdemokraterne,DD,0.3460329790614738,98
+219,389125,Hillerød,Æ,Frihedslisten,Æ,0.3460329790614738,98
 860,389201,Hjørring,A,Socialdemokratiet,S,31.699383379532726,11207
 860,389201,Hjørring,V,Venstre,V,26.311025626520333,9302
 860,389201,Hjørring,C,Konservative,K,20.48707359846128,7243
@@ -500,7 +500,7 @@ kommune_id,kommune_dagi_id,kommune_navn,listebogstav,partier,bogstav,procent_21,
 147,389104,Frederiksberg,O,Dansk Folkeparti,DF,0.6955810147299509,425
 147,389104,Frederiksberg,J,Bitten Vivi Jensen,J,0.6121112929623568,374
 147,389104,Frederiksberg,G,Veganerpartiet,G,0.32896890343698854,201
-147,389104,Frederiksberg,Æ,Danmarksdemokraterne,DD,0.21931260229132568,134
+147,389104,Frederiksberg,Æ,Frihedslisten,Æ,0.21931260229132568,134
 147,389104,Frederiksberg,K,Kristendemokraterne,KD,0.1718494271685761,105
 147,389104,Frederiksberg,T,Volt,T,0.1718494271685761,105
 147,389104,Frederiksberg,E,Hvid-sten,E,0.0867430441898527,53
@@ -536,7 +536,7 @@ kommune_id,kommune_dagi_id,kommune_navn,listebogstav,partier,bogstav,procent_21,
 340,389145,Sorø,B,Radikale,R,2.9502705488276217,458
 340,389145,Sorø,I,Liberal Alliance,LA,1.0177789229580005,158
 340,389145,Sorø,Q,Frie Grønne,FG,0.5733058490079876,89
-340,389145,Sorø,Æ,Danmarksdemokraterne,DD,0.4444730739500129,69
+340,389145,Sorø,Æ,Frihedslisten,Æ,0.4444730739500129,69
 340,389145,Sorø,K,Kristendemokraterne,KD,0.3800566864210255,59
 253,389135,Greve,V,Venstre,V,37.70130330353979,9575
 253,389135,Greve,A,Socialdemokratiet,S,27.32999960625271,6941
@@ -559,7 +559,7 @@ kommune_id,kommune_dagi_id,kommune_navn,listebogstav,partier,bogstav,procent_21,
 756,389180,Ikast-Brande,K,Kristendemokraterne,KD,2.7002953448033375,576
 756,389180,Ikast-Brande,Ø,Enhedslisten,EL,1.7580047817730065,375
 756,389180,Ikast-Brande,F,SF,SF,1.7392527307674277,371
-756,389180,Ikast-Brande,Æ,Danmarksdemokraterne,DD,0.2578407013267076,55
+756,389180,Ikast-Brande,Æ,Frihedslisten,Æ,0.2578407013267076,55
 607,389175,Fredericia,A,Socialdemokratiet,S,37.327897854011226,9706
 607,389175,Fredericia,V,Venstre,V,21.990616106453352,5718
 607,389175,Fredericia,C,Konservative,K,9.668487039458503,2514
@@ -572,7 +572,7 @@ kommune_id,kommune_dagi_id,kommune_navn,listebogstav,partier,bogstav,procent_21,
 607,389175,Fredericia,Å,Alternativet,ALT,1.16914083532036,304
 607,389175,Fredericia,I,Liberal Alliance,LA,0.47304053534343515,123
 607,389175,Fredericia,K,Kristendemokraterne,KD,0.3461272209830013,90
-607,389175,Fredericia,Æ,Danmarksdemokraterne,DD,0.1999846165679563,52
+607,389175,Fredericia,Æ,Frihedslisten,Æ,0.1999846165679563,52
 607,389175,Fredericia,P,Frie Danske,P,0.08076301822936696,21
 479,389162,Svendborg,A,Socialdemokratiet,S,35.8948829350712,11897
 479,389162,Svendborg,V,Venstre,V,19.786386676321506,6558
@@ -587,7 +587,7 @@ kommune_id,kommune_dagi_id,kommune_navn,listebogstav,partier,bogstav,procent_21,
 479,389162,Svendborg,I,Liberal Alliance,LA,0.9322954380883418,309
 479,389162,Svendborg,Q,Frie Grønne,FG,0.7271300989621048,241
 479,389162,Svendborg,H,Helle Wisbech,H,0.3952449915520155,131
-479,389162,Svendborg,M,Moderaterne,M,0.1568911416847695,52
+479,389162,Svendborg,M,Vi Lokale Demokrater,M,0.1568911416847695,52
 479,389162,Svendborg,J,Den Lunefulde Liste,J,0.09353125754284335,31
 840,389204,Rebild,V,Venstre,V,25.237574151932268,4382
 840,389204,Rebild,C,Konservative,K,22.0065656856534,3821
@@ -633,7 +633,7 @@ kommune_id,kommune_dagi_id,kommune_navn,listebogstav,partier,bogstav,procent_21,
 329,389142,Ringsted,B,Radikale,R,3.1223863953164206,560
 329,389142,Ringsted,K,Kristendemokraterne,KD,2.431000836353499,436
 329,389142,Ringsted,I,Liberal Alliance,LA,0.802899358795651,144
-329,389142,Ringsted,Æ,Danmarksdemokraterne,DD,0.37357122943964316,67
+329,389142,Ringsted,Æ,Frihedslisten,Æ,0.37357122943964316,67
 706,389186,Syddjurs,A,Socialdemokratiet,S,25.219028903627283,6160
 706,389186,Syddjurs,V,Venstre,V,23.511831654794072,5743
 706,389186,Syddjurs,C,Konservative,K,16.41693277654958,4010
@@ -713,7 +713,7 @@ kommune_id,kommune_dagi_id,kommune_navn,listebogstav,partier,bogstav,procent_21,
 461,389161,Odense,K,Kristendemokraterne,KD,0.4266307398675199,456
 461,389161,Odense,Å,Alternativet,ALT,0.3602035851951649,385
 461,389161,Odense,L,Et Bedre Odense,L,0.2872272744283522,307
-461,389161,Odense,Æ,Danmarksdemokraterne,DD,0.22454249466711573,240
+461,389161,Odense,Æ,Frihedslisten,Æ,0.22454249466711573,240
 461,389161,Odense,Z,De LokalNationale,Z,0.16653568354477752,178
 461,389161,Odense,E,Lokallisten Nyt Odense,E,0.10759327869465964,115
 530,389172,Billund,V,Venstre,V,37.777937168268544,5267
@@ -747,17 +747,17 @@ kommune_id,kommune_dagi_id,kommune_navn,listebogstav,partier,bogstav,procent_21,
 210,389123,Fredensborg,I,Liberal Alliance,LA,2.2909041615832995,507
 210,389123,Fredensborg,Å,Alternativet,ALT,0.9443766662148119,209
 210,389123,Fredensborg,K,Kristendemokraterne,KD,0.3931137318693235,87
-210,389123,Fredensborg,M,Moderaterne,M,0.09940807012787493,22
+210,389123,Fredensborg,M,Marie Mynche,M,0.09940807012787493,22
 779,389195,Skive,V,Venstre,V,41.60235063663075,10619
 779,389195,Skive,A,Socialdemokratiet,S,30.5230166503428,7791
 779,389195,Skive,F,SF,SF,6.887365328109696,1758
-779,389195,Skive,M,Moderaterne,M,5.2340842311459355,1336
+779,389195,Skive,M,Skive-Listen,M,5.2340842311459355,1336
 779,389195,Skive,C,Konservative,K,4.454456415279138,1137
 779,389195,Skive,D,Nye Borgerlige,D,4.144955925563173,1058
 779,389195,Skive,O,Dansk Folkeparti,DF,2.903036238981391,741
 779,389195,Skive,B,Radikale,R,2.2840352595494613,583
 779,389195,Skive,Ø,Enhedslisten,EL,1.633692458374143,417
-779,389195,Skive,Æ,Danmarksdemokraterne,DD,0.3330068560235063,85
+779,389195,Skive,Æ,Frihedslisten,Æ,0.3330068560235063,85
 510,389166,Haderslev,A,Socialdemokratiet,S,30.18545222844495,9001
 510,389166,Haderslev,V,Venstre,V,26.898957040812903,8021
 510,389166,Haderslev,C,Konservative,K,13.001777390254535,3877
@@ -781,7 +781,7 @@ kommune_id,kommune_dagi_id,kommune_navn,listebogstav,partier,bogstav,procent_21,
 306,389139,Odsherred,C,Konservative,K,5.318226173696194,981
 306,389139,Odsherred,Ø,Enhedslisten,EL,5.112219451371571,943
 306,389139,Odsherred,G,Veganerpartiet,G,0.6125989374390112,113
-306,389139,Odsherred,Æ,Danmarksdemokraterne,DD,0.42827713325382194,79
+306,389139,Odsherred,Æ,Frihedslisten,Æ,0.42827713325382194,79
 306,389139,Odsherred,I,Liberal Alliance,LA,0.4228559037189635,78
 746,389193,Skanderborg,A,Socialdemokratiet,S,30.036860302311624,10512
 746,389193,Skanderborg,V,Venstre,V,24.0534902991685,8418
@@ -806,14 +806,14 @@ kommune_id,kommune_dagi_id,kommune_navn,listebogstav,partier,bogstav,procent_21,
 766,389178,Hedensted,I,Liberal Alliance,LA,1.353637901861252,344
 766,389178,Hedensted,E,Elevatorlisten,E,0.24396962184708615,62
 766,389178,Hedensted,Å,Alternativet,ALT,0.22035965844252942,56
-766,389178,Hedensted,M,Moderaterne,M,0.12198481092354307,31
+766,389178,Hedensted,M,SocialKonservative,M,0.12198481092354307,31
 730,389190,Randers,A,Socialdemokratiet,S,34.23019431988042,17175
 730,389190,Randers,V,Venstre,V,18.600896860986545,9333
 730,389190,Randers,C,Konservative,K,11.121076233183857,5580
 730,389190,Randers,Q,Frie Grønne,FG,7.806676631788739,3917
 730,389190,Randers,O,Dansk Folkeparti,DF,5.251619332336821,2635
 730,389190,Randers,F,SF,SF,5.06028898854011,2539
-730,389190,Randers,Æ,Danmarksdemokraterne,DD,3.7947184853014453,1904
+730,389190,Randers,Æ,Velfærdslisten,Æ,3.7947184853014453,1904
 730,389190,Randers,D,Nye Borgerlige,D,3.7488789237668163,1881
 730,389190,Randers,B,Radikale,R,3.063278525161933,1537
 730,389190,Randers,Ø,Enhedslisten,EL,2.8839063278525163,1447
@@ -842,7 +842,7 @@ kommune_id,kommune_dagi_id,kommune_navn,listebogstav,partier,bogstav,procent_21,
 615,389179,Horsens,I,Liberal Alliance,LA,3.070677406119761,1422
 615,389179,Horsens,H,Miljølisten Horsens,H,0.5441706795655272,252
 615,389179,Horsens,K,Kristendemokraterne,KD,0.38437452762961843,178
-615,389179,Horsens,M,Moderaterne,M,0.30447645166166404,141
+615,389179,Horsens,M,Maren Spliid Gruppen,M,0.30447645166166404,141
 615,389179,Horsens,P,Frie Danske,P,0.07341985359217432,34
 260,389131,Halsnæs,A,Socialdemokratiet,S,46.57313432835821,7801
 260,389131,Halsnæs,V,Venstre,V,21.629850746268655,3623
@@ -853,7 +853,7 @@ kommune_id,kommune_dagi_id,kommune_navn,listebogstav,partier,bogstav,procent_21,
 260,389131,Halsnæs,D,Nye Borgerlige,D,3.635820895522388,609
 260,389131,Halsnæs,B,Radikale,R,1.7492537313432834,293
 260,389131,Halsnæs,Å,Alternativet,ALT,1.528358208955224,256
-260,389131,Halsnæs,M,Moderaterne,M,0.47761194029850745,80
+260,389131,Halsnæs,M,Det Miljøradikale Parti,M,0.47761194029850745,80
 370,389148,Næstved,A,Socialdemokratiet,S,39.319322096598924,17006
 370,389148,Næstved,V,Venstre,V,18.034265103697024,7800
 370,389148,Næstved,C,Konservative,K,15.410048322582137,6665
@@ -877,7 +877,7 @@ kommune_id,kommune_dagi_id,kommune_navn,listebogstav,partier,bogstav,procent_21,
 430,389158,Faaborg-Midtfyn,D,Nye Borgerlige,D,3.4321428571428574,961
 430,389158,Faaborg-Midtfyn,K,Kristendemokraterne,KD,0.39642857142857146,111
 430,389158,Faaborg-Midtfyn,Z,De LokalNationale,Z,0.12857142857142856,36
-430,389158,Faaborg-Midtfyn,M,Moderaterne,M,0.1142857142857143,32
+430,389158,Faaborg-Midtfyn,M,Vi Lokale Demokrater,M,0.1142857142857143,32
 167,389113,Hvidovre,A,Socialdemokratiet,S,34.866620368479104,8535
 167,389113,Hvidovre,C,Konservative,K,16.381388128600026,4010
 167,389113,Hvidovre,F,SF,SF,15.52350994730177,3800
@@ -902,7 +902,7 @@ kommune_id,kommune_dagi_id,kommune_navn,listebogstav,partier,bogstav,procent_21,
 270,389132,Gribskov,B,Radikale,R,3.478222920485293,797
 270,389132,Gribskov,U,KultureltFokus,U,0.8160949637776033,187
 270,389132,Gribskov,Å,Alternativet,ALT,0.7200837915684735,165
-270,389132,Gribskov,M,Moderaterne,M,0.2356637863315004,54
+270,389132,Gribskov,M,Klimapartiet i Gribskov,M,0.2356637863315004,54
 259,389136,Køge,A,Socialdemokratiet,S,31.757970705563505,10429
 259,389136,Køge,V,Venstre,V,22.936143000700387,7532
 259,389136,Køge,C,Konservative,K,16.77273973019885,5508
@@ -926,7 +926,7 @@ kommune_id,kommune_dagi_id,kommune_navn,listebogstav,partier,bogstav,procent_21,
 561,389170,Esbjerg,T,Esbjerglisten,T,0.6950059350754356,404
 561,389170,Esbjerg,I,Liberal Alliance,LA,0.6846840647525332,398
 561,389170,Esbjerg,K,Kristendemokraterne,KD,0.5418981919523818,315
-561,389170,Esbjerg,Æ,Danmarksdemokraterne,DD,0.2580467580725628,150
+561,389170,Esbjerg,Æ,Frihedslisten,Æ,0.2580467580725628,150
 561,389170,Esbjerg,U,Partifrit samfund,U,0.03784685785064253,22
 791,389196,Viborg,V,Venstre,V,34.254924814184996,17928
 791,389196,Viborg,A,Socialdemokratiet,S,23.329575634828135,12210
@@ -940,7 +940,7 @@ kommune_id,kommune_dagi_id,kommune_navn,listebogstav,partier,bogstav,procent_21,
 791,389196,Viborg,T,Hvad kan gå galt,T,1.0508817853526187,550
 791,389196,Viborg,I,Liberal Alliance,LA,0.8712765347650802,456
 791,389196,Viborg,K,Kristendemokraterne,KD,0.8120450159542961,425
-791,389196,Viborg,Æ,Danmarksdemokraterne,DD,0.4031564667443682,211
+791,389196,Viborg,Æ,Frihedslisten,Æ,0.4031564667443682,211
 791,389196,Viborg,L,Lokallisten - Viborg,L,0.10317748438007529,54
 320,389143,Faxe,A,Socialdemokratiet,S,29.298857868020306,5541
 320,389143,Faxe,V,Venstre,V,26.655033840947546,5041
@@ -985,7 +985,7 @@ kommune_id,kommune_dagi_id,kommune_navn,listebogstav,partier,bogstav,procent_21,
 265,389137,Roskilde,Å,Alternativet,ALT,0.4358243483289957,211
 265,389137,Roskilde,G,Veganerpartiet,G,0.42136572065931344,204
 265,389137,Roskilde,K,Kristendemokraterne,KD,0.3697277646961623,179
-265,389137,Roskilde,M,Moderaterne,M,0.27471392572396414,133
+265,389137,Roskilde,M,Michael Philip Hansen-listen,M,0.27471392572396414,133
 420,389157,Assens,V,Venstre,V,41.661858049624925,9386
 420,389157,Assens,A,Socialdemokratiet,S,27.329220116294557,6157
 420,389157,Assens,C,Konservative,K,7.940876204003729,1789
@@ -995,8 +995,8 @@ kommune_id,kommune_dagi_id,kommune_navn,listebogstav,partier,bogstav,procent_21,
 420,389157,Assens,Ø,Enhedslisten,EL,3.391184695281637,764
 420,389157,Assens,B,Radikale,R,2.4501753295752144,552
 420,389157,Assens,Å,Alternativet,ALT,0.7013183008566736,158
-420,389157,Assens,Æ,Danmarksdemokraterne,DD,0.4216787251986329,95
-420,389157,Assens,M,Moderaterne,M,0.2530072351191797,57
+420,389157,Assens,Æ,Frihedslisten,Æ,0.4216787251986329,95
+420,389157,Assens,M,Vi Lokale Demokrater,M,0.2530072351191797,57
 420,389157,Assens,Z,De LokalNationale,Z,0.18642638377202717,42
 420,389157,Assens,H,SocialKonservative Assens,H,0.07989702161658306,18
 851,389206,Aalborg,A,Socialdemokratiet,S,36.880928213923205,42149
@@ -1011,7 +1011,7 @@ kommune_id,kommune_dagi_id,kommune_navn,listebogstav,partier,bogstav,procent_21,
 851,389206,Aalborg,K,Kristendemokraterne,KD,0.7288859332889993,833
 851,389206,Aalborg,T,Trafikalt Folkeparti,T,0.7157607364110461,818
 851,389206,Aalborg,Å,Alternativet,ALT,0.31850477757166357,364
-851,389206,Aalborg,Æ,Danmarksdemokraterne,DD,0.2861292919393791,327
+851,389206,Aalborg,Æ,Frihedslisten,Æ,0.2861292919393791,327
 851,389206,Aalborg,G,Veganerpartiet,G,0.23275349130236953,266
 851,389206,Aalborg,R,Kommunistisk Parti,R,0.16537748066220995,189
 851,389206,Aalborg,L,Danmarks Vision,L,0.04812572188582829,55
@@ -1019,10 +1019,10 @@ kommune_id,kommune_dagi_id,kommune_navn,listebogstav,partier,bogstav,procent_21,
 492,389165,Ærø,A,Socialdemokratiet,S,21.42677719166039,853
 492,389165,Ærø,P,ÆrøPlus,P,20.999748806832454,836
 492,389165,Ærø,C,Konservative,K,13.815624215021352,550
-492,389165,Ærø,Æ,Danmarksdemokraterne,DD,10.92690278824416,435
+492,389165,Ærø,Æ,Ærøs Fremtid,Æ,10.92690278824416,435
 492,389165,Ærø,V,Venstre,V,9.495101733232856,378
 492,389165,Ærø,O,Dansk Folkeparti,DF,7.234363225320271,288
-492,389165,Ærø,M,Moderaterne,M,7.008289374529013,279
+492,389165,Ærø,M,Ærø i Centrum,M,7.008289374529013,279
 492,389165,Ærø,F,SF,SF,6.129113288118563,244
 492,389165,Ærø,B,Radikale,R,2.964079377040944,118
 573,389173,Varde,V,Venstre,V,39.0987383848304,10351
@@ -1049,7 +1049,7 @@ kommune_id,kommune_dagi_id,kommune_navn,listebogstav,partier,bogstav,procent_21,
 657,389181,Herning,D,Nye Borgerlige,D,2.313959348227784,1102
 657,389181,Herning,Ø,Enhedslisten,EL,1.6903242062825465,805
 657,389181,Herning,I,Liberal Alliance,LA,1.287166134721989,613
-657,389181,Herning,Æ,Danmarksdemokraterne,DD,0.2603729212161935,124
+657,389181,Herning,Æ,Frihedslisten,Æ,0.2603729212161935,124
 151,389105,Ballerup,A,Socialdemokratiet,S,50.77955476975006,12637
 151,389105,Ballerup,C,Konservative,K,12.452784698223901,3099
 151,389105,Ballerup,V,Venstre,V,7.614723137507032,1895
@@ -1062,7 +1062,7 @@ kommune_id,kommune_dagi_id,kommune_navn,listebogstav,partier,bogstav,procent_21,
 151,389105,Ballerup,G,Veganerpartiet,G,0.8518845937474885,212
 151,389105,Ballerup,I,Liberal Alliance,LA,0.7755364461946476,193
 151,389105,Ballerup,P,Partiet Ballerup Listen,P,0.618821827533553,154
-151,389105,Ballerup,Æ,Danmarksdemokraterne,DD,0.45005223820622037,112
+151,389105,Ballerup,Æ,Frihedslisten,Æ,0.45005223820622037,112
 159,389109,Gladsaxe,A,Socialdemokratiet,S,32.94296248102364,10633
 159,389109,Gladsaxe,V,Venstre,V,13.179663537503487,4254
 159,389109,Gladsaxe,C,Konservative,K,11.658456486042693,3763
@@ -1085,7 +1085,7 @@ kommune_id,kommune_dagi_id,kommune_navn,listebogstav,partier,bogstav,procent_21,
 410,389156,Middelfart,T,Tværpolitisk Anstændighed,T,3.30781848004374,726
 410,389156,Middelfart,B,Radikale,R,3.0344450519409514,666
 410,389156,Middelfart,H,Omsorgsgruppen,H,0.619646437032987,136
-410,389156,Middelfart,Æ,Danmarksdemokraterne,DD,0.2369236376890833,52
+410,389156,Middelfart,Æ,Frihedslisten,Æ,0.2369236376890833,52
 410,389156,Middelfart,P,PositivPlus,P,0.15491160925824676,34
 326,389141,Kalundborg,V,Venstre,V,34.95818399044205,8778
 326,389141,Kalundborg,A,Socialdemokratiet,S,26.0294703305456,6536
@@ -1096,7 +1096,7 @@ kommune_id,kommune_dagi_id,kommune_navn,listebogstav,partier,bogstav,procent_21,
 326,389141,Kalundborg,C,Konservative,K,4.862604540023894,1221
 326,389141,Kalundborg,B,Radikale,R,3.44484269215452,865
 326,389141,Kalundborg,H,Demokratisk Fællesliste,H,0.8124253285543608,204
-326,389141,Kalundborg,Æ,Danmarksdemokraterne,DD,0.6013540422142573,151
+326,389141,Kalundborg,Æ,Frihedslisten,Æ,0.6013540422142573,151
 326,389141,Kalundborg,I,Liberal Alliance,LA,0.350457984866587,88
 175,389116,Rødovre,A,Socialdemokratiet,S,45.52676476860738,8539
 175,389116,Rødovre,C,Konservative,K,19.897632757517595,3732

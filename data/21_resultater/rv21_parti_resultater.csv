@@ -1,2 +1,53 @@
-kommune_id,kommune_dagi_id,kommune_navn,listebogstav,partier,bogstav,procent_21,stemmer_21
-,,,,,,,
+Bogstavbetegnelse,Listenavn,Stemmetal,Procent,bogstav,region_navn
+A,Socialdemokratiet,205961,29.323008540875616,S,Region Midtjylland
+V,Venstre,173353,24.68055359794529,V,Region Midtjylland
+C,Konservative,84847,12.079807855213721,K,Region Midtjylland
+F,SF,50693,7.217246332862083,SF,Region Midtjylland
+Ø,Enhedslisten,42904,6.108313508080303,EL,Region Midtjylland
+B,Radikale,35422,5.043088781540661,R,Region Midtjylland
+O,Dansk Folkeparti,27785,3.955796448396682,DF,Region Midtjylland
+D,Nye Borgerlige,25778,3.6700565357844037,D,Region Midtjylland
+K,Kristendemokraterne,19019,2.7077665161798268,KD,Region Midtjylland
+P,Psykiatri-Listen,13196,1.878736366134339,P,Region Midtjylland
+I,Liberal Alliance,12138,1.7281071546028044,LA,Region Midtjylland
+Å,Alternativet,5585,0.795145696033668,ALT,Region Midtjylland
+G,Veganerpartiet,2136,0.30410585617330615,G,Region Midtjylland
+Æ,Frihedslisten,1913,0.2723569769941642,Æ,Region Midtjylland
+Z,Fremskridtspartiet,899,0.12799211830515086,Z,Region Midtjylland
+R,Kommunisterne,609,0.0867043382067151,R,Region Midtjylland
+U,Jacob Sejersgaard-Jacobsen,149,0.02121337667126527,U,Region Midtjylland
+V,Venstre,249004,39.214586962067976,V,Region Syddanmark
+A,Socialdemokratiet,164481,25.90341712626264,S,Region Syddanmark
+C,Konservative,48870,7.696329636617332,K,Region Syddanmark
+F,SF,40878,6.437703353502011,SF,Region Syddanmark
+D,Nye Borgerlige,29517,4.648507507346712,D,Region Syddanmark
+Ø,Enhedslisten,27322,4.302826239649248,EL,Region Syddanmark
+O,Dansk Folkeparti,27220,4.2867626909908685,DF,Region Syddanmark
+B,Radikale,26783,4.217941408993697,R,Region Syddanmark
+I,Liberal Alliance,6013,0.9469619419885413,LA,Region Syddanmark
+K,Kristendemokraterne,5991,0.9434972550230087,KD,Region Syddanmark
+Å,Alternativet,2826,0.44505478929978676,ALT,Region Syddanmark
+G,Veganerpartiet,1796,0.2828444450043939,G,Region Syddanmark
+Æ,Frihedslisten,1580,0.24882751843370948,Æ,Region Syddanmark
+H,Liberal Borgerliste,860,0.13543776319809506,H,Region Syddanmark
+P,Stram Kurs,707,0.11134244021052699,P,Region Syddanmark
+Z,De LokalNationale,399,0.06283682269306969,Z,Region Syddanmark
+M,Vi Lokale Demokrater,372,0.058584706871734143,M,Region Syddanmark
+L,Danmark Først,359,0.05653739184664666,L,Region Syddanmark
+A,Socialdemokratiet,108637,34.983480282606315,S,Region Nordjylland
+V,Venstre,78337,25.226220301541197,V,Region Nordjylland
+C,Konservative,49069,15.801286799039088,K,Region Nordjylland
+Ø,Enhedslisten,14370,4.627453000920982,EL,Region Nordjylland
+D,Nye Borgerlige,13233,4.261314235294876,D,Region Nordjylland
+F,SF,13073,4.209790750246347,SF,Region Nordjylland
+O,Dansk Folkeparti,12060,3.8835826855328492,DF,Region Nordjylland
+B,Radikale,11520,3.7096909234940654,R,Region Nordjylland
+I,Liberal Alliance,3474,1.118703669116179,LA,Region Nordjylland
+K,Kristendemokraterne,2731,0.879441485422074,KD,Region Nordjylland
+Å,Alternativet,996,0.32073369442709104,ALT,Region Nordjylland
+G,Veganerpartiet,755,0.24312644507274472,G,Region Nordjylland
+Æ,Frihedslisten,656,0.2112462886989676,Æ,Region Nordjylland
+T,Trafikalt Folkeparti,643,0.20706000553877466,T,Region Nordjylland
+Z,Fremskridtspartiet,402,0.1294527561844283,Z,Region Nordjylland
+R,Kommunistisk Parti,374,0.1204361463009358,R,Region Nordjylland
+P,Stram Kurs,208,0.0669805305630873,P,Region Nordjylland
