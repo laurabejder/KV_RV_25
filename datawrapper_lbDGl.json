@@ -58,7 +58,7 @@
             "type": "auto"
           },
           "vælgere": {
-            "type": "auto"
+            "type": "number"
           },
           "biggest_party": {
             "type": "text"
