@@ -76,6 +76,7 @@ def get_rv_resultater(from_path=FROM_PATH, to_path=TO_PATH, folders=FOLDERS, kom
                     'kandidat_id': kandidat.get("Id"),
                     "parti": parti.get("Navn"),
                     "parti_id": parti.get("KandidatlisteId"),
+                    "parti_bogstav": parti.get("Bogstavbetegnelse"),
                     "stemmer": kandidat.get("Stemmer", 0),
                 })
 

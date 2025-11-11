@@ -11,6 +11,13 @@ BASE_PATH = Path("data/struktureret/rv/valgresultater")
 REGION_DIR = BASE_PATH / "region"
 AFSTEM_DIR = BASE_PATH / "afstemningssteder"
 
+
+rv25_resultater_kandidater = (
+    pd.read_csv("data/struktureret/rv/rv25_resultater_kandidater.csv")
+    .drop_duplicates()
+    .reset_index(drop=True)
+)
+
 rv25_resultater_partier = (
     pd.read_csv("data/struktureret/rv/rv25_resultater_partier.csv")
     .drop_duplicates()
@@ -223,6 +230,27 @@ def get_status(
     summary_df.to_csv(status_path, index=False)
 
 
+def get_stemmetal(stemmer, base_path: Path) -> None:
+    stemmer = stemmer.groupby(['kandidat','parti','parti_bogstav','region']).stemmer.sum().reset_index()    
+    stemmer['parti'] = stemmer['parti_bogstav'].map({p['listebogstav']:p['navn'] for p in partier_info}).fillna(stemmer['parti_bogstav'])
+    stemmer['bogstav'] = stemmer['parti_bogstav'].map({p['listebogstav']:p['bogstav'] for p in partier_info}).fillna(stemmer['parti_bogstav'])
+    stemmer = stemmer[['kandidat','parti','region','stemmer']]
+    stemmer.sort_values(by=['stemmer'], ascending=False, inplace=True)
+
+    # make a csv file per kommune with stemmetal per kandidat
+    for region in stemmer['region'].unique():
+        region_stemmer = stemmer[stemmer['region'] == region]
+        regionnavn = region_stemmer['region'].iat[0]
+        regionnavn_lower = regionnavn.lower()
+        #drop kommune column
+        region_stemmer = region_stemmer.drop(columns=['region'])
+        out_path = base_path / f"kandidater/{regionnavn_lower}_stemmetal_kandidater.csv"
+        region_stemmer.to_csv(out_path, index=False)
+    
+    # save stemmer 
+    out_path = base_path / f"nationalt/stemmetal_kandidater.csv"
+    stemmer.to_csv(out_path, index=False)
+
 # ----------------------------
 # Main loop
 # ----------------------------
@@ -262,6 +290,11 @@ for region in rv25_resultater_partier["region"].unique():
         regionsforpersoner=regionsforpersoner,
         afst=afstemningssted_niveau,
         base_path=BASE_PATH,
+    )
+
+    get_stemmetal(
+        stemmer = rv25_resultater_kandidater,
+        base_path=BASE_PATH
     )
 
     print(f"Updated data files for {region}")

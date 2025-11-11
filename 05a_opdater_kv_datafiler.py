@@ -11,6 +11,12 @@ BASE_PATH = Path("data/struktureret/kv/valgresultater")
 KOMMUNE_DIR = BASE_PATH / "kommune"
 AFSTEM_DIR = BASE_PATH / "afstemningssteder"
 
+kv25_resultater_kandidater = (
+    pd.read_csv("data/struktureret/kv/kv25_resultater_kandidater.csv")
+    .drop_duplicates()
+    .reset_index(drop=True)
+)
+
 kv25_resultater_partier = (
     pd.read_csv("data/struktureret/kv/kv25_resultater_partier.csv")
     .drop_duplicates()
@@ -226,6 +232,31 @@ def get_status(
     summary_df = summary_df[["Procent optalte afstemningssteder", "Borgmester"]]
     summary_df.to_csv(status_path, index=False)
 
+def get_stemmetal(stemmer, base_path: Path) -> None:
+    stemmer = stemmer.groupby(['kandidat','parti','parti_bogstav','kommune','kommune_kode']).stemmer.sum().reset_index()    
+    stemmer['parti'] = stemmer['parti_bogstav'].map({p['listebogstav']:p['navn'] for p in partier_info}).fillna(stemmer['parti_bogstav'])
+    stemmer['bogstav'] = stemmer['parti_bogstav'].map({p['listebogstav']:p['bogstav'] for p in partier_info}).fillna(stemmer['parti_bogstav'])
+    stemmer = stemmer[['kandidat','parti','kommune','stemmer', 'kommune_kode']]
+
+    stemmer.sort_values(by=['stemmer'], ascending=False, inplace=True)
+
+    # make a csv file per kommune with stemmetal per kandidat
+    for kommune in stemmer['kommune'].unique():
+        kommune_stemmer = stemmer[stemmer['kommune'] == kommune]
+        kommune_id = kommune_stemmer['kommune_kode'].iat[0]
+        kommunenavn = kommune_stemmer['kommune'].iat[0]
+        kommunenavn_lower = kommunenavn.lower()
+        #drop kommune column
+        kommune_stemmer = kommune_stemmer.drop(columns=['kommune','kommune_kode'])
+        out_path = base_path / f"kandidater/{kommune_id}_{kommunenavn_lower}_stemmetal_kandidater.csv"
+        kommune_stemmer.to_csv(out_path, index=False)
+
+    #drop kommune id
+    stemmer = stemmer.drop(columns=['kommune_kode'])
+    
+    # save stemmer 
+    out_path = base_path / f"nationalt/stemmetal_kandidater.csv"
+    stemmer.to_csv(out_path, index=False)
 
 # ----------------------------
 # Main loop
@@ -268,6 +299,11 @@ for kommune_id in kv25_resultater_partier["kommune_kode"].unique():
         borgmestre_df=borgmestre,
         afst=afstemningssted_niveau,
         base_path=BASE_PATH,
+    )
+
+    get_stemmetal(
+        stemmer = kv25_resultater_kandidater,
+        base_path=BASE_PATH
     )
 
     print(f"Updated data files for {kommunenavn} ({kommune_id})")
