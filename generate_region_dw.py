@@ -95,7 +95,6 @@ def create_tables(geo, data_url):
 
 
 def create_columns(geo, data_url):
-    print(f"Creating column chart for {geo} using data: {data_url}")
 
     url = "https://api.datawrapper.de/v3/charts"
     headers = {
@@ -133,23 +132,44 @@ def create_columns(geo, data_url):
     print("Chart created:", response.json().get("id"))
     return response.json()
 
-def create_maps(geo):
+def create_maps(geo, data_url):
 
     url = "https://api.datawrapper.de/v3/charts"
     headers = {
         "Authorization": "Bearer " + DW_TOKEN,
-        "Content-Type": "application/json"
-    }
-    data = {
-        "title": "",
-        "type": "d3-maps-choropleth",
-        "folderId": "355525",
-        "metadata" : metadata["map-metadata"],  
-        'language': 'da-DK',
     }
 
-    response = requests.post(url, headers=headers, json=data)
-    return response
+    m = copy.deepcopy(metadata["map-metadata"])
+    # --- Normalize metadata structure ---
+    if isinstance(m, dict) and "chart" in m and "metadata" in m["chart"]:
+        m = m["chart"]["metadata"]
+
+    if "data" not in m or not isinstance(m["data"], dict):
+        m["data"] = {}
+
+    # Add Datawrapper external-data settings
+    m["data"]["upload-method"] = "external-data"
+    m["data"]["use-datawrapper-cdn"] = True
+    m["data"]["external-data"] = data_url
+
+    # Build request payload
+    payload = {
+        "title": f"Sådan stemte {geo} ved valget",
+        "type": "d3-maps-choropleth",
+        "folderId": "355525",
+        "language": "da-DK",
+        "metadata": m,
+        "externalData": data_url
+    }
+
+    response = requests.post(url, headers=headers, json=payload, timeout=60)
+
+    if not response.ok:
+        raise RuntimeError(f"Datawrapper error {response.status_code}: {response.text}")
+
+    print("Chart created:", response.json().get("id"))
+    return response.json()
+
 
 charts = {}
 
@@ -178,26 +198,31 @@ for index, row in urls.iterrows():
 
 
     # GENERATE ELEMENTS FOR THE FIRST CHART (STATUS TABLE)
-    status_table_response = create_status_table(row['geo'], row['status_tabel'])
+    #status_table_response = create_status_table(row['geo'], row['status_tabel'])
     charts[id]['chart1']['header'] = ""
     charts[id]['chart1']['description'] = ""
-    charts[id]['chart1']['id'] = status_table_response['id'] # set the id in chart1 to the id from the response
+    #charts[id]['chart1']['id'] = status_table_response['id'] # set the id in chart1 to the id from the response
 
     # GENERATE ELEMENTS FOR THE SECOND CHART (VOTING AREA MAP)
+
+    #map_response = create_maps(row['geo'], row['kort'])
+    charts[id]['chart2']['header'] = ""
+    charts[id]['chart2']['description'] = ""
+   #charts[id]['chart2']['id'] = map_response['id'] # set the id
     
     # GENERATE ELEMENTS FOR THE THIRD CHART (PERCENTAGE BARS)
-    bar_response = create_columns(row['geo'], row['parti_søjle'])
+    #bar_response = create_columns(row['geo'], row['parti_søjle'])
 
     charts[id]['chart3']['header'] = ""
     charts[id]['chart3']['description'] = ""
-    charts[id]['chart3']['id'] = bar_response['id'] # set the id in chart1 to the id from the response
+    #charts[id]['chart3']['id'] = bar_response['id'] # set the id in chart1 to the id from the response
 
     # GENERATE ELEMENTS FOR THE FOURTH CHART (CANDIDATE TABLE)
-    stemme_table_response = create_tables(row['geo'], row['stemme_tabel'])
+    #stemme_table_response = create_tables(row['geo'], row['stemme_tabel'])
 
     charts[id]['chart4']['header'] = ""
     charts[id]['chart4']['description'] = ""
-    charts[id]['chart4']['id'] = stemme_table_response['id'] # set the id in chart1 to the id from the response
+    #charts[id]['chart4']['id'] = stemme_table_response['id'] # set the id in chart1 to the id from the response
     
     #create_columns(row['geo'], row['parti_søjle'])
 print(charts)
