@@ -334,8 +334,8 @@ nat_resultater = (
 
 # save file
 out_path = NATIONAL_DIR / "nationalt_kommuner_parti_procenter.csv"
-#nat_resultater.to_csv(out_path, index=False)
-print(nat_resultater)
+nat_resultater.to_csv(out_path, index=False)
+
 # now get the percent per party across the whole country
 national_totals = (
     rv25_resultater_partier
@@ -375,5 +375,4 @@ national_totals = national_totals[["bogstav", "parti", "procent_25", "procent_21
 
 # save file
 out_path = NATIONAL_DIR / "nationalt_partier.csv"
-#national_totals.to_csv(out_path, index=False)  
-print(national_totals)
+national_totals.to_csv(out_path, index=False)  
