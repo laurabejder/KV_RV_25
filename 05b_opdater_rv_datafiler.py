@@ -10,6 +10,7 @@ from config import PARTIER_INFO, REGIONS_FPS
 BASE_PATH = Path("data/struktureret/rv/valgresultater")
 REGION_DIR = BASE_PATH / "region"
 AFSTEM_DIR = BASE_PATH / "afstemningssteder"
+NATIONAL_DIR = BASE_PATH / "nationalt"
 
 
 rv25_resultater_kandidater = (
@@ -298,3 +299,81 @@ for region in rv25_resultater_partier["region"].unique():
     )
 
     print(f"Updated data files for {region}")
+
+
+
+# map listebogstav -> bogstav once
+bogstav_map = {p["listebogstav"]: p["bogstav"] for p in partier_info}
+
+totals = rv25_resultater_partier.groupby("region")["stemmer"].sum() # kommune totals (gyldige stemmer)
+
+# aggregate, add bogstav, compute %, find biggest party per kommune, pivot wide
+nat_resultater = (
+    rv25_resultater_partier
+      .assign(bogstav=lambda d: d["parti_bogstav"].map(bogstav_map).fillna(d["parti_bogstav"]))
+      .groupby(["region", "parti", "bogstav"], as_index=False)["stemmer"].sum()
+      .assign(
+          kommune_gyldige_stemmer=lambda d: d["region"].map(totals),
+          procent_25=lambda d: d["stemmer"] / d["kommune_gyldige_stemmer"] * 100,
+      )
+)
+
+største = (
+    nat_resultater
+      .sort_values(["region", "procent_25"], ascending=[True, False])
+      .drop_duplicates("region")[["region", "parti"]]
+      .rename(columns={"parti": "største_parti"})
+)
+
+nat_resultater = (
+    nat_resultater
+      .merge(største, on="region", how="left")
+      .pivot(index=["region", "største_parti"], columns="bogstav", values="procent_25")
+      .reset_index()
+)
+
+# save file
+out_path = NATIONAL_DIR / "nationalt_kommuner_parti_procenter.csv"
+#nat_resultater.to_csv(out_path, index=False)
+print(nat_resultater)
+# now get the percent per party across the whole country
+national_totals = (
+    rv25_resultater_partier
+      .groupby(["parti", "parti_bogstav"], as_index=False)["stemmer"].sum()
+      .assign(
+          total_stemmer=lambda d: d["stemmer"].sum(),
+          procent_25=lambda d: d["stemmer"] / d["total_stemmer"] * 100,
+      )
+      .rename(columns={"stemmer": "stemmer_25"})
+      [["parti", "parti_bogstav", "stemmer_25", "procent_25"]]
+)
+
+# get the 2021 results too
+rv21_national = (
+    rv21_resultater_partier
+      .groupby(["partier", "listebogstav"], as_index=False)["stemmer_21"].sum()
+      .assign(
+          total_stemmer=lambda d: d["stemmer_21"].sum(),
+          procent_21=lambda d: d["stemmer_21"] / d["total_stemmer"] * 100,
+      )
+      [["partier", "listebogstav", "stemmer_21", "procent_21"]]
+)
+
+national_totals = (
+    national_totals
+      .merge(
+          rv21_national,
+          left_on=["parti", "parti_bogstav"],
+          right_on=["partier", "listebogstav"],
+          how="left",
+      )
+      .drop(columns=["partier", "listebogstav","stemmer_25","stemmer_21"])
+)
+
+national_totals["bogstav"] = national_totals["parti_bogstav"].map(bogstav_map).fillna(national_totals["parti_bogstav"]) # get the bogstavs too
+national_totals = national_totals[["bogstav", "parti", "procent_25", "procent_21"]] # reorder columns
+
+# save file
+out_path = NATIONAL_DIR / "nationalt_partier.csv"
+#national_totals.to_csv(out_path, index=False)  
+print(national_totals)

@@ -74,7 +74,7 @@
         "aria-description": "",
         "number-format": "-",
         "number-divisor": 0,
-        "hide-title": true,
+        "hide-title": true
       },
       "visualize": {
         "dark-mode-invert": true,
@@ -149,7 +149,7 @@
           "opacity": 50,
           "colorType": "auto-contrast"
         },
-        "zoomable": false,
+        "zoomable": true,
         "map-align": "center",
         "colorscale": {
           "map": {
@@ -166,59 +166,10 @@
             "Nye Borgerlige": "#004E62",
             "Moderaterne": "#911995",
             "Frie Grønne": "#eecbc6",
-            "Danmarksdemokraterne": "#0075c9"
-          },
-          "mode": "continuous",
-          "stops": "equidistant",
-          "colors": [
-            {
-              "color": "#f0f9e8",
-              "position": 0
-            },
-            {
-              "color": "#b6e3bb",
-              "position": 0.16666666666666666
-            },
-            {
-              "color": "#75c8c5",
-              "position": 0.3333333333333333
-            },
-            {
-              "color": "#4ba8c9",
-              "position": 0.5
-            },
-            {
-              "color": "#2989bd",
-              "position": 0.6666666666666666
-            },
-            {
-              "color": "#0a6aad",
-              "position": 0.8333333333333334
-            },
-            {
-              "color": "#254b8c",
-              "position": 1
-            }
-          ],
-          "palette": 0,
-          "rangeMax": "",
-          "rangeMin": "",
-          "stopCount": 5,
-          "customStops": [
-            null,
-            null,
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "rangeCenter": "",
-          "categoryOrder": [],
-          "interpolation": "equidistant",
-          "categoryLabels": {}
+            "Danmarksdemokraterne": "#0075c9",
+            "Slesvigsk Parti": "#FFD700"
+          }
+          
         },
         "map-padding": 0,
         "map-key-attr": "KOMNAVN",

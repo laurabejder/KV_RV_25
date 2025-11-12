@@ -1,4 +1,31 @@
 listebogstav,partier,stemmer_21,procent_21,bogstav,region
+A,Socialdemokratiet,209111,22.77354313077817,S,Region Hovedstaden
+C,Konservative,190020,20.694409503615148,K,Region Hovedstaden
+Ø,Enhedslisten,120907,13.167555888083344,EL,Region Hovedstaden
+V,Venstre,98148,10.68895328892127,V,Region Hovedstaden
+B,Radikale,93528,10.1858053470904,R,Region Hovedstaden
+F,SF,85602,9.322612579351985,SF,Region Hovedstaden
+O,Dansk Folkeparti,31636,3.445365430251389,DF,Region Hovedstaden
+D,Nye Borgerlige,28686,3.1240913115498588,D,Region Hovedstaden
+I,Liberal Alliance,17963,1.956287116690027,LA,Region Hovedstaden
+Å,Alternativet,10144,1.1047473424095995,ALT,Region Hovedstaden
+G,Veganerpartiet,5463,0.5949561052428669,G,Region Hovedstaden
+K,Kristendemokraterne,5328,0.5802537303192375,KD,Region Hovedstaden
+Æ,Frihedslisten,3166,0.3447979185793368,Æ,Region Hovedstaden
+M,Danmark for Alle,2434,0.2650783745489911,M,Region Hovedstaden
+J,Hampepartiet,1801,0.19614057212930686,J,Region Hovedstaden
+H,Lokalliste i Region Hovedstaden,1597,0.1739236500224892,H,Region Hovedstaden
+E,Valgfest med mexicansk tema,1380,0.15029094366376647,E,Region Hovedstaden
+Y,Kærlighedspartiet Regnbuefolket Be,1216,0.13243028079357977,Y,Region Hovedstaden
+W,Odins Vikingehær,1154,0.12567807897680183,W,Region Hovedstaden
+R,Kommunisterne,1134,0.12349994935848638,R,Region Hovedstaden
+P,Stram Kurs,1021,0.11119351701500405,P,Region Hovedstaden
+Q,Frie Grønne,1020,0.11108461053408827,FG,Region Hovedstaden
+N,Fjordlandslisten,998,0.10868866795394126,N,Region Hovedstaden
+L,Lavere skatter og afgifter,964,0.104985847602805,L,Region Hovedstaden
+T,Det Syge Hus,232,0.025266303572459292,T,Region Hovedstaden
+U,Copenhagen,176,0.019167540641176015,U,Region Hovedstaden
+Z,De LokalNationale,174,0.01894972767934447,Z,Region Hovedstaden
 A,Socialdemokratiet,205961,29.323008540875616,S,Region Midtjylland
 V,Venstre,173353,24.68055359794529,V,Region Midtjylland
 C,Konservative,84847,12.079807855213721,K,Region Midtjylland
@@ -16,6 +43,22 @@ G,Veganerpartiet,2136,0.30410585617330615,G,Region Midtjylland
 Z,Fremskridtspartiet,899,0.12799211830515086,Z,Region Midtjylland
 R,Kommunisterne,609,0.0867043382067151,R,Region Midtjylland
 U,Jacob Sejersgaard-Jacobsen,149,0.02121337667126527,U,Region Midtjylland
+A,Socialdemokratiet,152243,35.30960233413581,S,Region Sjælland
+V,Venstre,91027,21.111822360761284,V,Region Sjælland
+C,Konservative,50917,11.809140794960642,K,Region Sjælland
+F,SF,29882,6.930509362983167,SF,Region Sjælland
+O,Dansk Folkeparti,25831,5.990964037053014,DF,Region Sjælland
+Ø,Enhedslisten,24067,5.581840868714138,EL,Region Sjælland
+D,Nye Borgerlige,22862,5.30236614204274,D,Region Sjælland
+B,Radikale,15810,3.6668011856222424,R,Region Sjælland
+I,Liberal Alliance,7503,1.740165040842738,LA,Region Sjælland
+N,Guldborgsundlisten,2269,0.5262474313837362,N,Region Sjælland
+K,Kristendemokraterne,2099,0.48681946164586265,KD,Region Sjælland
+G,Veganerpartiet,1950,0.4522620058167852,G,Region Sjælland
+Å,Alternativet,1439,0.33374616736941226,ALT,Region Sjælland
+Æ,Frihedslisten,1354,0.31403218250047543,Æ,Region Sjælland
+L,Lokallisten Lolland,1018,0.2361039599597371,L,Region Sjælland
+H,Din Stemme,895,0.2075766642082168,H,Region Sjælland
 V,Venstre,249004,39.214586962067976,V,Region Syddanmark
 A,Socialdemokratiet,164481,25.90341712626264,S,Region Syddanmark
 C,Konservative,48870,7.696329636617332,K,Region Syddanmark

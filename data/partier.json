@@ -94,5 +94,11 @@
         "bogstav": "NO",
         "listebogstav": null,
         "farve": "#1D6D71"
+    },
+    {
+        "navn": "Tønder Listen",
+        "bogstav": "T",
+        "listebogstav": null,
+        "farve": null
     }
 ]
