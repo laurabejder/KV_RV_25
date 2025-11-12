@@ -1,0 +1,2078 @@
+{
+    "1": {
+        "name": "Hele landet",
+        "slug": "KV25",
+        "chart1": {},
+        "chart2": {},
+        "chart3": {},
+        "chart4": {}
+    },
+    "2": {
+        "name": "Hele landet",
+        "slug": "RV25",
+        "chart1": {},
+        "chart2": {},
+        "chart3": {},
+        "chart4": {}
+    },
+    "3": {
+        "name": "Region Østdanmark",
+        "slug": "RV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "Z5KAO"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "UBmKk"
+        }
+    },
+    "4": {
+        "name": "Region Syddanmark",
+        "slug": "RV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "HQwHC"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "DwMRY"
+        }
+    },
+    "5": {
+        "name": "Region Midtjylland",
+        "slug": "RV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "hWt7U"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "P6ok1"
+        }
+    },
+    "6": {
+        "name": "Region Nordjylland",
+        "slug": "RV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "FliiW"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "TnpWK"
+        }
+    },
+    "101": {
+        "name": "København",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "67Bn9"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "iZSwL"
+        }
+    },
+    "147": {
+        "name": "Frederiksberg",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "2WwHk"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "CZHQC"
+        }
+    },
+    "151": {
+        "name": "Ballerup",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "Z3zYK"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "YT28p"
+        }
+    },
+    "153": {
+        "name": "Brøndby",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "dVfUQ"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "fyG88"
+        }
+    },
+    "155": {
+        "name": "Dragør",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "V89LL"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "RRPbP"
+        }
+    },
+    "157": {
+        "name": "Gentofte",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "s1u3o"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "miEtj"
+        }
+    },
+    "159": {
+        "name": "Gladsaxe",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "rSIl1"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "YXspQ"
+        }
+    },
+    "161": {
+        "name": "Glostrup",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "aKpDR"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "PX74A"
+        }
+    },
+    "163": {
+        "name": "Herlev",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "uPUqG"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "YtSKi"
+        }
+    },
+    "165": {
+        "name": "Albertslund",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "To7ZJ"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "46JRH"
+        }
+    },
+    "167": {
+        "name": "Hvidovre",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "sVfQ8"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "c8dl4"
+        }
+    },
+    "169": {
+        "name": "Høje-Taastrup",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "NqE7F"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "GiTUr"
+        }
+    },
+    "173": {
+        "name": "Lyngby-Taarbæk",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "L413a"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "fbB4e"
+        }
+    },
+    "175": {
+        "name": "Rødovre",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "LkS20"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "JiGaQ"
+        }
+    },
+    "183": {
+        "name": "Ishøj",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "hmO7c"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "XOdoL"
+        }
+    },
+    "185": {
+        "name": "Tårnby",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "5FbGc"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "ByTeX"
+        }
+    },
+    "187": {
+        "name": "Vallensbæk",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "zUuVm"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "lRRnb"
+        }
+    },
+    "190": {
+        "name": "Furesø",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "kwp2l"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "O5Xuk"
+        }
+    },
+    "201": {
+        "name": "Allerød",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "fW4tR"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "TKxm3"
+        }
+    },
+    "210": {
+        "name": "Fredensborg",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "zCC22"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "gyvi1"
+        }
+    },
+    "217": {
+        "name": "Helsingør",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "jLy1g"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "a51DP"
+        }
+    },
+    "219": {
+        "name": "Hillerød",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "yt0Zv"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "GVh5D"
+        }
+    },
+    "223": {
+        "name": "Hørsholm",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "7ahwI"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "mOJkN"
+        }
+    },
+    "230": {
+        "name": "Rudersdal",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "xFBks"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "UNIPI"
+        }
+    },
+    "240": {
+        "name": "Egedal",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "GF3aQ"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "djtyB"
+        }
+    },
+    "250": {
+        "name": "Frederikssund",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "sxxmJ"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "w7keN"
+        }
+    },
+    "253": {
+        "name": "Greve",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "YlMnm"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "JEuPR"
+        }
+    },
+    "259": {
+        "name": "Køge",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "BYaHi"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "MmBgG"
+        }
+    },
+    "260": {
+        "name": "Halsnæs",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "rP23E"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "KbtYS"
+        }
+    },
+    "265": {
+        "name": "Roskilde",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "n6hMF"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "jE4oF"
+        }
+    },
+    "269": {
+        "name": "Solrød",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "UGJdB"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "B3clc"
+        }
+    },
+    "270": {
+        "name": "Gribskov",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "9nbhG"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "lMoqi"
+        }
+    },
+    "306": {
+        "name": "Odsherred",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "j8R0o"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "rt0uV"
+        }
+    },
+    "316": {
+        "name": "Holbæk",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "Us656"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "lp0H3"
+        }
+    },
+    "320": {
+        "name": "Faxe",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "oy1Sm"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "WK5Sn"
+        }
+    },
+    "326": {
+        "name": "Kalundborg",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "jodrD"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "T2uzT"
+        }
+    },
+    "329": {
+        "name": "Ringsted",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "oUOhV"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "rj0lQ"
+        }
+    },
+    "330": {
+        "name": "Slagelse",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "KeshP"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "sWFIW"
+        }
+    },
+    "336": {
+        "name": "Stevns",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "eH4q6"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "gTnmz"
+        }
+    },
+    "340": {
+        "name": "Sorø",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "Mgr9B"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "jy1A8"
+        }
+    },
+    "350": {
+        "name": "Lejre",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "lE3Fa"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "AslRa"
+        }
+    },
+    "360": {
+        "name": "Lolland",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "dc2Wy"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "hzML2"
+        }
+    },
+    "370": {
+        "name": "Næstved",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "08Yrd"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "nq3RD"
+        }
+    },
+    "376": {
+        "name": "Guldborgsund",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "lJMcC"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "vfNQu"
+        }
+    },
+    "390": {
+        "name": "Vordingborg",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "T4mHy"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "5FK58"
+        }
+    },
+    "400": {
+        "name": "Bornholm",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "N1Pry"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "luQzL"
+        }
+    },
+    "410": {
+        "name": "Middelfart",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "wsYAB"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "i8k8L"
+        }
+    },
+    "411": {
+        "name": "Christiansø",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "6drru"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "z9MMv"
+        }
+    },
+    "420": {
+        "name": "Assens",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "t3XdP"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "YTMP8"
+        }
+    },
+    "430": {
+        "name": "Faaborg-Midtfyn",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "HgaPi"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "FhDsK"
+        }
+    },
+    "440": {
+        "name": "Kerteminde",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "kgDkk"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "TgvJQ"
+        }
+    },
+    "450": {
+        "name": "Nyborg",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "YBXhw"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "uB9E5"
+        }
+    },
+    "461": {
+        "name": "Odense",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "5lpjt"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "yWPcr"
+        }
+    },
+    "479": {
+        "name": "Svendborg",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "Xy7aN"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "ge1NI"
+        }
+    },
+    "480": {
+        "name": "Nordfyns",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "i4cje"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "47AFo"
+        }
+    },
+    "482": {
+        "name": "Langeland",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "vvqNx"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "S3qgN"
+        }
+    },
+    "492": {
+        "name": "Ærø",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "tLYkE"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "a8eA6"
+        }
+    },
+    "510": {
+        "name": "Haderslev",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "6YElx"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "CNbNe"
+        }
+    },
+    "530": {
+        "name": "Billund",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "5D5Ii"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "dUYej"
+        }
+    },
+    "540": {
+        "name": "Sønderborg",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "P9Cka"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "w6aW1"
+        }
+    },
+    "550": {
+        "name": "Tønder",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "3mAcU"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "paQay"
+        }
+    },
+    "561": {
+        "name": "Esbjerg",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "TrSMj"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "F62fD"
+        }
+    },
+    "563": {
+        "name": "Fanø",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "hK3Hk"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "VV3n7"
+        }
+    },
+    "573": {
+        "name": "Varde",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "S75iq"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "YReZ2"
+        }
+    },
+    "575": {
+        "name": "Vejen",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "ibSR9"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "jstJb"
+        }
+    },
+    "580": {
+        "name": "Aabenraa",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "3LOo9"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "EdrQ0"
+        }
+    },
+    "607": {
+        "name": "Fredericia",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "6tcHf"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "D38AO"
+        }
+    },
+    "615": {
+        "name": "Horsens",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "4Leqg"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "iXhWf"
+        }
+    },
+    "621": {
+        "name": "Kolding",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "MElAs"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "YY7OD"
+        }
+    },
+    "630": {
+        "name": "Vejle",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "nvqZu"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "pHwP3"
+        }
+    },
+    "657": {
+        "name": "Herning",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "53ZC5"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "3AnHH"
+        }
+    },
+    "661": {
+        "name": "Holstebro",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "CFj0o"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "v7gTV"
+        }
+    },
+    "665": {
+        "name": "Lemvig",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "zz5o0"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "OgSgA"
+        }
+    },
+    "671": {
+        "name": "Struer",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "lIlSD"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "VOQfi"
+        }
+    },
+    "706": {
+        "name": "Syddjurs",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "qcUzx"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "GJv46"
+        }
+    },
+    "707": {
+        "name": "Norddjurs",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "iV9Ii"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "hXeug"
+        }
+    },
+    "710": {
+        "name": "Favrskov",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "hPOG2"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "Xoc94"
+        }
+    },
+    "727": {
+        "name": "Odder",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "S3WIs"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "A5Ajz"
+        }
+    },
+    "730": {
+        "name": "Randers",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "8Vez1"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "k8Ylb"
+        }
+    },
+    "740": {
+        "name": "Silkeborg",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "Ps60X"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "qdt8Y"
+        }
+    },
+    "741": {
+        "name": "Samsø",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "0iJ6I"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "wK7Jw"
+        }
+    },
+    "746": {
+        "name": "Skanderborg",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "SKIPE"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "hsKek"
+        }
+    },
+    "751": {
+        "name": "Aarhus",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "dphXN"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "Qweje"
+        }
+    },
+    "756": {
+        "name": "Ikast-Brande",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "LhvgO"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "dtjpc"
+        }
+    },
+    "760": {
+        "name": "Ringkøbing-Skjern",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "zzSUA"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "AbPzd"
+        }
+    },
+    "766": {
+        "name": "Hedensted",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "dayru"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "nsCit"
+        }
+    },
+    "773": {
+        "name": "Morsø",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "Cmbpe"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "5Rqcc"
+        }
+    },
+    "779": {
+        "name": "Skive",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "ctDZ7"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "j7p7p"
+        }
+    },
+    "787": {
+        "name": "Thisted",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "MtCnZ"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "EQsJj"
+        }
+    },
+    "791": {
+        "name": "Viborg",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "AdGNl"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "BQuvp"
+        }
+    },
+    "810": {
+        "name": "Brønderslev",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "cTUCP"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "1MMqm"
+        }
+    },
+    "813": {
+        "name": "Frederikshavn",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "nDqJQ"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "AGefc"
+        }
+    },
+    "820": {
+        "name": "Vesthimmerlands",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "EdMO1"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "jhsIC"
+        }
+    },
+    "825": {
+        "name": "Læsø",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "JUhLR"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "NBTCY"
+        }
+    },
+    "840": {
+        "name": "Rebild",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "SG5kl"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "Z1O9x"
+        }
+    },
+    "846": {
+        "name": "Mariagerfjord",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "YA2SX"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "cFpFJ"
+        }
+    },
+    "849": {
+        "name": "Jammerbugt",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "z36aP"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "ir3Jt"
+        }
+    },
+    "851": {
+        "name": "Aalborg",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "Sltlj"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "7CWpj"
+        }
+    },
+    "860": {
+        "name": "Hjørring",
+        "slug": "KV25",
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {},
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "1qYgw"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": "eShaC"
+        }
+    }
+}

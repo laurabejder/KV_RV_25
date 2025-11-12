@@ -220,9 +220,9 @@ def get_status(
     summary_df = pd.read_csv(status_path)
 
     # Udregn andelen af afstemningssteder, der er optalt
-    done_mask = afst["resultat_art"].isin(["Fintælling", "ForeløbigtResultat"])
-    done_share = done_mask.sum() / len(afst)
-    summary_df["Procent optalte afstemningssteder"] = done_share * 100
+    done_mask = afst["resultat_art"].isin(["Fintælling", "ForeløbigOptælling"])
+    done_share = f"{done_mask.sum()} ud af {len(afst)}"
+    summary_df["Optalte afstemningssteder"] = done_share
 
     # Find regionsforpersonen for regionen, hvis det er afgjort
     if region in regionsforpersoner["region"].values:
@@ -234,7 +234,7 @@ def get_status(
         summary_df["Regionsforperson"] = "Ikke afgjort"
 
     # Drop unødvendige kolonner og gem filen
-    summary_df = summary_df[["Procent optalte afstemningssteder", "Regionsforperson"]]
+    summary_df = summary_df[["Optalte afstemningssteder", "Regionsforperson"]]
     summary_df.to_csv(status_path, index=False)
 
 # Funktionen udregner kandidaternes personlige stemmetal per region og nationalt

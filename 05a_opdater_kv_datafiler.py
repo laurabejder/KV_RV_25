@@ -223,9 +223,9 @@ def get_status(
     summary_df = pd.read_csv(status_path)
 
     # Udregn andelen af afstemningssteder, der er optalt
-    done_mask = afst["resultat_art"].isin(["Fintælling", "ForeløbigtResultat"])
-    done_share = done_mask.sum() / len(afst)
-    summary_df["Procent optalte afstemningssteder"] = done_share * 100
+    done_mask = afst["resultat_art"].isin(["Fintælling", "ForeløbigOptælling"])
+    done_share = f"{done_mask.sum()} ud af {len(afst)}"
+    summary_df["Optalte afstemningssteder"] = done_share
 
     # Find borgmesteren for kommunen, hvis det er afgjort
     if kommune_id in borgmestre_df["kommune_kode"].values:
@@ -237,7 +237,7 @@ def get_status(
         summary_df["Borgmester"] = "Ikke afgjort"
 
     # Drop unødvendige kolonner og gem filen
-    summary_df = summary_df[["Procent optalte afstemningssteder", "Borgmester"]]
+    summary_df = summary_df[["Optalte afstemningssteder", "Borgmester"]]
     summary_df.to_csv(status_path, index=False)
 
 # Funktionen udregner kandidaternes personlige stemmetal per kommune og nationalt

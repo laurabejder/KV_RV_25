@@ -120,7 +120,7 @@ def create_maps(geo):
 charts = {}
 
 # loop over the dataframe and create the charts
-for index, row in urls[:30].iterrows():
+for index, row in urls.iterrows():
     # get the id as a string
     id = str(row['id']) 
     charts[id] = {}
@@ -167,6 +167,10 @@ for index, row in urls[:30].iterrows():
     
     #create_columns(row['geo'], row['parti_søjle'])
 print(charts)
+
+# save the charts dict to a json file
+with open('dw_charts.json', 'w', encoding='utf-8') as f:
+    json.dump(charts, f, ensure_ascii=False, indent=4)
 
     
 
