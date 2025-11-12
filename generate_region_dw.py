@@ -23,11 +23,9 @@ def create_tables(geo, data_url):
     url = "https://api.datawrapper.de/v3/charts"
     headers = {
         "Authorization": f"Bearer {DW_TOKEN}"
-        # (requests sets Content-Type automatically when using json=)
     }
 
-    # Deep copy so we never mutate the original file object
-    m = copy.deepcopy(metadata["stemme-table-metadata"])
+    m = copy.deepcopy(metadata["stemme-table-metadata"]) # Deep copy so we never mutate the original file object
 
     # --- Normalize to the pure metadata block ---
     # Case 1: File stores full chart JSON: {"chart": {"metadata": {...}}}
@@ -39,11 +37,9 @@ def create_tables(geo, data_url):
     if "data" not in m or not isinstance(m["data"], dict):
         m["data"] = {}
 
-    # Inject external-data settings inside metadata.data (optional but harmless),
     # while also using top-level externalData which the API expects.
     m["data"]["upload-method"] = "external-data"
     m["data"]["use-datawrapper-cdn"] = True
-    # You can also mirror the URL inside metadata if your theme expects it:
     m["data"]["external-data"] = data_url
 
     payload = {
@@ -52,7 +48,6 @@ def create_tables(geo, data_url):
         "folderId": "363303",
         "language": "da-DK",
         "metadata": m,
-        # Datawrapper API accepts externalData as a top-level field:
         "externalData": data_url
     }
 
@@ -119,30 +114,52 @@ def create_maps(geo):
     response = requests.post(url, headers=headers, json=data)
     return response
 
+charts = {}
+
 # loop over the dataframe and create the charts
-for index, row in urls.iterrows():
+for index, row in urls[:30].iterrows():
+    # get the id as a string
+    id = str(row['id']) 
+    charts[id] = {}
+    # inside the charts dict, set the geo to be the geo
+    charts[id]['name'] = row['geo']
+
+    if row['valg'] == 'Kommune':
+        charts[id]['slug'] = 'KV25'
+    else:
+        charts[id]['slug'] = 'RV25'
+
+    # create a subdict for table, column and map
+    charts[id]['chart1'] = {}
+    charts[id]['chart2'] = {}
+    charts[id]['chart3'] = {}
+    charts[id]['chart4'] = {}
+
     if pd.isna(row['geo']) or pd.isna(row['status_tabel']) or pd.isna(row['parti_søjle']):
         print(f"Skipping row {index} due to missing data")
         continue
-    create_tables(row['geo'], row['stemme_tabel'])
-    create_columns(row['geo'], row['parti_søjle'])
-    # map_response = create_maps(row)
-    # map_id = map_response.json()['id']
-    # row['map_id'] = map_id
-    # kommuner.at[index, 'map_id'] = map_id  # Save to DataFrame
-    # add_topojson_to_map(row, map_id)
 
 
-    # url = f"https://api.datawrapper.de/v3/charts/{map_id}"
-    # headers = {
-    #     "Authorization": f"Bearer {DW_TOKEN}"
-    # }
+    # GENERATE ELEMENTS FOR THE FIRST CHART (STATUS TABLE)
 
-    # response = requests.get(url, headers=headers)
-    # response.raise_for_status()
+    # GENERATE ELEMENTS FOR THE SECOND CHART (VOTING AREA MAP)
+    
+    # GENERATE ELEMENTS FOR THE THIRD CHART (PERCENTAGE BARS)
+    bar_response = create_columns(row['geo'], row['parti_søjle'])
 
-    # # Pretty print the full metadata
-    # chart = response.json()
-    # print(json.dumps(chart["metadata"], indent=2))
+    charts[id]['chart3']['header'] = ""
+    charts[id]['chart3']['description'] = ""
+    charts[id]['chart3']['id'] = bar_response['id'] # set the id in chart1 to the id from the response
+
+    # GENERATE ELEMENTS FOR THE FOURTH CHART (CANDIDATE TABLE)
+    table_response = create_tables(row['geo'], row['stemme_tabel'])
+
+    charts[id]['chart4']['header'] = ""
+    charts[id]['chart4']['description'] = ""
+    charts[id]['chart4']['id'] = table_response['id'] # set the id in chart1 to the id from the response
+    
+    #create_columns(row['geo'], row['parti_søjle'])
+print(charts)
+
     
 
