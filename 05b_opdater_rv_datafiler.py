@@ -135,7 +135,7 @@ def get_afstemningsområde_percentages(
 ) -> None:
     """Compute per-polling-district percentages, largest party, and write CSV."""
     data = data.copy()
-    data["parti_procent"] = data["stemmer"] / data["total_gyldige_stemmer"] * 100 # udregne partiernes procent per afstemningsområde
+    data["parti_procent"] = data["stemmer"] / data["total_gyldige_stemmer"] * 100 # udregn partiernes procent per afstemningsområde
 
     # Pivot så hver række er et afstemningsområde, og hver kolonne et parti
     wide = (

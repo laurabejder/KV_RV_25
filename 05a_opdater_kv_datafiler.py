@@ -12,23 +12,28 @@ KOMMUNE_DIR = BASE_PATH / "kommune"
 AFSTEM_DIR = BASE_PATH / "afstemningssteder"
 NATIONAL_DIR = BASE_PATH / "nationalt"
 
+# Hent valgresultaterne for KV25 på kandidniveau
 kv25_resultater_kandidater = (
     pd.read_csv("data/struktureret/kv/kv25_resultater_kandidater.csv")
     .drop_duplicates()
     .reset_index(drop=True)
 )
 
+# Hent valgresultaterne for kV25 på partiniveau
 kv25_resultater_partier = (
     pd.read_csv("data/struktureret/kv/kv25_resultater_partier.csv")
     .drop_duplicates()
     .reset_index(drop=True)
 )
 
+# Hent valgresultaterne for KV21 på partiniveau
 kv21_resultater_partier = pd.read_csv("data/21_resultater/kv21_parti_resultater.csv")
 
+# Load filen med partiinformation, så vi senere kan standardisere partinavne og -bogstaver
 with open(PARTIER_INFO, "r", encoding="utf-8") as f:
     partier_info = json.load(f)
 
+# Hent borgmestre fra google sheets for opdatering af statusfiler
 borgmestre = pd.read_csv(BORGMESTRE)
 
 # ----------------------------
@@ -48,6 +53,7 @@ def _standardize_party_labels(df: pd.DataFrame) -> pd.DataFrame:
 # Centrale funktioner
 # ----------------------------
 
+# Funktionen udregner hvor mange procent af stemmerne, hvert parti har fået i kommunen, og merger med resultaterne fra 2021
 def get_overall_percentages(
     data: pd.DataFrame,
     kom: pd.DataFrame,
@@ -115,7 +121,7 @@ def get_overall_percentages(
     out_path = kommune_dir / f"{kommune_id}_{kommunenavn_lower}_kommune.csv"
     df.to_csv(out_path, index=False)
 
-
+# Funktionen udregner procenter per afstemningsområde og finder største parti
 def get_afstemningsområde_percentages(
     data: pd.DataFrame,
     afst: pd.DataFrame,
@@ -125,8 +131,9 @@ def get_afstemningsområde_percentages(
 ) -> None:
     """Compute per-polling-district percentages, largest party, and write CSV."""
     data = data.copy()
-    data["parti_procent"] = data["stemmer"] / data["total_gyldige_stemmer"] * 100
+    data["parti_procent"] = data["stemmer"] / data["total_gyldige_stemmer"] * 100 # udregn partiernes procent per afstemningsområde
 
+    # Pivot så hver række er et afstemningsområde, og hver kolonne et parti
     wide = (
         data.pivot_table(
             index=[
@@ -142,7 +149,7 @@ def get_afstemningsområde_percentages(
         .reset_index()
     )
 
-    # Determine largest party per row
+    # Find det største parti per afstemningsområde
     non_party_cols = [
         "kommune",
         "kommune_kode",
@@ -157,7 +164,7 @@ def get_afstemningsområde_percentages(
 
     wide["største_parti"] = wide.apply(_biggest_party, axis=1)
 
-    # Keep and merge geo columns
+    # Merge med afstemningssteds-info
     afst = afst[
         [
             "dagi_id",
@@ -178,7 +185,7 @@ def get_afstemningsområde_percentages(
         how="left",
     )
 
-    # Drop unnecessary columns & reorder
+    # Drop unødvendige kolonner og ændr kolonne rækkefølge
     afst = afst.drop(
         columns=["afstemningsområde_dagi_id", "afstemningsområde", "kommune", "kommune_kode"],
         errors="ignore",
@@ -199,11 +206,11 @@ def get_afstemningsområde_percentages(
     ]
     afst = afst[first_cols + [c for c in afst.columns if c not in first_cols]]
 
-    # Write file
+    # Gem filen
     out_path = afstem_dir / f"{kommune_id}_{kommunenavn_lower}_afstemningsområde.csv"
     afst.to_csv(out_path, index=False)
 
-
+# Funktionen kombinerer data fra kombit og vores håndholdte borgmesterdata og opdaterer statusfilen
 def get_status(
     kommune_id: int | str,
     kommunenavn_lower: str,
@@ -215,12 +222,12 @@ def get_status(
     status_path = base_path / "status" / f"{kommune_id}_{kommunenavn_lower}_status.csv"
     summary_df = pd.read_csv(status_path)
 
-    # Share of polling places with counted results
+    # Udregn andelen af afstemningssteder, der er optalt
     done_mask = afst["resultat_art"].isin(["Fintælling", "ForeløbigtResultat"])
     done_share = done_mask.sum() / len(afst)
     summary_df["Procent optalte afstemningssteder"] = done_share * 100
 
-    # Borgmester
+    # Find borgmesteren for kommunen, hvis det er afgjort
     if kommune_id in borgmestre_df["kommune_kode"].values:
         borgmester = borgmestre_df.loc[
             borgmestre_df["kommune_kode"] == kommune_id, "borgmester"
@@ -229,10 +236,11 @@ def get_status(
     else:
         summary_df["Borgmester"] = "Ikke afgjort"
 
-    # Keep only required columns and write back
+    # Drop unødvendige kolonner og gem filen
     summary_df = summary_df[["Procent optalte afstemningssteder", "Borgmester"]]
     summary_df.to_csv(status_path, index=False)
 
+# Funktionen udregner kandidaternes personlige stemmetal per kommune og nationalt
 def get_stemmetal(stemmer, base_path: Path) -> None:
     stemmer = stemmer.groupby(['kandidat','parti','parti_bogstav','kommune','kommune_kode']).stemmer.sum().reset_index()    
     stemmer['parti'] = stemmer['parti_bogstav'].map({p['listebogstav']:p['navn'] for p in partier_info}).fillna(stemmer['parti_bogstav'])
@@ -241,13 +249,12 @@ def get_stemmetal(stemmer, base_path: Path) -> None:
 
     stemmer.sort_values(by=['stemmer'], ascending=False, inplace=True)
 
-    # make a csv file per kommune with stemmetal per kandidat
+    # Gem resultater per kommune
     for kommune in stemmer['kommune'].unique():
         kommune_stemmer = stemmer[stemmer['kommune'] == kommune]
         kommune_id = kommune_stemmer['kommune_kode'].iat[0]
         kommunenavn = kommune_stemmer['kommune'].iat[0]
         kommunenavn_lower = kommunenavn.lower()
-        #drop kommune column
         kommune_stemmer = kommune_stemmer.drop(columns=['kommune','kommune_kode'])
         out_path = base_path / f"kandidater/{kommune_id}_{kommunenavn_lower}_stemmetal_kandidater.csv"
         kommune_stemmer.to_csv(out_path, index=False)
@@ -255,7 +262,7 @@ def get_stemmetal(stemmer, base_path: Path) -> None:
     #drop kommune id
     stemmer = stemmer.drop(columns=['kommune_kode'])
     
-    # save stemmer 
+    # Og gem nationalt
     out_path = base_path / f"nationalt/stemmetal_kandidater.csv"
     stemmer.to_csv(out_path, index=False)
 
@@ -263,6 +270,7 @@ def get_stemmetal(stemmer, base_path: Path) -> None:
 # Main loop
 # ----------------------------
 
+# Loop over resultaterne fra kommunerne og opdater datafilerne
 for kommune_id in kv25_resultater_partier["kommune_kode"].unique():
     data = kv25_resultater_partier.query("kommune_kode == @kommune_id").copy()
     kommunenavn = data["kommune"].iat[0].replace(" Kommune", "")
