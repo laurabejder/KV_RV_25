@@ -225,7 +225,7 @@ def get_status(
     # Udregn andelen af afstemningssteder, der er optalt
     done_mask = afst["resultat_art"].isin(["Fintælling", "ForeløbigOptælling"])
     done_share = f"{done_mask.sum()} ud af {len(afst)}"
-    summary_df["Optalte afstemningssteder"] = done_share
+    summary_df["Optalte valgsteder"] = done_share
 
     # Find borgmesteren for kommunen, hvis det er afgjort
     if kommune_id in borgmestre_df["kommune_kode"].values:
@@ -237,7 +237,7 @@ def get_status(
         summary_df["Borgmester"] = "Ikke afgjort"
 
     # Drop unødvendige kolonner og gem filen
-    summary_df = summary_df[["Optalte afstemningssteder", "Borgmester"]]
+    summary_df = summary_df[["Optalte valgsteder", "Borgmester"]]
     summary_df.to_csv(status_path, index=False)
 
 # Funktionen udregner kandidaternes personlige stemmetal per kommune og nationalt

@@ -17,7 +17,41 @@ if DW_TOKEN is None:
 
 ## DEFINE THE FUNCTIONS TO CREATE THE CHARTS, TABLES AND MAPS
 def create_status_table(geo, data_url):
-    print(f"Creating status table for {geo} using data: {data_url}")
+    url = "https://api.datawrapper.de/v3/charts"
+    headers = {
+        "Authorization": f"Bearer {DW_TOKEN}"
+    }
+
+    m = copy.deepcopy(metadata["status-table-metadata"])
+
+         # Case 1: File stores full chart JSON: {"chart": {"metadata": {...}}}
+    if isinstance(m, dict) and "chart" in m and isinstance(m["chart"], dict) and "metadata" in m["chart"]:
+        m = m["chart"]["metadata"]
+
+    # Case 2: File already stores the metadata object: {"visualize": ..., "describe": ..., maybe "data": ...}
+    # Ensure "data" exists
+    if "data" not in m or not isinstance(m["data"], dict):
+        m["data"] = {}
+
+    # while also using top-level externalData which the API expects.
+    m["data"]["upload-method"] = "external-data"
+    m["data"]["use-datawrapper-cdn"] = True
+    m["data"]["external-data"] = data_url
+
+    payload = {
+        "title": f"Her er status på valget i {geo}",
+        "type": "tables",
+        "folderId": "364593",
+        "language": "da-DK",
+        "metadata": m,
+        "externalData": data_url
+    }
+
+    r = requests.post(url, headers=headers, json=payload, timeout=60)
+    if not r.ok:
+        raise RuntimeError(f"Datawrapper error {r.status_code}: {r.text}")
+    return r.json()
+
 
 
 def create_tables(geo, data_url):
@@ -48,7 +82,7 @@ def create_tables(geo, data_url):
     payload = {
         "title": f"Her er {geo} største stemmeslugere",
         "type": "tables",
-        "folderId": "363303",
+        "folderId": "355509",
         "language": "da-DK",
         "metadata": m,
         "externalData": data_url
@@ -85,7 +119,7 @@ def create_columns(geo, data_url):
     payload = {
         "title": f"Sådan stemte {geo} ved valget",
         "type": "column-chart",
-        "folderId": "363302",
+        "folderId": "355517",
         "language": "da-DK",
         "metadata": m,
         "externalData": data_url
@@ -109,7 +143,7 @@ def create_maps(geo):
     data = {
         "title": "",
         "type": "d3-maps-choropleth",
-        "folderId": "363304",
+        "folderId": "355525",
         "metadata" : metadata["map-metadata"],  
         'language': 'da-DK',
     }
@@ -144,10 +178,10 @@ for index, row in urls.iterrows():
 
 
     # GENERATE ELEMENTS FOR THE FIRST CHART (STATUS TABLE)
-
+    status_table_response = create_status_table(row['geo'], row['status_tabel'])
     charts[id]['chart1']['header'] = ""
     charts[id]['chart1']['description'] = ""
-    charts[id]['chart1']['id'] = ""
+    charts[id]['chart1']['id'] = status_table_response['id'] # set the id in chart1 to the id from the response
 
     # GENERATE ELEMENTS FOR THE SECOND CHART (VOTING AREA MAP)
     
