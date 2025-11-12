@@ -12,27 +12,32 @@ REGION_DIR = BASE_PATH / "region"
 AFSTEM_DIR = BASE_PATH / "afstemningssteder"
 NATIONAL_DIR = BASE_PATH / "nationalt"
 
-
+# Hent valgresultaterne for RV25 på kandidniveau
 rv25_resultater_kandidater = (
     pd.read_csv("data/struktureret/rv/rv25_resultater_kandidater.csv")
     .drop_duplicates()
     .reset_index(drop=True)
 )
 
+# Hent valgresultaterne for RV25 på partiniveau
 rv25_resultater_partier = (
     pd.read_csv("data/struktureret/rv/rv25_resultater_partier.csv")
     .drop_duplicates()
     .reset_index(drop=True)
 )
 
+# Hent valgresultaterne for RV21 på partiniveau
 rv21_resultater_partier = pd.read_csv("data/21_resultater/rv21_parti_resultater.csv")
 rv21_resultater_partier["region"] = rv21_resultater_partier["region"].str.replace("Region ", "")
 
-
+# Load filen med partiinformation, så vi senere kan standardisere partinavne og -bogstaver
 with open(PARTIER_INFO, "r", encoding="utf-8") as f:
     partier_info = json.load(f)
 
+# Hent regionsforpersoner fra google sheets for opdatering af statusfiler
 regionsforpersoner = pd.read_csv(REGIONS_FPS)
+
+# Og definer navnene på regionerne i 2025
 regioner = ["Østdanmark", "Midtjylland", "Nordjylland", "Syddanmark"]
 
 # ----------------------------
@@ -52,6 +57,7 @@ def _standardize_party_labels(df: pd.DataFrame) -> pd.DataFrame:
 # Centrale funktioner
 # ----------------------------
 
+# Funktionen udregner hvor mange procent af stemmerne, hvert parti har fået i regionen, og merger med resultaterne fra 2021
 def get_overall_percentages(
     data: pd.DataFrame,
     reg: pd.DataFrame,
@@ -61,14 +67,14 @@ def get_overall_percentages(
     region_dir: Path,
 ) -> None:
     """Compute kommune-level percentages, merge 2021, and write CSV."""
-    # Få det samlede antal gyldige stemmer i kommunen til beregning af procenter (hvert valgsted tæller kun én gang)
+    # Få det samlede antal gyldige stemmer i regionen til beregning af procenter (hvert valgsted tæller kun én gang)
     gyldige_total = (
         data.groupby("afstemningsområde_dagi_id")["total_gyldige_stemmer"]
         .max()
         .sum()
     )
 
-    # Udregn hvor mange procent af stemmerne, hvert parti har fået i kommunen
+    # Udregn hvor mange procent af stemmerne, hvert parti har fået i regionen
     parti_sum = (
         data.groupby(["parti", "bogstav", "parti_bogstav"], as_index=False)["stemmer"]
         .sum()
@@ -95,7 +101,7 @@ def get_overall_percentages(
     elif "procent_21" in df.columns and df["procent_21"].notna().any():
         print("2021 results already present for", regionnavn)
     else:
-        # For en sikkerheds skyld, fjern gamle 2021 kolonner hvis de findes
+        # For en sikkerheds skyld, fjern gamle 2021 kolonner, hvis de findes
         df = df.drop(columns=["procent_21", "stemmer_21"], errors="ignore")
         resultater_21 = (
             resultater_21_partier
@@ -119,7 +125,7 @@ def get_overall_percentages(
     out_path = region_dir / f"{regionnavn_lower}.csv"
     df.to_csv(out_path, index=False)
 
-
+# Funktionen udregner procenter per afstemningsområde og finder største parti
 def get_afstemningsområde_percentages(
     data: pd.DataFrame,
     afst: pd.DataFrame,
@@ -129,8 +135,9 @@ def get_afstemningsområde_percentages(
 ) -> None:
     """Compute per-polling-district percentages, largest party, and write CSV."""
     data = data.copy()
-    data["parti_procent"] = data["stemmer"] / data["total_gyldige_stemmer"] * 100
+    data["parti_procent"] = data["stemmer"] / data["total_gyldige_stemmer"] * 100 # udregne partiernes procent per afstemningsområde
 
+    # Pivot så hver række er et afstemningsområde, og hver kolonne et parti
     wide = (
         data.pivot_table(
             index=[
@@ -145,7 +152,7 @@ def get_afstemningsområde_percentages(
         .reset_index()
     )
 
-    # Determine largest party per row
+    # Find det største parti per afstemningsområde
     non_party_cols = [
         "region",
         "afstemningsområde_dagi_id",
@@ -159,7 +166,7 @@ def get_afstemningsområde_percentages(
 
     wide["største_parti"] = wide.apply(_biggest_party, axis=1)
 
-    # Keep and merge geo columns
+    # Merge med afstemningssteds-info
     afst = afst[
         [
             "region",
@@ -178,7 +185,7 @@ def get_afstemningsområde_percentages(
         how="left",
     )
 
-    # Drop unnecessary columns & reorder
+    # Drop unødvendige kolonner og ændr kolonne rækkefølge
     afst = afst.drop(
         columns=["afstemningsområde_dagi_id", "afstemningsområde", "kommune", "kommune_kode"],
         errors="ignore",
@@ -197,11 +204,11 @@ def get_afstemningsområde_percentages(
     ]
     afst = afst[first_cols + [c for c in afst.columns if c not in first_cols]]
 
-    # Write file
+    # Gem filen
     out_path = afstem_dir / f"{regionnavn_lower}_afstemningsområde.csv"
     afst.to_csv(out_path, index=False)
 
-
+# Funktionen kombinerer data fra kombit og vores håndholdte regionsforpersondata og opdaterer statusfilen
 def get_status(
     regionnavn_lower: str,
     regionsforpersoner: pd.DataFrame,
@@ -212,12 +219,12 @@ def get_status(
     status_path = base_path / "status" / f"{regionnavn_lower}_status.csv"
     summary_df = pd.read_csv(status_path)
 
-    # Share of polling places with counted results
+    # Udregn andelen af afstemningssteder, der er optalt
     done_mask = afst["resultat_art"].isin(["Fintælling", "ForeløbigtResultat"])
     done_share = done_mask.sum() / len(afst)
     summary_df["Procent optalte afstemningssteder"] = done_share * 100
 
-    # Borgmester
+    # Find regionsforpersonen for regionen, hvis det er afgjort
     if region in regionsforpersoner["region"].values:
         regionsforperson = regionsforpersoner.loc[
             regionsforpersoner["region"] == region, "regionsforperson"
@@ -226,29 +233,28 @@ def get_status(
     else:
         summary_df["Regionsforperson"] = "Ikke afgjort"
 
-    # Keep only required columns and write back
+    # Drop unødvendige kolonner og gem filen
     summary_df = summary_df[["Procent optalte afstemningssteder", "Regionsforperson"]]
     summary_df.to_csv(status_path, index=False)
 
-
+# Funktionen udregner kandidaternes personlige stemmetal per region og nationalt
 def get_stemmetal(stemmer, base_path: Path) -> None:
-    stemmer = stemmer.groupby(['kandidat','parti','parti_bogstav','region']).stemmer.sum().reset_index()    
-    stemmer['parti'] = stemmer['parti_bogstav'].map({p['listebogstav']:p['navn'] for p in partier_info}).fillna(stemmer['parti_bogstav'])
-    stemmer['bogstav'] = stemmer['parti_bogstav'].map({p['listebogstav']:p['bogstav'] for p in partier_info}).fillna(stemmer['parti_bogstav'])
+    stemmer = stemmer.groupby(['kandidat','parti','parti_bogstav','region']).stemmer.sum().reset_index()  # grupper og sum stemmer per kandidat per region  
+    stemmer['parti'] = stemmer['parti_bogstav'].map({p['listebogstav']:p['navn'] for p in partier_info}).fillna(stemmer['parti_bogstav']) # standardiser partinavne
+    stemmer['bogstav'] = stemmer['parti_bogstav'].map({p['listebogstav']:p['bogstav'] for p in partier_info}).fillna(stemmer['parti_bogstav']) # standardiser partibogstaver
     stemmer = stemmer[['kandidat','parti','region','stemmer']]
-    stemmer.sort_values(by=['stemmer'], ascending=False, inplace=True)
+    stemmer.sort_values(by=['stemmer'], ascending=False, inplace=True) # sorter efter antal stemmer
 
-    # make a csv file per kommune with stemmetal per kandidat
+    # Gem resultater per region
     for region in stemmer['region'].unique():
         region_stemmer = stemmer[stemmer['region'] == region]
         regionnavn = region_stemmer['region'].iat[0]
         regionnavn_lower = regionnavn.lower()
-        #drop kommune column
         region_stemmer = region_stemmer.drop(columns=['region'])
         out_path = base_path / f"kandidater/{regionnavn_lower}_stemmetal_kandidater.csv"
         region_stemmer.to_csv(out_path, index=False)
     
-    # save stemmer 
+    # Og gem nationalt
     out_path = base_path / f"nationalt/stemmetal_kandidater.csv"
     stemmer.to_csv(out_path, index=False)
 
@@ -256,6 +262,7 @@ def get_stemmetal(stemmer, base_path: Path) -> None:
 # Main loop
 # ----------------------------
 
+# Loop over resultaterne fra regionerne og opdater datafilerne
 for region in rv25_resultater_partier["region"].unique():
     data = rv25_resultater_partier.query("region == @region").copy()
     regionnavn = data["region"].iat[0].replace("Region ", "")
