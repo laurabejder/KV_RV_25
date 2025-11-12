@@ -16,6 +16,9 @@ if DW_TOKEN is None:
     raise ValueError("DW_TOKEN not found in .env file")
 
 ## DEFINE THE FUNCTIONS TO CREATE THE CHARTS, TABLES AND MAPS
+def create_status_table(geo, data_url):
+    print(f"Creating status table for {geo} using data: {data_url}")
+
 
 def create_tables(geo, data_url):
     print(f"Creating chart for {geo} using data: {data_url}")
@@ -142,6 +145,10 @@ for index, row in urls[:30].iterrows():
 
     # GENERATE ELEMENTS FOR THE FIRST CHART (STATUS TABLE)
 
+    charts[id]['chart1']['header'] = ""
+    charts[id]['chart1']['description'] = ""
+    charts[id]['chart1']['id'] = ""
+
     # GENERATE ELEMENTS FOR THE SECOND CHART (VOTING AREA MAP)
     
     # GENERATE ELEMENTS FOR THE THIRD CHART (PERCENTAGE BARS)
@@ -152,11 +159,11 @@ for index, row in urls[:30].iterrows():
     charts[id]['chart3']['id'] = bar_response['id'] # set the id in chart1 to the id from the response
 
     # GENERATE ELEMENTS FOR THE FOURTH CHART (CANDIDATE TABLE)
-    table_response = create_tables(row['geo'], row['stemme_tabel'])
+    stemme_table_response = create_tables(row['geo'], row['stemme_tabel'])
 
     charts[id]['chart4']['header'] = ""
     charts[id]['chart4']['description'] = ""
-    charts[id]['chart4']['id'] = table_response['id'] # set the id in chart1 to the id from the response
+    charts[id]['chart4']['id'] = stemme_table_response['id'] # set the id in chart1 to the id from the response
     
     #create_columns(row['geo'], row['parti_søjle'])
 print(charts)
