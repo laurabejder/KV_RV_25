@@ -253,7 +253,8 @@ def get_stemmetal(stemmer, base_path: Path) -> None:
         region_stemmer = region_stemmer.drop(columns=['region'])
         out_path = base_path / f"kandidater/{regionnavn_lower}_stemmetal_kandidater.csv"
         region_stemmer.to_csv(out_path, index=False)
-    
+
+
     # Og gem nationalt
     out_path = base_path / f"nationalt/stemmetal_kandidater.csv"
     stemmer.to_csv(out_path, index=False)
@@ -338,6 +339,9 @@ nat_resultater = (
       .pivot(index=["region", "største_parti"], columns="bogstav", values="procent_25")
       .reset_index()
 )
+
+# prepend "Region " to region names
+nat_resultater["region"] = nat_resultater["region"].apply(lambda x: f"Region {x}")
 
 # save file
 out_path = NATIONAL_DIR / "nationalt_kommuner_parti_procenter.csv"

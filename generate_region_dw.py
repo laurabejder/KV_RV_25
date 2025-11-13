@@ -206,7 +206,7 @@ for index, row in urls[2:3].iterrows():
 
     # # GENERATE ELEMENTS FOR THE SECOND CHART (VOTING AREA MAP)
 
-    map_response = create_maps(row['geo'], row['kort'])
+    #map_response = create_maps(row['geo'], row['kort'])
     # charts[id]['chart2']['header'] = ""
     # charts[id]['chart2']['description'] = ""
    #charts[id]['chart2']['id'] = map_response['id'] # set the id
