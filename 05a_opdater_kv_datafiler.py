@@ -350,6 +350,9 @@ nat_resultater = (
       .reset_index()
 )
 
+# make sure to strip kommune of " Kommune" suffix
+nat_resultater["kommune"] = nat_resultater["kommune"].str.replace(" Kommune", "", regex=False)
+
 # save file
 out_path = NATIONAL_DIR / "nationalt_kommuner_parti_procenter.csv"
 nat_resultater.to_csv(out_path, index=False)
