@@ -163,7 +163,7 @@ def make_popup(row):
 
     # Header line
     header = (
-        f"<b style='color:{header_color}'>{largest}</b> "
+        f"<b style='color:{header_color}; font-size:1.5em'>{largest}</b> "
         f"blev størst i {kommune} Kommune<br>"
     )
 
@@ -179,20 +179,20 @@ def make_popup(row):
 
         # fixed-width label cell (so S: and SP: line up)
         label_span = (
-            f"<span style='display:inline-block; width:28px;'>{party}:</span>"
+            f"<span style='display:inline-block; width:28px; font-size:1.1em'>{party}</span>"
         )
 
         # bar cell
         bar_span = (
             f"<span style='display:inline-block; "
-            f"width:{bar_width}px; height:10px; "
+            f"width:{bar_width}px; height:12px; "
             f"background:{color};'></span>"
         )
 
         # percentage cell, fixed width & right-aligned
         pct_span = (
-            f"<span style='display:inline-block; width:50px; "
-            f"text-align:right;'>{pct:.1f}%</span>"
+            f"<span style='color: {color}; display:inline-block; width:50px; "
+            f"text-align:right; font-size:0.85em'>{pct:.1f}%</span>"
         )
 
         line = label_span + bar_span + pct_span
