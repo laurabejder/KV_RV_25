@@ -206,6 +206,7 @@ def make_popup(row):
 
     bars_html = "".join(bar_html for pct, bar_html in bars)
     popup_html = header_html + "<hr><table>" + bars_html + "</table>"
+    popup_html = popup_html.replace('"', "'")
     print(popup_html)
     return popup_html
 
