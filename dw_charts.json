@@ -20,6 +20,11 @@
         "chart4": {
             "header": "",
             "description": "",
+            "id": "KFVq6"
+        },
+        "chart5": {
+            "header": "",
+            "description": "",
             "id": ""
         }
     },
@@ -32,8 +37,8 @@
             "id": ""
         },
         "chart2": {
-            "header": "",
-            "description": "Her er de nye formænd for regionerne",
+            "header": "Her er de nye formænd for regionerne",
+            "description": "",
             "id": "3tiFy"
         },
         "chart3": {
@@ -42,6 +47,11 @@
             "id": "qw2mo"
         },
         "chart4": {
+            "header": "",
+            "description": "",
+            "id": "dtRte"
+        },
+        "chart5": {
             "header": "",
             "description": "",
             "id": ""
@@ -58,7 +68,7 @@
         "chart2": {
             "header": "",
             "description": "",
-            "id": ""
+            "id": "TwEXq"
         },
         "chart3": {
             "header": "",

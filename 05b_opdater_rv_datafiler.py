@@ -384,6 +384,21 @@ national_totals = (
 national_totals["bogstav"] = national_totals["parti_bogstav"].map(bogstav_map).fillna(national_totals["parti_bogstav"]) # get the bogstavs too
 national_totals = national_totals[["bogstav", "parti", "procent_25", "procent_21"]] # reorder columns
 
+# group parties with less than 0.5 percent into "Andre"
+
+minor_parties_mask = national_totals["procent_25"] < 0.5
+andre_row = pd.DataFrame({
+    "bogstav": ["Andre"],
+    "parti": ["Andre"],
+    "procent_25": [national_totals.loc[minor_parties_mask, "procent_25"].sum()],
+    "procent_21": [national_totals.loc[minor_parties_mask, "procent_21"].sum()],
+})
+
+national_totals = pd.concat([
+    national_totals.loc[~minor_parties_mask],
+    andre_row
+], ignore_index=True)
+
 # save file
 out_path = NATIONAL_DIR / "nationalt_partier.csv"
 national_totals.to_csv(out_path, index=False)  
