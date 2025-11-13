@@ -185,7 +185,7 @@ def make_popup(row):
         # bar cell
         bar_span = (
             f"<span style='display:inline-block; "
-            f"width:{bar_width}px; height:1em; "
+            f"width:{bar_width}px; height:1em; vertical-align:middle"
             f"background:{color};'></span>"
         )
 
