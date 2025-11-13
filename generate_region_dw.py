@@ -171,65 +171,66 @@ def create_maps(geo, data_url):
     return response.json()
 
 
-charts = {}
+#charts = {}
 
 # loop over the dataframe and create the charts
-for index, row in urls.iterrows():
+for index, row in urls[2:3].iterrows():
     # get the id as a string
     id = str(row['id']) 
-    charts[id] = {}
+    print(f"Processing row {row['geo']} with id {id}")
+    #charts[id] = {}
     # inside the charts dict, set the geo to be the geo
-    charts[id]['name'] = row['geo']
+   # charts[id]['name'] = row['geo']
 
-    if row['valg'] == 'Kommune':
-        charts[id]['slug'] = 'KV25'
-    else:
-        charts[id]['slug'] = 'RV25'
+    # if row['valg'] == 'Kommune':
+    #     charts[id]['slug'] = 'KV25'
+    # else:
+    #     charts[id]['slug'] = 'RV25'
 
-    # create a subdict for table, column and map
-    charts[id]['chart1'] = {}
-    charts[id]['chart2'] = {}
-    charts[id]['chart3'] = {}
-    charts[id]['chart4'] = {}
+    # # create a subdict for table, column and map
+    # charts[id]['chart1'] = {}
+    # charts[id]['chart2'] = {}
+    # charts[id]['chart3'] = {}
+    # charts[id]['chart4'] = {}
 
-    if pd.isna(row['geo']) or pd.isna(row['status_tabel']) or pd.isna(row['parti_søjle']):
-        print(f"Skipping row {index} due to missing data")
-        continue
+    # if pd.isna(row['geo']) or pd.isna(row['status_tabel']) or pd.isna(row['parti_søjle']):
+    #     print(f"Skipping row {index} due to missing data")
+    #     continue
 
 
-    # GENERATE ELEMENTS FOR THE FIRST CHART (STATUS TABLE)
-    #status_table_response = create_status_table(row['geo'], row['status_tabel'])
-    charts[id]['chart1']['header'] = ""
-    charts[id]['chart1']['description'] = ""
-    #charts[id]['chart1']['id'] = status_table_response['id'] # set the id in chart1 to the id from the response
+    # # GENERATE ELEMENTS FOR THE FIRST CHART (STATUS TABLE)
+    # #status_table_response = create_status_table(row['geo'], row['status_tabel'])
+    # charts[id]['chart1']['header'] = ""
+    # charts[id]['chart1']['description'] = ""
+    # #charts[id]['chart1']['id'] = status_table_response['id'] # set the id in chart1 to the id from the response
 
-    # GENERATE ELEMENTS FOR THE SECOND CHART (VOTING AREA MAP)
+    # # GENERATE ELEMENTS FOR THE SECOND CHART (VOTING AREA MAP)
 
-    #map_response = create_maps(row['geo'], row['kort'])
-    charts[id]['chart2']['header'] = ""
-    charts[id]['chart2']['description'] = ""
+    map_response = create_maps(row['geo'], row['kort'])
+    # charts[id]['chart2']['header'] = ""
+    # charts[id]['chart2']['description'] = ""
    #charts[id]['chart2']['id'] = map_response['id'] # set the id
     
     # GENERATE ELEMENTS FOR THE THIRD CHART (PERCENTAGE BARS)
     #bar_response = create_columns(row['geo'], row['parti_søjle'])
 
-    charts[id]['chart3']['header'] = ""
-    charts[id]['chart3']['description'] = ""
-    #charts[id]['chart3']['id'] = bar_response['id'] # set the id in chart1 to the id from the response
+    # charts[id]['chart3']['header'] = ""
+    # charts[id]['chart3']['description'] = ""
+    # #charts[id]['chart3']['id'] = bar_response['id'] # set the id in chart1 to the id from the response
 
-    # GENERATE ELEMENTS FOR THE FOURTH CHART (CANDIDATE TABLE)
-    #stemme_table_response = create_tables(row['geo'], row['stemme_tabel'])
+    # # GENERATE ELEMENTS FOR THE FOURTH CHART (CANDIDATE TABLE)
+    # #stemme_table_response = create_tables(row['geo'], row['stemme_tabel'])
 
-    charts[id]['chart4']['header'] = ""
-    charts[id]['chart4']['description'] = ""
-    #charts[id]['chart4']['id'] = stemme_table_response['id'] # set the id in chart1 to the id from the response
+    # charts[id]['chart4']['header'] = ""
+    # charts[id]['chart4']['description'] = ""
+    # #charts[id]['chart4']['id'] = stemme_table_response['id'] # set the id in chart1 to the id from the response
     
-    #create_columns(row['geo'], row['parti_søjle'])
-print(charts)
+#     #create_columns(row['geo'], row['parti_søjle'])
+# print(charts)
 
-# save the charts dict to a json file
-with open('dw_charts.json', 'w', encoding='utf-8') as f:
-    json.dump(charts, f, ensure_ascii=False, indent=4)
+# # save the charts dict to a json file
+# with open('dw_charts.json', 'w', encoding='utf-8') as f:
+#     json.dump(charts, f, ensure_ascii=False, indent=4)
 
     
 

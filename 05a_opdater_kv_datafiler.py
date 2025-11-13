@@ -329,7 +329,7 @@ totals = kv25_resultater_partier.groupby("kommune")["stemmer"].sum() # kommune t
 nat_resultater = (
     kv25_resultater_partier
       .assign(bogstav=lambda d: d["parti_bogstav"].map(bogstav_map).fillna(d["parti_bogstav"]))
-      .groupby(["kommune", "parti", "bogstav"], as_index=False)["stemmer"].sum()
+      .groupby(["kommune_kode","kommune", "parti", "bogstav"], as_index=False)["stemmer"].sum()
       .assign(
           kommune_gyldige_stemmer=lambda d: d["kommune"].map(totals),
           procent_25=lambda d: d["stemmer"] / d["kommune_gyldige_stemmer"] * 100,
@@ -346,7 +346,7 @@ største = (
 nat_resultater = (
     nat_resultater
       .merge(største, on="kommune", how="left")
-      .pivot(index=["kommune", "største_parti"], columns="bogstav", values="procent_25")
+      .pivot(index=['kommune_kode',"kommune", "største_parti"], columns="bogstav", values="procent_25")
       .reset_index()
 )
 
