@@ -164,9 +164,9 @@ def make_popup(row):
 
     # Only single quotes inside HTML
     header_html = (
-        f"<big><big><big>"
-        f"<b style='color:{header_color}'>{largest_party}</b>"
-        f"</big></big> blev størst i {kommune} Kommune</big>"
+        f'<big><big><big>'
+        f'<b style="color:{header_color}">{largest_party}</b>'
+        f'</big></big> blev størst i {kommune} Kommune</big>'
     )
 
     bars = []
@@ -186,17 +186,17 @@ def make_popup(row):
         color = party_colors.get(party, default_color)
 
         bar_html = (
-            "<tr>"
-            f"<td>{party}</td>"
-            "<td>"
-            f"<div style='width:{1.4 * pct:.1f}px; height:14px; background-color:{color}; "
-            "color:white; padding:2px 0 0 0; vertical-align:bottom; font-weight:bold; "
-            "display:inline-block;'></div>"
-            f"<div style='width:{140 - 1.4 * pct:.1f}px; height:14px; background-color:#ffffff; "
-            f"color:{color}; vertical-align:middle; padding:4px 4px 0 4px; font-weight:bold; "
-            f"display:inline-block;'>{pct:.1f}%</div>"
-            "</td>"
-            "</tr>"
+            '<tr>'
+            f'<td>{party}</td>'
+            '<td>'
+            f'<div style="width:{1.4 * pct:.1f}px; height:14px; background-color:{color}; '
+            'color:white; padding:2px 0 0 0; vertical-align:bottom; font-weight:bold; '
+            'display:inline-block;"></div>'
+            f'<div style="width:{140 - 1.4 * pct:.1f}px; height:14px; background-color:#ffffff; '
+            f'color:{color}; vertical-align:middle; padding:4px 4px 0 4px; font-weight:bold; '
+            f'display:inline-block;">{pct:.1f}%</div>'
+            '</td>'
+            '</tr>'
         )
 
         bars.append((pct, bar_html))
@@ -206,6 +206,7 @@ def make_popup(row):
 
     bars_html = "".join(bar_html for pct, bar_html in bars)
     popup_html = header_html + "<hr><table>" + bars_html + "</table>"
+    print(popup_html)
     return popup_html
 
 ############# Generate pop-ups and store in column #############
@@ -213,4 +214,4 @@ def make_popup(row):
 national_kv["pop_up"] = national_kv.apply(make_popup, axis=1)
 
 # Save for Datawrapper
-national_kv.to_csv("national_kv_with_popups.csv", index=False)
+national_kv.to_csv("national_kv_with_popups.csv", index=False, sep=";")
