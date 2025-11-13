@@ -164,7 +164,7 @@ def make_popup(row):
     # Header line
     header = (
         f"<b style='color:{header_color}; font-size:1.5em'>{largest}</b> "
-        f"blev størst i {kommune} Kommune<br>"
+        f"blev størst i {kommune} Kommune<br><br>"
     )
 
     rows = []
