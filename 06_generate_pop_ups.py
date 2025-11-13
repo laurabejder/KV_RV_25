@@ -157,58 +157,39 @@ national_kv[party_columns] = national_kv[party_columns].apply(
 ############# Function to build one popup (per row) #############
 
 def make_popup(row):
-    largest_party = row["største_parti"]
+    largest = row["største_parti"]
     kommune = row["kommune"]
+    header_color = largest_party_colors.get(largest, "#494949")
 
-    header_color = largest_party_colors.get(largest_party, default_color)
-
-    # Only single quotes inside HTML
-    header_html = (
-        f'<big><big><big>'
-        f'<b style="color:{header_color}">{largest_party}</b>'
-        f'</big></big> blev størst i {kommune} Kommune</big>'
+    header = (
+        f"<b style='color:{header_color}'>{largest}</b> "
+        f"blev størst i {kommune} Kommune<br>"
     )
 
     bars = []
     for party in party_columns:
         pct = row[party]
-
-        # Skip NaN or non-numeric
         if pd.isna(pct):
             continue
-
-        # Just to be extra safe
-        try:
-            pct = float(pct)
-        except (TypeError, ValueError):
-            continue
+        pct = float(pct)
 
         color = party_colors.get(party, default_color)
+        width = int(1.4 * pct)
 
-        bar_html = (
-            '<tr>'
-            f'<td>{party}</td>'
-            '<td>'
-            f'<div style="width:{1.4 * pct:.1f}px; height:14px; background-color:{color}; '
-            'color:white; padding:2px 0 0 0; vertical-align:bottom; font-weight:bold; '
-            'display:inline-block;"></div>'
-            f'<div style="width:{140 - 1.4 * pct:.1f}px; height:14px; background-color:#ffffff; '
-            f'color:{color}; vertical-align:middle; padding:4px 4px 0 4px; font-weight:bold; '
-            f'display:inline-block;">{pct:.1f}%</div>'
-            '</td>'
-            '</tr>'
+        bar = (
+            f"{party}: "
+            f"<span style='display:inline-block; width:{width}px; height:10px; "
+            f"background:{color};'></span> "
+            f"{pct:.1f}%"
         )
 
-        bars.append((pct, bar_html))
+        bars.append((pct, bar))
 
-    # Sort by percentage desc
     bars.sort(key=lambda x: x[0], reverse=True)
 
-    bars_html = "".join(bar_html for pct, bar_html in bars)
-    popup_html = header_html + "<hr><table>" + bars_html + "</table>"
-    popup_html = popup_html.replace('"', "'")
-    print(popup_html)
-    return popup_html
+    body = "<br>".join(b for _, b in bars)
+
+    return header + body
 
 ############# Generate pop-ups and store in column #############
 
