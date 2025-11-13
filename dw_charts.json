@@ -2,18 +2,50 @@
     "1": {
         "name": "Hele landet",
         "slug": "KV25",
-        "chart1": {},
-        "chart2": {},
-        "chart3": {},
-        "chart4": {}
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {
+            "header": "Her er de nye borgmestre",
+            "description": "",
+            "id": "vKUxp"
+        },
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "6O4p7"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": ""
+        }
     },
     "2": {
         "name": "Hele landet",
         "slug": "RV25",
-        "chart1": {},
-        "chart2": {},
-        "chart3": {},
-        "chart4": {}
+        "chart1": {
+            "header": "",
+            "description": "",
+            "id": ""
+        },
+        "chart2": {
+            "header": "",
+            "description": "Her er de nye formænd for regionerne",
+            "id": "3tiFy"
+        },
+        "chart3": {
+            "header": "",
+            "description": "",
+            "id": "qw2mo"
+        },
+        "chart4": {
+            "header": "",
+            "description": "",
+            "id": ""
+        }
     },
     "3": {
         "name": "Region Østdanmark",
@@ -26,7 +58,7 @@
         "chart2": {
             "header": "",
             "description": "",
-            "id": "TwEXq"
+            "id": ""
         },
         "chart3": {
             "header": "",
@@ -1237,30 +1269,6 @@
             "header": "",
             "description": "",
             "id": "A0CVo"
-        }
-    },
-    "411": {
-        "name": "Christiansø",
-        "slug": "KV25",
-        "chart1": {
-            "header": "",
-            "description": "",
-            "id": "aROj8"
-        },
-        "chart2": {
-            "header": "",
-            "description": "",
-            "id": "A9KZV"
-        },
-        "chart3": {
-            "header": "",
-            "description": "",
-            "id": "JouhM"
-        },
-        "chart4": {
-            "header": "",
-            "description": "",
-            "id": "bRqDj"
         }
     },
     "420": {
