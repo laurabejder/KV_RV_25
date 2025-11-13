@@ -99,13 +99,13 @@
 
 # ############# Generate pop-ups #############
 
-# #
-
 import pandas as pd
 
 ############# Load data #############
 
-national_kv = pd.read_csv("data/struktureret/kv/valgresultater/nationalt/nationalt_kommuner_parti_procenter.csv")
+national_kv = pd.read_csv(
+    "data/struktureret/kv/valgresultater/nationalt/nationalt_kommuner_parti_procenter.csv"
+)
 
 ############# Color maps #############
 
@@ -141,6 +141,7 @@ party_colors = {
     "M":  "#911995",
     "FG": "#eecbc6",
     "DD": "#0075c9",
+    # add more if needed: "SP", "T", etc.
 }
 
 default_color = "#494949"
@@ -148,8 +149,12 @@ default_color = "#494949"
 non_party_columns = ["kommune_kode", "kommune", "største_parti"]
 party_columns = [c for c in national_kv.columns if c not in non_party_columns]
 
+# 1) Force party columns to numeric (strings -> float; bad values -> NaN)
+national_kv[party_columns] = national_kv[party_columns].apply(
+    pd.to_numeric, errors="coerce"
+)
 
-############# Function to build one popup #############
+############# Function to build one popup (per row) #############
 
 def make_popup(row):
     largest_party = row["største_parti"]
@@ -157,20 +162,25 @@ def make_popup(row):
 
     header_color = largest_party_colors.get(largest_party, default_color)
 
-    # Top text
+    # Only single quotes inside HTML
     header_html = (
-        f'<big><big><big>'
-        f'<b style="color:{header_color}">{largest_party}</b>'
-        f'</big></big> blev størst i {kommune} Kommune</big>'
+        f"<big><big><big>"
+        f"<b style='color:{header_color}'>{largest_party}</b>"
+        f"</big></big> blev størst i {kommune} Kommune</big>"
     )
 
-    # Collect bars with their percentages so we can sort them
     bars = []
     for party in party_columns:
         pct = row[party]
 
-        # Skip NaNs or zero if you don't want to show zero-parties
+        # Skip NaN or non-numeric
         if pd.isna(pct):
+            continue
+
+        # Just to be extra safe
+        try:
+            pct = float(pct)
+        except (TypeError, ValueError):
             continue
 
         color = party_colors.get(party, default_color)
@@ -179,31 +189,28 @@ def make_popup(row):
             "<tr>"
             f"<td>{party}</td>"
             "<td>"
-            f'<div style="width:{1.4 * pct:.1f}px; height:14px; background-color:{color}; '
-            'color:white; padding:2px 0 0 0; vertical-align:bottom; font-weight:bold; '
-            'display:inline-block;"></div>'
-            f'<div style="width:{140 - 1.4 * pct:.1f}px; height:14px; background-color:#ffffff; '
-            f'color:{color}; vertical-align:middle; padding:4px 4px 0 4px; font-weight:bold; '
-            f'display:inline-block;">{pct:.1f}%</div>'
+            f"<div style='width:{1.4 * pct:.1f}px; height:14px; background-color:{color}; "
+            "color:white; padding:2px 0 0 0; vertical-align:bottom; font-weight:bold; "
+            "display:inline-block;'></div>"
+            f"<div style='width:{140 - 1.4 * pct:.1f}px; height:14px; background-color:#ffffff; "
+            f"color:{color}; vertical-align:middle; padding:4px 4px 0 4px; font-weight:bold; "
+            f"display:inline-block;'>{pct:.1f}%</div>"
             "</td>"
             "</tr>"
         )
 
         bars.append((pct, bar_html))
 
-    # Sort parties by percentage (descending)
+    # Sort by percentage desc
     bars.sort(key=lambda x: x[0], reverse=True)
 
     bars_html = "".join(bar_html for pct, bar_html in bars)
-
     popup_html = header_html + "<hr><table>" + bars_html + "</table>"
     return popup_html
-
 
 ############# Generate pop-ups and store in column #############
 
 national_kv["pop_up"] = national_kv.apply(make_popup, axis=1)
 
-# Optional: inspect result
-# Save to CSV
-national_kv.to_csv("data/struktureret/kv/valgresultater/nationalt/nationalt_kommuner_parti_procenter.csv", index=False)
+# Save for Datawrapper
+national_kv.to_csv("national_kv_with_popups.csv", index=False)
