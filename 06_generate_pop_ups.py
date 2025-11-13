@@ -159,35 +159,49 @@ national_kv[party_columns] = national_kv[party_columns].apply(
 def make_popup(row):
     largest = row["største_parti"]
     kommune = row["kommune"]
-    header_color = largest_party_colors.get(largest, "#494949")
+    header_color = largest_party_colors.get(largest, default_color)
 
+    # Header line
     header = (
         f"<b style='color:{header_color}'>{largest}</b> "
         f"blev størst i {kommune} Kommune<br>"
     )
 
-    bars = []
+    rows = []
     for party in party_columns:
         pct = row[party]
         if pd.isna(pct):
             continue
+
         pct = float(pct)
-
         color = party_colors.get(party, default_color)
-        width = int(1.4 * pct)
+        bar_width = int(1.4 * pct)
 
-        bar = (
-            f"{party}: "
-            f"<span style='display:inline-block; width:{width}px; height:10px; "
-            f"background:{color};'></span> "
-            f"{pct:.1f}%"
+        # fixed-width label cell (so S: and SP: line up)
+        label_span = (
+            f"<span style='display:inline-block; width:28px;'>{party}:</span>"
         )
 
-        bars.append((pct, bar))
+        # bar cell
+        bar_span = (
+            f"<span style='display:inline-block; "
+            f"width:{bar_width}px; height:10px; "
+            f"background:{color};'></span>"
+        )
 
-    bars.sort(key=lambda x: x[0], reverse=True)
+        # percentage cell, fixed width & right-aligned
+        pct_span = (
+            f"<span style='display:inline-block; width:50px; "
+            f"text-align:right;'>{pct:.1f}%</span>"
+        )
 
-    body = "<br>".join(b for _, b in bars)
+        line = label_span + bar_span + pct_span
+        rows.append((pct, line))
+
+    # sort by percentage descending
+    rows.sort(key=lambda x: x[0], reverse=True)
+
+    body = "<br>".join(line for _, line in rows)
 
     return header + body
 
