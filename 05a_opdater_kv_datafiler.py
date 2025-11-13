@@ -409,6 +409,9 @@ national_totals = pd.concat([
     andre_row
 ], ignore_index=True)
 
+# replace 0 with NaN
+national_totals["procent_21"] = national_totals["procent_21"].replace(0, pd.NA)
+
 # save file
 out_path = NATIONAL_DIR / "nationalt_partier.csv"
 national_totals.to_csv(out_path, index=False)                                                                                    
