@@ -104,7 +104,8 @@ import pandas as pd
 ############# Load data #############
 
 national_kv = pd.read_csv(
-    "data/struktureret/kv/valgresultater/nationalt/nationalt_kommuner_parti_procenter.csv"
+    "data/struktureret/kv/valgresultater/nationalt/nationalt_kommuner_parti_procenter.csv",
+    sep=";"
 )
 
 ############# Color maps #############
