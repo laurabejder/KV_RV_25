@@ -166,6 +166,10 @@ def get_afstemningsområde_percentages(
 
     wide["største_parti"] = wide.apply(_biggest_party, axis=1)
 
+    # replace største parti bogstav with party name
+    bogstav_to_navn = {p["bogstav"]: p["navn"] for p in partier_info}
+    wide["største_parti"] = wide["største_parti"].map(bogstav_to_navn).fillna(wide["største_parti"])
+
     # Merge med afstemningssteds-info
     afst = afst[
         [

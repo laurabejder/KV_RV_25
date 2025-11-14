@@ -164,6 +164,10 @@ def get_afstemningsområde_percentages(
 
     wide["største_parti"] = wide.apply(_biggest_party, axis=1)
 
+    # replace største parti bogstav with party name
+    bogstav_to_navn = {p["bogstav"]: p["navn"] for p in partier_info}
+    wide["største_parti"] = wide["største_parti"].map(bogstav_to_navn).fillna(wide["største_parti"])
+
     # Merge med afstemningssteds-info
     afst = afst[
         [
@@ -279,10 +283,7 @@ for kommune_id in kv25_resultater_partier["kommune_kode"].unique():
     # Load filerne, der ligger til grund for visualiseringerne
     kommune_niveau = pd.read_csv(KOMMUNE_DIR / f"{kommune_id}_{kommunenavn_lower}_kommune.csv")
     
-    try:
-        afstemningssted_niveau = pd.read_csv(AFSTEM_DIR / f"{kommune_id}_{kommunenavn_lower}_afstemningsområde.csv")
-    except:
-        afstemningssted_niveau = pd.read_csv(AFSTEM_DIR / f"{kommune_id}_{kommunenavn_lower}_afstemningsområde.csv", sep=";")
+    afstemningssted_niveau = pd.read_csv(AFSTEM_DIR / f"{kommune_id}_{kommunenavn_lower}_afstemningsområde.csv", sep=";")
 
     # Standardiser partinavne og -bogstaver til vores format
     data_std = _standardize_party_labels(data)
