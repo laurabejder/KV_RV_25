@@ -141,6 +141,7 @@ party_colors = {
     "M":  "#911995",
     "FG": "#eecbc6",
     "DD": "#0075c9",
+    # add more if needed: "SP", "T", etc.
 }
 
 default_color = "#494949"
@@ -148,21 +149,21 @@ default_color = "#494949"
 non_party_columns = ["kommune_kode", "kommune", "største_parti"]
 party_columns = [c for c in national_kv.columns if c not in non_party_columns]
 
-# Convert party columns to numeric
+# 1) Force party columns to numeric (strings -> float; bad values -> NaN)
 national_kv[party_columns] = national_kv[party_columns].apply(
     pd.to_numeric, errors="coerce"
 )
 
-############# Function to build HTML table popup #############
+############# Function to build one popup (per row) #############
 
 def make_popup(row):
     largest = row["største_parti"]
     kommune = row["kommune"]
     header_color = largest_party_colors.get(largest, default_color)
 
-    # Header with color (allowed)
+    # Header line
     header = (
-        f"<b style='color:{header_color}; font-size:1.2em'>{largest}</b><br>"
+        f"<b style='color:{header_color}; font-size:1.5em'>{largest}</b><br> "
         f"blev størst i {kommune} Kommune<br><br>"
     )
 
@@ -174,32 +175,39 @@ def make_popup(row):
 
         pct = float(pct)
         color = party_colors.get(party, default_color)
-        rows.append((pct, party, pct, color))
+        bar_width = int(1.4 * pct)
 
-    rows.sort(key=lambda x: x[0], reverse=True)
-
-    # Pure HTML table – no inline CSS
-    table_html = "<table>"
-    table_html += "<tr><th></th><th>Parti</th><th>%</th></tr>"
-
-    for _, party, pct, color in rows:
-        table_html += (
-            f"<tr>"
-            f"<td>{party}</td>"
-            f"<td>{pct:.1f}%</td>"
-            f"<td style='color:{color}'>■</td>"
-            f"</tr>"
+        # fixed-width label cell (so S: and SP: line up)
+        label_span = (
+            f"<span style='display:inline-block; width:28px; font-size:1em'>{party}</span>"
         )
 
-    table_html += "</table>"
+        # bar cell
+        bar_span = (
+            f"<span style='display:inline-block; "
+            f"width:0.3em; height:1em; vertical-align:middle"
+            f"background:{color};'></span>"
+        )
 
-    return header + table_html
-############# Add popup column #############
+        # percentage cell, fixed width & right-aligned
+        pct_span = (
+            f"<span style='color: {color}; display:inline-block; width:50px; "
+            f"text-align:left; font-size:1em;>{pct:.1f}%</span>"
+        )
+
+        line = bar_span + label_span + pct_span
+        rows.append((pct, line))
+
+    # sort by percentage descending
+    rows.sort(key=lambda x: x[0], reverse=True)
+
+    body = "<br>".join(line for _, line in rows)
+
+    return header + body
+
+############# Generate pop-ups and store in column #############
 
 national_kv["pop_up"] = national_kv.apply(make_popup, axis=1)
 
-national_kv.to_csv(
-    "data/struktureret/kv/valgresultater/nationalt/nationalt_kommuner_parti_procenter1.csv",
-    index=False,
-    sep=";"
-)
+# Save for Datawrapper
+national_kv.to_csv("data/struktureret/kv/valgresultater/nationalt/nationalt_kommuner_parti_procenter1.csv", index=False, sep=";")
