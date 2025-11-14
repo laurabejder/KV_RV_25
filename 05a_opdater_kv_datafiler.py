@@ -355,7 +355,7 @@ nat_resultater["kommune"] = nat_resultater["kommune"].str.replace(" Kommune", ""
 
 # save file
 out_path = NATIONAL_DIR / "nationalt_kommuner_parti_procenter.csv"
-nat_resultater.to_csv(out_path, index=False)
+nat_resultater.to_csv(out_path, index=False, sep=";")
 
 # now get the percent per party across the whole country
 national_totals = (
@@ -414,4 +414,4 @@ national_totals["procent_21"] = national_totals["procent_21"].replace(0, pd.NA)
 
 # save file
 out_path = NATIONAL_DIR / "nationalt_partier.csv"
-national_totals.to_csv(out_path, index=False)                                                                                    
+national_totals.to_csv(out_path, index=False, sep=";")                                                                                    
