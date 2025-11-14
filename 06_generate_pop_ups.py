@@ -210,4 +210,4 @@ def make_popup(row):
 national_kv["pop_up"] = national_kv.apply(make_popup, axis=1)
 
 # Save for Datawrapper
-national_kv.to_csv("data/struktureret/kv/valgresultater/nationalt/nationalt_kommuner_parti_procenter1.csv", index=False, sep=";")
+national_kv.to_csv("data/struktureret/kv/valgresultater/nationalt/nationalt_kommuner_parti_procenter.csv", index=False, sep=";")
