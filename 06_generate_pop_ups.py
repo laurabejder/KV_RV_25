@@ -160,6 +160,7 @@ def make_popup(row):
     kommune = row["kommune"]
     header_color = largest_party_colors.get(largest, default_color)
 
+    # Header with color (allowed)
     header = (
         f"<b style='color:{header_color}; font-size:1.2em'>{largest}</b><br>"
         f"blev størst i {kommune} Kommune<br><br>"
@@ -173,28 +174,26 @@ def make_popup(row):
 
         pct = float(pct)
         color = party_colors.get(party, default_color)
-
         rows.append((pct, party, pct, color))
 
     rows.sort(key=lambda x: x[0], reverse=True)
 
-    # Build table
-    table_html = "<table style='font-size:0.9em;'>"
-    table_html += "<tr><th>Parti</th><th>%</th><th>Farve</th></tr>"
+    # Pure HTML table – no inline CSS
+    table_html = "<table>"
+    table_html += "<tr><th></th><th>Parti</th><th>%</th></tr>"
 
     for _, party, pct, color in rows:
         table_html += (
             f"<tr>"
             f"<td>{party}</td>"
             f"<td>{pct:.1f}%</td>"
-            f"<td><span style='color:{color}'>{color}</span></td>"
+            f"<td style='color:{color}'>■</td>"
             f"</tr>"
         )
 
     table_html += "</table>"
 
     return header + table_html
-
 ############# Add popup column #############
 
 national_kv["pop_up"] = national_kv.apply(make_popup, axis=1)
