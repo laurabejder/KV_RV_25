@@ -75,7 +75,7 @@ def add_popups(
 
         # Header line
         header = (
-            f"<b style='color:{header_color}; font-size:1.5em;margin-bottom: 5px'>{largest}</b><br> "
+            f"<b style='color:{header_color}; font-size:1.5em;margin-bottom: 10px'>{largest}</b><br> "
             f"blev størst i {valg}<br>"
         )
 
