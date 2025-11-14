@@ -1,16 +1,16 @@
-dagi_id,navn,nummer,afstemningssted_navn,kommune_id,opstillingskreds_nummer,opstillingskreds_dagi_id,afstemningssted_adresse,kommune_navn,kommune_dagi_id,største_parti
-701908,Dalby/Tved/Rebæk,11,Dalbyhallen,621,60,403627,"Dalbyvej 116C, Dalby, 6000 Kolding",Kolding,389176,
-712326,Vamdrup/Hjarup/Ødis,14,Arena Syd,621,60,403627,"Idrætsvej 3, 6580 Vamdrup",Kolding,389176,
-712312,Chr.Feld/Stepping/Taps/Hejls,15,Cuben,621,60,403627,"Østprøven 1, 6070 Christiansfeld",Kolding,389176,
-701902,Centrum Syd,8,"Brændkjærhallen, Idræts- og kulturhus",621,60,403627,"Dannersvej 2, 6000 Kolding",Kolding,389176,
-712320,Seest,10,Bakkeskolen,621,60,403627,"Seestvej 6, Seest, 6000 Kolding",Kolding,389176,
-705308,S Bjert/S Stenderup/Vejstrup,12,Bjert-Hallen,621,60,403627,"Engløkke 7, Agtrup, 6091 Bjert",Kolding,389176,
-701916,Sydbyen,9,Pulzion,621,60,403627,"Peter Tofts Vej 21, 6000 Kolding",Kolding,389176,
-707970,Vonsild,13,Vonsildhallen,621,60,403627,"Catolhavegyden 19, Vonsild, 6000 Kolding",Kolding,389176,
-701932,Alminde-Viuf/Vester Nebel,6,Alminde-Viuf Hallen,621,59,403626,"Storgaden 9, 6052 Viuf",Kolding,389176,
-708000,Lunderskov/Jordrup,7,Lunderskovhallen,621,59,403626,"Kobbelvænget 1, 6640 Lunderskov",Kolding,389176,
-706610,Centrum Nord,1,Parkhallen,621,59,403626,"Fynsvej 49, 6000 Kolding",Kolding,389176,
-705338,Strandhuse/Nr. Bjert/ Eltang,4,Lyshøjhallen,621,59,403626,"Lyshøj Alle 1, Strandhuse, 6000 Kolding",Kolding,389176,
-706604,Vestbyen,3,Munkevængets Hal,621,59,403626,"Munkevænget 4, 6000 Kolding",Kolding,389176,
-701938,Nordbyen,2,Kolding Realskole,621,59,403626,"Dyrehavevej 108, 6000 Kolding",Kolding,389176,
-706622,Bramdrupdam,5,Forum Kolding,621,59,403626,"Bramdrupskovvej 110, Bramdrupdam, 6000 Kolding",Kolding,389176,
+dagi_id;navn;nummer;afstemningssted_navn;kommune_id;opstillingskreds_nummer;opstillingskreds_dagi_id;afstemningssted_adresse;kommune_navn;kommune_dagi_id;største_parti;pop_up
+701908;Dalby/Tved/Rebæk;11;Dalbyhallen;621;60;403627;Dalbyvej 116C, Dalby, 6000 Kolding;Kolding;389176;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Dalbyhallen<br>"
+712326;Vamdrup/Hjarup/Ødis;14;Arena Syd;621;60;403627;Idrætsvej 3, 6580 Vamdrup;Kolding;389176;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Arena Syd<br>"
+712312;Chr.Feld/Stepping/Taps/Hejls;15;Cuben;621;60;403627;Østprøven 1, 6070 Christiansfeld;Kolding;389176;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Cuben<br>"
+701902;Centrum Syd;8;Brændkjærhallen, Idræts- og kulturhus;621;60;403627;Dannersvej 2, 6000 Kolding;Kolding;389176;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Brændkjærhallen, Idræts- og kulturhus<br>"
+712320;Seest;10;Bakkeskolen;621;60;403627;Seestvej 6, Seest, 6000 Kolding;Kolding;389176;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Bakkeskolen<br>"
+705308;S Bjert/S Stenderup/Vejstrup;12;Bjert-Hallen;621;60;403627;Engløkke 7, Agtrup, 6091 Bjert;Kolding;389176;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Bjert-Hallen<br>"
+701916;Sydbyen;9;Pulzion;621;60;403627;Peter Tofts Vej 21, 6000 Kolding;Kolding;389176;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Pulzion<br>"
+707970;Vonsild;13;Vonsildhallen;621;60;403627;Catolhavegyden 19, Vonsild, 6000 Kolding;Kolding;389176;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Vonsildhallen<br>"
+701932;Alminde-Viuf/Vester Nebel;6;Alminde-Viuf Hallen;621;59;403626;Storgaden 9, 6052 Viuf;Kolding;389176;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Alminde-Viuf Hallen<br>"
+708000;Lunderskov/Jordrup;7;Lunderskovhallen;621;59;403626;Kobbelvænget 1, 6640 Lunderskov;Kolding;389176;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Lunderskovhallen<br>"
+706610;Centrum Nord;1;Parkhallen;621;59;403626;Fynsvej 49, 6000 Kolding;Kolding;389176;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Parkhallen<br>"
+705338;Strandhuse/Nr. Bjert/ Eltang;4;Lyshøjhallen;621;59;403626;Lyshøj Alle 1, Strandhuse, 6000 Kolding;Kolding;389176;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Lyshøjhallen<br>"
+706604;Vestbyen;3;Munkevængets Hal;621;59;403626;Munkevænget 4, 6000 Kolding;Kolding;389176;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Munkevængets Hal<br>"
+701938;Nordbyen;2;Kolding Realskole;621;59;403626;Dyrehavevej 108, 6000 Kolding;Kolding;389176;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Kolding Realskole<br>"
+706622;Bramdrupdam;5;Forum Kolding;621;59;403626;Bramdrupskovvej 110, Bramdrupdam, 6000 Kolding;Kolding;389176;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Forum Kolding<br>"

@@ -1,11 +1,11 @@
-dagi_id,navn,nummer,afstemningssted_navn,kommune_id,opstillingskreds_nummer,opstillingskreds_dagi_id,afstemningssted_adresse,kommune_navn,kommune_dagi_id,største_parti
-709066,Kulturhuset Stationen,3,Kulturhuset Stationen,707,66,403602,"Stationsgade 22, 8570 Trustrup",Norddjurs,389187,
-709084,Auning,9,Auning-Hallerne,707,66,403602,"Sdr Fælledvej 5A, 8963 Auning",Norddjurs,389187,
-707518,Ørum,6,Ørum Aktiv Center,707,66,403602,"Skolebakken 43, 8586 Ørum Djurs",Norddjurs,389187,
-701476,Vivild,10,Vivild Gymnastik- og,707,66,403602,"Højgårdsvej 7, Vivild, 8961 Allingåbro",Norddjurs,389187,
-709072,Glesborg,5,Nørre Djurs Hallen,707,66,403602,"Idrætsvej 2, 8585 Glesborg",Norddjurs,389187,
-704660,Ørsted,7,Rougsø Hallen,707,66,403602,"Rougsøvej 166A, 8950 Ørsted",Norddjurs,389187,
-707484,Grenaa Idrætscenter,4,Grenaa Idrætscenter,707,66,403602,"Ydesvej 2, 8500 Grenaa",Norddjurs,389187,
-711832,Anholt Skole,2,Anholt Skole,707,66,403602,"Ørkenvej 1A, 8592 Anholt",Norddjurs,389187,
-710680,Allingåbro,8,Allingåbro Idrætshal,707,66,403602,"Halvej 4A, 8961 Allingåbro",Norddjurs,389187,
-709078,Kulturhuset Pavillonen,1,"Kulturhuset, Pavillonen",707,66,403602,"Kærvej 11, 8500 Grenaa",Norddjurs,389187,
+dagi_id;navn;nummer;afstemningssted_navn;kommune_id;opstillingskreds_nummer;opstillingskreds_dagi_id;afstemningssted_adresse;kommune_navn;kommune_dagi_id;største_parti;pop_up
+709066;Kulturhuset Stationen;3;Kulturhuset Stationen;707;66;403602;Stationsgade 22, 8570 Trustrup;Norddjurs;389187;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Kulturhuset Stationen<br>"
+709084;Auning;9;Auning-Hallerne;707;66;403602;Sdr Fælledvej 5A, 8963 Auning;Norddjurs;389187;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Auning-Hallerne<br>"
+707518;Ørum;6;Ørum Aktiv Center;707;66;403602;Skolebakken 43, 8586 Ørum Djurs;Norddjurs;389187;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Ørum Aktiv Center<br>"
+701476;Vivild;10;Vivild Gymnastik- og;707;66;403602;Højgårdsvej 7, Vivild, 8961 Allingåbro;Norddjurs;389187;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Vivild Gymnastik- og<br>"
+709072;Glesborg;5;Nørre Djurs Hallen;707;66;403602;Idrætsvej 2, 8585 Glesborg;Norddjurs;389187;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Nørre Djurs Hallen<br>"
+704660;Ørsted;7;Rougsø Hallen;707;66;403602;Rougsøvej 166A, 8950 Ørsted;Norddjurs;389187;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Rougsø Hallen<br>"
+707484;Grenaa Idrætscenter;4;Grenaa Idrætscenter;707;66;403602;Ydesvej 2, 8500 Grenaa;Norddjurs;389187;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Grenaa Idrætscenter<br>"
+711832;Anholt Skole;2;Anholt Skole;707;66;403602;Ørkenvej 1A, 8592 Anholt;Norddjurs;389187;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Anholt Skole<br>"
+710680;Allingåbro;8;Allingåbro Idrætshal;707;66;403602;Halvej 4A, 8961 Allingåbro;Norddjurs;389187;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Allingåbro Idrætshal<br>"
+709078;Kulturhuset Pavillonen;1;Kulturhuset, Pavillonen;707;66;403602;Kærvej 11, 8500 Grenaa;Norddjurs;389187;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Kulturhuset, Pavillonen<br>"

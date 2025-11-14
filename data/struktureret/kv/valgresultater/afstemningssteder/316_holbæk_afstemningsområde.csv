@@ -1,16 +1,16 @@
-dagi_id,navn,nummer,afstemningssted_navn,kommune_id,opstillingskreds_nummer,opstillingskreds_dagi_id,afstemningssted_adresse,kommune_navn,kommune_dagi_id,største_parti
-701294,St. Merløse,8,Merløse Fritidscenter,316,37,403628,"Holbækvej 34, 4370 Store Merløse",Holbæk,389140,
-708868,Udby,6,Tuse Næs Hallerne,316,37,403628,"Udby Kirkevej 23, Udby, 4300 Holbæk",Holbæk,389140,
-704450,Jyderup,11,Jyderup Hallen,316,37,403628,"Elmegården 58, 4450 Jyderup",Holbæk,389140,
-705958,Tuse,5,Tuse Hallen,316,37,403628,"Tuse Byvej 8, Tuse, 4300 Holbæk",Holbæk,389140,
-701314,Mørkøv,12,Mørkøv Hallen,316,37,403628,"Skamstrupvej 7, 4440 Mørkøv",Holbæk,389140,
-705924,Vipperød,4,Vipperød Hallen,316,37,403628,"Rensdyrvej 4, 4390 Vipperød",Holbæk,389140,
-705950,Holbæk Vest,2,Absalonskolen,316,37,403628,"Vandtårnsvej 3, 4300 Holbæk",Holbæk,389140,
-708878,Tølløse,7,Tølløse Hallen,316,37,403628,"Sportsvej 2, 4340 Tølløse",Holbæk,389140,
-708862,Svinninge,13,Svinninge Sportscenter,316,37,403628,"Svinningehallen 1, 4520 Svinninge",Holbæk,389140,
-707370,Regstrup,9,Jernløse Hallen,316,37,403628,"Gl. Skovvej 150B, Nørre Jernløse, 4420 Regstrup",Holbæk,389140,
-708890,Holbæk Øst,1,Bjergmarkshallen,316,37,403628,"Bispehøjen 2, 4300 Holbæk",Holbæk,389140,
-704456,Undløse,10,Undløse Hallen,316,37,403628,"Øvej 5A, Undløse, 4340 Tølløse",Holbæk,389140,
-710502,Gislinge,14,Gislinge Skole,316,37,403628,"Skolevej 4, 4532 Gislinge",Holbæk,389140,
-707528,Orø,15,Orø Forsamlingshus,316,37,403628,"Brøndevej 24, Bybjerg, 4305 Orø",Holbæk,389140,
-702906,Holbæk Midt,3,Elværket,316,37,403628,"Gasværksvej 9, 4300 Holbæk",Holbæk,389140,
+dagi_id;navn;nummer;afstemningssted_navn;kommune_id;opstillingskreds_nummer;opstillingskreds_dagi_id;afstemningssted_adresse;kommune_navn;kommune_dagi_id;største_parti;pop_up
+701294;St. Merløse;8;Merløse Fritidscenter;316;37;403628;Holbækvej 34, 4370 Store Merløse;Holbæk;389140;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Merløse Fritidscenter<br>"
+708868;Udby;6;Tuse Næs Hallerne;316;37;403628;Udby Kirkevej 23, Udby, 4300 Holbæk;Holbæk;389140;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Tuse Næs Hallerne<br>"
+704450;Jyderup;11;Jyderup Hallen;316;37;403628;Elmegården 58, 4450 Jyderup;Holbæk;389140;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Jyderup Hallen<br>"
+705958;Tuse;5;Tuse Hallen;316;37;403628;Tuse Byvej 8, Tuse, 4300 Holbæk;Holbæk;389140;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Tuse Hallen<br>"
+701314;Mørkøv;12;Mørkøv Hallen;316;37;403628;Skamstrupvej 7, 4440 Mørkøv;Holbæk;389140;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Mørkøv Hallen<br>"
+705924;Vipperød;4;Vipperød Hallen;316;37;403628;Rensdyrvej 4, 4390 Vipperød;Holbæk;389140;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Vipperød Hallen<br>"
+705950;Holbæk Vest;2;Absalonskolen;316;37;403628;Vandtårnsvej 3, 4300 Holbæk;Holbæk;389140;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Absalonskolen<br>"
+708878;Tølløse;7;Tølløse Hallen;316;37;403628;Sportsvej 2, 4340 Tølløse;Holbæk;389140;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Tølløse Hallen<br>"
+708862;Svinninge;13;Svinninge Sportscenter;316;37;403628;Svinningehallen 1, 4520 Svinninge;Holbæk;389140;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Svinninge Sportscenter<br>"
+707370;Regstrup;9;Jernløse Hallen;316;37;403628;Gl. Skovvej 150B, Nørre Jernløse, 4420 Regstrup;Holbæk;389140;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Jernløse Hallen<br>"
+708890;Holbæk Øst;1;Bjergmarkshallen;316;37;403628;Bispehøjen 2, 4300 Holbæk;Holbæk;389140;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Bjergmarkshallen<br>"
+704456;Undløse;10;Undløse Hallen;316;37;403628;Øvej 5A, Undløse, 4340 Tølløse;Holbæk;389140;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Undløse Hallen<br>"
+710502;Gislinge;14;Gislinge Skole;316;37;403628;Skolevej 4, 4532 Gislinge;Holbæk;389140;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Gislinge Skole<br>"
+707528;Orø;15;Orø Forsamlingshus;316;37;403628;Brøndevej 24, Bybjerg, 4305 Orø;Holbæk;389140;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Orø Forsamlingshus<br>"
+702906;Holbæk Midt;3;Elværket;316;37;403628;Gasværksvej 9, 4300 Holbæk;Holbæk;389140;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Elværket<br>"

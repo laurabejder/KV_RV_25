@@ -1,25 +1,25 @@
-dagi_id,navn,nummer,afstemningssted_navn,kommune_id,opstillingskreds_nummer,opstillingskreds_dagi_id,afstemningssted_adresse,kommune_navn,kommune_dagi_id,største_parti
-709726,Holme-Olstrup,9,Holme-Olstrup Idrætsanlæg (Gymnastiksalen),370,32,403635,"Stationsvej 49A, Holme-Olstrup, 4684 Holmegaard",Næstved,389148,
-707910,Fladså Hallen,4,Fladså Hallen,370,32,403635,"Mogenstrup Parkvej 10, Mogenstrup, 4700 Næstved",Næstved,389148,
-712210,Grønbro Hallen,3,Grønbro Hallen,370,32,403635,"Grønbrovej 1, 4262 Sandved",Næstved,389148,
-705200,Herlufmagle,14,Herlufmagle-Hallen,370,32,403635,"Ravnstrupvej 1A, 4160 Herlufmagle",Næstved,389148,
-707904,Everdrup,2,Everdrup Samlingshus,370,32,403635,"Everdrupvej 20, Everdrup, 4733 Tappernøje",Næstved,389148,
-701858,Arena Næstved,23,"Arena Næstved (Hal 2, Indgang fra foyer)",370,32,403635,"Ved Stadion 11, 4700 Næstved",Næstved,389148,
-707930,Sandby,12,Sandby Forsamlingshus,370,32,403635,"Sandbyvej 60, Sandby, 4171 Glumsø",Næstved,389148,
-706398,Hyllinge,31,Vesthallen i Hyllinge,370,32,403635,"Kohavevej 10A, Hyllinge, 4700 Næstved",Næstved,389148,
-703666,Glumsø,11,Glumsø Hallen,370,32,403635,"Åsøvej 7A, 4171 Glumsø",Næstved,389148,
-711122,Fuglebjerg,1,Fuglebjerg-hallen,370,32,403635,"Byagervej 2, 4250 Fuglebjerg",Næstved,389148,
-703592,Lille Næstved Skole - Karrebæk,32,"Lille Næstved Skole, afd. Karrebæk (Hallen)",370,32,403635,"Kirkebakken 41, Karrebæk, 4736 Karrebæksminde",Næstved,389148,
-703654,Grønnegades Kaserne,21,Grønnegades Kaserne (Gl. Ridehus),370,32,403635,"Grønnegade 10, 4700 Næstved",Næstved,389148,
-712222,Toksværd,10,Toksværd Samlingshus,370,32,403635,"Dystedvej 6, 4684 Holmegaard",Næstved,389148,
-712204,Lille Næstved Skole - Herlufsholmvej,26,"Lille Næstved Skole, afd. Herlufsholmvej (Hallen)",370,32,403635,"Herlufsholmvej 16, 4700 Næstved",Næstved,389148,
-706454,Næstved Firma Sport,22,Næstved Firma Sport (Hallen),370,32,403635,"Kasernevej 24, 4700 Næstved",Næstved,389148,
-706418,Kobberbakkeskolen - Rønnebæk,29,"Kobberbakkeskolen, Rønnebæk Skole (Gymnastiksalen)",370,32,403635,"Englebjergvej 12, Rønnebæk, 4700 Næstved",Næstved,389148,
-711128,Hammer - Vester Egesborg,7,Hammer Forsamlingshus,370,32,403635,"Byvej 4, Hammer, 4700 Næstved",Næstved,389148,
-707924,Tappernøje,6,Korskildehallen,370,32,403635,"Brøderupvej 2A, Brøderup, 4733 Tappernøje",Næstved,389148,
-707918,Fensmark,8,Holmegaard Hallen,370,32,403635,"Glasværksvej 1, Fensmark, 4684 Holmegaard",Næstved,389148,
-749297,Skelby,13,Skelby Forsamlingshus,370,32,403635,"Trælløsevej 72, Skelby, 4160 Herlufmagle",Næstved,389148,
-701870,Lille Næstved Skole - Digtervej,20,"Lille Næstved Skole, afd. Digtervej (Hallen)",370,32,403635,"Karrebækvej 70, 4700 Næstved",Næstved,389148,
-703660,Tybjerg,5,Tybjerg Forsamlingshus,370,32,403635,"Tybjerg Bygade 13, Tybjerg, 4160 Herlufmagle",Næstved,389148,
-711136,Herlufsholmhallen,27,Herlufsholmhallen,370,32,403635,"Herlufsholm Alle 233A, 4700 Næstved",Næstved,389148,
-711142,Kobberbakkeskolen - Sydby,28,"Kobberbakkeskolen, Sydbyskolen (Hallen)",370,32,403635,"Parkvej 109A, 4700 Næstved",Næstved,389148,
+dagi_id;navn;nummer;afstemningssted_navn;kommune_id;opstillingskreds_nummer;opstillingskreds_dagi_id;afstemningssted_adresse;kommune_navn;kommune_dagi_id;største_parti;pop_up
+709726;Holme-Olstrup;9;Holme-Olstrup Idrætsanlæg (Gymnastiksalen);370;32;403635;Stationsvej 49A, Holme-Olstrup, 4684 Holmegaard;Næstved;389148;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Holme-Olstrup Idrætsanlæg (Gymnastiksalen)<br>"
+707910;Fladså Hallen;4;Fladså Hallen;370;32;403635;Mogenstrup Parkvej 10, Mogenstrup, 4700 Næstved;Næstved;389148;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Fladså Hallen<br>"
+712210;Grønbro Hallen;3;Grønbro Hallen;370;32;403635;Grønbrovej 1, 4262 Sandved;Næstved;389148;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Grønbro Hallen<br>"
+705200;Herlufmagle;14;Herlufmagle-Hallen;370;32;403635;Ravnstrupvej 1A, 4160 Herlufmagle;Næstved;389148;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Herlufmagle-Hallen<br>"
+707904;Everdrup;2;Everdrup Samlingshus;370;32;403635;Everdrupvej 20, Everdrup, 4733 Tappernøje;Næstved;389148;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Everdrup Samlingshus<br>"
+701858;Arena Næstved;23;Arena Næstved (Hal 2, Indgang fra foyer);370;32;403635;Ved Stadion 11, 4700 Næstved;Næstved;389148;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Arena Næstved (Hal 2, Indgang fra foyer)<br>"
+707930;Sandby;12;Sandby Forsamlingshus;370;32;403635;Sandbyvej 60, Sandby, 4171 Glumsø;Næstved;389148;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Sandby Forsamlingshus<br>"
+706398;Hyllinge;31;Vesthallen i Hyllinge;370;32;403635;Kohavevej 10A, Hyllinge, 4700 Næstved;Næstved;389148;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Vesthallen i Hyllinge<br>"
+703666;Glumsø;11;Glumsø Hallen;370;32;403635;Åsøvej 7A, 4171 Glumsø;Næstved;389148;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Glumsø Hallen<br>"
+711122;Fuglebjerg;1;Fuglebjerg-hallen;370;32;403635;Byagervej 2, 4250 Fuglebjerg;Næstved;389148;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Fuglebjerg-hallen<br>"
+703592;Lille Næstved Skole - Karrebæk;32;Lille Næstved Skole, afd. Karrebæk (Hallen);370;32;403635;Kirkebakken 41, Karrebæk, 4736 Karrebæksminde;Næstved;389148;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Lille Næstved Skole, afd. Karrebæk (Hallen)<br>"
+703654;Grønnegades Kaserne;21;Grønnegades Kaserne (Gl. Ridehus);370;32;403635;Grønnegade 10, 4700 Næstved;Næstved;389148;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Grønnegades Kaserne (Gl. Ridehus)<br>"
+712222;Toksværd;10;Toksværd Samlingshus;370;32;403635;Dystedvej 6, 4684 Holmegaard;Næstved;389148;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Toksværd Samlingshus<br>"
+712204;Lille Næstved Skole - Herlufsholmvej;26;Lille Næstved Skole, afd. Herlufsholmvej (Hallen);370;32;403635;Herlufsholmvej 16, 4700 Næstved;Næstved;389148;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Lille Næstved Skole, afd. Herlufsholmvej (Hallen)<br>"
+706454;Næstved Firma Sport;22;Næstved Firma Sport (Hallen);370;32;403635;Kasernevej 24, 4700 Næstved;Næstved;389148;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Næstved Firma Sport (Hallen)<br>"
+706418;Kobberbakkeskolen - Rønnebæk;29;Kobberbakkeskolen, Rønnebæk Skole (Gymnastiksalen);370;32;403635;Englebjergvej 12, Rønnebæk, 4700 Næstved;Næstved;389148;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Kobberbakkeskolen, Rønnebæk Skole (Gymnastiksalen)<br>"
+711128;Hammer - Vester Egesborg;7;Hammer Forsamlingshus;370;32;403635;Byvej 4, Hammer, 4700 Næstved;Næstved;389148;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Hammer Forsamlingshus<br>"
+707924;Tappernøje;6;Korskildehallen;370;32;403635;Brøderupvej 2A, Brøderup, 4733 Tappernøje;Næstved;389148;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Korskildehallen<br>"
+707918;Fensmark;8;Holmegaard Hallen;370;32;403635;Glasværksvej 1, Fensmark, 4684 Holmegaard;Næstved;389148;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Holmegaard Hallen<br>"
+749297;Skelby;13;Skelby Forsamlingshus;370;32;403635;Trælløsevej 72, Skelby, 4160 Herlufmagle;Næstved;389148;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Skelby Forsamlingshus<br>"
+701870;Lille Næstved Skole - Digtervej;20;Lille Næstved Skole, afd. Digtervej (Hallen);370;32;403635;Karrebækvej 70, 4700 Næstved;Næstved;389148;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Lille Næstved Skole, afd. Digtervej (Hallen)<br>"
+703660;Tybjerg;5;Tybjerg Forsamlingshus;370;32;403635;Tybjerg Bygade 13, Tybjerg, 4160 Herlufmagle;Næstved;389148;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Tybjerg Forsamlingshus<br>"
+711136;Herlufsholmhallen;27;Herlufsholmhallen;370;32;403635;Herlufsholm Alle 233A, 4700 Næstved;Næstved;389148;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Herlufsholmhallen<br>"
+711142;Kobberbakkeskolen - Sydby;28;Kobberbakkeskolen, Sydbyskolen (Hallen);370;32;403635;Parkvej 109A, 4700 Næstved;Næstved;389148;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Kobberbakkeskolen, Sydbyskolen (Hallen)<br>"

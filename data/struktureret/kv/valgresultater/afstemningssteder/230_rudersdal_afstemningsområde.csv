@@ -1,10 +1,10 @@
-dagi_id,navn,nummer,afstemningssted_navn,kommune_id,opstillingskreds_nummer,opstillingskreds_dagi_id,afstemningssted_adresse,kommune_navn,kommune_dagi_id,største_parti
-704274,Nærum,3,"Ravnholm Skole, afdeling Nærum",230,26,403577,"Fruerlund 9, 2850 Nærum",Rudersdal,389127,
-711588,Birkerød,1,Birkerød Skole,230,26,403577,"Birkerød Parkvej 12, 3460 Birkerød",Rudersdal,389127,
-702734,Sjælsø,4,"Rude Skov Skole, afdeling Sjælsø",230,26,403577,"Ravnsnæsvej 120, 3460 Birkerød",Rudersdal,389127,
-707194,Trørød,7,Trørødskolen,230,26,403577,"Gammel Holtevej 2, Gl Holte, 2950 Vedbæk",Rudersdal,389127,
-705784,Toftevang,6,"Søholmskolen, afdeling Toftevang",230,26,403577,"Teglporten 7, 3460 Birkerød",Rudersdal,389127,
-701142,Vedbæk,9,Vedbæk Skole,230,26,403577,"Henriksholms Alle 2, 2950 Vedbæk",Rudersdal,389127,
-702728,Skovly,5,Skovlyskolen,230,26,403577,"Borgm.Schneiders Vej 40, Øverød, 2840 Holte",Rudersdal,389127,
-748890,Grünersvej,2,"Holte Skole, afdeling Grünersvej",230,26,403577,"Grünersvej 6, 2840 Holte",Rudersdal,389127,
-708708,Vangebo,8,"Ravnholm Skole, afdeling Vangebo",230,26,403577,"Vangeboled 9, Søllerød, 2840 Holte",Rudersdal,389127,
+dagi_id;navn;nummer;afstemningssted_navn;kommune_id;opstillingskreds_nummer;opstillingskreds_dagi_id;afstemningssted_adresse;kommune_navn;kommune_dagi_id;største_parti;pop_up
+704274;Nærum;3;Ravnholm Skole, afdeling Nærum;230;26;403577;Fruerlund 9, 2850 Nærum;Rudersdal;389127;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Ravnholm Skole, afdeling Nærum<br>"
+711588;Birkerød;1;Birkerød Skole;230;26;403577;Birkerød Parkvej 12, 3460 Birkerød;Rudersdal;389127;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Birkerød Skole<br>"
+702734;Sjælsø;4;Rude Skov Skole, afdeling Sjælsø;230;26;403577;Ravnsnæsvej 120, 3460 Birkerød;Rudersdal;389127;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Rude Skov Skole, afdeling Sjælsø<br>"
+707194;Trørød;7;Trørødskolen;230;26;403577;Gammel Holtevej 2, Gl Holte, 2950 Vedbæk;Rudersdal;389127;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Trørødskolen<br>"
+705784;Toftevang;6;Søholmskolen, afdeling Toftevang;230;26;403577;Teglporten 7, 3460 Birkerød;Rudersdal;389127;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Søholmskolen, afdeling Toftevang<br>"
+701142;Vedbæk;9;Vedbæk Skole;230;26;403577;Henriksholms Alle 2, 2950 Vedbæk;Rudersdal;389127;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Vedbæk Skole<br>"
+702728;Skovly;5;Skovlyskolen;230;26;403577;Borgm.Schneiders Vej 40, Øverød, 2840 Holte;Rudersdal;389127;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Skovlyskolen<br>"
+748890;Grünersvej;2;Holte Skole, afdeling Grünersvej;230;26;403577;Grünersvej 6, 2840 Holte;Rudersdal;389127;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Holte Skole, afdeling Grünersvej<br>"
+708708;Vangebo;8;Ravnholm Skole, afdeling Vangebo;230;26;403577;Vangeboled 9, Søllerød, 2840 Holte;Rudersdal;389127;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Ravnholm Skole, afdeling Vangebo<br>"

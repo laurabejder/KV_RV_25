@@ -1,13 +1,13 @@
-dagi_id,navn,nummer,afstemningssted_navn,kommune_id,opstillingskreds_nummer,opstillingskreds_dagi_id,afstemningssted_adresse,kommune_navn,kommune_dagi_id,største_parti
-702028,Låsby,5,Låsby Hallen,746,70,403585,"Niels Bohrs Vej 7, 8670 Låsby",Skanderborg,389193,
-702034,Gl. Rye,3,Gl. Rye Skole,746,70,403585,"Nyvej 1, Gl. Rye, 8680 Ry",Skanderborg,389193,
-703796,Stilling,10,Stilling Hallen,746,70,403585,"Gramvej 10, Stilling, 8660 Skanderborg",Skanderborg,389193,
-711236,Niels Ebbesen,7,Niels Ebbesen Skolen,746,70,403585,"Højvangens Torv 4, 8660 Skanderborg",Skanderborg,389193,
-703790,Ry,8,Ry Hallen,746,70,403585,"Thorsvej 32, 8680 Ry",Skanderborg,389193,
-709838,Virring,12,"Virring Skole, Hallen",746,70,403585,"Skoletoften 11, Virring, 8660 Skanderborg",Skanderborg,389193,
-702022,Galten,2,Galten Hallen,746,70,403585,"Røddikvej 18, 8464 Galten",Skanderborg,389193,
-700778,Morten Børup,6,Morten Børup Hallen,746,70,403585,"Morten Børups Vej 3, 8660 Skanderborg",Skanderborg,389193,
-709844,Hørning,4,Hørning Hallen,746,70,403585,"Toftevej 53B, 8362 Hørning",Skanderborg,389193,
-706674,Stjær,11,"Stjær Skole, Aulaen",746,70,403585,"Stjærvej 100, Stjær, 8464 Galten",Skanderborg,389193,
-700784,Ejer Bavnehøj,1,Ejer Bavnehøj Skolen,746,70,403585,"Risvej 28A, 8660 Skanderborg",Skanderborg,389193,
-708370,Skovby,9,Skovby Hallen,746,70,403585,"Skråvejen 1, Skovby, 8464 Galten",Skanderborg,389193,
+dagi_id;navn;nummer;afstemningssted_navn;kommune_id;opstillingskreds_nummer;opstillingskreds_dagi_id;afstemningssted_adresse;kommune_navn;kommune_dagi_id;største_parti;pop_up
+702028;Låsby;5;Låsby Hallen;746;70;403585;Niels Bohrs Vej 7, 8670 Låsby;Skanderborg;389193;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Låsby Hallen<br>"
+702034;Gl. Rye;3;Gl. Rye Skole;746;70;403585;Nyvej 1, Gl. Rye, 8680 Ry;Skanderborg;389193;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Gl. Rye Skole<br>"
+703796;Stilling;10;Stilling Hallen;746;70;403585;Gramvej 10, Stilling, 8660 Skanderborg;Skanderborg;389193;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Stilling Hallen<br>"
+711236;Niels Ebbesen;7;Niels Ebbesen Skolen;746;70;403585;Højvangens Torv 4, 8660 Skanderborg;Skanderborg;389193;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Niels Ebbesen Skolen<br>"
+703790;Ry;8;Ry Hallen;746;70;403585;Thorsvej 32, 8680 Ry;Skanderborg;389193;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Ry Hallen<br>"
+709838;Virring;12;Virring Skole, Hallen;746;70;403585;Skoletoften 11, Virring, 8660 Skanderborg;Skanderborg;389193;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Virring Skole, Hallen<br>"
+702022;Galten;2;Galten Hallen;746;70;403585;Røddikvej 18, 8464 Galten;Skanderborg;389193;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Galten Hallen<br>"
+700778;Morten Børup;6;Morten Børup Hallen;746;70;403585;Morten Børups Vej 3, 8660 Skanderborg;Skanderborg;389193;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Morten Børup Hallen<br>"
+709844;Hørning;4;Hørning Hallen;746;70;403585;Toftevej 53B, 8362 Hørning;Skanderborg;389193;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Hørning Hallen<br>"
+706674;Stjær;11;Stjær Skole, Aulaen;746;70;403585;Stjærvej 100, Stjær, 8464 Galten;Skanderborg;389193;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Stjær Skole, Aulaen<br>"
+700784;Ejer Bavnehøj;1;Ejer Bavnehøj Skolen;746;70;403585;Risvej 28A, 8660 Skanderborg;Skanderborg;389193;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Ejer Bavnehøj Skolen<br>"
+708370;Skovby;9;Skovby Hallen;746;70;403585;Skråvejen 1, Skovby, 8464 Galten;Skanderborg;389193;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Skovby Hallen<br>"

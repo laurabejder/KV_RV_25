@@ -1,17 +1,17 @@
-dagi_id,navn,nummer,afstemningssted_navn,kommune_id,opstillingskreds_nummer,opstillingskreds_dagi_id,afstemningssted_adresse,kommune_navn,kommune_dagi_id,største_parti
-705054,Kalvehave,16,Viemose Egnshus,390,31,403636,"Viemose Gade 7, 4771 Kalvehave",Vordingborg,389149,
-711010,Vordingborg,1,"Gåsetårnskolen, afd. Iselinge",390,31,403636,"Chr Richardtsvej 33, 4760 Vordingborg",Vordingborg,389149,
-712094,Østmøn,9,"Møn Skole, afd. Hjertebjerg, Hallen",390,31,403636,"Klintevej 237, Hjertebjerg, 4780 Stege",Vordingborg,389149,
-705078,Kastrup,4,Kastrup Hallen,390,31,403636,"Sct.Clemensvej 27, 4760 Vordingborg",Vordingborg,389149,
-709558,Bårse,5,Bårsehallen,390,31,403636,"Næstvedvej 63C, Bårse, 4720 Præstø",Vordingborg,389149,
-701742,Bogø,11,Bogø Hallen,390,31,403636,"Skovvangen 8, 4793 Bogø By",Vordingborg,389149,
-707768,Stege,8,"Møn Skole, afd. Stege",390,31,403636,"Birkevænget 2, 4780 Stege",Vordingborg,389149,
-705010,Lundby,6,Svend Gønge Hallen,390,31,403636,"Sværdborgvej 3, 4750 Lundby",Vordingborg,389149,
-701732,Allerslev,13,Allerslev Egnshus,390,31,403636,"Enghavevej 2B, 4720 Præstø",Vordingborg,389149,
-705084,Nyråd,3,Vintersbølle Hallen,390,31,403636,"Bakkebøllevej 6, 4760 Vordingborg",Vordingborg,389149,
-703480,Jungshoved,14,Egnshuset Jungshoved Skole,390,31,403636,"Jungshovedvej 46, 4720 Præstø",Vordingborg,389149,
-709584,Ørslev,7,Ørslev Egnshus,390,31,403636,"Rynkebjerg 7, 4760 Vordingborg",Vordingborg,389149,
-706330,Stensved,17,Langebæk Hallen,390,31,403636,"Åløkkevej 2, 4773 Stensved",Vordingborg,389149,
-707828,Mern,15,"Mern Skole (Kalvehave Skole og Børnehus, afd. Mern)",390,31,403636,"Kalvehavevej 21, 4735 Mern",Vordingborg,389149,
-701698,Vestmøn,10,Damme Kro,390,31,403636,"Fanefjordgade 162, Damme, 4792 Askeby",Vordingborg,389149,
-706306,Præstø,12,Præstø Multicenter,390,31,403636,"Rosagervej 37, 4720 Præstø",Vordingborg,389149,
+dagi_id;navn;nummer;afstemningssted_navn;kommune_id;opstillingskreds_nummer;opstillingskreds_dagi_id;afstemningssted_adresse;kommune_navn;kommune_dagi_id;største_parti;pop_up
+705054;Kalvehave;16;Viemose Egnshus;390;31;403636;Viemose Gade 7, 4771 Kalvehave;Vordingborg;389149;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Viemose Egnshus<br>"
+711010;Vordingborg;1;Gåsetårnskolen, afd. Iselinge;390;31;403636;Chr Richardtsvej 33, 4760 Vordingborg;Vordingborg;389149;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Gåsetårnskolen, afd. Iselinge<br>"
+712094;Østmøn;9;Møn Skole, afd. Hjertebjerg, Hallen;390;31;403636;Klintevej 237, Hjertebjerg, 4780 Stege;Vordingborg;389149;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Møn Skole, afd. Hjertebjerg, Hallen<br>"
+705078;Kastrup;4;Kastrup Hallen;390;31;403636;Sct.Clemensvej 27, 4760 Vordingborg;Vordingborg;389149;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Kastrup Hallen<br>"
+709558;Bårse;5;Bårsehallen;390;31;403636;Næstvedvej 63C, Bårse, 4720 Præstø;Vordingborg;389149;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Bårsehallen<br>"
+701742;Bogø;11;Bogø Hallen;390;31;403636;Skovvangen 8, 4793 Bogø By;Vordingborg;389149;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Bogø Hallen<br>"
+707768;Stege;8;Møn Skole, afd. Stege;390;31;403636;Birkevænget 2, 4780 Stege;Vordingborg;389149;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Møn Skole, afd. Stege<br>"
+705010;Lundby;6;Svend Gønge Hallen;390;31;403636;Sværdborgvej 3, 4750 Lundby;Vordingborg;389149;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Svend Gønge Hallen<br>"
+701732;Allerslev;13;Allerslev Egnshus;390;31;403636;Enghavevej 2B, 4720 Præstø;Vordingborg;389149;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Allerslev Egnshus<br>"
+705084;Nyråd;3;Vintersbølle Hallen;390;31;403636;Bakkebøllevej 6, 4760 Vordingborg;Vordingborg;389149;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Vintersbølle Hallen<br>"
+703480;Jungshoved;14;Egnshuset Jungshoved Skole;390;31;403636;Jungshovedvej 46, 4720 Præstø;Vordingborg;389149;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Egnshuset Jungshoved Skole<br>"
+709584;Ørslev;7;Ørslev Egnshus;390;31;403636;Rynkebjerg 7, 4760 Vordingborg;Vordingborg;389149;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Ørslev Egnshus<br>"
+706330;Stensved;17;Langebæk Hallen;390;31;403636;Åløkkevej 2, 4773 Stensved;Vordingborg;389149;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Langebæk Hallen<br>"
+707828;Mern;15;Mern Skole (Kalvehave Skole og Børnehus, afd. Mern);390;31;403636;Kalvehavevej 21, 4735 Mern;Vordingborg;389149;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Mern Skole (Kalvehave Skole og Børnehus, afd. Mern)<br>"
+701698;Vestmøn;10;Damme Kro;390;31;403636;Fanefjordgade 162, Damme, 4792 Askeby;Vordingborg;389149;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Damme Kro<br>"
+706306;Præstø;12;Præstø Multicenter;390;31;403636;Rosagervej 37, 4720 Præstø;Vordingborg;389149;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Præstø Multicenter<br>"

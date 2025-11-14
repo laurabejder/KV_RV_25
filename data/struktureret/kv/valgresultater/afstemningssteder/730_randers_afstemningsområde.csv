@@ -1,31 +1,31 @@
-dagi_id,navn,nummer,afstemningssted_navn,kommune_id,opstillingskreds_nummer,opstillingskreds_dagi_id,afstemningssted_adresse,kommune_navn,kommune_dagi_id,største_parti
-707182,Randers Badmintonhaller,26,Randers Badmintonhaller,730,67,403586,"Boghvedevej 30, 8920 Randers NV",Randers,389190,
-710340,Blicherskolen,14,Blicherskolen,730,67,403586,"Haldvej 6, 8981 Spentrup",Randers,389190,
-707150,Rismølleskolen,11,Rismølleskolen,730,67,403586,"Rismøllegade 15F, 8930 Randers NØ",Randers,389190,
-711576,Vestervangsskolen,29,Vestervangsskolen,730,67,403586,"Nålemagervej 120, 8920 Randers NV",Randers,389190,
-710316,Korshøjskolen,8,Korshøjskolen,730,67,403586,"Skolevænget 7, Harridslev, 8930 Randers NØ",Randers,389190,
-702710,Hald Forsamlingshus,9,Hald Forsamlingshus,730,67,403586,"Tvedevej 3, Hald, 8983 Gjerlev J",Randers,389190,
-705778,Kultur-Aktivitetshuset Gassum,15,Kultur- & Aktivitetshuset i Gassum,730,67,403586,"Nyvej 1B, Gassum, 8981 Spentrup",Randers,389190,
-701136,Gjerlev Aktivitetshus,10,Gjerlev Aktivitetshus,730,67,403586,"Tønagervej 13, Gjerlev, 8983 Gjerlev J",Randers,389190,
-705768,Øster Tørslev Fritidslokaler,7,Øster Tørslev Fritidslokaler,730,67,403586,"Stangerumvej 12, Ø Tørslev, 8983 Gjerlev J",Randers,389190,
-704222,Råby Forsamlingshus,6,Råby Forsamlingshus,730,67,403586,"Udbyhøjvej 660, Råby, 8970 Havndal",Randers,389190,
-710322,Nørrevangsskolen,27,Nørrevangsskolen,730,67,403586,"Glentevej 15, 8930 Randers NØ",Randers,389190,
-707188,Hornbækhallen,13,Hornbækhallen,730,67,403586,"H.C. Andersens Vej 5, 8920 Randers NV",Randers,389190,
-704268,Trekløverskolen,12,Trekløverskolen,730,67,403586,"Borup Byvej 14, 8920 Randers NV",Randers,389190,
-704136,Havndalhallen,5,Havndal-Hallen,730,67,403586,"Søringen 6, 8970 Havndal",Randers,389190,
-711582,Østervangsskolen,30,Østervangsskolen,730,67,403586,"Dronningb. Boulevard 33G, 8930 Randers NØ",Randers,389190,
-704280,Paderup Gymnasium,33,Paderup Gymnasium,730,68,403598,"Apollovej 64, Paderup, 8960 Randers SØ",Randers,389190,
-711638,Tirsdalens Skole,32,Tirsdalens Skole,730,68,403598,"R. Hougårds Vej 50, 8960 Randers SØ",Randers,389190,
-711624,Fritidscentret,28,Fritidscentret,730,68,403598,"Vestergade 15, 8900 Randers C",Randers,389190,
-702764,Stevnstrup Forsamlingshus,2,Stevnstrup Forsamlingshus,730,68,403598,"Landsbygaden 25, Stevnstrup, 8870 Langå",Randers,389190,
-702770,Hobrovejens Skole,25,Hobrovejens Skole,730,68,403598,"Gethersvej 36, 8900 Randers C",Randers,389190,
-708738,Purhushallen,17,Purhushallen,730,68,403598,"Bakkevænget 12, 8990 Fårup",Randers,389190,
-707204,Uggelhuse Forsamlingshus,37,Uggelhuse Forsamlingshus,730,68,403598,"Bygaden 8, Uggelhuse, 8960 Randers SØ",Randers,389190,
-701178,Jebjerg Forsamlingshus,4,Jebjerg Forsamlingshus,730,68,403598,"Jebjergvej 33, Jebjerg, 8870 Langå",Randers,389190,
-708750,Asferg Træningshus,16,Asferg Træningshus,730,68,403598,"Søndergade 17B, Asferg, 8990 Fårup",Randers,389190,
-710392,Assentofthallen,36,Assentofthallen,730,68,403598,"Stadionvej 41, Assentoft, 8960 Randers SØ",Randers,389190,
-702776,Ø. Bjerregrav Forsamlingshus,21,Ø. Bjerregrav Forsamlingshus,730,68,403598,"Østervang 2, Øster Bjerregrav, 8920 Randers NV",Randers,389190,
-702716,Romalt Aktivitetshal,34,Romalt Aktivitetshal,730,68,403598,"Romalt Boulevard 28, 8960 Randers SØ",Randers,389190,
-708744,Søndermarkskolen,31,Søndermarkskolen,730,68,403598,"Skanderborggade 65F, 8940 Randers SV",Randers,389190,
-704314,Kulturhuset Langå,1,Kulturhuset Langå,730,68,403598,"Bredgade 4, 8870 Langå",Randers,389190,
-707212,Huset Tværs,24,Huset Tværs,730,68,403598,"Gl. Hadsundvej 3, 8900 Randers C",Randers,389190,
+dagi_id;navn;nummer;afstemningssted_navn;kommune_id;opstillingskreds_nummer;opstillingskreds_dagi_id;afstemningssted_adresse;kommune_navn;kommune_dagi_id;største_parti;pop_up
+707182;Randers Badmintonhaller;26;Randers Badmintonhaller;730;67;403586;Boghvedevej 30, 8920 Randers NV;Randers;389190;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Randers Badmintonhaller<br>"
+710340;Blicherskolen;14;Blicherskolen;730;67;403586;Haldvej 6, 8981 Spentrup;Randers;389190;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Blicherskolen<br>"
+707150;Rismølleskolen;11;Rismølleskolen;730;67;403586;Rismøllegade 15F, 8930 Randers NØ;Randers;389190;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Rismølleskolen<br>"
+711576;Vestervangsskolen;29;Vestervangsskolen;730;67;403586;Nålemagervej 120, 8920 Randers NV;Randers;389190;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Vestervangsskolen<br>"
+710316;Korshøjskolen;8;Korshøjskolen;730;67;403586;Skolevænget 7, Harridslev, 8930 Randers NØ;Randers;389190;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Korshøjskolen<br>"
+702710;Hald Forsamlingshus;9;Hald Forsamlingshus;730;67;403586;Tvedevej 3, Hald, 8983 Gjerlev J;Randers;389190;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Hald Forsamlingshus<br>"
+705778;Kultur-Aktivitetshuset Gassum;15;Kultur- & Aktivitetshuset i Gassum;730;67;403586;Nyvej 1B, Gassum, 8981 Spentrup;Randers;389190;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Kultur- & Aktivitetshuset i Gassum<br>"
+701136;Gjerlev Aktivitetshus;10;Gjerlev Aktivitetshus;730;67;403586;Tønagervej 13, Gjerlev, 8983 Gjerlev J;Randers;389190;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Gjerlev Aktivitetshus<br>"
+705768;Øster Tørslev Fritidslokaler;7;Øster Tørslev Fritidslokaler;730;67;403586;Stangerumvej 12, Ø Tørslev, 8983 Gjerlev J;Randers;389190;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Øster Tørslev Fritidslokaler<br>"
+704222;Råby Forsamlingshus;6;Råby Forsamlingshus;730;67;403586;Udbyhøjvej 660, Råby, 8970 Havndal;Randers;389190;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Råby Forsamlingshus<br>"
+710322;Nørrevangsskolen;27;Nørrevangsskolen;730;67;403586;Glentevej 15, 8930 Randers NØ;Randers;389190;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Nørrevangsskolen<br>"
+707188;Hornbækhallen;13;Hornbækhallen;730;67;403586;H.C. Andersens Vej 5, 8920 Randers NV;Randers;389190;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Hornbækhallen<br>"
+704268;Trekløverskolen;12;Trekløverskolen;730;67;403586;Borup Byvej 14, 8920 Randers NV;Randers;389190;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Trekløverskolen<br>"
+704136;Havndalhallen;5;Havndal-Hallen;730;67;403586;Søringen 6, 8970 Havndal;Randers;389190;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Havndal-Hallen<br>"
+711582;Østervangsskolen;30;Østervangsskolen;730;67;403586;Dronningb. Boulevard 33G, 8930 Randers NØ;Randers;389190;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Østervangsskolen<br>"
+704280;Paderup Gymnasium;33;Paderup Gymnasium;730;68;403598;Apollovej 64, Paderup, 8960 Randers SØ;Randers;389190;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Paderup Gymnasium<br>"
+711638;Tirsdalens Skole;32;Tirsdalens Skole;730;68;403598;R. Hougårds Vej 50, 8960 Randers SØ;Randers;389190;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Tirsdalens Skole<br>"
+711624;Fritidscentret;28;Fritidscentret;730;68;403598;Vestergade 15, 8900 Randers C;Randers;389190;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Fritidscentret<br>"
+702764;Stevnstrup Forsamlingshus;2;Stevnstrup Forsamlingshus;730;68;403598;Landsbygaden 25, Stevnstrup, 8870 Langå;Randers;389190;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Stevnstrup Forsamlingshus<br>"
+702770;Hobrovejens Skole;25;Hobrovejens Skole;730;68;403598;Gethersvej 36, 8900 Randers C;Randers;389190;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Hobrovejens Skole<br>"
+708738;Purhushallen;17;Purhushallen;730;68;403598;Bakkevænget 12, 8990 Fårup;Randers;389190;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Purhushallen<br>"
+707204;Uggelhuse Forsamlingshus;37;Uggelhuse Forsamlingshus;730;68;403598;Bygaden 8, Uggelhuse, 8960 Randers SØ;Randers;389190;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Uggelhuse Forsamlingshus<br>"
+701178;Jebjerg Forsamlingshus;4;Jebjerg Forsamlingshus;730;68;403598;Jebjergvej 33, Jebjerg, 8870 Langå;Randers;389190;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Jebjerg Forsamlingshus<br>"
+708750;Asferg Træningshus;16;Asferg Træningshus;730;68;403598;Søndergade 17B, Asferg, 8990 Fårup;Randers;389190;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Asferg Træningshus<br>"
+710392;Assentofthallen;36;Assentofthallen;730;68;403598;Stadionvej 41, Assentoft, 8960 Randers SØ;Randers;389190;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Assentofthallen<br>"
+702776;Ø. Bjerregrav Forsamlingshus;21;Ø. Bjerregrav Forsamlingshus;730;68;403598;Østervang 2, Øster Bjerregrav, 8920 Randers NV;Randers;389190;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Ø. Bjerregrav Forsamlingshus<br>"
+702716;Romalt Aktivitetshal;34;Romalt Aktivitetshal;730;68;403598;Romalt Boulevard 28, 8960 Randers SØ;Randers;389190;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Romalt Aktivitetshal<br>"
+708744;Søndermarkskolen;31;Søndermarkskolen;730;68;403598;Skanderborggade 65F, 8940 Randers SV;Randers;389190;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Søndermarkskolen<br>"
+704314;Kulturhuset Langå;1;Kulturhuset Langå;730;68;403598;Bredgade 4, 8870 Langå;Randers;389190;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Kulturhuset Langå<br>"
+707212;Huset Tværs;24;Huset Tværs;730;68;403598;Gl. Hadsundvej 3, 8900 Randers C;Randers;389190;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Huset Tværs<br>"

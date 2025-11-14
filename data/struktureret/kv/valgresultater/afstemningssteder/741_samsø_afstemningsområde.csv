@@ -1,3 +1,3 @@
-dagi_id,navn,nummer,afstemningssted_navn,kommune_id,opstillingskreds_nummer,opstillingskreds_dagi_id,afstemningssted_adresse,kommune_navn,kommune_dagi_id,største_parti
-709154,Tranebjerg,1,Samsø Hallen,741,70,403585,"Marsk Stigs Vej 5, Tranebjerg, 8305 Samsø",Samsø,389191,
-704790,Nordby,2,Nordby Kro,741,70,403585,"Nordby Hovedgade 8, 8305 Samsø",Samsø,389191,
+dagi_id;navn;nummer;afstemningssted_navn;kommune_id;opstillingskreds_nummer;opstillingskreds_dagi_id;afstemningssted_adresse;kommune_navn;kommune_dagi_id;største_parti;pop_up
+709154;Tranebjerg;1;Samsø Hallen;741;70;403585;Marsk Stigs Vej 5, Tranebjerg, 8305 Samsø;Samsø;389191;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Samsø Hallen<br>"
+704790;Nordby;2;Nordby Kro;741;70;403585;Nordby Hovedgade 8, 8305 Samsø;Samsø;389191;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Nordby Kro<br>"

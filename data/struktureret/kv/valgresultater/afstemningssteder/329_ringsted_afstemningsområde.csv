@@ -1,14 +1,14 @@
-dagi_id,navn,nummer,afstemningssted_navn,kommune_id,opstillingskreds_nummer,opstillingskreds_dagi_id,afstemningssted_adresse,kommune_navn,kommune_dagi_id,største_parti
-710656,Gyrstinge,3,Landsbyhuset Gyrstinge,329,39,403632,"Gyrstinge Bygade 36, Gyrstinge, 4100 Ringsted",Ringsted,389142,
-711816,Haraldsted,5,Haraldsted Forsamlingshus,329,39,403632,"Langebjergvej 56, Haraldsted, 4100 Ringsted",Ringsted,389142,
-703050,Benløse,4,Benløsehallen,329,39,403632,"Præstevej 19, Benløse, 4100 Ringsted",Ringsted,389142,
-711804,Ringsted Nørretorv,1,Ringsted Kongrescenter,329,39,403632,"Nørretorv 55, 4100 Ringsted",Ringsted,389142,
-704612,Vigersted,13,Vigersted Forsamlingshus,329,39,403632,"Vigersted Bygade 41, Vigersted, 4100 Ringsted",Ringsted,389142,
-703062,Bringstrup,2,Bringstrup Forsamlingshus,329,39,403632,"Egerupvej 6, Bringstrup, 4100 Ringsted",Ringsted,389142,
-709042,Kværkeby,9,Kværkeby Friskole,329,39,403632,"Kværkebyvej 2B, Kværkeby, 4100 Ringsted",Ringsted,389142,
-704618,Ringsted Dagmarskolen,6,Dagmarskolen,329,39,403632,"Vestervej 11, 4100 Ringsted",Ringsted,389142,
-707472,Sneslev,11,Sneslev Forsamlingshus,329,39,403632,"Haslevvej 342, 4100 Ringsted",Ringsted,389142,
-706072,Vetterslev,10,Vetterslev-Høm Forsamlingshus,329,39,403632,"Næstvedvej 364, 4100 Ringsted",Ringsted,389142,
-710650,Jystrup,8,Jystrup Aktivitetshus,329,39,403632,"Skjoldenæsvej 65, Jystrup, 4174 Jystrup Midtsj",Ringsted,389142,
-703056,Ørslev,14,Ørslev Kulturhus,329,39,403632,"Terslevvej 75, Ørslev, 4100 Ringsted",Ringsted,389142,
-711810,Nordrup,12,Nordrup Forsamlingshus,329,39,403632,"Nordrupvej 130, Nordrup, 4100 Ringsted",Ringsted,389142,
+dagi_id;navn;nummer;afstemningssted_navn;kommune_id;opstillingskreds_nummer;opstillingskreds_dagi_id;afstemningssted_adresse;kommune_navn;kommune_dagi_id;største_parti;pop_up
+710656;Gyrstinge;3;Landsbyhuset Gyrstinge;329;39;403632;Gyrstinge Bygade 36, Gyrstinge, 4100 Ringsted;Ringsted;389142;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Landsbyhuset Gyrstinge<br>"
+711816;Haraldsted;5;Haraldsted Forsamlingshus;329;39;403632;Langebjergvej 56, Haraldsted, 4100 Ringsted;Ringsted;389142;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Haraldsted Forsamlingshus<br>"
+703050;Benløse;4;Benløsehallen;329;39;403632;Præstevej 19, Benløse, 4100 Ringsted;Ringsted;389142;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Benløsehallen<br>"
+711804;Ringsted Nørretorv;1;Ringsted Kongrescenter;329;39;403632;Nørretorv 55, 4100 Ringsted;Ringsted;389142;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Ringsted Kongrescenter<br>"
+704612;Vigersted;13;Vigersted Forsamlingshus;329;39;403632;Vigersted Bygade 41, Vigersted, 4100 Ringsted;Ringsted;389142;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Vigersted Forsamlingshus<br>"
+703062;Bringstrup;2;Bringstrup Forsamlingshus;329;39;403632;Egerupvej 6, Bringstrup, 4100 Ringsted;Ringsted;389142;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Bringstrup Forsamlingshus<br>"
+709042;Kværkeby;9;Kværkeby Friskole;329;39;403632;Kværkebyvej 2B, Kværkeby, 4100 Ringsted;Ringsted;389142;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Kværkeby Friskole<br>"
+704618;Ringsted Dagmarskolen;6;Dagmarskolen;329;39;403632;Vestervej 11, 4100 Ringsted;Ringsted;389142;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Dagmarskolen<br>"
+707472;Sneslev;11;Sneslev Forsamlingshus;329;39;403632;Haslevvej 342, 4100 Ringsted;Ringsted;389142;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Sneslev Forsamlingshus<br>"
+706072;Vetterslev;10;Vetterslev-Høm Forsamlingshus;329;39;403632;Næstvedvej 364, 4100 Ringsted;Ringsted;389142;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Vetterslev-Høm Forsamlingshus<br>"
+710650;Jystrup;8;Jystrup Aktivitetshus;329;39;403632;Skjoldenæsvej 65, Jystrup, 4174 Jystrup Midtsj;Ringsted;389142;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Jystrup Aktivitetshus<br>"
+703056;Ørslev;14;Ørslev Kulturhus;329;39;403632;Terslevvej 75, Ørslev, 4100 Ringsted;Ringsted;389142;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Ørslev Kulturhus<br>"
+711810;Nordrup;12;Nordrup Forsamlingshus;329;39;403632;Nordrupvej 130, Nordrup, 4100 Ringsted;Ringsted;389142;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Nordrup Forsamlingshus<br>"

@@ -1,8 +1,8 @@
-dagi_id,navn,nummer,afstemningssted_navn,kommune_id,opstillingskreds_nummer,opstillingskreds_dagi_id,afstemningssted_adresse,kommune_navn,kommune_dagi_id,største_parti
-706956,Paltholm,7,"Teatersalen, Kulturhuset",190,25,403553,"Kulturtorvet 12, 3520 Farum",Furesø,389122,
-705614,Solvang,6,Solvangskolens Hal,190,25,403553,"Nordtoftevej 58, 3520 Farum",Furesø,389122,
-710110,Hareskov,2,Hareskovhallen,190,25,403553,"Månedalstien 8, Hareskov, 3500 Værløse",Furesø,389122,
-700970,Værløse,1,Værløsehallen,190,25,403553,"Stiager 8, 3500 Værløse",Furesø,389122,
-708606,Stavnsholt,5,Farum Arena,190,25,403553,"Stavnsholtvej 41, 3520 Farum",Furesø,389122,
-703986,Søndersø,3,Søndersøhallen,190,25,403553,"Kirke Værløsevej 50, 3500 Værløse",Furesø,389122,
-710104,Jonstrup,4,Jonstruphus,190,25,403553,"Jonstrupvangvej 159, Jonstrup, 3500 Værløse",Furesø,389122,
+dagi_id;navn;nummer;afstemningssted_navn;kommune_id;opstillingskreds_nummer;opstillingskreds_dagi_id;afstemningssted_adresse;kommune_navn;kommune_dagi_id;største_parti;pop_up
+706956;Paltholm;7;Teatersalen, Kulturhuset;190;25;403553;Kulturtorvet 12, 3520 Farum;Furesø;389122;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Teatersalen, Kulturhuset<br>"
+705614;Solvang;6;Solvangskolens Hal;190;25;403553;Nordtoftevej 58, 3520 Farum;Furesø;389122;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Solvangskolens Hal<br>"
+710110;Hareskov;2;Hareskovhallen;190;25;403553;Månedalstien 8, Hareskov, 3500 Værløse;Furesø;389122;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Hareskovhallen<br>"
+700970;Værløse;1;Værløsehallen;190;25;403553;Stiager 8, 3500 Værløse;Furesø;389122;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Værløsehallen<br>"
+708606;Stavnsholt;5;Farum Arena;190;25;403553;Stavnsholtvej 41, 3520 Farum;Furesø;389122;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Farum Arena<br>"
+703986;Søndersø;3;Søndersøhallen;190;25;403553;Kirke Værløsevej 50, 3500 Værløse;Furesø;389122;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Søndersøhallen<br>"
+710104;Jonstrup;4;Jonstruphus;190;25;403553;Jonstrupvangvej 159, Jonstrup, 3500 Værløse;Furesø;389122;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Jonstruphus<br>"

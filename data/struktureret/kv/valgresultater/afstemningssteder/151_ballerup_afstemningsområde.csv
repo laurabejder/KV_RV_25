@@ -1,10 +1,10 @@
-dagi_id,navn,nummer,afstemningssted_navn,kommune_id,opstillingskreds_nummer,opstillingskreds_dagi_id,afstemningssted_adresse,kommune_navn,kommune_dagi_id,største_parti
-710158,Grantoftehallen,4,Grantoftehallen,151,20,403559,"Platanbuen 1, 2750 Ballerup",Ballerup,389105,
-705652,Idrætshallen (tidl. UCC-hallen) - Rosenlund,5,Idrætshallen (tidl. UCC-hallen) - Rosenlund,151,20,403559,"Ejbyvej 43, 2740 Skovlunde",Ballerup,389105,
-701002,Tapeten,1,Tapeten,151,20,403559,"Magleparken 5, 2750 Ballerup",Ballerup,389105,
-706992,Måløv Ny Hal - Måløvhøj Skole - Måløv,8,Måløv Ny Hal - Måløvhøj Skole - Måløv,151,20,403559,"Måløv Hovedgade 46, 2760 Måløv",Ballerup,389105,
-704024,Skovlunde Skole - Lundebjerg,6,Skovlunde Skole - Lundebjerg,151,20,403559,"Lundebjerg 72, 2740 Skovlunde",Ballerup,389105,
-710152,Egebjerghallen - Skovvejens Skole Øst,9,Egebjerghallen - Skovvejens Skole Øst,151,20,403559,"Agernhaven 12, 2750 Ballerup",Ballerup,389105,
-710164,Østerhøjhallen - Måløvhøj Skole - Østerhøj,10,Østerhøjhallen - Måløvhøj Skole - Østerhøj,151,20,403559,"Klakkebjerg 4, 2750 Ballerup",Ballerup,389105,
-710146,Højagerhallen - Skovvejens Skole Vest,3,Højagerhallen - Skovvejens Skole Vest,151,20,403559,"Skovvej 55, 2750 Ballerup",Ballerup,389105,
-706986,Balleruphallen - Rugvænget,2,Balleruphallen - Rugvænget,151,20,403559,"Rugvænget 10, 2750 Ballerup",Ballerup,389105,
+dagi_id;navn;nummer;afstemningssted_navn;kommune_id;opstillingskreds_nummer;opstillingskreds_dagi_id;afstemningssted_adresse;kommune_navn;kommune_dagi_id;største_parti;pop_up
+710158;Grantoftehallen;4;Grantoftehallen;151;20;403559;Platanbuen 1, 2750 Ballerup;Ballerup;389105;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Grantoftehallen<br>"
+705652;Idrætshallen (tidl. UCC-hallen) - Rosenlund;5;Idrætshallen (tidl. UCC-hallen) - Rosenlund;151;20;403559;Ejbyvej 43, 2740 Skovlunde;Ballerup;389105;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Idrætshallen (tidl. UCC-hallen) - Rosenlund<br>"
+701002;Tapeten;1;Tapeten;151;20;403559;Magleparken 5, 2750 Ballerup;Ballerup;389105;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Tapeten<br>"
+706992;Måløv Ny Hal - Måløvhøj Skole - Måløv;8;Måløv Ny Hal - Måløvhøj Skole - Måløv;151;20;403559;Måløv Hovedgade 46, 2760 Måløv;Ballerup;389105;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Måløv Ny Hal - Måløvhøj Skole - Måløv<br>"
+704024;Skovlunde Skole - Lundebjerg;6;Skovlunde Skole - Lundebjerg;151;20;403559;Lundebjerg 72, 2740 Skovlunde;Ballerup;389105;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Skovlunde Skole - Lundebjerg<br>"
+710152;Egebjerghallen - Skovvejens Skole Øst;9;Egebjerghallen - Skovvejens Skole Øst;151;20;403559;Agernhaven 12, 2750 Ballerup;Ballerup;389105;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Egebjerghallen - Skovvejens Skole Øst<br>"
+710164;Østerhøjhallen - Måløvhøj Skole - Østerhøj;10;Østerhøjhallen - Måløvhøj Skole - Østerhøj;151;20;403559;Klakkebjerg 4, 2750 Ballerup;Ballerup;389105;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Østerhøjhallen - Måløvhøj Skole - Østerhøj<br>"
+710146;Højagerhallen - Skovvejens Skole Vest;3;Højagerhallen - Skovvejens Skole Vest;151;20;403559;Skovvej 55, 2750 Ballerup;Ballerup;389105;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Højagerhallen - Skovvejens Skole Vest<br>"
+706986;Balleruphallen - Rugvænget;2;Balleruphallen - Rugvænget;151;20;403559;Rugvænget 10, 2750 Ballerup;Ballerup;389105;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Balleruphallen - Rugvænget<br>"

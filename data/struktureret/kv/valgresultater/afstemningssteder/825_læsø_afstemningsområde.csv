@@ -1,2 +1,2 @@
-dagi_id,navn,nummer,afstemningssted_navn,kommune_id,opstillingskreds_nummer,opstillingskreds_dagi_id,afstemningssted_adresse,kommune_navn,kommune_dagi_id,største_parti
-702460,Læsø,15,Læsø Hallen,825,84,403591,"Skolevej 4, Byrum, 9940 Læsø",Læsø,389203,
+dagi_id;navn;nummer;afstemningssted_navn;kommune_id;opstillingskreds_nummer;opstillingskreds_dagi_id;afstemningssted_adresse;kommune_navn;kommune_dagi_id;største_parti;pop_up
+702460;Læsø;15;Læsø Hallen;825;84;403591;Skolevej 4, Byrum, 9940 Læsø;Læsø;389203;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Læsø Hallen<br>"

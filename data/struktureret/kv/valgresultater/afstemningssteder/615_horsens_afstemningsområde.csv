@@ -1,23 +1,23 @@
-dagi_id,navn,nummer,afstemningssted_navn,kommune_id,opstillingskreds_nummer,opstillingskreds_dagi_id,afstemningssted_adresse,kommune_navn,kommune_dagi_id,største_parti
-706274,Egebjerg,10,Egebjerghallen,615,71,403578,"Egevej 5, 8700 Horsens",Horsens,389179,
-706298,Sdr.Vissing,15,Fælleshuset,615,71,403578,"Sdr. Vissingvej 26B, Sdr Vissing, 8740 Brædstrup",Horsens,389179,
-710898,Sønderbro,1,Sønderbro Skole (Festsalen),615,71,403578,"Lindvigsvej 4, 8700 Horsens",Horsens,389179,
-709470,Hovedgård,18,Hovedgård Hallen (Multihallen),615,71,403578,"Fruenshave 3, 8732 Hovedgård",Horsens,389179,
-701652,Dagnæs,6,Dagnæshallen,615,71,403578,"Sportsvænget 2, 8700 Horsens",Horsens,389179,
-706268,Forum,5,Forum Horsens (Insero Atrium),615,71,403578,"Langmarksvej 53, 8700 Horsens",Horsens,389179,
-710912,Lund,9,Lundskolen (Multihallen),615,71,403578,"Skolevej 7C, Lund, 8700 Horsens",Horsens,389179,
-712056,Tønning-Træden,20,Træden Forsamlingshus,615,71,403578,"Brunbanken 1, Træden, 8740 Brædstrup",Horsens,389179,
-709464,Højvangen,12,Højvangshallen,615,71,403578,"Højvangsalle 20, 8700 Horsens",Horsens,389179,
-706254,Nim,14,Nim Skole (Multihallen),615,71,403578,"Møllegade 22, Nim, 8740 Brædstrup",Horsens,389179,
-706240,Endelave,4,Endelave Skole (Gymnastiksalen),615,71,403578,"Kongevejen 26, 8789 Endelave",Horsens,389179,
-706286,Midtbyen,3,Det tidligere Rådhus (Foredragssalen),615,71,403578,"Rådhustorvet 4, 8700 Horsens",Horsens,389179,
-701646,Østbirk,16,Østbirk Hallen,615,71,403578,"Storegade 47, 8752 Østbirk",Horsens,389179,
-712020,Søvind,19,Søvind Hallen,615,71,403578,"Ravnebjerget 12B, Søvind, 8700 Horsens",Horsens,389179,
-703428,Sundparken,21,Sundparkhallen,615,71,403578,"Hybenvej 8, 8700 Horsens",Horsens,389179,
-706280,Hatting,8,Hattinghallen,615,71,403578,"Grønhøjvej 11C, Hatting, 8700 Horsens",Horsens,389179,
-710904,Stensballe,11,Stensballehallen,615,71,403578,"Bygaden 51, Stensballe, 8700 Horsens",Horsens,389179,
-701658,Brædstrup,13,Brædstrup Borgercenter (Mødesalen),615,71,403578,"Niels Wongesvej 8, 8740 Brædstrup",Horsens,389179,
-704998,Vestbyen,2,Vesthallen,615,71,403578,"Fussingsvej 65, 8700 Horsens",Horsens,389179,
-709476,Sejet,22,Sejet  Forsamlingshus,615,71,403578,"Sejet Bygade 16, Sejet, 8700 Horsens",Horsens,389179,
-707750,Torsted,7,Torstedhallen,615,71,403578,"Søndergårdsalle 24, 8700 Horsens",Horsens,389179,
-712014,Gedved,17,Gedved Skole (Hallen),615,71,403578,"Kirkevej 16B, 8751 Gedved",Horsens,389179,
+dagi_id;navn;nummer;afstemningssted_navn;kommune_id;opstillingskreds_nummer;opstillingskreds_dagi_id;afstemningssted_adresse;kommune_navn;kommune_dagi_id;største_parti;pop_up
+706274;Egebjerg;10;Egebjerghallen;615;71;403578;Egevej 5, 8700 Horsens;Horsens;389179;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Egebjerghallen<br>"
+706298;Sdr.Vissing;15;Fælleshuset;615;71;403578;Sdr. Vissingvej 26B, Sdr Vissing, 8740 Brædstrup;Horsens;389179;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Fælleshuset<br>"
+710898;Sønderbro;1;Sønderbro Skole (Festsalen);615;71;403578;Lindvigsvej 4, 8700 Horsens;Horsens;389179;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Sønderbro Skole (Festsalen)<br>"
+709470;Hovedgård;18;Hovedgård Hallen (Multihallen);615;71;403578;Fruenshave 3, 8732 Hovedgård;Horsens;389179;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Hovedgård Hallen (Multihallen)<br>"
+701652;Dagnæs;6;Dagnæshallen;615;71;403578;Sportsvænget 2, 8700 Horsens;Horsens;389179;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Dagnæshallen<br>"
+706268;Forum;5;Forum Horsens (Insero Atrium);615;71;403578;Langmarksvej 53, 8700 Horsens;Horsens;389179;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Forum Horsens (Insero Atrium)<br>"
+710912;Lund;9;Lundskolen (Multihallen);615;71;403578;Skolevej 7C, Lund, 8700 Horsens;Horsens;389179;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Lundskolen (Multihallen)<br>"
+712056;Tønning-Træden;20;Træden Forsamlingshus;615;71;403578;Brunbanken 1, Træden, 8740 Brædstrup;Horsens;389179;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Træden Forsamlingshus<br>"
+709464;Højvangen;12;Højvangshallen;615;71;403578;Højvangsalle 20, 8700 Horsens;Horsens;389179;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Højvangshallen<br>"
+706254;Nim;14;Nim Skole (Multihallen);615;71;403578;Møllegade 22, Nim, 8740 Brædstrup;Horsens;389179;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Nim Skole (Multihallen)<br>"
+706240;Endelave;4;Endelave Skole (Gymnastiksalen);615;71;403578;Kongevejen 26, 8789 Endelave;Horsens;389179;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Endelave Skole (Gymnastiksalen)<br>"
+706286;Midtbyen;3;Det tidligere Rådhus (Foredragssalen);615;71;403578;Rådhustorvet 4, 8700 Horsens;Horsens;389179;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Det tidligere Rådhus (Foredragssalen)<br>"
+701646;Østbirk;16;Østbirk Hallen;615;71;403578;Storegade 47, 8752 Østbirk;Horsens;389179;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Østbirk Hallen<br>"
+712020;Søvind;19;Søvind Hallen;615;71;403578;Ravnebjerget 12B, Søvind, 8700 Horsens;Horsens;389179;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Søvind Hallen<br>"
+703428;Sundparken;21;Sundparkhallen;615;71;403578;Hybenvej 8, 8700 Horsens;Horsens;389179;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Sundparkhallen<br>"
+706280;Hatting;8;Hattinghallen;615;71;403578;Grønhøjvej 11C, Hatting, 8700 Horsens;Horsens;389179;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Hattinghallen<br>"
+710904;Stensballe;11;Stensballehallen;615;71;403578;Bygaden 51, Stensballe, 8700 Horsens;Horsens;389179;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Stensballehallen<br>"
+701658;Brædstrup;13;Brædstrup Borgercenter (Mødesalen);615;71;403578;Niels Wongesvej 8, 8740 Brædstrup;Horsens;389179;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Brædstrup Borgercenter (Mødesalen)<br>"
+704998;Vestbyen;2;Vesthallen;615;71;403578;Fussingsvej 65, 8700 Horsens;Horsens;389179;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Vesthallen<br>"
+709476;Sejet;22;Sejet  Forsamlingshus;615;71;403578;Sejet Bygade 16, Sejet, 8700 Horsens;Horsens;389179;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Sejet  Forsamlingshus<br>"
+707750;Torsted;7;Torstedhallen;615;71;403578;Søndergårdsalle 24, 8700 Horsens;Horsens;389179;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Torstedhallen<br>"
+712014;Gedved;17;Gedved Skole (Hallen);615;71;403578;Kirkevej 16B, 8751 Gedved;Horsens;389179;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Gedved Skole (Hallen)<br>"

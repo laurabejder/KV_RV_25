@@ -1,6 +1,6 @@
-dagi_id,navn,nummer,afstemningssted_navn,kommune_id,opstillingskreds_nummer,opstillingskreds_dagi_id,afstemningssted_adresse,kommune_navn,kommune_dagi_id,største_parti
-705404,Lynge,4,Lynge Idrætsanlæg - Hal 2,201,26,403577,"Idrætsvej 14, 3540 Lynge",Allerød,389121,
-703802,Skovvang,2,Lillevang Skole - Afd. Skovvang,201,26,403577,"Poppelvej 1A, 3450 Allerød",Allerød,389121,
-711248,Blovstrød,1,Blovstrød Skole,201,26,403577,"Kærvej 10, 3450 Allerød",Allerød,389121,
-706698,Lillerød,3,Lillevang Skole - Afd. Lillerød,201,26,403577,"Frederiksborgvej 65, 3450 Allerød",Allerød,389121,
-705398,Ravnsholt,5,Ravnsholtshallen,201,26,403577,"Søparken 1, 3450 Allerød",Allerød,389121,
+dagi_id;navn;nummer;afstemningssted_navn;kommune_id;opstillingskreds_nummer;opstillingskreds_dagi_id;afstemningssted_adresse;kommune_navn;kommune_dagi_id;største_parti;pop_up
+705404;Lynge;4;Lynge Idrætsanlæg - Hal 2;201;26;403577;Idrætsvej 14, 3540 Lynge;Allerød;389121;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Lynge Idrætsanlæg - Hal 2<br>"
+703802;Skovvang;2;Lillevang Skole - Afd. Skovvang;201;26;403577;Poppelvej 1A, 3450 Allerød;Allerød;389121;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Lillevang Skole - Afd. Skovvang<br>"
+711248;Blovstrød;1;Blovstrød Skole;201;26;403577;Kærvej 10, 3450 Allerød;Allerød;389121;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Blovstrød Skole<br>"
+706698;Lillerød;3;Lillevang Skole - Afd. Lillerød;201;26;403577;Frederiksborgvej 65, 3450 Allerød;Allerød;389121;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Lillevang Skole - Afd. Lillerød<br>"
+705398;Ravnsholt;5;Ravnsholtshallen;201;26;403577;Søparken 1, 3450 Allerød;Allerød;389121;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Ravnsholtshallen<br>"

@@ -1,11 +1,11 @@
-dagi_id,navn,nummer,afstemningssted_navn,kommune_id,opstillingskreds_nummer,opstillingskreds_dagi_id,afstemningssted_adresse,kommune_navn,kommune_dagi_id,største_parti
-748639,Bogense,1,Bogense Hallerne,480,45,403613,"Kristianslundsvej 2, 5400 Bogense",Nordfyns,389163,
-748633,Morud,8,"Havrehedskolen, afd. Morud",480,45,403613,"Rugårdsvej 729, 5462 Morud",Nordfyns,389163,
-748635,Hårslev,7,Hårslev Hallen,480,45,403613,"Ejlskovvej 16, Hårslev, 5471 Søndersø",Nordfyns,389163,
-748632,Krogsbølle,3,"Sletten Skole, afd. Krogsbølle",480,45,403613,"Krogsbølle Bygade 54, Krogsbølle, 5450 Otterup",Nordfyns,389163,
-748631,Veflinge,6,"Havrehedskolen, afd. Veflinge",480,45,403613,"Vedel Simonsensvej 31, 5474 Veflinge",Nordfyns,389163,
-748638,Særslev,9,Særslev Forsamlingshus,480,45,403613,"Vestergade 22, Særslev, 5471 Søndersø",Nordfyns,389163,
-748637,Søndersø,10,"Søndersø Rådhus, Tingstedet",480,45,403613,"Vesterled 8, 5471 Søndersø",Nordfyns,389163,
-748636,Otterup,4,Otterup Idrætscenter,480,45,403613,"Stadionvej 50, Otterup, 5450 Otterup",Nordfyns,389163,
-748634,Klinte,2,Nørreby Forsamlingshus,480,45,403613,"Klintevej 52, Nørreby, 5400 Bogense",Nordfyns,389163,
-748630,Skovløkken,5,"Sletten Skole, afd. Skovløkken",480,45,403613,"Skovgyden 60, Ørritslev Skov, 5450 Otterup",Nordfyns,389163,
+dagi_id;navn;nummer;afstemningssted_navn;kommune_id;opstillingskreds_nummer;opstillingskreds_dagi_id;afstemningssted_adresse;kommune_navn;kommune_dagi_id;største_parti;pop_up
+748639;Bogense;1;Bogense Hallerne;480;45;403613;Kristianslundsvej 2, 5400 Bogense;Nordfyns;389163;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Bogense Hallerne<br>"
+748633;Morud;8;Havrehedskolen, afd. Morud;480;45;403613;Rugårdsvej 729, 5462 Morud;Nordfyns;389163;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Havrehedskolen, afd. Morud<br>"
+748635;Hårslev;7;Hårslev Hallen;480;45;403613;Ejlskovvej 16, Hårslev, 5471 Søndersø;Nordfyns;389163;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Hårslev Hallen<br>"
+748632;Krogsbølle;3;Sletten Skole, afd. Krogsbølle;480;45;403613;Krogsbølle Bygade 54, Krogsbølle, 5450 Otterup;Nordfyns;389163;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Sletten Skole, afd. Krogsbølle<br>"
+748631;Veflinge;6;Havrehedskolen, afd. Veflinge;480;45;403613;Vedel Simonsensvej 31, 5474 Veflinge;Nordfyns;389163;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Havrehedskolen, afd. Veflinge<br>"
+748638;Særslev;9;Særslev Forsamlingshus;480;45;403613;Vestergade 22, Særslev, 5471 Søndersø;Nordfyns;389163;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Særslev Forsamlingshus<br>"
+748637;Søndersø;10;Søndersø Rådhus, Tingstedet;480;45;403613;Vesterled 8, 5471 Søndersø;Nordfyns;389163;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Søndersø Rådhus, Tingstedet<br>"
+748636;Otterup;4;Otterup Idrætscenter;480;45;403613;Stadionvej 50, Otterup, 5450 Otterup;Nordfyns;389163;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Otterup Idrætscenter<br>"
+748634;Klinte;2;Nørreby Forsamlingshus;480;45;403613;Klintevej 52, Nørreby, 5400 Bogense;Nordfyns;389163;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Nørreby Forsamlingshus<br>"
+748630;Skovløkken;5;Sletten Skole, afd. Skovløkken;480;45;403613;Skovgyden 60, Ørritslev Skov, 5450 Otterup;Nordfyns;389163;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Sletten Skole, afd. Skovløkken<br>"

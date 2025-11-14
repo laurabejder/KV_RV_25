@@ -1,15 +1,15 @@
-dagi_id,navn,nummer,afstemningssted_navn,kommune_id,opstillingskreds_nummer,opstillingskreds_dagi_id,afstemningssted_adresse,kommune_navn,kommune_dagi_id,største_parti
-707272,Lading,14,Lading Forsamlingshus,710,69,403603,"Viborgvej 882, Lading, 8471 Sabro",Favrskov,389188,
-706360,Voldum,13,Voldum Hallen,710,69,403603,"Voldum-Rud Vej 42, Voldum, 8370 Hadsten",Favrskov,389188,
-712100,Hadsten Nord,1,Hadsten Hallen,710,69,403603,"Hadbjergvej 12, Vinterslev, 8370 Hadsten",Favrskov,389188,
-709610,Hadbjerg,3,HØST Hallen,710,69,403603,"Mejsevej 1, Hadbjerg, 8370 Hadsten",Favrskov,389188,
-704336,Foldby,8,Foldby Forsamlingshus,710,69,403603,"Kirkevej 1C, Foldby, 8382 Hinnerup",Favrskov,389188,
-706342,Hammel Syd,5,Farre Forsamlingshus,710,69,403603,"Vandværksvej 3, Farre, 8472 Sporup",Favrskov,389188,
-706354,Hammel Nord,4,Hammel Idrætscenter,710,69,403603,"Thorsvej 4, 8450 Hammel",Favrskov,389188,
-711042,Hadsten Syd,2,Østervangshallen,710,69,403603,"Overgårdsvej 5, 8370 Hadsten",Favrskov,389188,
-705102,Rønbæk/Grundfør,7,Rønbæk Idrætscenter,710,69,403603,"Ådalsvej 94, 8382 Hinnerup",Favrskov,389188,
-711674,Søften,12,Søften Kultur- og Idrætscenter,710,69,403603,"Kvottrupvej 9, Søften, 8382 Hinnerup",Favrskov,389188,
-711048,Laurbjerg/Houlbjerg,11,Laurbjerg Hallen,710,69,403603,"Skolevej 8B, Laurbjerg, 8870 Langå",Favrskov,389188,
-709596,Haldum-Hinnerup/Vitten,6,Haldum-Hinnerup Hallen,710,69,403603,"Svinget 6, 8382 Hinnerup",Favrskov,389188,
-707278,Thorsø/Haurum/Sall,10,Tungelund Aktivitetscenter,710,69,403603,"Gl Tungelundvej 9, 8881 Thorsø",Favrskov,389188,
-707834,Ulstrup,9,Ulstruphallerne,710,69,403603,"Nattergalevej 10, 8860 Ulstrup",Favrskov,389188,
+dagi_id;navn;nummer;afstemningssted_navn;kommune_id;opstillingskreds_nummer;opstillingskreds_dagi_id;afstemningssted_adresse;kommune_navn;kommune_dagi_id;største_parti;pop_up
+707272;Lading;14;Lading Forsamlingshus;710;69;403603;Viborgvej 882, Lading, 8471 Sabro;Favrskov;389188;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Lading Forsamlingshus<br>"
+706360;Voldum;13;Voldum Hallen;710;69;403603;Voldum-Rud Vej 42, Voldum, 8370 Hadsten;Favrskov;389188;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Voldum Hallen<br>"
+712100;Hadsten Nord;1;Hadsten Hallen;710;69;403603;Hadbjergvej 12, Vinterslev, 8370 Hadsten;Favrskov;389188;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Hadsten Hallen<br>"
+709610;Hadbjerg;3;HØST Hallen;710;69;403603;Mejsevej 1, Hadbjerg, 8370 Hadsten;Favrskov;389188;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i HØST Hallen<br>"
+704336;Foldby;8;Foldby Forsamlingshus;710;69;403603;Kirkevej 1C, Foldby, 8382 Hinnerup;Favrskov;389188;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Foldby Forsamlingshus<br>"
+706342;Hammel Syd;5;Farre Forsamlingshus;710;69;403603;Vandværksvej 3, Farre, 8472 Sporup;Favrskov;389188;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Farre Forsamlingshus<br>"
+706354;Hammel Nord;4;Hammel Idrætscenter;710;69;403603;Thorsvej 4, 8450 Hammel;Favrskov;389188;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Hammel Idrætscenter<br>"
+711042;Hadsten Syd;2;Østervangshallen;710;69;403603;Overgårdsvej 5, 8370 Hadsten;Favrskov;389188;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Østervangshallen<br>"
+705102;Rønbæk/Grundfør;7;Rønbæk Idrætscenter;710;69;403603;Ådalsvej 94, 8382 Hinnerup;Favrskov;389188;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Rønbæk Idrætscenter<br>"
+711674;Søften;12;Søften Kultur- og Idrætscenter;710;69;403603;Kvottrupvej 9, Søften, 8382 Hinnerup;Favrskov;389188;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Søften Kultur- og Idrætscenter<br>"
+711048;Laurbjerg/Houlbjerg;11;Laurbjerg Hallen;710;69;403603;Skolevej 8B, Laurbjerg, 8870 Langå;Favrskov;389188;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Laurbjerg Hallen<br>"
+709596;Haldum-Hinnerup/Vitten;6;Haldum-Hinnerup Hallen;710;69;403603;Svinget 6, 8382 Hinnerup;Favrskov;389188;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Haldum-Hinnerup Hallen<br>"
+707278;Thorsø/Haurum/Sall;10;Tungelund Aktivitetscenter;710;69;403603;Gl Tungelundvej 9, 8881 Thorsø;Favrskov;389188;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Tungelund Aktivitetscenter<br>"
+707834;Ulstrup;9;Ulstruphallerne;710;69;403603;Nattergalevej 10, 8860 Ulstrup;Favrskov;389188;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Ulstruphallerne<br>"

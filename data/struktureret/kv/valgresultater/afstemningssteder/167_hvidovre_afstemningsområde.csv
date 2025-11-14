@@ -1,9 +1,9 @@
-dagi_id,navn,nummer,afstemningssted_navn,kommune_id,opstillingskreds_nummer,opstillingskreds_dagi_id,afstemningssted_adresse,kommune_navn,kommune_dagi_id,største_parti
-702080,Avedøre Skole,7,Avedøre Skole,167,17,403572,"Frydenhøjstien 4, 2650 Hvidovre",Hvidovre,389113,
-702088,Sønderkærskolen,3,Sønderkærskolen,167,17,403572,"Kettegård Alle 2, 2650 Hvidovre",Hvidovre,389113,
-706740,Avedøre Idrætscenter,8,Avedøre Idrætscenter,167,17,403572,"Trædrejerporten 1A, 2650 Hvidovre",Hvidovre,389113,
-706734,Kometen,4,Kometen,167,17,403572,"Hvidovrevej 280A, 2650 Hvidovre",Hvidovre,389113,
-709882,Præstemoseskolen,2,Præstemoseskolen,167,17,403572,"M Bechs Alle 122, 2650 Hvidovre",Hvidovre,389113,
-702070,Frihedens Idrætscenter,6,Frihedens Idrætscenter,167,17,403572,"Hvidovrevej 446, 2650 Hvidovre",Hvidovre,389113,
-703836,Holmegårdshallen,1,Holmegårdshallen,167,17,403572,"Plovheldvej 10, 2650 Hvidovre",Hvidovre,389113,
-702094,Dansborghallen,5,Dansborghallen,167,17,403572,"Sollentuna Alle 4, 2650 Hvidovre",Hvidovre,389113,
+dagi_id;navn;nummer;afstemningssted_navn;kommune_id;opstillingskreds_nummer;opstillingskreds_dagi_id;afstemningssted_adresse;kommune_navn;kommune_dagi_id;største_parti;pop_up
+702080;Avedøre Skole;7;Avedøre Skole;167;17;403572;Frydenhøjstien 4, 2650 Hvidovre;Hvidovre;389113;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Avedøre Skole<br>"
+702088;Sønderkærskolen;3;Sønderkærskolen;167;17;403572;Kettegård Alle 2, 2650 Hvidovre;Hvidovre;389113;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Sønderkærskolen<br>"
+706740;Avedøre Idrætscenter;8;Avedøre Idrætscenter;167;17;403572;Trædrejerporten 1A, 2650 Hvidovre;Hvidovre;389113;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Avedøre Idrætscenter<br>"
+706734;Kometen;4;Kometen;167;17;403572;Hvidovrevej 280A, 2650 Hvidovre;Hvidovre;389113;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Kometen<br>"
+709882;Præstemoseskolen;2;Præstemoseskolen;167;17;403572;M Bechs Alle 122, 2650 Hvidovre;Hvidovre;389113;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Præstemoseskolen<br>"
+702070;Frihedens Idrætscenter;6;Frihedens Idrætscenter;167;17;403572;Hvidovrevej 446, 2650 Hvidovre;Hvidovre;389113;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Frihedens Idrætscenter<br>"
+703836;Holmegårdshallen;1;Holmegårdshallen;167;17;403572;Plovheldvej 10, 2650 Hvidovre;Hvidovre;389113;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Holmegårdshallen<br>"
+702094;Dansborghallen;5;Dansborghallen;167;17;403572;Sollentuna Alle 4, 2650 Hvidovre;Hvidovre;389113;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Dansborghallen<br>"

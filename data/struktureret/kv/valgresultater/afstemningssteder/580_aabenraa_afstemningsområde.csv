@@ -1,19 +1,19 @@
-dagi_id,navn,nummer,afstemningssted_navn,kommune_id,opstillingskreds_nummer,opstillingskreds_dagi_id,afstemningssted_adresse,kommune_navn,kommune_dagi_id,største_parti
-703778,Aabenraa Syd,17,Kongehøjskolen,580,50,403621,"Tøndervej 90, 6200 Aabenraa",Aabenraa,389169,
-700772,Aabenraa Nord,18,Agoraen,580,50,403621,"Nyløkke 2, 6200 Aabenraa",Aabenraa,389169,
-702016,Aabenraa Midt,16,Sønderjyllandshallen,580,50,403621,"H P Hanssens Gade 7, 6200 Aabenraa",Aabenraa,389169,
-711228,Tinglev,12,Borgerhuset,580,50,403621,"Tinglev Midt 2, 6360 Tinglev",Aabenraa,389169,
-706660,Kliplev,13,Kliplevhallen,580,50,403621,"Skolegade 13, Kliplev, 6200 Aabenraa",Aabenraa,389169,
-709794,Kruså,14,Grænsehallerne,580,50,403621,"Harkærvej 13, 6340 Kruså",Aabenraa,389169,
-708364,Bolderslev,7,Bolderslev Forsamlingshus,580,50,403621,"Stadionvej 34B, 6392 Bolderslev",Aabenraa,389169,
-705392,Hjordkær,5,Hjordkær Forsamlingshus,580,50,403621,"Aabenraavej 10, Hjordkær, 6230 Rødekro",Aabenraa,389169,
-705386,Hovslund,1,Hovslund Børneunivers (Gym. salen),580,50,403621,"Hovslundvej 12A, Hovslund St, 6230 Rødekro",Aabenraa,389169,
-703772,Hellevad,2,Hellevad Børneunivers (Gym. salen),580,50,403621,"Skolegade 8, Hellevad, 6230 Rødekro",Aabenraa,389169,
-703784,Ensted,8,Stubbæk Skole,580,50,403621,"Stubbæk Skolegade 3, Stubbæk, 6200 Aabenraa",Aabenraa,389169,
-708358,Felsted,9,Felstedhallen,580,50,403621,"Sønderborgvej 129, Felsted, 6200 Aabenraa",Aabenraa,389169,
-701976,Løjt,4,Løjt Forsamlingshus,580,50,403621,"Løjt Nørregade 1, Løjt Kirkeby, 6200 Aabenraa",Aabenraa,389169,
-706666,Rødekro,3,Rødekrohallen,580,50,403621,"Østergade 40B, 6230 Rødekro",Aabenraa,389169,
-709832,Padborg,15,Valdemarshus,580,50,403621,"Valdemarsgade 11, 6330 Padborg",Aabenraa,389169,
-706648,Ravsted,6,Ravsted Forsamlingsgård,580,50,403621,"Ravsted Storegade 2, 6372 Bylderup-Bov",Aabenraa,389169,
-706654,Bylderup,11,Slogs Herreds Hus,580,50,403621,"Slogsherredsvej 20, Bylderup, 6372 Bylderup-Bov",Aabenraa,389169,
-708352,Varnæs,10,Varnæs Skole,580,50,403621,"Varnæs Kirkevej 15A, Varnæs, 6200 Aabenraa",Aabenraa,389169,
+dagi_id;navn;nummer;afstemningssted_navn;kommune_id;opstillingskreds_nummer;opstillingskreds_dagi_id;afstemningssted_adresse;kommune_navn;kommune_dagi_id;største_parti;pop_up
+703778;Aabenraa Syd;17;Kongehøjskolen;580;50;403621;Tøndervej 90, 6200 Aabenraa;Aabenraa;389169;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Kongehøjskolen<br>"
+700772;Aabenraa Nord;18;Agoraen;580;50;403621;Nyløkke 2, 6200 Aabenraa;Aabenraa;389169;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Agoraen<br>"
+702016;Aabenraa Midt;16;Sønderjyllandshallen;580;50;403621;H P Hanssens Gade 7, 6200 Aabenraa;Aabenraa;389169;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Sønderjyllandshallen<br>"
+711228;Tinglev;12;Borgerhuset;580;50;403621;Tinglev Midt 2, 6360 Tinglev;Aabenraa;389169;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Borgerhuset<br>"
+706660;Kliplev;13;Kliplevhallen;580;50;403621;Skolegade 13, Kliplev, 6200 Aabenraa;Aabenraa;389169;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Kliplevhallen<br>"
+709794;Kruså;14;Grænsehallerne;580;50;403621;Harkærvej 13, 6340 Kruså;Aabenraa;389169;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Grænsehallerne<br>"
+708364;Bolderslev;7;Bolderslev Forsamlingshus;580;50;403621;Stadionvej 34B, 6392 Bolderslev;Aabenraa;389169;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Bolderslev Forsamlingshus<br>"
+705392;Hjordkær;5;Hjordkær Forsamlingshus;580;50;403621;Aabenraavej 10, Hjordkær, 6230 Rødekro;Aabenraa;389169;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Hjordkær Forsamlingshus<br>"
+705386;Hovslund;1;Hovslund Børneunivers (Gym. salen);580;50;403621;Hovslundvej 12A, Hovslund St, 6230 Rødekro;Aabenraa;389169;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Hovslund Børneunivers (Gym. salen)<br>"
+703772;Hellevad;2;Hellevad Børneunivers (Gym. salen);580;50;403621;Skolegade 8, Hellevad, 6230 Rødekro;Aabenraa;389169;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Hellevad Børneunivers (Gym. salen)<br>"
+703784;Ensted;8;Stubbæk Skole;580;50;403621;Stubbæk Skolegade 3, Stubbæk, 6200 Aabenraa;Aabenraa;389169;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Stubbæk Skole<br>"
+708358;Felsted;9;Felstedhallen;580;50;403621;Sønderborgvej 129, Felsted, 6200 Aabenraa;Aabenraa;389169;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Felstedhallen<br>"
+701976;Løjt;4;Løjt Forsamlingshus;580;50;403621;Løjt Nørregade 1, Løjt Kirkeby, 6200 Aabenraa;Aabenraa;389169;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Løjt Forsamlingshus<br>"
+706666;Rødekro;3;Rødekrohallen;580;50;403621;Østergade 40B, 6230 Rødekro;Aabenraa;389169;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Rødekrohallen<br>"
+709832;Padborg;15;Valdemarshus;580;50;403621;Valdemarsgade 11, 6330 Padborg;Aabenraa;389169;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Valdemarshus<br>"
+706648;Ravsted;6;Ravsted Forsamlingsgård;580;50;403621;Ravsted Storegade 2, 6372 Bylderup-Bov;Aabenraa;389169;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Ravsted Forsamlingsgård<br>"
+706654;Bylderup;11;Slogs Herreds Hus;580;50;403621;Slogsherredsvej 20, Bylderup, 6372 Bylderup-Bov;Aabenraa;389169;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Slogs Herreds Hus<br>"
+708352;Varnæs;10;Varnæs Skole;580;50;403621;Varnæs Kirkevej 15A, Varnæs, 6200 Aabenraa;Aabenraa;389169;;"<b style='color:#494949; font-size:1.5em;margin-bottom: 10px'>nan</b><br> blev størst i Varnæs Skole<br>"
