@@ -192,7 +192,7 @@ def make_popup(row):
         # percentage cell, fixed width & right-aligned
         pct_span = (
             f"<span style='color: {color}; display:inline-block; width:50px; "
-            f"text-align:left; font-size:1em;>{pct:.1f}%</span>"
+            f"text-align:left; font-size:0.85em; vertical-align:middle'>{pct:.1f}%</span>"
         )
 
         line = bar_span + label_span + pct_span
