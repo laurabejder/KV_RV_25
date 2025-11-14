@@ -143,7 +143,7 @@ def get_afstemningsområde_percentages(
                 "afstemningsområde",
                 "resultat_art",
             ],
-            columns="parti",
+            columns="bogstav",
             values="parti_procent",
         )
         .reset_index()
@@ -208,7 +208,7 @@ def get_afstemningsområde_percentages(
 
     # Gem filen
     out_path = afstem_dir / f"{kommune_id}_{kommunenavn_lower}_afstemningsområde.csv"
-    afst.to_csv(out_path, index=False)
+    afst.to_csv(out_path, index=False, sep=";")
 
 # Funktionen kombinerer data fra kombit og vores håndholdte borgmesterdata og opdaterer statusfilen
 def get_status(
@@ -278,7 +278,11 @@ for kommune_id in kv25_resultater_partier["kommune_kode"].unique():
 
     # Load filerne, der ligger til grund for visualiseringerne
     kommune_niveau = pd.read_csv(KOMMUNE_DIR / f"{kommune_id}_{kommunenavn_lower}_kommune.csv")
-    afstemningssted_niveau = pd.read_csv(AFSTEM_DIR / f"{kommune_id}_{kommunenavn_lower}_afstemningsområde.csv")
+    
+    try:
+        afstemningssted_niveau = pd.read_csv(AFSTEM_DIR / f"{kommune_id}_{kommunenavn_lower}_afstemningsområde.csv")
+    except:
+        afstemningssted_niveau = pd.read_csv(AFSTEM_DIR / f"{kommune_id}_{kommunenavn_lower}_afstemningsområde.csv", sep=";")
 
     # Standardiser partinavne og -bogstaver til vores format
     data_std = _standardize_party_labels(data)

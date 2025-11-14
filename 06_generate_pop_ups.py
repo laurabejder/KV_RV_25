@@ -11,7 +11,6 @@ rv_valgsted_path = "data/struktureret/rv/valgresultater/afstemningssteder/"
 national_kv = pd.read_csv(kv_path, sep=";")
 national_rv = pd.read_csv(rv_path, sep=";")
 
-
 ############# Color maps #############
 
 largest_party_colors = {
@@ -87,7 +86,6 @@ def add_popups(
         else: 
             valg = f"i {valg}"
 
-        print(f"Creating popup for {valg} with largest party {largest}")
         header_color = largest_party_colors.get(largest, default_color)
 
         # Header line
@@ -139,7 +137,6 @@ def add_popups(
 
 
 ############# Run on both dataframes #############
-
 national_kv = add_popups(national_kv)
 national_rv = add_popups(national_rv)
 
@@ -149,11 +146,15 @@ national_rv.to_csv(rv_path, index=False, sep=";")
 
 
 for path in [kv_valgsted_path, rv_valgsted_path]:
-    file_pattern = os.path.join(path, "*.csv")
-    all_files = glob.glob(file_pattern)
+    print(f"Processing files in {path}")
+    try:
+        file_pattern = os.path.join(path, "*.csv")
+        all_files = glob.glob(file_pattern)
 
-    for file in all_files:
-        print(f"Processing file {file}")
-        df = pd.read_csv(file, sep=";")
-        df = add_popups(df)
-        #df.to_csv(file, index=False, sep=";")
+        for file in all_files:
+            print(f"Processing file {file}")
+            df = pd.read_csv(file, sep=";")
+            df = add_popups(df)
+            df.to_csv(file, index=False, sep=";")
+    except Exception as e:
+        print(f"Error processing files in {path}: {e}")

@@ -146,7 +146,7 @@ def get_afstemningsområde_percentages(
                 "afstemningsområde",
                 "resultat_art",
             ],
-            columns="parti",
+            columns="bogstav",
             values="parti_procent",
         )
         .reset_index()
@@ -206,7 +206,7 @@ def get_afstemningsområde_percentages(
 
     # Gem filen
     out_path = afstem_dir / f"{regionnavn_lower}_afstemningsområde.csv"
-    afst.to_csv(out_path, index=False)
+    afst.to_csv(out_path, index=False, sep=";")
 
 # Funktionen kombinerer data fra kombit og vores håndholdte regionsforpersondata og opdaterer statusfilen
 def get_status(
@@ -271,7 +271,11 @@ for region in rv25_resultater_partier["region"].unique():
 
     # Load filerne, der ligger til grund for visualiseringerne
     region_niveau = pd.read_csv(REGION_DIR / f"{regionnavn_lower}.csv")
-    afstemningssted_niveau = pd.read_csv(AFSTEM_DIR / f"{regionnavn_lower}_afstemningsområde.csv")
+
+    try:
+        afstemningssted_niveau = pd.read_csv(AFSTEM_DIR / f"{regionnavn_lower}_afstemningsområde.csv")
+    except:
+        afstemningssted_niveau = pd.read_csv(AFSTEM_DIR / f"{regionnavn_lower}_afstemningsområde.csv", sep=";")
 
     # Standardiser partinavne og -bogstaver til vores format
     data_std = _standardize_party_labels(data)
