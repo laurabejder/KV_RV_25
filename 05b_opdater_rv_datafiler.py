@@ -314,6 +314,7 @@ for region in rv25_resultater_partier["region"].unique():
 bogstav_map = {p["listebogstav"]: p["bogstav"] for p in partier_info}
 
 totals = rv25_resultater_partier.groupby("region")["stemmer"].sum() # kommune totals (gyldige stemmer)
+rv25_resultater_partier = _standardize_party_labels(rv25_resultater_partier)
 
 # aggregate, add bogstav, compute %, find biggest party per kommune, pivot wide
 nat_resultater = (

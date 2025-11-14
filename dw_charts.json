@@ -8,24 +8,24 @@
             "id": ""
         },
         "chart2": {
-            "header": "Her er de nye borgmestre",
-            "description": "",
-            "id": "vKUxp"
-        },
-        "chart3": {
-            "header": "",
-            "description": "",
+            "header": "St\u00f8rste parti i kommunerne",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i hver enkelt kommune. Hold musen over kommunerne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "6O4p7"
         },
+        "chart3": {
+            "header": "Hvilket parti sikrer sig borgmesterposten?",
+            "description": "Kortet viser, hvilket parti hver enkelt kommunes borgmester repr\u00e6senterer. Altinget opdaterer, i takt med at konstitueringerne falder p\u00e5 plads. Hold musen over kommunerne for at se navn og parti.",
+            "id": "vKUxp"
+        },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig p\u00e5 landsplan",
+            "description": "Grafikken viser partiernes samlede resultat. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "KFVq6"
         },
         "chart5": {
-            "header": "",
-            "description": "",
-            "id": ""
+            "header": "Her er valgets st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
+            "id": "gzSXG"
         }
     },
     "2": {
@@ -37,28 +37,28 @@
             "id": ""
         },
         "chart2": {
-            "header": "Her er de nye formænd for regionerne",
-            "description": "",
-            "id": "3tiFy"
-        },
-        "chart3": {
-            "header": "",
-            "description": "",
+            "header": "St\u00f8rste parti i regionerne",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i hver af de fire regioner. Hold musen over regionerne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "qw2mo"
         },
+        "chart3": {
+            "header": "Hvilket parti sikrer sig formandsposten?",
+            "description": "Kortet viser, hvilket parti hver enkelt regionsr\u00e5dsformand repr\u00e6senterer. Altinget opdaterer, i takt med at konstitueringerne falder p\u00e5 plads.\u00a0Hold musen over regionerne for at se navn og parti.",
+            "id": "3tiFy"
+        },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig p\u00e5 landsplan",
+            "description": "Grafikken viser partiernes samlede resultat. De lysere s\u00f8jler viser resultatet fra seneste regionsvalg i 2021.",
             "id": "dtRte"
         },
         "chart5": {
-            "header": "",
-            "description": "",
-            "id": ""
+            "header": "Her er valgets st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat. ",
+            "id": "3Qtp5"
         }
     },
     "3": {
-        "name": "Region Østdanmark",
+        "name": "Region \u00d8stdanmark",
         "slug": "RV25",
         "chart1": {
             "header": "",
@@ -66,18 +66,18 @@
             "id": "80lBA"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i regionen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "TwEXq"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i den nye storregion, der tidligere bestod af Region Hovedstaden og Region Sj\u00e6lland.",
             "id": "e4zRN"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er regionens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "EJOBz"
         }
     },
@@ -90,18 +90,18 @@
             "id": "Tah07"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i regionen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "poIuC"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i regionen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "RXekc"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er regionens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "HGJo7"
         }
     },
@@ -114,18 +114,18 @@
             "id": "GAD1D"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i regionen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "Rx1a9"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i regionen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "rxTdD"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er regionens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "iusio"
         }
     },
@@ -138,23 +138,23 @@
             "id": "DulbY"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i regionen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "NxsYv"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i regionen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "jrpoM"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er regionens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "EKlCi"
         }
     },
     "101": {
-        "name": "København",
+        "name": "K\u00f8benhavn",
         "slug": "KV25",
         "chart1": {
             "header": "",
@@ -162,18 +162,18 @@
             "id": "LIO0W"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "A4S23"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "w7R1B"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "6FiSr"
         }
     },
@@ -186,18 +186,18 @@
             "id": "DMjw4"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "w7rcF"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "cfGRo"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "RBP5o"
         }
     },
@@ -210,23 +210,23 @@
             "id": "i5Irf"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "mnh5M"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "KPJL1"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "H2ItZ"
         }
     },
     "153": {
-        "name": "Brøndby",
+        "name": "Br\u00f8ndby",
         "slug": "KV25",
         "chart1": {
             "header": "",
@@ -234,23 +234,23 @@
             "id": "eSOSL"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "bIRYk"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "STagy"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "LHOs8"
         }
     },
     "155": {
-        "name": "Dragør",
+        "name": "Drag\u00f8r",
         "slug": "KV25",
         "chart1": {
             "header": "",
@@ -258,18 +258,18 @@
             "id": "FQI1T"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "vQDOc"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "3an2A"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "Dq8iW"
         }
     },
@@ -282,18 +282,18 @@
             "id": "SRp5M"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "r0U8q"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "KYBS8"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "p46VI"
         }
     },
@@ -306,18 +306,18 @@
             "id": "FjKen"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "6hW8X"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "ONA8h"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "rpvjS"
         }
     },
@@ -330,18 +330,18 @@
             "id": "b19gC"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "9RMCX"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "04uVS"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "ale5w"
         }
     },
@@ -354,18 +354,18 @@
             "id": "T3Yzv"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "1TCE2"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "UjIbo"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "MHs5x"
         }
     },
@@ -378,18 +378,18 @@
             "id": "cvzXx"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "wRNBv"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "gx9MP"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "SlXVk"
         }
     },
@@ -402,23 +402,23 @@
             "id": "tcxNN"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "E0t7C"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "m4hh8"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "H4L7l"
         }
     },
     "169": {
-        "name": "Høje-Taastrup",
+        "name": "H\u00f8je-Taastrup",
         "slug": "KV25",
         "chart1": {
             "header": "",
@@ -426,23 +426,23 @@
             "id": "ZSUSG"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "YtpRA"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "JtRa0"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "LxcmL"
         }
     },
     "173": {
-        "name": "Lyngby-Taarbæk",
+        "name": "Lyngby-Taarb\u00e6k",
         "slug": "KV25",
         "chart1": {
             "header": "",
@@ -450,23 +450,23 @@
             "id": "AAEzN"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "Meblm"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "u7wym"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "gEwph"
         }
     },
     "175": {
-        "name": "Rødovre",
+        "name": "R\u00f8dovre",
         "slug": "KV25",
         "chart1": {
             "header": "",
@@ -474,23 +474,23 @@
             "id": "OrIIY"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "MGLo0"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "CcgzQ"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "zooLr"
         }
     },
     "183": {
-        "name": "Ishøj",
+        "name": "Ish\u00f8j",
         "slug": "KV25",
         "chart1": {
             "header": "",
@@ -498,23 +498,23 @@
             "id": "YcR67"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "GuHgP"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "lkvQZ"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "NugCr"
         }
     },
     "185": {
-        "name": "Tårnby",
+        "name": "T\u00e5rnby",
         "slug": "KV25",
         "chart1": {
             "header": "",
@@ -522,23 +522,23 @@
             "id": "c2KtW"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "vAMSJ"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "teEYh"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "cy48q"
         }
     },
     "187": {
-        "name": "Vallensbæk",
+        "name": "Vallensb\u00e6k",
         "slug": "KV25",
         "chart1": {
             "header": "",
@@ -546,23 +546,23 @@
             "id": "PJ18c"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "1hRss"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "uaJBb"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "hfvVH"
         }
     },
     "190": {
-        "name": "Furesø",
+        "name": "Fures\u00f8",
         "slug": "KV25",
         "chart1": {
             "header": "",
@@ -570,23 +570,23 @@
             "id": "GntvR"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "sRUVI"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "aLn2f"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "ZNEEP"
         }
     },
     "201": {
-        "name": "Allerød",
+        "name": "Aller\u00f8d",
         "slug": "KV25",
         "chart1": {
             "header": "",
@@ -594,18 +594,18 @@
             "id": "1N5Pu"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "9fh2F"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "o27yc"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "b0VSZ"
         }
     },
@@ -618,23 +618,23 @@
             "id": "yExnE"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "8a8dT"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "4VN8g"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "CmUtz"
         }
     },
     "217": {
-        "name": "Helsingør",
+        "name": "Helsing\u00f8r",
         "slug": "KV25",
         "chart1": {
             "header": "",
@@ -642,23 +642,23 @@
             "id": "sXlOl"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "eKtkO"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "UvGv9"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "sXjTC"
         }
     },
     "219": {
-        "name": "Hillerød",
+        "name": "Hiller\u00f8d",
         "slug": "KV25",
         "chart1": {
             "header": "",
@@ -666,23 +666,23 @@
             "id": "FD9Tg"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "P1ezj"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "cwcLr"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "Gm7Hd"
         }
     },
     "223": {
-        "name": "Hørsholm",
+        "name": "H\u00f8rsholm",
         "slug": "KV25",
         "chart1": {
             "header": "",
@@ -690,18 +690,18 @@
             "id": "FLcZC"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "E1kJI"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "TLmke"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "GPZ6p"
         }
     },
@@ -714,18 +714,18 @@
             "id": "WmXpI"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "eFqi9"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "DPVVI"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "uUl4r"
         }
     },
@@ -738,18 +738,18 @@
             "id": "q3d3P"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "gf5eZ"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "DfJz4"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "Tpaqs"
         }
     },
@@ -762,18 +762,18 @@
             "id": "awVfQ"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "JXpwD"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "J8GcD"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "J4mkf"
         }
     },
@@ -786,23 +786,23 @@
             "id": "Mgz2c"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "G54zY"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "ElJ6X"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "dsAdL"
         }
     },
     "259": {
-        "name": "Køge",
+        "name": "K\u00f8ge",
         "slug": "KV25",
         "chart1": {
             "header": "",
@@ -810,23 +810,23 @@
             "id": "vt69I"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "2EHyu"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "ottyD"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "fkD7b"
         }
     },
     "260": {
-        "name": "Halsnæs",
+        "name": "Halsn\u00e6s",
         "slug": "KV25",
         "chart1": {
             "header": "",
@@ -834,18 +834,18 @@
             "id": "Qu7kK"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "ZI0cZ"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "HgCCT"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "LORDh"
         }
     },
@@ -858,23 +858,23 @@
             "id": "qJO0Y"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "P85QB"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "Fqabd"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "g5k2X"
         }
     },
     "269": {
-        "name": "Solrød",
+        "name": "Solr\u00f8d",
         "slug": "KV25",
         "chart1": {
             "header": "",
@@ -882,18 +882,18 @@
             "id": "FylwT"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "iSSrx"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "ylQ3T"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "8s68c"
         }
     },
@@ -906,18 +906,18 @@
             "id": "aNWpm"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "VFU5S"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "EZsCe"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "KExkh"
         }
     },
@@ -930,23 +930,23 @@
             "id": "EaDMB"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "WwPfv"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "J2Qgy"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "91VBd"
         }
     },
     "316": {
-        "name": "Holbæk",
+        "name": "Holb\u00e6k",
         "slug": "KV25",
         "chart1": {
             "header": "",
@@ -954,18 +954,18 @@
             "id": "20LIB"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "Ca2HE"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "MTkRm"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "4PgGy"
         }
     },
@@ -978,18 +978,18 @@
             "id": "WiAmO"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "Qjk4Q"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "RUbfE"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "fXowt"
         }
     },
@@ -1002,18 +1002,18 @@
             "id": "A02JM"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "wqTO1"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "fGBtU"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "uylvW"
         }
     },
@@ -1026,18 +1026,18 @@
             "id": "D2BMv"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "WtfhW"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "fvZSY"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "PpglD"
         }
     },
@@ -1050,18 +1050,18 @@
             "id": "lrK8k"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "j3QNs"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "Mp2Jd"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "szsGG"
         }
     },
@@ -1074,23 +1074,23 @@
             "id": "AGcEO"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "nH8Zu"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "s41EL"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "W0JoA"
         }
     },
     "340": {
-        "name": "Sorø",
+        "name": "Sor\u00f8",
         "slug": "KV25",
         "chart1": {
             "header": "",
@@ -1098,18 +1098,18 @@
             "id": "E9RWW"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "JoHig"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "mzI8e"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "14nMG"
         }
     },
@@ -1122,18 +1122,18 @@
             "id": "ulXrN"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "Fgi2z"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "Al4yP"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "IyGGF"
         }
     },
@@ -1146,23 +1146,23 @@
             "id": "wE38V"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "j7kpm"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "bS3Ft"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "VkfHj"
         }
     },
     "370": {
-        "name": "Næstved",
+        "name": "N\u00e6stved",
         "slug": "KV25",
         "chart1": {
             "header": "",
@@ -1170,18 +1170,18 @@
             "id": "3TxeU"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "pFP0x"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "xAHFL"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "82R6U"
         }
     },
@@ -1194,18 +1194,18 @@
             "id": "DVe0g"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "nx4kU"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "LGU3Q"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "LInT9"
         }
     },
@@ -1218,18 +1218,18 @@
             "id": "1tyiZ"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "52ARc"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "YRX5y"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "OxEUc"
         }
     },
@@ -1242,18 +1242,18 @@
             "id": "yWf6o"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "1QNn5"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "XRHaX"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "mWe6N"
         }
     },
@@ -1266,18 +1266,18 @@
             "id": "kUQy7"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "n6Yf3"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "O7cP2"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "A0CVo"
         }
     },
@@ -1290,18 +1290,18 @@
             "id": "J9c57"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "wO8wG"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "L2aL2"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "7dvgi"
         }
     },
@@ -1314,18 +1314,18 @@
             "id": "STQvn"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "8PbUM"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "REM1l"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "ikTJF"
         }
     },
@@ -1338,18 +1338,18 @@
             "id": "ywcnn"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "57tXD"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "exCVC"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "O1afC"
         }
     },
@@ -1362,18 +1362,18 @@
             "id": "co4rX"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "iCZzM"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "lLzrm"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "HV4l9"
         }
     },
@@ -1386,18 +1386,18 @@
             "id": "SQaex"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "NbzMN"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "vANvR"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "PrEWi"
         }
     },
@@ -1410,18 +1410,18 @@
             "id": "qle89"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "ITgDS"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "bbs5w"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "OyoVs"
         }
     },
@@ -1434,18 +1434,18 @@
             "id": "CI7ag"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "2oQQn"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "2LFmE"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "5ZguT"
         }
     },
@@ -1458,23 +1458,23 @@
             "id": "SS8b8"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "JWGuQ"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "CL6dG"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "GVWDv"
         }
     },
     "492": {
-        "name": "Ærø",
+        "name": "\u00c6r\u00f8",
         "slug": "KV25",
         "chart1": {
             "header": "",
@@ -1482,18 +1482,18 @@
             "id": "VusWP"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "Euk1K"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "ZY5IM"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "NrN7C"
         }
     },
@@ -1506,18 +1506,18 @@
             "id": "9EGwA"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "BzPr5"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "xEGJd"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "GTtmv"
         }
     },
@@ -1530,23 +1530,23 @@
             "id": "qoYRE"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "OOnuo"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "1OWhF"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "n0dHF"
         }
     },
     "540": {
-        "name": "Sønderborg",
+        "name": "S\u00f8nderborg",
         "slug": "KV25",
         "chart1": {
             "header": "",
@@ -1554,23 +1554,23 @@
             "id": "gfJev"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "qeH8m"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "XKT7y"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "iwtGo"
         }
     },
     "550": {
-        "name": "Tønder",
+        "name": "T\u00f8nder",
         "slug": "KV25",
         "chart1": {
             "header": "",
@@ -1578,18 +1578,18 @@
             "id": "px8Nl"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "40811"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "mJOP3"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "INWwC"
         }
     },
@@ -1602,23 +1602,23 @@
             "id": "pEUSo"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "tPzAG"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "HIduW"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "j6oTW"
         }
     },
     "563": {
-        "name": "Fanø",
+        "name": "Fan\u00f8",
         "slug": "KV25",
         "chart1": {
             "header": "",
@@ -1626,18 +1626,18 @@
             "id": "jYQg6"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "n2KEz"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "BMPHR"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "5zGNc"
         }
     },
@@ -1650,18 +1650,18 @@
             "id": "6N7Ia"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "Plpr1"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "ggAJH"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "HHyOC"
         }
     },
@@ -1674,18 +1674,18 @@
             "id": "HabcV"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "0pAUa"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "urCd4"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "prg1d"
         }
     },
@@ -1698,18 +1698,18 @@
             "id": "dPOOd"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "seT7K"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "RbWWQ"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "CyzKL"
         }
     },
@@ -1722,18 +1722,18 @@
             "id": "TLGJm"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "vlMRj"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "T2OYW"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "c1v4Y"
         }
     },
@@ -1746,18 +1746,18 @@
             "id": "ejwuu"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "0w5vJ"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "wjrtZ"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "qL834"
         }
     },
@@ -1770,18 +1770,18 @@
             "id": "YvPp7"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "PZMnR"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "FxzS6"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "Zqsn4"
         }
     },
@@ -1794,18 +1794,18 @@
             "id": "RJ4ne"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "55adH"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "1bNGU"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "cb2MQ"
         }
     },
@@ -1818,18 +1818,18 @@
             "id": "KTq9X"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "Kj2N4"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "ik0kg"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "a0bc0"
         }
     },
@@ -1842,18 +1842,18 @@
             "id": "KdqUu"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "330mo"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "EDphD"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "SiGMc"
         }
     },
@@ -1866,18 +1866,18 @@
             "id": "CfGSo"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "vmyw0"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "QDDB9"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "mFkC0"
         }
     },
@@ -1890,18 +1890,18 @@
             "id": "qDHl8"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "zQuds"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "Y7S9e"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "zvl7J"
         }
     },
@@ -1914,18 +1914,18 @@
             "id": "n3EV2"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "LmLOO"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "EszF2"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "sx8uI"
         }
     },
@@ -1938,18 +1938,18 @@
             "id": "YKhEK"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "R3xXB"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "GLY8T"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "zLFQK"
         }
     },
@@ -1962,18 +1962,18 @@
             "id": "kN1L1"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "axG8A"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "cvedl"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "m6TQC"
         }
     },
@@ -1986,18 +1986,18 @@
             "id": "GAatI"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "axsMh"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "XiWPt"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "uhBxT"
         }
     },
@@ -2010,18 +2010,18 @@
             "id": "Mhykr"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "ORdt9"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "lbWRL"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "05B20"
         }
     },
@@ -2034,23 +2034,23 @@
             "id": "oPbLz"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "TrDMq"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "veQ2b"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "ebBYO"
         }
     },
     "741": {
-        "name": "Samsø",
+        "name": "Sams\u00f8",
         "slug": "KV25",
         "chart1": {
             "header": "",
@@ -2058,18 +2058,18 @@
             "id": "52Byi"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "9KTUI"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "H1at3"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "uUzb0"
         }
     },
@@ -2082,18 +2082,18 @@
             "id": "LC5fL"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "NHFsl"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "VKzN2"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "jcsZ1"
         }
     },
@@ -2106,18 +2106,18 @@
             "id": "X0V76"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "s6nKk"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "c1Z1R"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "mmW5I"
         }
     },
@@ -2130,23 +2130,23 @@
             "id": "YtCQA"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "24CYI"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "WOK6Q"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "Wx9mZ"
         }
     },
     "760": {
-        "name": "Ringkøbing-Skjern",
+        "name": "Ringk\u00f8bing-Skjern",
         "slug": "KV25",
         "chart1": {
             "header": "",
@@ -2154,18 +2154,18 @@
             "id": "ZcSve"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "csbAb"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "nViAU"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "iVeR7"
         }
     },
@@ -2178,23 +2178,23 @@
             "id": "ZHoZj"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "13rUT"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "j9z7P"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "vtHur"
         }
     },
     "773": {
-        "name": "Morsø",
+        "name": "Mors\u00f8",
         "slug": "KV25",
         "chart1": {
             "header": "",
@@ -2202,18 +2202,18 @@
             "id": "Zw6pJ"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "0mi1G"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "KtkYO"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "IHkjE"
         }
     },
@@ -2226,18 +2226,18 @@
             "id": "GQGpq"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "jWnBm"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "sJsvD"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "n7kk9"
         }
     },
@@ -2250,18 +2250,18 @@
             "id": "wIW3n"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "3fEXG"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "XwnJX"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "Ms4Hq"
         }
     },
@@ -2274,23 +2274,23 @@
             "id": "HRBql"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "AQaat"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "i47wA"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "JTlfQ"
         }
     },
     "810": {
-        "name": "Brønderslev",
+        "name": "Br\u00f8nderslev",
         "slug": "KV25",
         "chart1": {
             "header": "",
@@ -2298,18 +2298,18 @@
             "id": "M2Em5"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "IDlBH"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "jtR63"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "pFivT"
         }
     },
@@ -2322,18 +2322,18 @@
             "id": "Vu0vO"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "1Mbmy"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "4tOes"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "NJ7N0"
         }
     },
@@ -2346,23 +2346,23 @@
             "id": "NDjsB"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "foeMi"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "AvQfp"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "aotAR"
         }
     },
     "825": {
-        "name": "Læsø",
+        "name": "L\u00e6s\u00f8",
         "slug": "KV25",
         "chart1": {
             "header": "",
@@ -2370,18 +2370,18 @@
             "id": "iQePl"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "e07vO"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "UgtBn"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "OzS1R"
         }
     },
@@ -2394,18 +2394,18 @@
             "id": "9ksHd"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "WRaO0"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "TT9X8"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "bq2Rg"
         }
     },
@@ -2418,18 +2418,18 @@
             "id": "ZN1gi"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "fsf5w"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "JjVzG"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "gWNHZ"
         }
     },
@@ -2442,18 +2442,18 @@
             "id": "dEOh5"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "Dvubo"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "zS6Ot"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "xvhzS"
         }
     },
@@ -2466,23 +2466,23 @@
             "id": "0kHMl"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "WsCzk"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "OPvOS"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "hqHPD"
         }
     },
     "860": {
-        "name": "Hjørring",
+        "name": "Hj\u00f8rring",
         "slug": "KV25",
         "chart1": {
             "header": "",
@@ -2490,18 +2490,18 @@
             "id": "YhgXn"
         },
         "chart2": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan har hvert enkelt valgsted stemt",
+            "description": "Kortet viser, hvilket parti der har f\u00e5et flest stemmer i samtlige valgsteder i kommunen. Hold musen over valgstederne for at se, hvor mange procent af stemmerne hvert parti har f\u00e5et.",
             "id": "vgXFf"
         },
         "chart3": {
-            "header": "",
-            "description": "",
+            "header": "S\u00e5dan klarer partierne sig",
+            "description": "Grafikken viser partiernes samlede resultat i kommunen. De lysere s\u00f8jler viser resultatet fra seneste kommunalvalg i 2021.",
             "id": "f07Fy"
         },
         "chart4": {
-            "header": "",
-            "description": "",
+            "header": "Her er kommunens st\u00f8rste stemmeslugere",
+            "description": "Tabellen viser samtlige kandidaters personlige stemmetal. Tallene opdateres l\u00f8bende, indtil fint\u00e6llingerne er ovre. Du kan klikke videre eller s\u00f8ge p\u00e5 en kandidat.",
             "id": "Mpgk7"
         }
     }

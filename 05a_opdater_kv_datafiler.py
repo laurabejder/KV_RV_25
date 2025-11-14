@@ -324,6 +324,8 @@ bogstav_map = {p["listebogstav"]: p["bogstav"] for p in partier_info}
 
 totals = kv25_resultater_partier.groupby("kommune")["stemmer"].sum() # kommune totals (gyldige stemmer)
 
+# standardize party names
+kv25_resultater_partier = _standardize_party_labels(kv25_resultater_partier)
 
 # aggregate, add bogstav, compute %, find biggest party per kommune, pivot wide
 nat_resultater = (
