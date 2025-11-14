@@ -179,13 +179,13 @@ def make_popup(row):
 
         # fixed-width label cell (so S: and SP: line up)
         label_span = (
-            f"<span style='display:inline-block; width:20px; font-size:1em;vertical-align:middle'>{party}</span>"
+            f"<span style='display:inline-block; width:20px; font-size:1em;vertical-align:middle; margin-left: 4px'>{party}</span>"
         )
 
         # bar cell
         bar_span = (
             f"<span style='display:inline-block; "
-            f"width:0.3em; height:1.2em; vertical-align:middle; padding-right:4px; "
+            f"width:0.3em; height:1.2em; vertical-align:middle;"
             f"background:{color};'></span>"
         )
 
