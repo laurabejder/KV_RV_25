@@ -179,20 +179,20 @@ def make_popup(row):
 
         # fixed-width label cell (so S: and SP: line up)
         label_span = (
-            f"<span style='display:inline-block; width:28px; font-size:1em'>{party}</span>"
+            f"<span style='display:inline-block; width:28px; font-size:1em;vertical-align:middle'>{party}</span>"
         )
 
         # bar cell
         bar_span = (
             f"<span style='display:inline-block; "
-            f"width:0.3em; height:1em; vertical-align:middle"
+            f"width:0.3em; height:1em; vertical-align:middle;"
             f"background:{color};'></span>"
         )
 
         # percentage cell, fixed width & right-aligned
         pct_span = (
             f"<span style='color: {color}; display:inline-block; width:50px; "
-            f"text-align:left; font-size:0.85em; vertical-align:middle'>{pct:.1f}%</span>"
+            f"text-align:left; font-size:1em; vertical-align:middle'>{pct:.1f}%</span>"
         )
 
         line = bar_span + label_span + pct_span
