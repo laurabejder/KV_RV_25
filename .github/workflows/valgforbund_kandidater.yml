@@ -33,9 +33,6 @@ jobs:
     - name: Scraping the data
       run: python 01_hent_data.py
 
-    - name: Restructure the data
-      run: python 02b_strukturer_kv25_kandidatdata.py
-
     - name: Commit and push any changes
       run: |
         git config user.name "Automated"
