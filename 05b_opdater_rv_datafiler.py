@@ -3,6 +3,8 @@ from pathlib import Path
 import pandas as pd
 from config import PARTIER_INFO, REGIONS_FPS
 
+from generate_pop_ups import add_popups 
+
 # ----------------------------
 # Filstier og load af datafiler
 # ----------------------------
@@ -208,6 +210,8 @@ def get_afstemningsområde_percentages(
     ]
     afst = afst[first_cols + [c for c in afst.columns if c not in first_cols]]
 
+    afst = add_popups(afst)
+
     # Gem filen
     out_path = afstem_dir / f"{regionnavn_lower}_afstemningsområde.csv"
     afst.to_csv(out_path, index=False, sep=";")
@@ -351,6 +355,8 @@ nat_resultater = (
 
 # prepend "Region " to region names
 nat_resultater["region"] = nat_resultater["region"].apply(lambda x: f"Region {x}")
+
+nat_resultater = add_popups(nat_resultater)
 
 # save file
 out_path = NATIONAL_DIR / "nationalt_kommuner_parti_procenter.csv"

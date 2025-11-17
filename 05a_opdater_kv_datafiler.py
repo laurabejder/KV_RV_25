@@ -3,6 +3,8 @@ from pathlib import Path
 import pandas as pd
 from config import PARTIER_INFO, BORGMESTRE
 
+from generate_pop_ups import add_popups   
+
 # ----------------------------
 # Filstier og load af datafiler
 # ----------------------------
@@ -210,6 +212,8 @@ def get_afstemningsområde_percentages(
     ]
     afst = afst[first_cols + [c for c in afst.columns if c not in first_cols]]
 
+    afst = add_popups(afst)
+
     # Gem filen
     out_path = afstem_dir / f"{kommune_id}_{kommunenavn_lower}_afstemningsområde.csv"
     afst.to_csv(out_path, index=False, sep=";")
@@ -322,8 +326,6 @@ for kommune_id in kv25_resultater_partier["kommune_kode"].unique():
 
     print(f"Updated data files for {kommunenavn} ({kommune_id})")
 
-
-
 # map listebogstav -> bogstav once
 bogstav_map = {p["listebogstav"]: p["bogstav"] for p in partier_info}
 
@@ -359,6 +361,8 @@ nat_resultater = (
 
 # make sure to strip kommune of " Kommune" suffix
 nat_resultater["kommune"] = nat_resultater["kommune"].str.replace(" Kommune", "", regex=False)
+
+nat_resultater = add_popups(nat_resultater)
 
 # save file
 out_path = NATIONAL_DIR / "nationalt_kommuner_parti_procenter.csv"
