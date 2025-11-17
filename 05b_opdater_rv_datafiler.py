@@ -242,6 +242,7 @@ def get_status(
     regionsforpersoner: pd.DataFrame,
     afst: pd.DataFrame,
     base_path: Path,
+    optalte: int
 ) -> None:
     """Update status CSV with counted share and borgmester."""
     status_path = base_path / "status" / f"{regionnavn_lower}_status.csv"
@@ -264,6 +265,8 @@ def get_status(
     # Drop unødvendige kolonner og gem filen
     summary_df = summary_df[["Optalte afstemningssteder", "Regionsforperson"]]
     summary_df.to_csv(status_path, index=False)
+    optalte += done_mask.sum()
+    return optalte
 
 # Funktionen udregner kandidaternes personlige stemmetal per region og nationalt
 def get_stemmetal(stemmer, base_path: Path) -> None:
@@ -290,6 +293,9 @@ def get_stemmetal(stemmer, base_path: Path) -> None:
 # ----------------------------
 # Main loop
 # ----------------------------
+optalte = 0
+
+alle = regionsforpersoner[regionsforpersoner['formand'].notna()].shape[0] # find the number of non empty rows in borgmestre
 
 # Loop over resultaterne fra regionerne og opdater datafilerne
 for region in rv25_resultater_partier["region"].unique():
@@ -331,6 +337,7 @@ for region in rv25_resultater_partier["region"].unique():
         regionsforpersoner=regionsforpersoner,
         afst=afstemningssted_niveau,
         base_path=BASE_PATH,
+        optalte=optalte
     )
 
     get_stemmetal(
@@ -438,3 +445,13 @@ national_totals["procent_21"] = national_totals["procent_21"].replace(0, pd.NA)
 # save file
 out_path = NATIONAL_DIR / "nationalt_partier.csv"
 national_totals.to_csv(out_path, index=False, sep=";")  
+
+optalte = str(optalte) + " ud af 1314"
+alle = str(alle) + " ud af 4"
+
+# make a dataframe with the columns Optalte valgsteder, Borgmestre fundet and add optalt and alle as the values
+summary_df = pd.DataFrame({
+    "Optalte valgsteder": [optalte],
+    "Regionsformænd fundet": [alle]
+})
+summary_df.to_csv(NATIONAL_DIR/ "status.csv", index=False)
