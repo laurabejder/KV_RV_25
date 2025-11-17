@@ -96,4 +96,15 @@ for df in (df_partier, df_kandidater):
 outdir = Path(TO_PATH) / "rv"
 outdir.mkdir(parents=True, exist_ok=True)
 df_partier.to_csv(outdir / "rv25_resultater_partier.csv", index=False)
+
+# check if df_kv_kandidater is not empty before saving
+if df_kandidater.empty:
+    # save an empty dataframe with the correct columns
+    df_kandidater = pd.DataFrame(columns=[
+        "region", "kommune", "kommune_kode", "afstemningsområde", "afstemningsområde_dagi_id",
+        "frigivelsestidspunkt", "godkendelsestidspunkt", "resultat_art",
+        "total_gyldige_stemmer", "total_afgivne_stemmer",
+        "kandidat", "kandidat_id", "parti", "parti_id", "parti_bogstav", "stemmer"
+    ])
+
 df_kandidater.to_csv(outdir / "rv25_resultater_kandidater.csv", index=False)
