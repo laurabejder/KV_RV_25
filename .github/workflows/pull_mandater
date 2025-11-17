@@ -1,4 +1,4 @@
-name: structure_kv_data
+name: pull_data
 
 on:
   workflow_dispatch:
@@ -19,7 +19,7 @@ jobs:
         python-version: '3.13'
 
     - name: Install all necessary packages
-      run: pip install pandas paramiko numpy requests
+      run: pip install pandas paramiko numpy
 
     - name: Show working directory and contents
       run: |
@@ -30,11 +30,8 @@ jobs:
       run: |
         python3 -c "import numpy; print('NumPy is being imported from:', numpy.__file__)"
 
-    - name: Structure the data
-      run: python 02a_strukturer_kv25_resultater.py
-
-    - name: Update the DW files
-      run: python 05a_opdater_kv_datafiler.py
+    - name: Pull data om mandater
+      run: python 04_mandater.py
 
     - name: Commit and push any changes
       run: |
