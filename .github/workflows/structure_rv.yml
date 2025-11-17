@@ -19,7 +19,7 @@ jobs:
         python-version: '3.13'
 
     - name: Install all necessary packages
-      run: pip install pandas paramiko numpy
+      run: pip install pandas paramiko numpy requests
 
     - name: Show working directory and contents
       run: |
