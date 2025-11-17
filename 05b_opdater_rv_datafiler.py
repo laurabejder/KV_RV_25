@@ -31,6 +31,10 @@ rv25_resultater_partier = (
     .reset_index(drop=True)
 )
 
+# remove rows where resultat_art is IngenResultater
+rv25_resultater_kandidater = rv25_resultater_kandidater.query("resultat_art != 'IngenResultater'")
+rv25_resultater_partier = rv25_resultater_partier.query("resultat_art != 'IngenResultater'")
+
 # Hent valgresultaterne for RV21 på partiniveau
 rv21_resultater_partier = pd.read_csv("data/21_resultater/rv21_parti_resultater.csv")
 rv21_resultater_partier["region"] = rv21_resultater_partier["region"].str.replace("Region ", "")

@@ -78,6 +78,16 @@ for df in (df_kv_partier, df_kv_kandidater):
         if col in df:
             df[col] = pd.to_datetime(df[col], format="%d-%m-%Y %H:%M:%S", errors="coerce")
 
+if df_kv_partier.empty:
+    # save an empty dataframe with the correct columns
+    df_kv_partier = pd.DataFrame(columns=[
+        "kommune", "kommune_kode", "afstemningsområde", "afstemningsområde_dagi_id",
+        "frigivelsestidspunkt", "godkendelsestidspunkt", "resultat_art",
+        "total_gyldige_stemmer", "total_afgivne_stemmer",
+        "parti", "parti_id", "parti_bogstav", "stemmer", "listestemmer",
+        "difference_forrige_valg"
+    ])
+
 outdir = Path(TO_PATH) / "kv"
 outdir.mkdir(parents=True, exist_ok=True)
 df_kv_partier.to_csv(outdir / "kv25_resultater_partier.csv", index=False)
