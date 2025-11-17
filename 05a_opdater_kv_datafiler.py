@@ -234,6 +234,7 @@ def get_status(
     borgmestre_df: pd.DataFrame,
     afst: pd.DataFrame,
     base_path: Path,
+    optalte: int
 ) -> None:
     """Update status CSV with counted share and borgmester."""
     status_path = base_path / "status" / f"{kommune_id}_{kommunenavn_lower}_status.csv"
@@ -255,7 +256,10 @@ def get_status(
 
     # Drop unødvendige kolonner og gem filen
     summary_df = summary_df[["Optalte valgsteder", "Borgmester"]]
+    optalte += done_mask.sum()
+
     summary_df.to_csv(status_path, index=False)
+    return optalte
 
 # Funktionen udregner kandidaternes personlige stemmetal per kommune og nationalt
 def get_stemmetal(stemmer, base_path: Path) -> None:
@@ -286,6 +290,9 @@ def get_stemmetal(stemmer, base_path: Path) -> None:
 # ----------------------------
 # Main loop
 # ----------------------------
+
+optalte = 0
+alle = borgmestre[borgmestre['borgmester'].notna()].shape[0] # find the number of non empty rows in borgmestre
 
 # Loop over resultaterne fra kommunerne og opdater datafilerne
 for kommune_id in kv25_resultater_partier["kommune_kode"].unique():
@@ -320,12 +327,13 @@ for kommune_id in kv25_resultater_partier["kommune_kode"].unique():
         afstem_dir=AFSTEM_DIR,
     )
 
-    get_status(
+    optalt = get_status(
         kommune_id=kommune_id,
         kommunenavn_lower=kommunenavn_lower,
         borgmestre_df=borgmestre,
         afst=afstemningssted_niveau,
         base_path=BASE_PATH,
+        optalte=optalte
     )
 
     get_stemmetal(
@@ -370,7 +378,6 @@ nat_resultater = (
 
 # make sure to strip kommune of " Kommune" suffix
 nat_resultater["kommune"] = nat_resultater["kommune"].str.replace(" Kommune", "", regex=False)
-
 nat_resultater = add_popups(nat_resultater)
 
 # save file
@@ -434,4 +441,15 @@ national_totals["procent_21"] = national_totals["procent_21"].replace(0, pd.NA)
 
 # save file
 out_path = NATIONAL_DIR / "nationalt_partier.csv"
-national_totals.to_csv(out_path, index=False, sep=";")                                                                                    
+national_totals.to_csv(out_path, index=False, sep=";")  
+
+optalte = str(optalte) + " ud af 1314"
+alle = str(alle) + " ud af 98"
+
+# make a dataframe with the columns Optalte valgsteder, Borgmestre fundet and add optalt and alle as the values
+summary_df = pd.DataFrame({
+    "Optalte valgsteder": [optalte],
+    "Borgmestre fundet": [alle]
+})
+summary_df.to_csv(NATIONAL_DIR/ "status.csv", index=False)
+
