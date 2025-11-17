@@ -1,4 +1,4 @@
-name: hourly_valgforbund
+name: pull_data
 
 on:
   workflow_dispatch:
