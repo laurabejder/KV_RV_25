@@ -3,7 +3,7 @@ name: hourly_valgforbund
 on:
   workflow_dispatch:
   schedule:
-    - cron: '00 10 * * *'
+    - cron: '*/5 * * * *'
 
 jobs:
   daily:
