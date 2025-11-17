@@ -28,6 +28,10 @@ kv25_resultater_partier = (
     .reset_index(drop=True)
 )
 
+# remove rows where resultat_art is IngenResultater
+kv25_resultater_kandidater = kv25_resultater_kandidater.query("resultat_art != 'IngenResultater'")
+kv25_resultater_partier = kv25_resultater_partier.query("resultat_art != 'IngenResultater'")
+
 # Hent valgresultaterne for KV21 på partiniveau
 kv21_resultater_partier = pd.read_csv("data/21_resultater/kv21_parti_resultater.csv")
 
@@ -161,10 +165,15 @@ def get_afstemningsområde_percentages(
     ]
     party_cols = wide.columns.difference(non_party_cols)
 
-    def _biggest_party(row: pd.Series) -> str:
-        return row[party_cols].idxmax()
+    # def _biggest_party(row: pd.Series) -> str:
+    #     return row[party_cols].idxmax()
 
-    wide["største_parti"] = wide.apply(_biggest_party, axis=1)
+    # wide["største_parti"] = wide.apply(_biggest_party, axis=1)
+
+    party_cols = wide.columns.difference(non_party_cols)
+
+    # this returns a Series of the column name with the max value per row
+    wide["største_parti"] = wide[party_cols].idxmax(axis=1) 
 
     # replace største parti bogstav with party name
     bogstav_to_navn = {p["bogstav"]: p["navn"] for p in partier_info}
