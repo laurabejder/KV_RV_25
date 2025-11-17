@@ -31,10 +31,10 @@ jobs:
         python3 -c "import numpy; print('NumPy is being imported from:', numpy.__file__)"
 
     - name: Structure the data
-      run: 02b_opdater_rv_datafiler.py
+      run: python 02b_opdater_rv_datafiler.py
 
     - name: Update the DW files
-      run: 05b_strukturer_rv25_resultater.py
+      run: python 05b_strukturer_rv25_resultater.py
 
     - name: Commit and push any changes
       run: |
