@@ -1,4 +1,4 @@
-name: pull_data
+name: structure_rv_data
 
 on:
   workflow_dispatch:
