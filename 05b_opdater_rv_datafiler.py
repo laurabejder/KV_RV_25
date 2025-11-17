@@ -2,6 +2,9 @@ import json
 from pathlib import Path
 import pandas as pd
 from config import PARTIER_INFO, REGIONS_FPS
+import requests
+import os
+import io
 
 from generate_pop_ups import add_popups 
 
@@ -37,7 +40,20 @@ with open(PARTIER_INFO, "r", encoding="utf-8") as f:
     partier_info = json.load(f)
 
 # Hent regionsforpersoner fra google sheets for opdatering af statusfiler
-regionsforpersoner = pd.read_csv(REGIONS_FPS)
+REGIONS_FPS = os.environ.get("REGIONS_FPS", "https://docs.google.com/spreadsheets/d/e/2PACX-1vSyAqdHmvVJX2xvsb0PbIwNcrEOu40HKV6ljA2mnYgpqB-4IbaplSBhCZNFiC6IaGvhNIG_mP6KKrk3/pub?gid=774356730&single=true&output=csv")
+
+print("Fetching regions CSV from:", REGIONS_FPS, flush=True)
+
+resp = requests.get(REGIONS_FPS, allow_redirects=True)
+try:
+    resp.raise_for_status()
+except requests.HTTPError as e:
+    print("Failed to fetch regions CSV")
+    print("Status code:", resp.status_code)
+    print("Response snippet:", resp.text[:500])
+    raise
+
+regionsforpersoner = pd.read_csv(io.StringIO(resp.text))
 
 # Og definer navnene på regionerne i 2025
 regioner = ["Østdanmark", "Midtjylland", "Nordjylland", "Syddanmark"]
@@ -317,8 +333,6 @@ for region in rv25_resultater_partier["region"].unique():
         stemmer = rv25_resultater_kandidater,
         base_path=BASE_PATH
     )
-
-    print(f"Updated data files for {region}")
 
 
 
