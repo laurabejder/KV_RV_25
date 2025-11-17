@@ -258,12 +258,12 @@ def get_status(
         regionsforperson = regionsforpersoner.loc[
             regionsforpersoner["region"] == region, "regionsforperson"
         ].iat[0]
-        summary_df["Regionsforperson"] = regionsforperson
+        summary_df["Regionsformand"] = regionsforperson
     else:
-        summary_df["Regionsforperson"] = "Ikke afgjort"
+        summary_df["Regionsformand"] = "Ikke afgjort"
 
     # Drop unødvendige kolonner og gem filen
-    summary_df = summary_df[["Optalte afstemningssteder", "Regionsforperson"]]
+    summary_df = summary_df[["Optalte afstemningssteder", "Regionsformand"]]
     summary_df.to_csv(status_path, index=False)
     optalte += done_mask.sum()
     return optalte
