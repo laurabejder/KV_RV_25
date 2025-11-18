@@ -398,13 +398,10 @@ res["kommune"] = res["kommune"].str.replace(" Kommune", "", regex=False)
 res["kommune"] = res["kommune"].str.replace("Københavns Kommune", "Københavns", regex=False)
 res["kommune"] = res["kommune"].str.replace("Københavns", "København", regex=False)
 
-print(res["kommune"].unique())
-
 # only keep the regions where all the results are in
 completed_kommuner = res.groupby("kommune").filter(
     lambda x: x["resultat_art"].isin(["Fintælling", "ForeløbigOptælling"]).all()
 )["kommune"].unique()  
-print(completed_kommuner)
 
 print("Completed kommuner:", len(completed_kommuner)) 
 nat_resultater = nat_resultater[nat_resultater["kommune"].isin(completed_kommuner)]
