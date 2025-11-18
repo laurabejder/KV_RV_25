@@ -380,7 +380,7 @@ nat_resultater = (
           index=["region", "største_parti"],
           columns="bogstav",
           values="procent_25",
-          aggfunc="sum",   # or "mean" / "max" etc.
+          aggfunc="max",   # or "mean" / "max" etc.
       )
       .reset_index()
 )
