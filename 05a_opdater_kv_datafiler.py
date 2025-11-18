@@ -28,6 +28,10 @@ kv25_resultater_partier = (
     .reset_index(drop=True)
 )
 
+kv25_resultater_partier["kommune"] = kv25_resultater_partier["kommune"].str.replace(" Kommune", "", regex=False)
+kv25_resultater_partier["kommune"] = kv25_resultater_partier["kommune"].str.replace("Københavns Kommune", "Københavns", regex=False)
+kv25_resultater_partier["kommune"] = kv25_resultater_partier["kommune"].str.replace("Københavns", "København", regex=False)
+
 # remove rows where resultat_art is IngenResultater
 kv25_resultater_kandidater = kv25_resultater_kandidater.query("resultat_art != 'IngenResultater'")
 kv25_resultater_partier = kv25_resultater_partier.query("resultat_art != 'IngenResultater'")
@@ -241,7 +245,7 @@ def get_status(
     summary_df = pd.read_csv(status_path)
 
     if "resultat_art" not in afst.columns:
-        afst["resultat_art"] = "Ukendt"
+        afst["resultat_art"] = "IngenResultater"
 
     # Udregn andelen af afstemningssteder, der er optalt
     done_mask = afst["resultat_art"].isin(["Fintælling", "ForeløbigOptælling"])
@@ -391,16 +395,23 @@ res = (
 )
 #remove " Kommuner" suffix
 res["kommune"] = res["kommune"].str.replace(" Kommune", "", regex=False)
+res["kommune"] = res["kommune"].str.replace("Københavns Kommune", "Københavns", regex=False)
+res["kommune"] = res["kommune"].str.replace("Københavns", "København", regex=False)
+
+print(res["kommune"].unique())
 
 # only keep the regions where all the results are in
 completed_kommuner = res.groupby("kommune").filter(
     lambda x: x["resultat_art"].isin(["Fintælling", "ForeløbigOptælling"]).all()
 )["kommune"].unique()  
+print(completed_kommuner)
+
 print("Completed kommuner:", len(completed_kommuner)) 
 nat_resultater = nat_resultater[nat_resultater["kommune"].isin(completed_kommuner)]
 
 # make sure to strip kommune of " Kommune" suffix
 nat_resultater["kommune"] = nat_resultater["kommune"].str.replace(" Kommune", "", regex=False)
+nat_resultater["kommune"] = nat_resultater["kommune"].str.replace("s Kommune", "", regex=False)
 nat_resultater = add_popups(nat_resultater)
 
 # save file
