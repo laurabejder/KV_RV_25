@@ -376,7 +376,12 @@ største = (
 nat_resultater = (
     nat_resultater
       .merge(største, on="region", how="left")
-      .pivot(index=["region", "største_parti"], columns="bogstav", values="procent_25")
+      .pivot_table(
+          index=["region", "største_parti"],
+          columns="bogstav",
+          values="procent_25",
+          aggfunc="sum",   # or "mean" / "max" etc.
+      )
       .reset_index()
 )
 
