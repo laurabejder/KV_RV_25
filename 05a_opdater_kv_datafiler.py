@@ -330,7 +330,7 @@ for kommune_id in kv25_resultater_partier["kommune_kode"].unique():
         afstem_dir=AFSTEM_DIR,
     )
 
-    optalt = get_status(
+    optalte = get_status(
         kommune_id=kommune_id,
         kommunenavn_lower=kommunenavn_lower,
         borgmestre_df=borgmestre,
