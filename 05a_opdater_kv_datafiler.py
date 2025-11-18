@@ -240,26 +240,30 @@ def get_status(
     status_path = base_path / "status" / f"{kommune_id}_{kommunenavn_lower}_status.csv"
     summary_df = pd.read_csv(status_path)
 
-    # Udregn andelen af afstemningssteder, der er optalt
-    done_mask = afst["resultat_art"].isin(["Fintælling", "ForeløbigOptælling"])
-    done_share = f"{done_mask.sum()} ud af {len(afst)}"
-    summary_df["Optalte valgsteder"] = done_share
+    try:
+        # Udregn andelen af afstemningssteder, der er optalt
+        done_mask = afst["resultat_art"].isin(["Fintælling", "ForeløbigOptælling"])
+        done_share = f"{done_mask.sum()} ud af {len(afst)}"
+        summary_df["Optalte valgsteder"] = done_share
 
-    # Find borgmesteren for kommunen, hvis det er afgjort
-    if kommune_id in borgmestre_df["kommune_kode"].values:
-        borgmester = borgmestre_df.loc[
-            borgmestre_df["kommune_kode"] == kommune_id, "borgmester"
-        ].iat[0]
-        summary_df["Borgmester"] = borgmester
-    else:
-        summary_df["Borgmester"] = "Ikke afgjort"
+        # Find borgmesteren for kommunen, hvis det er afgjort
+        if kommune_id in borgmestre_df["kommune_kode"].values:
+            borgmester = borgmestre_df.loc[
+                borgmestre_df["kommune_kode"] == kommune_id, "borgmester"
+            ].iat[0]
+            summary_df["Borgmester"] = borgmester
+        else:
+            summary_df["Borgmester"] = "Ikke afgjort"
 
-    # Drop unødvendige kolonner og gem filen
-    summary_df = summary_df[["Optalte valgsteder", "Borgmester"]]
-    optalte += done_mask.sum()
+        # Drop unødvendige kolonner og gem filen
+        summary_df = summary_df[["Optalte valgsteder", "Borgmester"]]
+        optalte += done_mask.sum()
 
-    summary_df.to_csv(status_path, index=False)
-    return optalte
+        summary_df.to_csv(status_path, index=False)
+        return optalte
+    except Exception as e:
+        print(f"Failed to update status for {kommune_id}: {e}")
+        return optalte
 
 # Funktionen udregner kandidaternes personlige stemmetal per kommune og nationalt
 def get_stemmetal(stemmer, base_path: Path) -> None:

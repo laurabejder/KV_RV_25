@@ -1,2 +1,1622 @@
-kommune,kommune_kode,afstemningsområde,afstemningsområde_dagi_id,frigivelsestidspunkt,godkendelsestidspunkt,resultat_art,total_gyldige_stemmer,total_afgivne_stemmer,parti,parti_id,parti_bogstav,stemmer,listestemmer,difference_forrige_valg
-
+kommune,kommune_kode,afstemningsområde,afstemningsområde_dagi_id,frigivelsestidspunkt,godkendelsestidspunkt,resultat_art,total_gyldige_stemmer,total_afgivne_stemmer,parti,stemmer,listestemmer,difference_forrige_valg,parti_id,parti_bogstav
+Morsø Kommune,773,Nykøbing,710282,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Hedensted Kommune,766,Stouby,709924,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Middelfart Kommune,410,Fjelsted/Harndrup,705434,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vejle Kommune,630,Give,711436,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Frederiksberg Kommune,147,"10. Kreds, Søerne",701758,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Randers Kommune,730,Blicherskolen,710340,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vejle Kommune,630,Engum Nord,703960,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Silkeborg Kommune,740,Langsøskolen,709856,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Holstebro Kommune,661,Ulfborg,706142,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Fredensborg Kommune,210,Niverød,702010,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Faxe Kommune,320,Sofiendal,704216,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Jammerbugt Kommune,849,Trekroner,703196,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Kerteminde Kommune,440,Marslev,705322,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aarhus Kommune,751,"Virupskolen, Hjortshøj",711374,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Assens Kommune,420,Køng,748072,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Odsherred Kommune,306,Egebjerg,708896,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Egedal Kommune,240,Bækkegårdsskolen,705206,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Tårnby Kommune,185,Tårnby,709804,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Randers Kommune,730,Jebjerg Forsamlingshus,701178,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Københavns Kommune,101,9. Sluseholmen,749403,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Hedensted Kommune,766,Uldum,706840,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Odder Kommune,727,Saksild - Nølev,701632,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Næstved Kommune,370,Lille Næstved Skole - Digtervej,701870,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Holbæk Kommune,316,Gislinge,710502,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Nyborg Kommune,450,Vindinge Forsamlingshus,705374,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vejle Kommune,630,Brejning Syd,708612,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vordingborg Kommune,390,Østmøn,712094,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Ærø Kommune,492,Ærøskøbing,702246,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Thisted Kommune,787,Sjørring,702944,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Mariagerfjord Kommune,846,Hørby,708660,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Horsens Kommune,615,Hatting,706280,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Guldborgsund Kommune,376,Nørre Vedby,711018,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Københavns Kommune,101,1. Nord,711932,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Københavns Kommune,101,6. Vest,725358,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Ringkøbing-Skjern Kommune,760,Ringkøbing,705180,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Rudersdal Kommune,230,Vedbæk,701142,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Herning Kommune,657,Gullestrup,701676,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Sønderborg Kommune,540,"Kongevej, Sønderborg",710622,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Holbæk Kommune,316,Tølløse,708878,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vejle Kommune,630,Jelling Nord,708586,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Hjørring Kommune,860,Vrå,702854,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Ringkøbing-Skjern Kommune,760,Vorgod-Barde,711210,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Randers Kommune,730,Fritidscentret,711624,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Nordfyns Kommune,480,Otterup,748636,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Horsens Kommune,615,Endelave,706240,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Middelfart Kommune,410,Brenderup,700808,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Skive Kommune,779,Fur,701060,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Tønder Kommune,550,Brøns,711078,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Herning Kommune,657,Lind,712050,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aarhus Kommune,751,"FrydenlundHUSET, Aarhus V",709952,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Roskilde Kommune,265,Hedegårdene,710476,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Haderslev Kommune,510,Hammelev,703202,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Odense Kommune,461,CSV-Skolen,708782,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vesthimmerlands Kommune,820,Gedsted,710008,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Slagelse Kommune,330,Slagelse - Vesthallen,748851,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vesthimmerlands Kommune,820,Aars,700858,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aalborg Kommune,851,Løvvanghallen,707424,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Fredensborg Kommune,210,Fredensborg,709824,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Varde Kommune,573,Varde By,701470,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Middelfart Kommune,410,Hyllehøj,705440,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Horsens Kommune,615,Stensballe,710904,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Sorø Kommune,340,Sorø,702234,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Mariagerfjord Kommune,846,Mariager,700964,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Frederiksberg Kommune,147,"10. Kreds, Duevej",711030,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Albertslund Kommune,165,Kongsholmcenteret,709130,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vesthimmerlands,820,Overlade,700908,2025-11-18 19:40:57,,ForeløbigOptælling,481,490,Liberal Alliance,9,,,4ce3730a-509c-4773-b3e0-c6b65efbca97,I
+Vesthimmerlands,820,Overlade,700908,2025-11-18 19:40:57,,ForeløbigOptælling,481,490,SF - Socialistisk Folkeparti,39,,-36.0,da15d567-1327-4d0d-bf51-ec1cc52b0edc,F
+Vesthimmerlands,820,Overlade,700908,2025-11-18 19:40:57,,ForeløbigOptælling,481,490,Det Konservative Folkeparti,35,,-3.0,fef782ea-35d4-4963-9641-7b32a9724ae0,C
+Vesthimmerlands,820,Overlade,700908,2025-11-18 19:40:57,,ForeløbigOptælling,481,490,Socialdemokratiet,44,,-8.0,c41c84d3-b903-45e3-94d2-e76aa5bec8aa,A
+Vesthimmerlands,820,Overlade,700908,2025-11-18 19:40:57,,ForeløbigOptælling,481,490,"Venstre, Danmarks Liberale Parti",247,,-53.0,3933574a-54d6-4dbd-9584-356216b045be,V
+Vesthimmerlands,820,Overlade,700908,2025-11-18 19:40:57,,ForeløbigOptælling,481,490,Kristendemokraterne,9,,7.0,f1f62750-6395-4a90-8885-3c6a331299ed,K
+Vesthimmerlands,820,Overlade,700908,2025-11-18 19:40:57,,ForeløbigOptælling,481,490,Borgerlisten,3,,,e5aa6226-607f-4658-8692-0acedb4f7de1,L
+Vesthimmerlands,820,Overlade,700908,2025-11-18 19:40:57,,ForeløbigOptælling,481,490,Dansk Folkeparti,11,,-2.0,65fdb79f-7b9f-439c-b8b1-feed1a052ea4,O
+Vesthimmerlands,820,Overlade,700908,2025-11-18 19:40:57,,ForeløbigOptælling,481,490,Danmarksdemokraterne - Inger Støjberg,80,,,4dd60f38-5dd4-440e-976d-220fbd1c8caa,Æ
+Vesthimmerlands,820,Overlade,700908,2025-11-18 19:40:57,,ForeløbigOptælling,481,490,Radikale Venstre,4,,-2.0,f9ab8914-52da-4413-9564-33fa23e08443,B
+Silkeborg Kommune,740,Gjessø,706692,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vesthimmerlands Kommune,820,Hornum-Ulstrup,705558,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Holbæk Kommune,316,Holbæk Øst,708890,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Skanderborg Kommune,746,Stilling,703796,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Fredensborg Kommune,210,Kokkedal,709818,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Viborg Kommune,791,Bjerringbro,704706,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Silkeborg Kommune,740,Buskelund,706686,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Ringkøbing-Skjern Kommune,760,Borris,703690,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vordingborg Kommune,390,Vestmøn,701698,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aarhus Kommune,751,"Bellevuehallerne, Risskov",709972,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Ringsted,329,Sneslev,707472,2025-11-18 19:42:58,,ForeløbigOptælling,385,389,Liberal Alliance,21,,15.0,ce58703c-cc74-48d7-bab6-9f3e5db15f51,I
+Ringsted,329,Sneslev,707472,2025-11-18 19:42:58,,ForeløbigOptælling,385,389,KristenDemokraterne,1,,,01b2e54e-6e5c-4499-bcc3-a1a867e78680,K
+Ringsted,329,Sneslev,707472,2025-11-18 19:42:58,,ForeløbigOptælling,385,389,Socialdemokratiet,45,,-21.0,fafc81ab-8985-47b8-8885-4dc97b76148d,A
+Ringsted,329,Sneslev,707472,2025-11-18 19:42:58,,ForeløbigOptælling,385,389,SF - Socialistisk Folkeparti,31,,2.0,7642c7eb-2bff-4dc8-82e6-468ee2d0c8fe,F
+Ringsted,329,Sneslev,707472,2025-11-18 19:42:58,,ForeløbigOptælling,385,389,Det Konservative Folkeparti,111,,41.0,3f489234-0453-4c3f-ab58-7bddfa4402fa,C
+Ringsted,329,Sneslev,707472,2025-11-18 19:42:58,,ForeløbigOptælling,385,389,Nye Borgerlige,6,,-18.0,34536ac2-e665-4bfc-97b7-ee8eec31ff30,D
+Ringsted,329,Sneslev,707472,2025-11-18 19:42:58,,ForeløbigOptælling,385,389,Radikale Venstre,7,,4.0,70808d1d-e585-452e-9382-77ec1907bc67,B
+Ringsted,329,Sneslev,707472,2025-11-18 19:42:58,,ForeløbigOptælling,385,389,Det Nære Parti,2,,,083f349d-ac23-454c-9a7d-0df92812eb02,N
+Ringsted,329,Sneslev,707472,2025-11-18 19:42:58,,ForeløbigOptælling,385,389,Landsbylisten,9,,,a4ca24a3-6c44-4a4a-a7c1-79df1df61c25,L
+Ringsted,329,Sneslev,707472,2025-11-18 19:42:58,,ForeløbigOptælling,385,389,Dansk Folkeparti,30,,13.0,4de1b3f5-9e92-4f2d-b21d-30628b70bf68,O
+Ringsted,329,Sneslev,707472,2025-11-18 19:42:58,,ForeløbigOptælling,385,389,"Venstre, Danmarks Liberale Parti",83,,-42.0,6962b2e7-c315-4de4-b384-0b9216998ed6,V
+Ringsted,329,Sneslev,707472,2025-11-18 19:42:58,,ForeløbigOptælling,385,389,Danmarksdemokraterne - Inger Støjberg,21,,,40bbee4f-fbdf-425a-a5fe-400020af1a0e,Æ
+Ringsted,329,Sneslev,707472,2025-11-18 19:42:58,,ForeløbigOptælling,385,389,Enhedslisten - De Rød-Grønne,18,,-3.0,6287a3f9-b9a4-440b-b315-176dbd138617,Ø
+Aarhus Kommune,751,Aarhus Rådhus,708568,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Skanderborg Kommune,746,Skovby,708370,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Helsingør Kommune,217,Mørdrupskolen,710304,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Gentofte Kommune,157,Ordrup,702872,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Roskilde Kommune,265,Vindinge,704396,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Brøndby Kommune,153,Brøndbyvester Skole,707090,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Gentofte Kommune,157,Jægersborg,707338,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vesthimmerlands Kommune,820,Aalestrup,708562,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Køge Kommune,259,Køge By,711336,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Guldborgsund Kommune,376,Sakskøbing,707852,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Næstved Kommune,370,Sandby,707930,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Lemvig Kommune,665,Klinkby,711178,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Gentofte Kommune,157,Munkegård,704436,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Gentofte Kommune,157,Dyssegård,711716,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Kolding Kommune,621,S Bjert/S Stenderup/Vejstrup,705308,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Tårnby Kommune,185,Kastrup,708012,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Ishøj Kommune,183,Vibeholmskolen,709938,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Hjørring Kommune,860,Taars,701230,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Næstved Kommune,370,Hyllinge,706398,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Skive Kommune,779,Rødding,748884,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Slagelse Kommune,330,Stillinge - Stillingehallen,748852,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Ringsted Kommune,329,Vigersted,704612,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Ishøj Kommune,183,Gildbroskolen,700870,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Faaborg-Midtfyn Kommune,430,Brobyværk,707478,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Viborg Kommune,791,Hald Ege,702938,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Rebild Kommune,840,Blenstrup,712144,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Silkeborg Kommune,740,Sejs,705410,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vejle Kommune,630,Gårslev Syd,700976,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Varde Kommune,573,Årre,709060,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Gladsaxe Kommune,159,Stengård,700934,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Jammerbugt Kommune,849,Brovst,711858,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Københavns Kommune,101,5. Nordvest,704956,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Jammerbugt Kommune,849,Vedsted,711896,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Randers Kommune,730,Hobrovejens Skole,702770,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aarhus Kommune,751,Mårslet Hallen,703942,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Skive Kommune,779,Lem-Vejby,748888,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Sønderborg Kommune,540,Kværs,706066,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Assens Kommune,420,Tommerup St,704924,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Egedal Kommune,240,Veksø,712198,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Københavns Kommune,101,6. Syd,710808,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aalborg Kommune,851,PFA Kollegiet i Nørresundby,748032,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Hedensted Kommune,766,Ølsted Og Eriknauer-Området,711322,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Sønderborg Kommune,540,Augustenborg,710642,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Holbæk Kommune,316,Svinninge,708862,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Høje-Taastrup Kommune,169,Charlotteskolen,701970,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Bornholms Regionskommune,400,Klemensker,712002,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Guldborgsund Kommune,376,Nysted,712080,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Næstved Kommune,370,Glumsø,703666,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Hørsholm Kommune,223,Usserød,709324,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Struer Kommune,671,Bremdal,706786,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Frederiksberg Kommune,147,"11. Kreds, Nyelandsvej",710972,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Gribskov Kommune,270,Esbønderup,701158,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Herning Kommune,657,Herning,712062,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Kalundborg Kommune,326,Kalundborghallen,701032,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Lolland Kommune,360,Østofte,708456,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vejle Kommune,630,Jerlev Syd,711448,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Gribskov Kommune,270,Blistrup,708756,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Svendborg Kommune,479,Gudme,709786,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Hvidovre Kommune,167,Avedøre Idrætscenter,706740,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Ikast-Brande Kommune,756,Nørre Snede,713298,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Glostrup Kommune,161,Søndervanghallen,708412,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Frederiksberg Kommune,147,"10. Kreds, Grundtvigsvej",705122,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aabenraa Kommune,580,Bylderup,706654,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Billund Kommune,530,Billund,704500,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Odense Kommune,461,Risingskolen,705850,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aalborg Kommune,851,Gug Skole,706010,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Helsingør Kommune,217,Kvistgård Idrætsanlæg,705746,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aarhus Kommune,751,"Rosenvangskolen, Viby J",700922,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Herning Kommune,657,Tjørring,709528,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Odense Kommune,461,Skt. Jørgens Hallen,746369,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Slagelse Kommune,330,Vemmelev - Vemmelevhallen,711606,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Brøndby Kommune,153,Lindelundshallen,708674,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Lejre Kommune,350,Hyllinge-Lyndby,703440,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Næstved Kommune,370,Skelby,749297,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Varde Kommune,573,Horne,707556,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Tårnby Kommune,185,Pilegården,701986,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Holstebro Kommune,661,Vemb,703316,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Gentofte Kommune,157,Skovgård,708814,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Ishøj Kommune,183,Ishøj Landsby,708518,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Horsens Kommune,615,Midtbyen,706286,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Hjørring Kommune,860,Tversted,710470,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Allerød Kommune,201,Ravnsholt,705398,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Hjørring Kommune,860,Hundelev,710482,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Lyngby-Taarbæk Kommune,173,Virumhallerne,702310,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Høje-Taastrup Kommune,169,Børne- og Kulturhuset,701852,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Guldborgsund Kommune,376,Horreby,709640,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Kolding Kommune,621,Vestbyen,706604,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Odense Kommune,461,Stige Skole,702824,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Assens Kommune,420,Tommerup,710784,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Hjørring Kommune,860,Skallerup,701236,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Bornholms Regionskommune,400,Hasle,707890,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Horsens Kommune,615,Søvind,712020,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Rudersdal Kommune,230,Grünersvej,748890,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Ringsted Kommune,329,Gyrstinge,710656,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Nordfyns Kommune,480,Hårslev,748635,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Herning Kommune,657,Timring,710958,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Syddjurs Kommune,706,Mørke,710826,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Københavns Kommune,101,2. Ørestad,706562,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Hedensted Kommune,766,Bjerre,703906,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Haderslev Kommune,510,Fole,709390,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aarhus Kommune,751,"Globus 1, Brabrand",710046,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Sønderborg Kommune,540,Dybbøl,701416,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aalborg Kommune,851,Skipperens Idrætshus,710526,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Ringkøbing-Skjern Kommune,760,Spjald,703684,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Odense Kommune,461,Sanderumhallen,711692,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Lolland Kommune,360,Dannemare,706746,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Københavns Kommune,101,7. Kirkebjerg,703374,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Slagelse Kommune,330,Slagelse - Søndermarkshallen,704418,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Roskilde Kommune,265,Baunehøj,710404,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aalborg Kommune,851,Huset Stigsborg,749418,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Haderslev Kommune,510,Sommersted,707612,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Guldborgsund Kommune,376,Ejegod,706386,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Middelfart Kommune,410,Nørre Aaby,709862,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Jammerbugt Kommune,849,Ørebro,749358,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Kalundborg Kommune,326,Rynkevang,711468,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Frederikshavn Kommune,813,Thorshøj,705142,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Billund Kommune,530,St./Krogager,710594,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Københavns Kommune,101,9. Nord,701612,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Sønderborg Kommune,540,Sydals,703032,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Herning Kommune,657,Sdr. Felding,701664,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Ballerup Kommune,151,Måløv Ny Hal - Måløvhøj Skole - Måløv,706992,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aarhus Kommune,751,Folkehuset Trige,705514,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Favrskov Kommune,710,Rønbæk/Grundfør,705102,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Lolland,360,Fejø,709900,2025-11-18 19:40:57,,ForeløbigOptælling,324,328,Liberal Alliance,3,,,fbf212ee-3a5f-40fd-87a9-037d42853416,I
+Lolland,360,Fejø,709900,2025-11-18 19:40:57,,ForeløbigOptælling,324,328,Lokallisten Lolland,7,,-30.0,1db5cd22-a6e4-4d48-b29a-17e2530ee796,L
+Lolland,360,Fejø,709900,2025-11-18 19:40:57,,ForeløbigOptælling,324,328,Din Stemme,1,,-2.0,a67bdbbf-4209-49b2-aaec-07130c3cbd52,J
+Lolland,360,Fejø,709900,2025-11-18 19:40:57,,ForeløbigOptælling,324,328,Radikale Venstre,0,,-5.0,33de8a68-f33b-46f9-8d08-bd82c47eaa3c,B
+Lolland,360,Fejø,709900,2025-11-18 19:40:57,,ForeløbigOptælling,324,328,Vestlolland,18,,,11dfa50c-2ae2-416c-8d09-6cad94c052d9,D
+Lolland,360,Fejø,709900,2025-11-18 19:40:57,,ForeløbigOptælling,324,328,Det Konservative Folkeparti,5,,-4.0,54327d4a-b6d9-4dc0-bf91-cf9e91d49ef4,C
+Lolland,360,Fejø,709900,2025-11-18 19:40:57,,ForeløbigOptælling,324,328,Socialistisk Folkeparti,4,,,bb99dcd8-83e7-465a-981e-b14f8cf6fe5d,F
+Lolland,360,Fejø,709900,2025-11-18 19:40:57,,ForeløbigOptælling,324,328,"Venstre, Danmarks Liberale Parti",7,,-50.0,0f37d66a-1ff0-4d70-bef9-1bf8e22ef4f1,V
+Lolland,360,Fejø,709900,2025-11-18 19:40:57,,ForeløbigOptælling,324,328,Dansk Folkeparti,4,,-13.0,2b5a0e66-4674-40d8-aa4f-2d657b8b8a0b,O
+Lolland,360,Fejø,709900,2025-11-18 19:40:57,,ForeløbigOptælling,324,328,Enhedslisten - De Rød-Grønne,88,,67.0,f6c75551-dca7-48ae-bbc8-f429e8c719d0,Ø
+Lolland,360,Fejø,709900,2025-11-18 19:40:57,,ForeløbigOptælling,324,328,Danmarksdemokraterne - Inger Støjberg,174,,,0be0fa08-7142-4958-870f-49532e9821fc,Æ
+Lolland,360,Fejø,709900,2025-11-18 19:40:57,,ForeløbigOptælling,324,328,Socialdemokratiet,13,,-91.0,26bf05c9-aa0e-4a9e-9684-54def4b22b3a,A
+Svendborg Kommune,479,Byen,705276,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vordingborg Kommune,390,Kastrup,705078,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Horsens Kommune,615,Sønderbro,710898,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Odder Kommune,727,Hundslund,704986,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Mariagerfjord Kommune,846,Hobro,702292,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Kerteminde Kommune,440,Hindsholm,712260,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Gladsaxe Kommune,159,Egegård,702286,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vesthimmerlands Kommune,820,Ranum,709958,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Guldborgsund Kommune,376,Toreby,701778,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Brønderslev Kommune,810,Serritslev,708630,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Faaborg-Midtfyn Kommune,430,Søllinge,710674,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Helsingør Kommune,217,Bølgen,707098,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Kolding Kommune,621,Lunderskov/Jordrup,708000,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Faaborg-Midtfyn Kommune,430,Årslev,706054,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Allerød Kommune,201,Lynge,705404,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Guldborgsund Kommune,376,Sundby,701828,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vejle Kommune,630,Givskud Nord,700946,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Frederikshavn Kommune,813,Skagen,705148,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Hillerød Kommune,219,Alsønderup,702782,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aalborg Kommune,851,Sønderbroskolen,708938,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Københavns Kommune,101,3. Indre By,711926,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Fredericia Kommune,607,Søndermarken,707944,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Frederikshavn Kommune,813,Voerså,748393,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Odense Kommune,461,Skt. Klemensskolen,708794,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Brønderslev Kommune,810,Stenum,702304,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Frederikshavn Kommune,813,Jerup,705156,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Holstebro Kommune,661,Musikteatret,709372,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Ringkøbing-Skjern Kommune,760,Velling,706556,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Gribskov Kommune,270,Gilleleje,711598,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Sønderborg Kommune,540,"Humlehøj, Sønderborg",701434,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vejen Kommune,575,Hovborg,707418,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Odder Kommune,727,"Hou, Gosmer - Halling",703392,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Thisted Kommune,787,Hurup,748374,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Esbjerg Kommune,561,Gørding,707864,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Svendborg Kommune,479,Østre,705356,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Thisted Kommune,787,Bedsted,704712,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Mariagerfjord Kommune,846,Hadsund,705600,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aarhus Kommune,751,"Skjoldhøjskolen, Tilst",710040,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Holbæk Kommune,316,Holbæk Vest,705950,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Københavns Kommune,101,9. Midt,704918,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Kalundborg Kommune,326,Raklev,711460,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Lemvig Kommune,665,Tangsø,711198,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Assens Kommune,420,Rørup,748071,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Roskilde Kommune,265,Klostermarken,708806,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Gribskov Kommune,270,Græsted,704286,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Lejre Kommune,350,Sonnerup,706260,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Thisted Kommune,787,Klitmøller,701270,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Jammerbugt Kommune,849,Skovsgård,707638,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Fredericia Kommune,607,Gymnasiet 2,749377,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Kolding Kommune,621,Alminde-Viuf/Vester Nebel,701932,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Odense Kommune,461,Tingløkkeskolen,711698,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Kolding Kommune,621,Sydbyen,701916,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vejen Kommune,575,Læborg,703014,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Thisted Kommune,787,Snedsted,748371,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Odsherred Kommune,306,Odden,708906,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Sorø Kommune,340,Pedersborg,700914,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aarhus Kommune,751,"Skovvangskolen, Aarhus N",708530,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Silkeborg Kommune,740,Lemming,711254,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Furesø Kommune,190,Solvang,705614,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Faaborg-Midtfyn,430,Avernakø,711756,2025-11-18 19:24:29,,ForeløbigOptælling,68,68,Socialdemokratiet,25,,7.0,ddb458e8-0c11-422c-928c-a19c86624c7c,A
+Faaborg-Midtfyn,430,Avernakø,711756,2025-11-18 19:24:29,,ForeløbigOptælling,68,68,Radikale Venstre,1,,-3.0,65654baf-0d17-444f-8b8d-ded91d47ec33,B
+Faaborg-Midtfyn,430,Avernakø,711756,2025-11-18 19:24:29,,ForeløbigOptælling,68,68,Det Konservative Folkeparti,3,,-1.0,da6b0e7a-828e-472e-aecb-ed0bd0d4fb74,C
+Faaborg-Midtfyn,430,Avernakø,711756,2025-11-18 19:24:29,,ForeløbigOptælling,68,68,SF - Socialistisk Folkeparti,9,,1.0,d6dd0792-0912-48cc-a3d6-e6525ffde99d,F
+Faaborg-Midtfyn,430,Avernakø,711756,2025-11-18 19:24:29,,ForeløbigOptælling,68,68,Liberal Alliance,2,,,0e88e7ef-ba60-4f24-883a-4895bd69a8f3,I
+Faaborg-Midtfyn,430,Avernakø,711756,2025-11-18 19:24:29,,ForeløbigOptælling,68,68,Moderaterne,0,,,b94df435-98ad-4b8a-88f0-0e1928bcaaf0,M
+Faaborg-Midtfyn,430,Avernakø,711756,2025-11-18 19:24:29,,ForeløbigOptælling,68,68,Lokallisten Faaborg-Midtfyn,1,,-2.0,6beef4e0-f94c-440a-9a6a-42f11e679a05,L
+Faaborg-Midtfyn,430,Avernakø,711756,2025-11-18 19:24:29,,ForeløbigOptælling,68,68,Dansk Folkeparti,3,,2.0,55d4e0be-a0b4-457a-8bab-1f6f6d857e26,O
+Faaborg-Midtfyn,430,Avernakø,711756,2025-11-18 19:24:29,,ForeløbigOptælling,68,68,"Venstre, Danmarks Liberale Parti",14,,-3.0,3fd9db1a-7279-44b3-a78c-ef24df078f6a,V
+Faaborg-Midtfyn,430,Avernakø,711756,2025-11-18 19:24:29,,ForeløbigOptælling,68,68,Danmarksdemokraterne - Inger Støjberg,2,,,747531b7-9936-41f2-9c18-b9d537ee4003,Æ
+Faaborg-Midtfyn,430,Avernakø,711756,2025-11-18 19:24:29,,ForeløbigOptælling,68,68,Enhedslisten - De Rød-Grønne,8,,-10.0,82e62c23-b60c-4b71-8772-ec23c5f3ecf8,Ø
+Ærø Kommune,492,Søby,700952,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Gribskov,270,Valby,708732,2025-11-18 19:41:27,,ForeløbigOptælling,315,323,Det Konservative Folkeparti,64,,5.0,15098df0-400c-41e0-917b-90e3f2ea1b4b,C
+Gribskov,270,Valby,708732,2025-11-18 19:41:27,,ForeløbigOptælling,315,323,Radikale Venstre,13,,1.0,b796fdf3-57fe-443c-8716-47e92c7b9699,B
+Gribskov,270,Valby,708732,2025-11-18 19:41:27,,ForeløbigOptælling,315,323,Nytgribskov,34,,-13.0,8321d17b-fe0c-48a1-be2c-114214287eff,G
+Gribskov,270,Valby,708732,2025-11-18 19:41:27,,ForeløbigOptælling,315,323,SF - Socialistisk Folkeparti,36,,-2.0,de0b0187-22fd-4b7a-bbc0-ddd4ba95ed8b,F
+Gribskov,270,Valby,708732,2025-11-18 19:41:27,,ForeløbigOptælling,315,323,Dansk Folkeparti,22,,14.0,3dcb9d0b-3d3e-47c8-ae9f-bdee73fd5261,O
+Gribskov,270,Valby,708732,2025-11-18 19:41:27,,ForeløbigOptælling,315,323,"Venstre, Danmarks Liberale Parti",53,,-39.0,7ff7cd40-f8fa-49ad-adf5-0348bb8c32e2,V
+Gribskov,270,Valby,708732,2025-11-18 19:41:27,,ForeløbigOptælling,315,323,Danmarksdemokraterne - Inger Støjberg,11,,,0c685f6c-9032-4c5a-aaf1-167caa6ed2dc,Æ
+Gribskov,270,Valby,708732,2025-11-18 19:41:27,,ForeløbigOptælling,315,323,Enhedslisten - De Rød-Grønne,16,,-4.0,0e697771-948d-4642-8f5e-84db7ddd0b16,Ø
+Gribskov,270,Valby,708732,2025-11-18 19:41:27,,ForeløbigOptælling,315,323,Alternativet,3,,-1.0,426bc695-be02-417e-9fb1-689e64f786e9,Å
+Gribskov,270,Valby,708732,2025-11-18 19:41:27,,ForeløbigOptælling,315,323,Socialdemokratiet,19,,-8.0,4da2e9b1-49f8-49e4-97b1-298f63f84e13,A
+Gribskov,270,Valby,708732,2025-11-18 19:41:27,,ForeløbigOptælling,315,323,"Alliancen for Børnene, Ungdommen og Fremtiden",2,,,852b66c2-1600-414c-aeaf-b35a7c38fd58,U
+Gribskov,270,Valby,708732,2025-11-18 19:41:27,,ForeløbigOptælling,315,323,Folkestyret.dk,0,,,4be8174b-ff90-4270-b899-8f06aac21f9f,N
+Gribskov,270,Valby,708732,2025-11-18 19:41:27,,ForeløbigOptælling,315,323,Moderaterne,17,,,f7b308e1-5438-4ad2-a7ee-33f524649a73,M
+Gribskov,270,Valby,708732,2025-11-18 19:41:27,,ForeløbigOptælling,315,323,Borgernes Gribskov,0,,,1eab416f-b5f1-4917-a68b-e4ddec78d291,E
+Gribskov,270,Valby,708732,2025-11-18 19:41:27,,ForeløbigOptælling,315,323,Liberal Alliance,20,,,9e4cebc3-997a-4694-8482-a7c627a12a6c,I
+Gribskov,270,Valby,708732,2025-11-18 19:41:27,,ForeløbigOptælling,315,323,Nye Borgerlige,0,,-23.0,45509022-6688-411f-98c9-9772732c9ec2,D
+Gribskov,270,Valby,708732,2025-11-18 19:41:27,,ForeløbigOptælling,315,323,Kristendemokraterne,1,,,787f0f4d-24f9-4253-9477-bc139a07d136,K
+Gribskov,270,Valby,708732,2025-11-18 19:41:27,,ForeløbigOptælling,315,323,Listen ByogLand,4,,,25c17282-39ab-4004-892b-c51cf48f9b2f,L
+Odder,727,Alrø,711964,2025-11-18 19:28:43,,ForeløbigOptælling,98,98,"Venstre, Danmarks Liberale Parti",22,,-22.0,7737dbee-8e88-44e2-be6a-0d78c5ae5df2,V
+Odder,727,Alrø,711964,2025-11-18 19:28:43,,ForeløbigOptælling,98,98,Det Konservative Folkeparti,41,,13.0,00ae965f-ec45-4e9a-92e8-4e70e0e3aa6a,C
+Odder,727,Alrø,711964,2025-11-18 19:28:43,,ForeløbigOptælling,98,98,SF - Socialistisk Folkeparti,5,,0.0,b2382ca9-779a-49fe-ae8c-d41e994e3143,F
+Odder,727,Alrø,711964,2025-11-18 19:28:43,,ForeløbigOptælling,98,98,Moderaterne,0,,,b1d1194b-8b9b-42dd-be34-aeb180a19522,M
+Odder,727,Alrø,711964,2025-11-18 19:28:43,,ForeløbigOptælling,98,98,Socialdemokratiet,12,,-8.0,770ca116-c7fc-4576-a492-c79cbd97b359,A
+Odder,727,Alrø,711964,2025-11-18 19:28:43,,ForeløbigOptælling,98,98,Liberal Alliance,4,,,61e95bc0-d7d8-49ad-a07a-3308cd3dea2a,I
+Odder,727,Alrø,711964,2025-11-18 19:28:43,,ForeløbigOptælling,98,98,Enhedslisten - De Rød-Grønne,9,,-1.0,44a5cbec-b71a-4fda-bf6e-0c6ab9f137e6,Ø
+Odder,727,Alrø,711964,2025-11-18 19:28:43,,ForeløbigOptælling,98,98,Radikale Venstre,4,,-3.0,fab3e07c-ebaf-4410-ac1a-ac1473acbde7,B
+Odder,727,Alrø,711964,2025-11-18 19:28:43,,ForeløbigOptælling,98,98,Dansk Folkeparti,1,,0.0,ed24a279-ced5-4f60-9bae-cb97b7041edf,O
+Lemvig Kommune,665,Harboøre,701882,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Hørsholm Kommune,223,Hørsholm,707664,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Roskilde Kommune,265,Østervang,704378,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Hjørring Kommune,860,Hjørring - Centrum,710442,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Horsens Kommune,615,Forum,706268,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aarhus Kommune,751,"Sølystskolen, Egå",702208,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Solrød Kommune,269,Havdrup,705362,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Københavns Kommune,101,4. Nord,704930,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Randers Kommune,730,Østervangsskolen,711582,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Københavns Kommune,101,6. Øst,706172,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Tønder Kommune,550,Hostrup,707840,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Langeland Kommune,482,Tullebølle,701464,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Næstved Kommune,370,Fladså Hallen,707910,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Lolland Kommune,360,Errindlev,708426,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Hillerød Kommune,219,Gørløse,749323,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Odense Kommune,461,Kroggårdsskolen,702818,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Læsø Kommune,825,Læsø,702460,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Haderslev Kommune,510,Marstrup,703422,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Silkeborg Kommune,740,Bryrup,700802,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Brønderslev Kommune,810,Hallund,704018,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Tønder,550,Sdr. Sejerslev,707858,2025-11-18 19:40:57,,ForeløbigOptælling,277,284,Det Konservative Folkeparti,13,,-18.0,ac7d6f3b-5f10-44cf-a6be-12a52b5e4e93,C
+Tønder,550,Sdr. Sejerslev,707858,2025-11-18 19:40:57,,ForeløbigOptælling,277,284,Velfærdsdemokraterne,3,,,50cc59dd-d387-4352-b41d-90d515408927,Y
+Tønder,550,Sdr. Sejerslev,707858,2025-11-18 19:40:57,,ForeløbigOptælling,277,284,Danmarksdemokraterne - Inger Støjberg,30,,,e33a54c0-0e04-43aa-86a1-be9140a1d357,Æ
+Tønder,550,Sdr. Sejerslev,707858,2025-11-18 19:40:57,,ForeløbigOptælling,277,284,Liberal Alliance,5,,-3.0,c1363435-f5d7-4049-89b9-27683adc1055,I
+Tønder,550,Sdr. Sejerslev,707858,2025-11-18 19:40:57,,ForeløbigOptælling,277,284,Slesvigsk Parti,78,,44.0,d062c81c-ed3a-407a-a82b-f9747db532e4,S
+Tønder,550,Sdr. Sejerslev,707858,2025-11-18 19:40:57,,ForeløbigOptælling,277,284,Tønder Listen,65,,-69.0,59e0ea77-9405-4594-b727-28bf8afa8b8f,T
+Tønder,550,Sdr. Sejerslev,707858,2025-11-18 19:40:57,,ForeløbigOptælling,277,284,"Venstre, Danmarks Liberale Parti",20,,-18.0,1ed1c17d-ed6f-4512-ac08-499ddc55e17b,V
+Tønder,550,Sdr. Sejerslev,707858,2025-11-18 19:40:57,,ForeløbigOptælling,277,284,Alternativet,1,,-1.0,b6bab73b-2fd7-4459-9248-a77b6b9174a0,Å
+Tønder,550,Sdr. Sejerslev,707858,2025-11-18 19:40:57,,ForeløbigOptælling,277,284,Socialdemokratiet,26,,-11.0,5c137e71-6566-4a82-90b0-62c955c700ce,A
+Tønder,550,Sdr. Sejerslev,707858,2025-11-18 19:40:57,,ForeløbigOptælling,277,284,SF - Socialistisk Folkeparti,16,,10.0,c27b596c-a295-4a23-aa0e-038cdb79bfdc,F
+Tønder,550,Sdr. Sejerslev,707858,2025-11-18 19:40:57,,ForeløbigOptælling,277,284,Dansk Folkeparti,20,,11.0,cc64e476-0c6d-4c5f-ad4a-2a58138e8d29,O
+Helsingør Kommune,217,Hornbæk Skole,708702,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Kolding Kommune,621,Nordbyen,701938,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Herning Kommune,657,Haderup,701720,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Skive Kommune,779,Ørslevkloster,748877,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Frederikshavn Kommune,813,Dybvad,709628,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Furesø Kommune,190,Paltholm,706956,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Ballerup Kommune,151,Idrætshallen (tidl. UCC-hallen) - Rosenlund,705652,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Næstved Kommune,370,Lille Næstved Skole - Karrebæk,703592,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Middelfart Kommune,410,Ejby,705422,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Assens Kommune,420,Brylle,701552,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Mariagerfjord Kommune,846,Arden,707018,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Norddjurs Kommune,707,Allingåbro,710680,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Hedensted Kommune,766,Rårup,700852,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aalborg Kommune,851,Båndby - Hallen,701356,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Holbæk Kommune,316,Tuse,705958,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Ringkøbing-Skjern Kommune,760,Ådum,748670,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Hvidovre Kommune,167,Frihedens Idrætscenter,702070,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Holstebro Kommune,661,Sevel,706148,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Kalundborg Kommune,326,Årby-Rørby,701008,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Gentofte Kommune,157,Maglegård,702890,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Kerteminde Kommune,440,Nymarken,748590,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Esbjerg Kommune,561,Ådalen,710368,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Randers Kommune,730,Øster Tørslev Fritidslokaler,705768,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Randers Kommune,730,Trekløverskolen,704268,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Lejre Kommune,350,Rye,707756,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Brønderslev Kommune,810,Asaa,708636,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Holstebro Kommune,661,Sdr. Nissum,709344,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Mariagerfjord Kommune,846,Onsild,706980,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Ringkøbing-Skjern Kommune,760,Lem,711192,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aarhus Kommune,751,Malling Skole,711386,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Sønderborg Kommune,540,Havnbjerg,710634,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Sønderborg Kommune,540,Egen,701408,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Ringkøbing-Skjern Kommune,760,Troldhede,707950,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Morsø Kommune,773,Midtmors,702454,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Ringkøbing-Skjern Kommune,760,Tarm,707956,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aabenraa Kommune,580,Aabenraa Syd,703778,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Furesø Kommune,190,Stavnsholt,708606,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Haderslev Kommune,510,Øsby,711866,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Randers Kommune,730,Havndalhallen,704136,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Ballerup Kommune,151,Balleruphallen - Rugvænget,706986,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Ringkøbing-Skjern Kommune,760,Stauning,709682,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aarhus Kommune,751,Lisbjergskolen,705526,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Tønder,550,Øster Højst,709676,2025-11-18 19:45:13,,ForeløbigOptælling,454,458,Socialdemokratiet,17,,-23.0,5c137e71-6566-4a82-90b0-62c955c700ce,A
+Tønder,550,Øster Højst,709676,2025-11-18 19:45:13,,ForeløbigOptælling,454,458,Det Konservative Folkeparti,11,,1.0,ac7d6f3b-5f10-44cf-a6be-12a52b5e4e93,C
+Tønder,550,Øster Højst,709676,2025-11-18 19:45:13,,ForeløbigOptælling,454,458,Slesvigsk Parti,231,,45.0,d062c81c-ed3a-407a-a82b-f9747db532e4,S
+Tønder,550,Øster Højst,709676,2025-11-18 19:45:13,,ForeløbigOptælling,454,458,Tønder Listen,28,,-24.0,59e0ea77-9405-4594-b727-28bf8afa8b8f,T
+Tønder,550,Øster Højst,709676,2025-11-18 19:45:13,,ForeløbigOptælling,454,458,Velfærdsdemokraterne,1,,,50cc59dd-d387-4352-b41d-90d515408927,Y
+Tønder,550,Øster Højst,709676,2025-11-18 19:45:13,,ForeløbigOptælling,454,458,Danmarksdemokraterne - Inger Støjberg,37,,,e33a54c0-0e04-43aa-86a1-be9140a1d357,Æ
+Tønder,550,Øster Højst,709676,2025-11-18 19:45:13,,ForeløbigOptælling,454,458,SF - Socialistisk Folkeparti,9,,3.0,c27b596c-a295-4a23-aa0e-038cdb79bfdc,F
+Tønder,550,Øster Højst,709676,2025-11-18 19:45:13,,ForeløbigOptælling,454,458,Alternativet,0,,-2.0,b6bab73b-2fd7-4459-9248-a77b6b9174a0,Å
+Tønder,550,Øster Højst,709676,2025-11-18 19:45:13,,ForeløbigOptælling,454,458,Liberal Alliance,8,,7.0,c1363435-f5d7-4049-89b9-27683adc1055,I
+Tønder,550,Øster Højst,709676,2025-11-18 19:45:13,,ForeløbigOptælling,454,458,Dansk Folkeparti,44,,24.0,cc64e476-0c6d-4c5f-ad4a-2a58138e8d29,O
+Tønder,550,Øster Højst,709676,2025-11-18 19:45:13,,ForeløbigOptælling,454,458,"Venstre, Danmarks Liberale Parti",68,,-42.0,1ed1c17d-ed6f-4512-ac08-499ddc55e17b,V
+Ballerup Kommune,151,Højagerhallen - Skovvejens Skole Vest,710146,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Næstved Kommune,370,Grønbro Hallen,712210,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Frederikshavn Kommune,813,Ravnshøj,748390,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Varde Kommune,573,Henne,703068,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Syddjurs Kommune,706,Mols,703350,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vejle Kommune,630,Vandel Nord,702258,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Hvidovre Kommune,167,Dansborghallen,702094,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Skive Kommune,779,Skivehus,748883,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Rudersdal Kommune,230,Sjælsø,702734,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Frederikssund Kommune,250,Slangerup,707024,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aalborg Kommune,851,Mou Hotel,702918,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Hedensted Kommune,766,Hvirring,749380,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Brøndby Kommune,153,Tjørnehøjhallen,707084,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vesthimmerlands Kommune,820,Løgstør,702144,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Horsens Kommune,615,Lund,710912,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Fredericia Kommune,607,Bredstrup-Pjedsted,709738,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vejle Kommune,630,Mølholmhallen Syd,705630,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vejen,575,Glejbjerg,707412,2025-11-18 19:42:29,,ForeløbigOptælling,645,655,Det Konservative Folkeparti,47,,-26.0,5e09f3c3-2c25-4bf9-9082-3682539c9a82,C
+Vejen,575,Glejbjerg,707412,2025-11-18 19:42:29,,ForeløbigOptælling,645,655,Liberal Alliance,21,,20.0,c768da36-a535-4c38-b61a-0b404eaa8937,I
+Vejen,575,Glejbjerg,707412,2025-11-18 19:42:29,,ForeløbigOptælling,645,655,Det Radikale Venstre,4,,,4c2c726c-f3f5-4d9b-a03c-a85807e9a295,B
+Vejen,575,Glejbjerg,707412,2025-11-18 19:42:29,,ForeløbigOptælling,645,655,Danmarksdemokraterne - Inger Støjberg,68,,,767559fd-f748-4629-a239-e6e58d2cbb45,Æ
+Vejen,575,Glejbjerg,707412,2025-11-18 19:42:29,,ForeløbigOptælling,645,655,Dansk Folkeparti,42,,15.0,f856a95c-ab8f-4a02-99ed-5cfb3fcc08d4,O
+Vejen,575,Glejbjerg,707412,2025-11-18 19:42:29,,ForeløbigOptælling,645,655,"Venstre, Danmarks Liberale Parti",360,,-55.0,605f202b-a2bc-458b-9a68-a2c88e89e72d,V
+Vejen,575,Glejbjerg,707412,2025-11-18 19:42:29,,ForeløbigOptælling,645,655,Moderaterne,13,,,1449b089-fb60-4125-9c7b-ebf9436ab629,M
+Vejen,575,Glejbjerg,707412,2025-11-18 19:42:29,,ForeløbigOptælling,645,655,Alternativet,6,,,f82e2e59-5420-4863-8a30-eb5bf4064a58,Å
+Vejen,575,Glejbjerg,707412,2025-11-18 19:42:29,,ForeløbigOptælling,645,655,Socialdemokratiet,56,,-43.0,67af087d-0761-4771-a08e-0e24ba98d1cb,A
+Vejen,575,Glejbjerg,707412,2025-11-18 19:42:29,,ForeløbigOptælling,645,655,Socialistisk Folkeparti,28,,,8c781604-f08a-488f-9224-57443d7972fc,F
+Lejre Kommune,350,Glim,712044,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Skive Kommune,779,Aakjær,748880,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Varde Kommune,573,Nørre Nebel,707430,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Silkeborg Kommune,740,Sjørslev,709870,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Hvidovre Kommune,167,Holmegårdshallen,703836,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Struer Kommune,671,Struer,711302,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Favrskov Kommune,710,Haldum-Hinnerup/Vitten,709596,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Odsherred Kommune,306,Nykøbing,710514,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Nordfyns Kommune,480,Søndersø,748637,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Samsø Kommune,741,Nordby,704790,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Skive Kommune,779,Breum,748882,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Sorø Kommune,340,Stenlille,710022,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Herlev Kommune,163,Herlev Medborgerhus,705798,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Esbjerg Kommune,561,Esbjerg Rådhus,705826,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Faaborg-Midtfyn Kommune,430,Faaborg,701392,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Favrskov Kommune,710,Hadsten Nord,712100,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vejle Kommune,630,Vinding Idræts Center Syd,703992,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Skanderborg Kommune,746,Låsby,702028,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Solrød Kommune,269,Det Nordlige Strandområde,703748,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Jammerbugt,849,V. Hjermitslev,749357,2025-11-18 19:48:00,,ForeløbigOptælling,305,306,Socialdemokratiet,135,,-3.0,1b7834fc-da3d-4f45-92db-e8f51402c3b5,A
+Jammerbugt,849,V. Hjermitslev,749357,2025-11-18 19:48:00,,ForeløbigOptælling,305,306,Radikale Venstre,3,,1.0,bb5a6cd2-598d-45b1-992e-75cb73f959e3,B
+Jammerbugt,849,V. Hjermitslev,749357,2025-11-18 19:48:00,,ForeløbigOptælling,305,306,Det Konservative Folkeparti,29,,22.0,7e620cd5-9e5f-4c22-8f75-9bc512019c19,C
+Jammerbugt,849,V. Hjermitslev,749357,2025-11-18 19:48:00,,ForeløbigOptælling,305,306,SF - Socialistisk Folkeparti,16,,3.0,cd07c1fa-1c08-471d-b7e1-819835380c8b,F
+Jammerbugt,849,V. Hjermitslev,749357,2025-11-18 19:48:00,,ForeløbigOptælling,305,306,Liberal Alliance,10,,,78099afd-7dae-4b39-ab8b-8aa2e82c76f3,I
+Jammerbugt,849,V. Hjermitslev,749357,2025-11-18 19:48:00,,ForeløbigOptælling,305,306,Kristendemokraterne,0,,-1.0,2f9790eb-73bf-476f-9753-74ac737930a9,K
+Jammerbugt,849,V. Hjermitslev,749357,2025-11-18 19:48:00,,ForeløbigOptælling,305,306,Vendelbo-Listen,7,,,517d994f-483a-40b4-94d0-6a156c9fb3b5,L
+Jammerbugt,849,V. Hjermitslev,749357,2025-11-18 19:48:00,,ForeløbigOptælling,305,306,Dansk Folkeparti,20,,10.0,68ef3028-4e6f-4ea2-b243-a34da4e2a751,O
+Jammerbugt,849,V. Hjermitslev,749357,2025-11-18 19:48:00,,ForeløbigOptælling,305,306,Det Liberale Højre,0,,,4fb59d0e-9843-4682-a97c-e47c244489e4,P
+Jammerbugt,849,V. Hjermitslev,749357,2025-11-18 19:48:00,,ForeløbigOptælling,305,306,Lokallisten Jammerbugt,0,,-11.0,cde4bc8b-9f28-4edd-8b31-fcaeaa51e370,T
+Jammerbugt,849,V. Hjermitslev,749357,2025-11-18 19:48:00,,ForeløbigOptælling,305,306,Danmarksdemokraterne - Inger Støjberg,43,,,7cfae50c-469b-4359-bfaa-4563ed6fc4c5,Æ
+Jammerbugt,849,V. Hjermitslev,749357,2025-11-18 19:48:00,,ForeløbigOptælling,305,306,"Venstre, Danmarks Liberale Parti",42,,-68.0,b3aa20c5-29a2-4f47-822a-4bda8cc4024c,V
+Københavns Kommune,101,3. Midt,749402,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Tønder,550,Visby,711072,2025-11-18 19:39:12,,ForeløbigOptælling,283,285,Det Konservative Folkeparti,17,,7.0,ac7d6f3b-5f10-44cf-a6be-12a52b5e4e93,C
+Tønder,550,Visby,711072,2025-11-18 19:39:12,,ForeløbigOptælling,283,285,SF - Socialistisk Folkeparti,3,,-4.0,c27b596c-a295-4a23-aa0e-038cdb79bfdc,F
+Tønder,550,Visby,711072,2025-11-18 19:39:12,,ForeløbigOptælling,283,285,Socialdemokratiet,31,,-24.0,5c137e71-6566-4a82-90b0-62c955c700ce,A
+Tønder,550,Visby,711072,2025-11-18 19:39:12,,ForeløbigOptælling,283,285,Liberal Alliance,8,,-4.0,c1363435-f5d7-4049-89b9-27683adc1055,I
+Tønder,550,Visby,711072,2025-11-18 19:39:12,,ForeløbigOptælling,283,285,Dansk Folkeparti,37,,32.0,cc64e476-0c6d-4c5f-ad4a-2a58138e8d29,O
+Tønder,550,Visby,711072,2025-11-18 19:39:12,,ForeløbigOptælling,283,285,Slesvigsk Parti,92,,45.0,d062c81c-ed3a-407a-a82b-f9747db532e4,S
+Tønder,550,Visby,711072,2025-11-18 19:39:12,,ForeløbigOptælling,283,285,Tønder Listen,37,,-50.0,59e0ea77-9405-4594-b727-28bf8afa8b8f,T
+Tønder,550,Visby,711072,2025-11-18 19:39:12,,ForeløbigOptælling,283,285,"Venstre, Danmarks Liberale Parti",36,,-41.0,1ed1c17d-ed6f-4512-ac08-499ddc55e17b,V
+Tønder,550,Visby,711072,2025-11-18 19:39:12,,ForeløbigOptælling,283,285,Velfærdsdemokraterne,3,,,50cc59dd-d387-4352-b41d-90d515408927,Y
+Tønder,550,Visby,711072,2025-11-18 19:39:12,,ForeløbigOptælling,283,285,Alternativet,2,,2.0,b6bab73b-2fd7-4459-9248-a77b6b9174a0,Å
+Tønder,550,Visby,711072,2025-11-18 19:39:12,,ForeløbigOptælling,283,285,Danmarksdemokraterne - Inger Støjberg,17,,,e33a54c0-0e04-43aa-86a1-be9140a1d357,Æ
+Norddjurs Kommune,707,Grenaa Idrætscenter,707484,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Favrskov Kommune,710,Hammel Nord,706354,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Svendborg Kommune,479,Landet,705344,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vordingborg Kommune,390,Allerslev,701732,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Randers Kommune,730,Kulturhuset Langå,704314,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Fredericia Kommune,607,Herslev,709732,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Københavns Kommune,101,2. Kalvebod Fælled,749400,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Greve Kommune,253,Karlslundehallerne,718922,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Albertslund Kommune,165,Herstedvester Skole,706090,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aarhus Kommune,751,"Folkestedet, Aarhus C",748350,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vejle Kommune,630,Nørup Nord,708580,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Hjørring Kommune,860,Astrup,704372,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vejen Kommune,575,Askov-Malt,701362,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Egedal Kommune,240,Stengårdsskolen,701864,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Københavns Kommune,101,1. Nordvest,710802,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Varde Kommune,573,Starup,704648,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aarhus Kommune,751,Viby Hallen,700928,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Silkeborg Kommune,740,Voel,705446,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vejle Kommune,630,Skibet Hallen,702280,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Frederiksberg Kommune,147,"11. Kreds, Rådhuset",701726,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Hedensted Kommune,766,Hjortsvang,749378,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Randers Kommune,730,Romalt Aktivitetshal,702716,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vejle Kommune,630,Bredsten Nord,702272,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Slagelse,330,Omø - Omø Forsamlingshus,705790,2025-11-18 19:27:42,,ForeløbigOptælling,106,107,Storebæltslisten,0,,,5992511a-4ebd-48b8-8b27-edb1a41a3cc7,L
+Slagelse,330,Omø - Omø Forsamlingshus,705790,2025-11-18 19:27:42,,ForeløbigOptælling,106,107,Dansk Folkeparti,5,,-116.0,118043b2-14bb-426a-baff-d14500c87ced,O
+Slagelse,330,Omø - Omø Forsamlingshus,705790,2025-11-18 19:27:42,,ForeløbigOptælling,106,107,Socialdemokratiet,42,,-371.0,f859d7de-bf12-444d-a706-e1493a197511,A
+Slagelse,330,Omø - Omø Forsamlingshus,705790,2025-11-18 19:27:42,,ForeløbigOptælling,106,107,Radikale Venstre,1,,-71.0,c2f4d07a-540a-47ca-b0ea-cc7242b1c8b4,B
+Slagelse,330,Omø - Omø Forsamlingshus,705790,2025-11-18 19:27:42,,ForeløbigOptælling,106,107,Det Konservative Folkeparti,0,,-201.0,d0651307-a88f-4faf-bbd1-aad6324e437d,C
+Slagelse,330,Omø - Omø Forsamlingshus,705790,2025-11-18 19:27:42,,ForeløbigOptælling,106,107,Liberal Alliance,2,,-22.0,61aa3da7-1219-4bde-86ce-e20f1db4f442,I
+Slagelse,330,Omø - Omø Forsamlingshus,705790,2025-11-18 19:27:42,,ForeløbigOptælling,106,107,Moderaterne,1,,,2e9e7997-a5e1-4463-914e-4d5e76a5d07b,M
+Slagelse,330,Omø - Omø Forsamlingshus,705790,2025-11-18 19:27:42,,ForeløbigOptælling,106,107,De lokale rebeller,0,,,a3e80c15-3f85-4336-92cc-b1eca59b8d9c,R
+Slagelse,330,Omø - Omø Forsamlingshus,705790,2025-11-18 19:27:42,,ForeløbigOptælling,106,107,Trelleborglisten,0,,,75cf2276-4409-4814-b427-e330dfd336ed,T
+Slagelse,330,Omø - Omø Forsamlingshus,705790,2025-11-18 19:27:42,,ForeløbigOptælling,106,107,"Venstre, Danmarks Liberale Parti",25,,-693.0,f1639dd9-cb8e-4b78-b3e8-f26bf9224a9c,V
+Slagelse,330,Omø - Omø Forsamlingshus,705790,2025-11-18 19:27:42,,ForeløbigOptælling,106,107,SF - Socialistisk Folkeparti,8,,-87.0,2093fe32-9998-4cf5-82d6-f5d6112b43d1,F
+Slagelse,330,Omø - Omø Forsamlingshus,705790,2025-11-18 19:27:42,,ForeløbigOptælling,106,107,Danmarksdemokraterne - Inger Støjberg,9,,,f46d5339-0a4d-41b1-9c7e-113b41bd174e,Æ
+Slagelse,330,Omø - Omø Forsamlingshus,705790,2025-11-18 19:27:42,,ForeløbigOptælling,106,107,Enhedslisten - De Rød-Grønne,13,,-22.0,e192936d-adc2-4eb4-b41e-0de554f624ae,Ø
+Odense Kommune,461,Rasmus Rask-Skolen,705882,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Roskilde Kommune,265,Gundsølille,704320,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Skanderborg Kommune,746,Ry,703790,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Hjørring Kommune,860,Tornby,710458,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vejle Kommune,630,DGI-Huset Syd,708618,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Næstved Kommune,370,Lille Næstved Skole - Herlufsholmvej,712204,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Sorø Kommune,340,Alsted Fjenneslev,711404,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Holbæk Kommune,316,Mørkøv,701314,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Odense Kommune,461,Rådhuset,705888,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Brønderslev Kommune,810,Brønderslev,710140,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Roskilde Kommune,265,Himmelev,702794,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Jammerbugt Kommune,849,Fjerritslev,707632,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Faxe Kommune,320,Dalby,707142,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Hjørring Kommune,860,Sindal,707320,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aabenraa Kommune,580,Ensted,703784,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Rudersdal Kommune,230,Toftevang,705784,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Norddjurs Kommune,707,Auning,709084,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Københavns Kommune,101,3. Nord,709378,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Skive Kommune,779,Glyngøre,748872,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Roskilde Kommune,265,Tjørnegård,711710,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Rebild Kommune,840,Suldrup,712170,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Esbjerg Kommune,561,Rørkjær,701204,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Esbjerg Kommune,561,Ribe,703580,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Guldborgsund Kommune,376,Byen,709646,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Faaborg-Midtfyn,430,Lyø,704544,2025-11-18 19:24:56,,ForeløbigOptælling,70,70,Socialdemokratiet,27,,13.0,ddb458e8-0c11-422c-928c-a19c86624c7c,A
+Faaborg-Midtfyn,430,Lyø,704544,2025-11-18 19:24:56,,ForeløbigOptælling,70,70,Radikale Venstre,0,,-2.0,65654baf-0d17-444f-8b8d-ded91d47ec33,B
+Faaborg-Midtfyn,430,Lyø,704544,2025-11-18 19:24:56,,ForeløbigOptælling,70,70,Dansk Folkeparti,10,,1.0,55d4e0be-a0b4-457a-8bab-1f6f6d857e26,O
+Faaborg-Midtfyn,430,Lyø,704544,2025-11-18 19:24:56,,ForeløbigOptælling,70,70,Lokallisten Faaborg-Midtfyn,2,,2.0,6beef4e0-f94c-440a-9a6a-42f11e679a05,L
+Faaborg-Midtfyn,430,Lyø,704544,2025-11-18 19:24:56,,ForeløbigOptælling,70,70,Moderaterne,0,,,b94df435-98ad-4b8a-88f0-0e1928bcaaf0,M
+Faaborg-Midtfyn,430,Lyø,704544,2025-11-18 19:24:56,,ForeløbigOptælling,70,70,Liberal Alliance,1,,,0e88e7ef-ba60-4f24-883a-4895bd69a8f3,I
+Faaborg-Midtfyn,430,Lyø,704544,2025-11-18 19:24:56,,ForeløbigOptælling,70,70,SF - Socialistisk Folkeparti,5,,2.0,d6dd0792-0912-48cc-a3d6-e6525ffde99d,F
+Faaborg-Midtfyn,430,Lyø,704544,2025-11-18 19:24:56,,ForeløbigOptælling,70,70,Det Konservative Folkeparti,4,,-1.0,da6b0e7a-828e-472e-aecb-ed0bd0d4fb74,C
+Faaborg-Midtfyn,430,Lyø,704544,2025-11-18 19:24:56,,ForeløbigOptælling,70,70,Enhedslisten - De Rød-Grønne,6,,5.0,82e62c23-b60c-4b71-8772-ec23c5f3ecf8,Ø
+Faaborg-Midtfyn,430,Lyø,704544,2025-11-18 19:24:56,,ForeløbigOptælling,70,70,Danmarksdemokraterne - Inger Støjberg,4,,,747531b7-9936-41f2-9c18-b9d537ee4003,Æ
+Faaborg-Midtfyn,430,Lyø,704544,2025-11-18 19:24:56,,ForeløbigOptælling,70,70,"Venstre, Danmarks Liberale Parti",11,,-25.0,3fd9db1a-7279-44b3-a78c-ef24df078f6a,V
+Hillerød Kommune,219,"Skævinge, Harløse, Strø",749322,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Næstved Kommune,370,Arena Næstved,701858,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Svendborg Kommune,479,Bregninge,707990,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vejle Kommune,630,Øster Starup Syd,710122,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Ballerup Kommune,151,Grantoftehallen,710158,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Odense Kommune,461,Rosengårdskolen,705894,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Greve Kommune,253,Mosedeskolen,718898,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Gladsaxe Kommune,159,Grønnemose,710060,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Ringkøbing-Skjern Kommune,760,Hvide Sande,712176,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Herning Kommune,657,Arnborg,706292,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Nyborg Kommune,450,Aunslevhallen,705368,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Billund Kommune,530,Grindsted,707400,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Fredericia Kommune,607,Indre By,712216,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Hedensted Kommune,766,Ø. Snede Sogn,702132,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Slagelse Kommune,330,Slots Bjergby - Hashøjskolen,748430,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Lemvig Kommune,665,Bøvling,712242,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Faaborg-Midtfyn Kommune,430,Ryslinge,701422,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Hedensted Kommune,766,"Hedensted, St.Dalby Og Urlev",702112,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aalborg Kommune,851,Vesterkærets Skole,705992,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Odense Kommune,461,Marienlystcentret,707258,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Nordfyns Kommune,480,Klinte,748634,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Københavns Kommune,101,7. Rødkilde,701626,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Lolland Kommune,360,Horslunde,703864,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Skive Kommune,779,Balling,748878,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aabenraa Kommune,580,Varnæs,708352,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Skive Kommune,779,Jebjerg-Lyby,748875,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Hillerød Kommune,219,Gadevang,710380,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Ringsted Kommune,329,Haraldsted,711816,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vejen Kommune,575,Bække,701386,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Rødovre Kommune,175,Ørbygård,707822,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aarhus Kommune,751,Solbjergskolen,709996,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Slagelse Kommune,330,Vestermose - Hallelev Forsamlingshus,710288,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vesthimmerlands Kommune,820,Gislum-Vognsild,710016,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Hjørring Kommune,860,Hjørring - Syd,702842,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Randers Kommune,730,Ø. Bjerregrav Forsamlingshus,702776,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Lolland Kommune,360,Femø,706816,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Hjørring Kommune,860,Horne,702860,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Skive Kommune,779,Lihme,748885,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Herning Kommune,657,Simmelkær,701684,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Lolland Kommune,360,Rødby,702106,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Horsens Kommune,615,Sdr.Vissing,706298,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Københavns Kommune,101,5. Nørrebrohallen,725352,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Københavns Kommune,101,9. Vest,709338,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Holbæk Kommune,316,Holbæk Midt,702906,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Nordfyns Kommune,480,Skovløkken,748630,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Kolding Kommune,621,Centrum Nord,706610,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aarhus Kommune,751,"Vorrevangskolen, Aarhus N",708524,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Lemvig Kommune,665,Ramme,711172,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Næstved Kommune,370,Fensmark,707918,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vejle Kommune,630,Grejs Nord,710054,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aalborg Kommune,851,Vester Hassing Hallen,710544,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Svendborg Kommune,479,Ollerup,706616,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Odense Kommune,461,Korup Skole,710430,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Odsherred Kommune,306,Vig,704468,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Ringkøbing-Skjern Kommune,760,Holmsland,706404,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Thisted Kommune,787,Hanstholm,748376,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Guldborgsund Kommune,376,Våbensted,709670,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Favrskov Kommune,710,Foldby,704336,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vallensbæk Kommune,187,Pilehaveskolen,701896,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Holbæk Kommune,316,Vipperød,705924,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Esbjerg Kommune,561,Bramming,703542,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Favrskov Kommune,710,Thorsø/Haurum/Sall,707278,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Syddjurs Kommune,706,Tirstrup,703380,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Randers Kommune,730,Paderup Gymnasium,704280,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Odense Kommune,461,Agedrup Skole,705856,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Københavns Kommune,101,1. Øst,725338,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Københavns Kommune,101,8. Valby,707648,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Holbæk Kommune,316,St. Merløse,701294,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Varde Kommune,573,Oksbøl,707498,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Svendborg Kommune,479,Stenstrup,701964,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Ringsted Kommune,329,Benløse,703050,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Fredensborg Kommune,210,Baunebjerg,703814,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Frederikshavn Kommune,813,Elling,709634,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Lolland Kommune,360,Søllested,706822,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Ikast-Brande Kommune,756,Brande,703930,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Ikast-Brande Kommune,756,Engesvang,713316,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vesthimmerlands Kommune,820,Hvalpsund,711328,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Odense Kommune,461,Sct. Knuds Gymnasium,705876,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Kalundborg Kommune,326,Svallerup,707004,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Varde Kommune,573,Billum,709030,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Silkeborg Kommune,740,Jysk Arena,706680,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vejen Kommune,575,Jels,706016,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Slagelse Kommune,330,Skælskør - Skælskør Badmintoncenter,720074,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Albertslund Kommune,165,Herstedlund Skole,710708,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Assens Kommune,420,Orte/Ørsted,710796,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Faaborg-Midtfyn Kommune,430,Hillerslev,703044,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Egedal Kommune,240,Ledøje Forsamlingshus,703642,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Thisted Kommune,787,Koldby,748370,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Holstebro Kommune,661,Skave,707720,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Københavns Kommune,101,7. Nordvest,707744,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Kolding Kommune,621,Seest,712320,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Københavns Kommune,101,7. Vanløse,710814,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Haderslev Kommune,510,Hoptrup,709412,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Syddjurs Kommune,706,Ebeltoft,701596,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Odense Kommune,461,Højby Skole,711704,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Herning Kommune,657,Sunds,712068,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Favrskov Kommune,710,Ulstrup,707834,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Kalundborg Kommune,326,Ulshøj,702328,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Hedensted Kommune,766,Juelsminde/Klakring,705470,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Sønderborg Kommune,540,Hørup,707448,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Randers Kommune,730,Råby Forsamlingshus,704222,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Norddjurs Kommune,707,Ørum,707518,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Hillerød Kommune,219,Royal Stage,708774,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vejle Kommune,630,Multihuset Højen Syd,710128,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Varde Kommune,573,Alslev,704642,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Rebild Kommune,840,Terndrup,703572,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Københavns Kommune,101,4. Nordøst,749399,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Struer Kommune,671,Hjerm,703842,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vordingborg Kommune,390,Jungshoved,703480,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aarhus Kommune,751,Folkehuset Ankersgade,706884,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Bornholms Regionskommune,400,Pedersker,709262,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Slagelse Kommune,330,Slagelse - Nordhallen,748850,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Albertslund Kommune,165,Egelundskolen,709136,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Gribskov Kommune,270,Ramløse,702752,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Hjørring Kommune,860,Bindslev,708788,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Assens Kommune,420,Flemløse,701534,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Morsø Kommune,773,Sydvestmors,711514,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Skanderborg Kommune,746,Hørning,709844,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Thisted Kommune,787,Thisted,705918,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Mariagerfjord Kommune,846,Vebbestrup,701046,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aarhus Kommune,751,Spørring Fælleshus,705520,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Horsens Kommune,615,Sundparken,703428,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Varde Kommune,573,Janderup,706084,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aarhus Kommune,751,Skæring Skole,708574,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Kalundborg Kommune,326,Gørlev,707012,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vordingborg Kommune,390,Stensved,706330,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Ringsted Kommune,329,Ringsted Dagmarskolen,704618,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aalborg Kommune,851,Nibe Hallen,705942,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Odense Kommune,461,Ejerslykkeskolen,707294,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Næstved Kommune,370,Kobberbakkeskolen - Sydby,711142,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Lolland Kommune,360,Holeby,700840,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Herning Kommune,657,Kibæk,703462,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Kalundborg Kommune,326,Høng,702316,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Odense Kommune,461,Fraugde Fritidscenter,710386,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Kalundborg Kommune,326,Ubby,708654,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Helsingør Kommune,217,Skolen ved Gurrevej,710298,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vejle Kommune,630,Gadbjerg Nord,706950,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Esbjerg Kommune,561,Egebæk-Hviding,707870,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Esbjerg Kommune,561,Kvaglund,702740,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Kerteminde Kommune,440,Langeskov,705316,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Tønder Kommune,550,Døstrup,709616,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Faaborg-Midtfyn Kommune,430,Kværndrup,704582,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Lolland Kommune,360,Birket,706808,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Nyborg,450,Ellinge,701998,2025-11-18 19:36:42,,ForeløbigOptælling,272,275,Socialdemokratiet,48,,-21.0,7986f05b-aac7-46e4-bab1-1edebe0b3047,A
+Nyborg,450,Ellinge,701998,2025-11-18 19:36:42,,ForeløbigOptælling,272,275,Radikale Venstre,6,,-1.0,21cf7a33-3735-49e8-a766-7c44800d1269,B
+Nyborg,450,Ellinge,701998,2025-11-18 19:36:42,,ForeløbigOptælling,272,275,Liberal Alliance,11,,9.0,c7c6b9b6-b006-45c8-a1ee-55fff9b37a86,I
+Nyborg,450,Ellinge,701998,2025-11-18 19:36:42,,ForeløbigOptælling,272,275,SF - Socialistisk Folkeparti,22,,17.0,a0df8edc-ecdd-49bb-a9cd-bc9e3d7feaf7,F
+Nyborg,450,Ellinge,701998,2025-11-18 19:36:42,,ForeløbigOptælling,272,275,Det Konservative Folkeparti,9,,-6.0,410243f4-8014-4c3f-a184-a7ac4f5e9362,C
+Nyborg,450,Ellinge,701998,2025-11-18 19:36:42,,ForeløbigOptælling,272,275,Bedre By Nyborg,2,,,2ea58b07-169a-45a0-85f9-5786a363d5db,N
+Nyborg,450,Ellinge,701998,2025-11-18 19:36:42,,ForeløbigOptælling,272,275,Dansk Folkeparti,25,,15.0,cbf134e7-0f06-44bc-8dd5-9df81807b76d,O
+Nyborg,450,Ellinge,701998,2025-11-18 19:36:42,,ForeløbigOptælling,272,275,Vi Lokale Demokrater,3,,,ec2c1d27-c119-4d42-ac2f-20a52e4dc4c2,L
+Nyborg,450,Ellinge,701998,2025-11-18 19:36:42,,ForeløbigOptælling,272,275,Danmarksdemokraterne - Inger Støjberg,20,,,b25d9a1d-4a29-4e93-9956-b4b92bd33aeb,Æ
+Nyborg,450,Ellinge,701998,2025-11-18 19:36:42,,ForeløbigOptælling,272,275,Holger S. Jørgensen,0,,,c6bc32fc-587e-4b39-9c4e-6f2a7c44a5dd,Q
+Nyborg,450,Ellinge,701998,2025-11-18 19:36:42,,ForeløbigOptælling,272,275,"Venstre, Danmarks Liberale Parti",119,,-29.0,02ad7894-0e3c-4439-aa75-ca3fee68afe9,V
+Nyborg,450,Ellinge,701998,2025-11-18 19:36:42,,ForeløbigOptælling,272,275,Enhedslisten - De Rød-Grønne,6,,-4.0,a95ca6c6-7b7e-48d0-8726-25b2bd93fd4d,Ø
+Nyborg,450,Ellinge,701998,2025-11-18 19:36:42,,ForeløbigOptælling,272,275,Alternativet,1,,,a58c9570-7542-4675-a069-6089e361f6b8,Å
+Hillerød Kommune,219,"Grønnevang Skole, Østervang",749324,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Jammerbugt Kommune,849,Tranum,709250,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Guldborgsund Kommune,376,Væggerløse,701764,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Faaborg-Midtfyn Kommune,430,Allested-Vejle,709036,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Fanø Kommune,563,Sønderho,710532,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Ringsted Kommune,329,Bringstrup,703062,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Tønder Kommune,550,Agerskov,701806,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Lejre Kommune,350,Hvalsø,707762,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Hvidovre Kommune,167,Sønderkærskolen,702088,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Mariagerfjord Kommune,846,Valsgård,702354,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aalborg Kommune,851,Klaruphallen,701338,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Furesø Kommune,190,Jonstrup,710104,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Hillerød Kommune,219,Uvelse,749325,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Brønderslev Kommune,810,Hjallerup,700990,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Randers Kommune,730,Gjerlev Aktivitetshus,701136,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Skive Kommune,779,Håsum-Ramsing,748887,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Guldborgsund Kommune,376,Kraghave,712124,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Kalundborg Kommune,326,Snertinge,705664,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Frederikshavn Kommune,813,Strandby,712132,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Lyngby-Taarbæk Kommune,173,Taarbæk,711474,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vallensbæk Kommune,187,"Vallensbæk Skole, Multisalen",707962,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Guldborgsund Kommune,376,Gedser,705108,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Norddjurs Kommune,707,Vivild,701476,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Egedal Kommune,240,Smørum Idrætscenter,711116,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Roskilde Kommune,265,Trekroner,704402,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Favrskov Kommune,710,Hadbjerg,709610,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Langeland Kommune,482,Rudkøbing,704594,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Nyborg Kommune,450,Bastionen,706634,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Egedal Kommune,240,Ganløse,706424,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Assens Kommune,420,Ebberup/Helnæs,709318,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Halsnæs Kommune,260,Melby,704906,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Horsens Kommune,615,Dagnæs,701652,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Rebild Kommune,840,Veggerby,705168,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vejle Kommune,630,Kvartershuset Syd,700984,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Svendborg Kommune,479,Kirkeby,709774,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Faxe Kommune,320,Karise,710310,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Gladsaxe Kommune,159,Hovedbiblioteket,711428,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Gladsaxe Kommune,159,Mørkhøj,700958,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Helsingør Kommune,217,Espergærde Bibliotek,702690,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Brønderslev Kommune,810,Thise,704012,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Tønder,550,Branderup,709622,2025-11-18 19:37:57,,ForeløbigOptælling,247,259,"Venstre, Danmarks Liberale Parti",73,,-18.0,1ed1c17d-ed6f-4512-ac08-499ddc55e17b,V
+Tønder,550,Branderup,709622,2025-11-18 19:37:57,,ForeløbigOptælling,247,259,Danmarksdemokraterne - Inger Støjberg,20,,,e33a54c0-0e04-43aa-86a1-be9140a1d357,Æ
+Tønder,550,Branderup,709622,2025-11-18 19:37:57,,ForeløbigOptælling,247,259,Socialdemokratiet,23,,-15.0,5c137e71-6566-4a82-90b0-62c955c700ce,A
+Tønder,550,Branderup,709622,2025-11-18 19:37:57,,ForeløbigOptælling,247,259,Liberal Alliance,10,,6.0,c1363435-f5d7-4049-89b9-27683adc1055,I
+Tønder,550,Branderup,709622,2025-11-18 19:37:57,,ForeløbigOptælling,247,259,Dansk Folkeparti,27,,11.0,cc64e476-0c6d-4c5f-ad4a-2a58138e8d29,O
+Tønder,550,Branderup,709622,2025-11-18 19:37:57,,ForeløbigOptælling,247,259,Det Konservative Folkeparti,7,,-5.0,ac7d6f3b-5f10-44cf-a6be-12a52b5e4e93,C
+Tønder,550,Branderup,709622,2025-11-18 19:37:57,,ForeløbigOptælling,247,259,SF - Socialistisk Folkeparti,10,,4.0,c27b596c-a295-4a23-aa0e-038cdb79bfdc,F
+Tønder,550,Branderup,709622,2025-11-18 19:37:57,,ForeløbigOptælling,247,259,Slesvigsk Parti,50,,23.0,d062c81c-ed3a-407a-a82b-f9747db532e4,S
+Tønder,550,Branderup,709622,2025-11-18 19:37:57,,ForeløbigOptælling,247,259,Tønder Listen,26,,-26.0,59e0ea77-9405-4594-b727-28bf8afa8b8f,T
+Tønder,550,Branderup,709622,2025-11-18 19:37:57,,ForeløbigOptælling,247,259,Alternativet,0,,-1.0,b6bab73b-2fd7-4459-9248-a77b6b9174a0,Å
+Tønder,550,Branderup,709622,2025-11-18 19:37:57,,ForeløbigOptælling,247,259,Velfærdsdemokraterne,1,,,50cc59dd-d387-4352-b41d-90d515408927,Y
+Dragør Kommune,155,Dragør Skole,706596,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Ringsted Kommune,329,Jystrup,710650,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Norddjurs Kommune,707,Kulturhuset Pavillonen,709078,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Københavns Kommune,101,7. Øst,706178,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aarhus Kommune,751,Åby Hallen,710028,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Roskilde Kommune,265,Snoldelev,707332,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Randers Kommune,730,Tirsdalens Skole,711638,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Frederikssund Kommune,250,Frederikssund Midt,710206,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Faaborg-Midtfyn Kommune,430,Ringe,711798,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Næstved Kommune,370,Everdrup,707904,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Silkeborg Kommune,740,Alderslyst,702046,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vordingborg Kommune,390,Ørslev,709584,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Faaborg-Midtfyn Kommune,430,Vester Hæsinge,704606,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Svendborg Kommune,479,Nordre,701944,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aarhus Kommune,751,"Søndervangskolen, Viby J",711416,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Svendborg Kommune,479,Hesselager,712298,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aabenraa Kommune,580,Kruså,709794,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Næstved Kommune,370,Toksværd,712222,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vejen Kommune,575,Gesten,703020,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vordingborg Kommune,390,Vordingborg,711010,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Randers Kommune,730,Uggelhuse Forsamlingshus,707204,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Favrskov Kommune,710,Voldum,706360,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Holbæk Kommune,316,Regstrup,707370,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Guldborgsund Kommune,376,Østerbro,703554,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aalborg Kommune,851,Hals Skole,710552,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Thisted Kommune,787,Frøstrup,708884,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Glostrup Kommune,161,Vestervangskolen,700820,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Faxe Kommune,320,Rønnede,710328,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Københavns Kommune,101,6. Nord,701606,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Hedensted Kommune,766,Ølholm,711316,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Københavns Kommune,101,1. Vest,706160,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Furesø Kommune,190,Hareskov,710110,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Københavns Kommune,101,1. Syd,704936,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Odense Kommune,461,Fangel Forsamlingshus,708800,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vejle Kommune,630,CSV - Vejle Syd,705620,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aabenraa Kommune,580,Hellevad,703772,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Tønder Kommune,550,Højer,706374,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Odsherred Kommune,306,Asnæs,701320,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Hvidovre Kommune,167,Kometen,706734,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Tønder Kommune,550,Tønder,705136,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Tønder,550,Arrild,711066,2025-11-18 19:36:13,,ForeløbigOptælling,396,401,Det Konservative Folkeparti,4,,-23.0,ac7d6f3b-5f10-44cf-a6be-12a52b5e4e93,C
+Tønder,550,Arrild,711066,2025-11-18 19:36:13,,ForeløbigOptælling,396,401,Slesvigsk Parti,52,,26.0,d062c81c-ed3a-407a-a82b-f9747db532e4,S
+Tønder,550,Arrild,711066,2025-11-18 19:36:13,,ForeløbigOptælling,396,401,Danmarksdemokraterne - Inger Støjberg,26,,,e33a54c0-0e04-43aa-86a1-be9140a1d357,Æ
+Tønder,550,Arrild,711066,2025-11-18 19:36:13,,ForeløbigOptælling,396,401,Alternativet,4,,4.0,b6bab73b-2fd7-4459-9248-a77b6b9174a0,Å
+Tønder,550,Arrild,711066,2025-11-18 19:36:13,,ForeløbigOptælling,396,401,Socialdemokratiet,28,,-25.0,5c137e71-6566-4a82-90b0-62c955c700ce,A
+Tønder,550,Arrild,711066,2025-11-18 19:36:13,,ForeløbigOptælling,396,401,SF - Socialistisk Folkeparti,17,,7.0,c27b596c-a295-4a23-aa0e-038cdb79bfdc,F
+Tønder,550,Arrild,711066,2025-11-18 19:36:13,,ForeløbigOptælling,396,401,Liberal Alliance,13,,5.0,c1363435-f5d7-4049-89b9-27683adc1055,I
+Tønder,550,Arrild,711066,2025-11-18 19:36:13,,ForeløbigOptælling,396,401,Dansk Folkeparti,46,,29.0,cc64e476-0c6d-4c5f-ad4a-2a58138e8d29,O
+Tønder,550,Arrild,711066,2025-11-18 19:36:13,,ForeløbigOptælling,396,401,Tønder Listen,29,,-55.0,59e0ea77-9405-4594-b727-28bf8afa8b8f,T
+Tønder,550,Arrild,711066,2025-11-18 19:36:13,,ForeløbigOptælling,396,401,"Venstre, Danmarks Liberale Parti",175,,29.0,1ed1c17d-ed6f-4512-ac08-499ddc55e17b,V
+Tønder,550,Arrild,711066,2025-11-18 19:36:13,,ForeløbigOptælling,396,401,Velfærdsdemokraterne,2,,,50cc59dd-d387-4352-b41d-90d515408927,Y
+Randers Kommune,730,Assentofthallen,710392,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Ringkøbing-Skjern Kommune,760,Hemmet,748671,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vejen Kommune,575,Vejen,704514,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Holbæk Kommune,316,Jyderup,704450,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Struer Kommune,671,Gimsing,702100,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Frederikssund Kommune,250,Frederikssund Nord,701052,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Svendborg Kommune,479,Oure,707982,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Esbjerg Kommune,561,Boldesager,702746,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Høje-Taastrup Kommune,169,Springcenter Nærheden,748591,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Gentofte Kommune,157,Skovshoved,704424,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Bornholms Regionskommune,400,Svaneke,703086,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Lyngby-Taarbæk Kommune,173,Hummeltofte,710170,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Guldborgsund Kommune,376,Eskilstrup,712156,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Herning Kommune,657,Hammerum,703468,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vejle Kommune,630,Grejsdalen Nord,705594,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Randers Kommune,730,Korshøjskolen,710316,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Skive Kommune,779,Selde,748873,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Assens Kommune,420,Aarup/Kerte,748073,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Bornholms Regionskommune,400,Allinge,703208,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vejle Kommune,630,Smidstrup Syd,702298,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aarhus Kommune,751,"Katrinebjergskolen, Aarhus N",703918,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Sønderborg Kommune,540,"Sønderskov, Sønderborg",704588,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aabenraa Kommune,580,Aabenraa Nord,700772,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Viborg Kommune,791,Houlkær,709124,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Københavns Kommune,101,8. Nord,709306,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Skanderborg Kommune,746,Gl. Rye,702034,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aalborg Kommune,851,Gigantium,704506,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Roskilde Kommune,265,Sankt Jørgen,704350,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vejle Kommune,630,Hældagerhallen Nord,706968,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Kerteminde Kommune,440,Munkebo,707976,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Sønderborg Kommune,540,Broager,706048,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aalborg Kommune,851,Aalborghallen,711774,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Skanderborg Kommune,746,Morten Børup,700778,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Esbjerg Kommune,561,Østerbyen,702806,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Greve Kommune,253,Sundhedshuset,749337,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vejen Kommune,575,Brørup,703026,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aarhus Kommune,751,Vejlby-Risskov Hallen,711368,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Esbjerg Kommune,561,Bryndum,701840,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Frederiksberg Kommune,147,"10. Kreds, Bülowsvej",709590,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Sorø Kommune,340,Frederiksberg,711410,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Ikast-Brande Kommune,756,Ikast,702176,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Høje-Taastrup Kommune,169,Fløng Hallen,709780,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Nyborg Kommune,450,Ørbæk,708346,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Jammerbugt Kommune,849,Gjøl,710716,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Roskilde Kommune,265,Viby,707326,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aarhus Kommune,751,"Næshøjhallen, Harlev",711422,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Hillerød Kommune,219,Ullerød,701196,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Fredericia Kommune,607,Bøgeskov,711148,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Silkeborg Kommune,740,Gjern,709876,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Skanderborg Kommune,746,Galten,702022,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aalborg Kommune,851,Idrætscentret Kongerslev,707406,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Næstved Kommune,370,Hammer - Vester Egesborg,711128,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Skanderborg Kommune,746,Stjær,706674,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Herning Kommune,657,Studsgård,704992,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Lolland Kommune,360,Sandby,706762,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Nyborg,450,Skellerup,703760,2025-11-18 19:40:44,,ForeløbigOptælling,316,330,SF - Socialistisk Folkeparti,31,,20.0,a0df8edc-ecdd-49bb-a9cd-bc9e3d7feaf7,F
+Nyborg,450,Skellerup,703760,2025-11-18 19:40:44,,ForeløbigOptælling,316,330,Socialdemokratiet,84,,-46.0,7986f05b-aac7-46e4-bab1-1edebe0b3047,A
+Nyborg,450,Skellerup,703760,2025-11-18 19:40:44,,ForeløbigOptælling,316,330,Radikale Venstre,6,,-1.0,21cf7a33-3735-49e8-a766-7c44800d1269,B
+Nyborg,450,Skellerup,703760,2025-11-18 19:40:44,,ForeløbigOptælling,316,330,Det Konservative Folkeparti,7,,-5.0,410243f4-8014-4c3f-a184-a7ac4f5e9362,C
+Nyborg,450,Skellerup,703760,2025-11-18 19:40:44,,ForeløbigOptælling,316,330,Liberal Alliance,12,,11.0,c7c6b9b6-b006-45c8-a1ee-55fff9b37a86,I
+Nyborg,450,Skellerup,703760,2025-11-18 19:40:44,,ForeløbigOptælling,316,330,Dansk Folkeparti,41,,27.0,cbf134e7-0f06-44bc-8dd5-9df81807b76d,O
+Nyborg,450,Skellerup,703760,2025-11-18 19:40:44,,ForeløbigOptælling,316,330,Holger S. Jørgensen,0,,,c6bc32fc-587e-4b39-9c4e-6f2a7c44a5dd,Q
+Nyborg,450,Skellerup,703760,2025-11-18 19:40:44,,ForeløbigOptælling,316,330,"Venstre, Danmarks Liberale Parti",102,,-61.0,02ad7894-0e3c-4439-aa75-ca3fee68afe9,V
+Nyborg,450,Skellerup,703760,2025-11-18 19:40:44,,ForeløbigOptælling,316,330,Danmarksdemokraterne - Inger Støjberg,20,,,b25d9a1d-4a29-4e93-9956-b4b92bd33aeb,Æ
+Nyborg,450,Skellerup,703760,2025-11-18 19:40:44,,ForeløbigOptælling,316,330,Enhedslisten - De Rød-Grønne,2,,-1.0,a95ca6c6-7b7e-48d0-8726-25b2bd93fd4d,Ø
+Nyborg,450,Skellerup,703760,2025-11-18 19:40:44,,ForeløbigOptælling,316,330,Alternativet,2,,,a58c9570-7542-4675-a069-6089e361f6b8,Å
+Nyborg,450,Skellerup,703760,2025-11-18 19:40:44,,ForeløbigOptælling,316,330,Vi Lokale Demokrater,9,,,ec2c1d27-c119-4d42-ac2f-20a52e4dc4c2,L
+Nyborg,450,Skellerup,703760,2025-11-18 19:40:44,,ForeløbigOptælling,316,330,Bedre By Nyborg,0,,,2ea58b07-169a-45a0-85f9-5786a363d5db,N
+Favrskov Kommune,710,Laurbjerg/Houlbjerg,711048,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Gribskov Kommune,270,Mårum,705812,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Varde Kommune,573,Tinghøj,709048,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Norddjurs Kommune,707,Kulturhuset Stationen,709066,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Struer Kommune,671,Humlum,700832,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vejen Kommune,575,Øster Lindet,710600,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Varde Kommune,573,Agerbæk,704694,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Høje-Taastrup Kommune,169,Hallen ved Rønnevangsstrøget,706412,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Roskilde Kommune,265,Vor Frue,711680,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Bornholms Regionskommune,400,Østermarie,707574,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Næstved Kommune,370,Holme-Olstrup,709726,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aalborg Kommune,851,Vejgaardhallen,707394,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Haderslev Kommune,510,Aastrup,709256,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Hjørring Kommune,860,Tolne,710452,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aabenraa Kommune,580,Aabenraa Midt,702016,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aarhus Kommune,751,Hårup Hallen,711356,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Københavns Kommune,101,8. Midt,704784,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Nyborg Kommune,450,Ullerslev,708334,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Næstved Kommune,370,Grønnegades Kaserne,703654,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Billund Kommune,530,Vorbasse,704532,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Guldborgsund Kommune,376,Idestrup,703548,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Herning Kommune,657,Vinding,701690,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Ringkøbing-Skjern Kommune,760,Skjern,711186,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Odense Kommune,461,Ubberud Kultur og Bevægelseshus,707308,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Brønderslev Kommune,810,Agersted,708624,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vordingborg Kommune,390,Stege,707768,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vejle Kommune,630,Thyregod Nord,700940,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Odense Kommune,461,Fjordager-Hallen,708762,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Assens Kommune,420,Jordløse,711908,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Kalundborg Kommune,326,Tømmerup,705658,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Faaborg-Midtfyn Kommune,430,Svanninge,704554,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Horsens Kommune,615,Tønning-Træden,712056,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Jammerbugt Kommune,849,Nørhalne,701540,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Randers Kommune,730,Kultur-Aktivitetshuset Gassum,705778,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Københavns Kommune,101,9. Syd,706112,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Brøndby Kommune,153,Søholthallen,748690,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Københavns Kommune,101,8. Sydøst,701520,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Frederikssund Kommune,250,Jægerspris,704070,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Svendborg Kommune,479,Bjerreby,748110,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Odense Kommune,461,Camp U,711662,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Svendborg Kommune,479,Egense,705328,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Odense Kommune,461,Munkebjergskolen,711668,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Odense Kommune,461,Spurvelundskolen,701218,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Skanderborg Kommune,746,Ejer Bavnehøj,700784,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Kolding Kommune,621,Strandhuse/Nr. Bjert/ Eltang,705338,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Silkeborg Kommune,740,Ans,708400,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Skive Kommune,779,Roslev,748879,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Svendborg Kommune,479,Gudbjerg,705350,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Viborg Kommune,791,Vridsted,704480,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Københavns Kommune,101,2. Øst,725346,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vejle,630,Lindeballe Nord,702264,2025-11-18 19:33:42,,ForeløbigOptælling,293,298,"Venstre, Danmarks Liberale Parti",129,,-21.0,eaacd4ba-58cf-4b14-b8f6-5b2473c82ba0,V
+Vejle,630,Lindeballe Nord,702264,2025-11-18 19:33:42,,ForeløbigOptælling,293,298,Danmarksdemokraterne - Inger Støjberg,31,,,fbd02688-efb0-4d01-b50c-f05e81db52fc,Æ
+Vejle,630,Lindeballe Nord,702264,2025-11-18 19:33:42,,ForeløbigOptælling,293,298,Socialdemokratiet,46,,-2.0,08070939-5c7f-4f73-b300-49b5715623cb,A
+Vejle,630,Lindeballe Nord,702264,2025-11-18 19:33:42,,ForeløbigOptælling,293,298,SF - Socialistisk Folkeparti,26,,14.0,18e546db-1d52-403a-a083-423cc726b338,F
+Vejle,630,Lindeballe Nord,702264,2025-11-18 19:33:42,,ForeløbigOptælling,293,298,Dansk Folkeparti,20,,6.0,265fc27c-ef1a-43a7-aaed-e498e23b2ba5,O
+Vejle,630,Lindeballe Nord,702264,2025-11-18 19:33:42,,ForeløbigOptælling,293,298,Radikale Venstre,9,,-4.0,6791e764-03bb-4402-bffb-e4550b9a1875,B
+Vejle,630,Lindeballe Nord,702264,2025-11-18 19:33:42,,ForeløbigOptælling,293,298,Det Konservative Folkeparti,13,,-8.0,e68a793b-6f71-4a0a-90c5-fb3cf9032f7a,C
+Vejle,630,Lindeballe Nord,702264,2025-11-18 19:33:42,,ForeløbigOptælling,293,298,Kommunistisk Parti,0,,,e48516f9-d16e-4798-a7f5-0c4570a9f363,R
+Vejle,630,Lindeballe Nord,702264,2025-11-18 19:33:42,,ForeløbigOptælling,293,298,Liberal Alliance,9,,8.0,1033ff69-cbbc-4e78-a348-3a3446689ee6,I
+Vejle,630,Lindeballe Nord,702264,2025-11-18 19:33:42,,ForeløbigOptælling,293,298,Moderaterne,2,,,c6d0806c-c539-4b29-abf5-c3c469c60ef1,M
+Vejle,630,Lindeballe Nord,702264,2025-11-18 19:33:42,,ForeløbigOptælling,293,298,Kristendemokraterne,2,,1.0,a61fe264-ddca-449e-a182-efcb4fd630ab,K
+Vejle,630,Lindeballe Nord,702264,2025-11-18 19:33:42,,ForeløbigOptælling,293,298,Enhedslisten - De Rød-Grønne,1,,-1.0,aeb4c977-0936-4e10-84c2-8752517f042f,Ø
+Vejle,630,Lindeballe Nord,702264,2025-11-18 19:33:42,,ForeløbigOptælling,293,298,Alternativet,5,,2.0,8bd0e21b-e596-483f-abc5-ab72e7e6f99b,Å
+Kalundborg Kommune,326,Svebølle,701040,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Bornholms Regionskommune,400,Rønne,711102,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Sønderborg Kommune,540,Nordborg,703038,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Odsherred Kommune,306,Hørve,711730,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Lejre Kommune,350,Gevninge,706216,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vejen Kommune,575,Rødding,701350,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Hørsholm Kommune,223,Rungsted,707688,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vordingborg Kommune,390,Nyråd,705084,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Herning Kommune,657,Skarrild,710918,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Holbæk Kommune,316,Udby,708868,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Sønderborg Kommune,540,Ullerup,706040,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Odsherred Kommune,306,Grevinge,710508,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Horsens Kommune,615,Hovedgård,709470,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Brønderslev Kommune,810,Klokkerholm,704006,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Hvidovre Kommune,167,Præstemoseskolen,709882,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Tønder Kommune,550,Møgeltønder,706368,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Viborg Kommune,791,Rødkærsbro,710696,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Silkeborg Kommune,740,Vestergadehallen,711242,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Lyngby-Taarbæk Kommune,173,Trongård,704030,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Fredensborg Kommune,210,Asminderød,703808,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Esbjerg Kommune,561,Grønlandsparken,710398,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Esbjerg Kommune,561,Hjerting,712150,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Struer Kommune,671,Hvidbjerg,709888,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Næstved Kommune,370,Herlufmagle,705200,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Fredensborg Kommune,210,Nivå,708376,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Syddjurs Kommune,706,Ryomgård,711952,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Lejre Kommune,350,Sæby-Gershøj,703454,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Mariagerfjord Kommune,846,Veddum-Skelund,702360,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Odsherred Kommune,306,Højby,708820,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Køge Kommune,259,Ølsemagle,708480,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Hedensted Kommune,766,As,749379,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vesthimmerlands Kommune,820,Skivum-Giver,709966,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Svendborg Kommune,479,Thurø,709768,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aarhus Kommune,751,"Samsøgades Skole, Aarhus C",711398,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Holbæk Kommune,316,Orø,707528,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Jammerbugt Kommune,849,Hune,701514,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aalborg Kommune,851,Ferslev Skole,705970,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aalborg Kommune,851,Hasseris Gymnasium,748031,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Langeland Kommune,482,Snøde,748510,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Københavns Kommune,101,2. Vest,712286,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Herning Kommune,657,Hodsager,705004,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Københavns Kommune,101,5. Nord,706184,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Randers Kommune,730,Stevnstrup Forsamlingshus,702764,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Gladsaxe Kommune,159,Vadgård,708592,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aalborg Kommune,851,Nordkraft,748030,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vejle Kommune,630,Petersmindehallen Nord,703980,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Høje-Taastrup Kommune,169,Reerslev Skole,711110,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Frederikshavn Kommune,813,Ålbæk,748530,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Billund Kommune,530,Sdr. Omme,701374,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Odense Kommune,461,Tarup Skole,701224,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Frederikssund Kommune,250,Frederikssund Syd,704056,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Silkeborg Kommune,740,Sorring,702058,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Haderslev Kommune,510,Nustrup,710748,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Gentofte Kommune,157,Hellerup,701254,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Tårnby Kommune,185,Løjtegården,701992,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Stevns Kommune,336,Sydstevnshallen,705452,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Ballerup Kommune,151,Østerhøjhallen - Måløvhøj Skole - Østerhøj,710164,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Lolland Kommune,360,Rødbyhavn,703882,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Svendborg Kommune,479,Skårup,703734,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Rudersdal Kommune,230,Skovly,702728,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Holstebro Kommune,661,Vinderup,701564,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aalborg Kommune,851,Hallen Ved Skalborggård,704462,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Gentofte Kommune,157,Rådhuset,702884,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Holstebro Kommune,661,Mejdal,703344,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vordingborg Kommune,390,Kalvehave,705054,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Helsingør Kommune,217,Nygård Skole,707136,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aarhus Kommune,751,"VIA University College, Aarhus C",723742,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Assens Kommune,420,Verninge/Nårup,707704,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Køge Kommune,259,Hastrup,705502,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Odder Kommune,727,Odder,709406,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Køge Kommune,259,Ejby,700864,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vejen Kommune,575,Føvling,706028,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Slagelse Kommune,330,Rude - Kirkeskovskolen,702758,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Københavns Kommune,101,4. Syd,706154,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Fredensborg Kommune,210,Humlebæk,703766,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Tårnby Kommune,185,Korsvejen,708328,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Thisted Kommune,787,Vestervig,705906,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Kolding Kommune,621,Bramdrupdam,706622,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Haderslev Kommune,510,Over Jerstal,706202,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Slagelse Kommune,330,Korsør - Broskolen,701164,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Herning Kommune,657,Vildbjerg,712074,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Silkeborg Kommune,740,Resenbro,700766,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Frederiksberg Kommune,147,"11. Kreds, Frederiksberghallerne",703490,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Hjørring Kommune,860,Løkken,702848,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Randers Kommune,730,Nørrevangsskolen,710322,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Silkeborg Kommune,740,Grauballe,711288,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Svendborg Kommune,479,Tved,703728,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Skive Kommune,779,Durup,748886,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aalborg Kommune,851,Svenstruphallen,708924,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vejle Kommune,630,Øster Nykirke Nord,703974,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Bornholms Regionskommune,400,Nexø,703286,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Horsens Kommune,615,Egebjerg,706274,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vejen Kommune,575,Holsted,701368,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Rebild Kommune,840,Skørping,709658,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Jammerbugt Kommune,849,Aabybro,709280,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Tønder Kommune,550,Toftlund,701800,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Silkeborg Kommune,740,Vinderslev,708382,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aarhus Kommune,751,"Kragelundskolen, Højbjerg",703936,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Faaborg-Midtfyn Kommune,430,Gislev,704576,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Silkeborg Kommune,740,Kragelund,711222,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Kolding Kommune,621,Vamdrup/Hjarup/Ødis,712326,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Viborg Kommune,791,Frederiks,708912,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Gribskov Kommune,270,Vejby,704292,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Ringkøbing-Skjern Kommune,760,Videbæk,706530,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Odder Kommune,727,Randlev - Bjerager,709400,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Egedal Kommune,240,Stenløse,709714,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Odsherred Kommune,306,Rørvig,701300,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Frederikshavn Kommune,813,Hørby,703530,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Syddjurs Kommune,706,Hornslet,701618,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Lemvig Kommune,665,Nørre Nissum,711166,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Roskilde Kommune,265,Jyllinge,704358,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Københavns Kommune,101,7. Vest,711946,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Brøndby Kommune,153,Nørregård,702442,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Struer Kommune,671,Langhøj,708418,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Holbæk Kommune,316,Undløse,704456,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Guldborgsund Kommune,376,Lindeskov,706380,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Guldborgsund Kommune,376,Stubbekøbing,703496,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Favrskov Kommune,710,Søften,711674,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Middelfart Kommune,410,Middelfart V,706714,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Varde Kommune,573,Tistrup,704624,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Jammerbugt Kommune,849,Biersted,701500,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Rebild Kommune,840,Bælum,711096,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Hillerød Kommune,219,Hillerødsholmsskolen,704344,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Assens Kommune,420,Dreslette,701526,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Glostrup Kommune,161,Nordvanghallen,702064,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Randers Kommune,730,Purhushallen,708738,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Bornholms Regionskommune,400,Aakirkeby,704742,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Morsø Kommune,773,Nordmors,705682,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Hedensted Kommune,766,Korning Sogn,703888,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aarhus Kommune,751,Lystrup Idrætscenter,705532,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aarhus Kommune,751,"Ellevangskolen, Risskov",711392,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vordingborg Kommune,390,Bårse,709558,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Københavns Kommune,101,6. Bispebjerg,707738,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vesthimmerlands Kommune,820,Vester Hornum,710002,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Varde Kommune,573,Sig,707512,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Kolding Kommune,621,Chr.Feld/Stepping/Taps/Hejls,712312,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aarhus Kommune,751,"Rundhøjhallen, Holme",706890,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Stevns Kommune,336,Stevnshallen,703848,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aabenraa Kommune,580,Løjt,701976,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Assens Kommune,420,Assens,710764,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Greve Kommune,253,Holmeagerskolen,749338,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Hillerød Kommune,219,Lille Lyngby,749326,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Guldborgsund Kommune,376,Majbølle,709572,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Lolland Kommune,360,Nakskov,705458,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Sorø Kommune,340,Dianalund,705570,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vejle Kommune,630,Kollerup-Sandvad Nord,703968,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Horsens Kommune,615,Vestbyen,704998,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Faaborg-Midtfyn Kommune,430,Nørre Broby,707442,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aarhus Kommune,751,Hasle Skole,706860,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Viborg Kommune,791,Rødding,709100,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Odder Kommune,727,Gylling,704968,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vesthimmerlands Kommune,820,Salling,706876,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Københavns Kommune,101,9. Øst,709330,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Jammerbugt Kommune,849,Saltum,703310,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aalborg Kommune,851,Multihallen Ved Vadumhallen,706034,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Stevns Kommune,336,Strøby Idrætscenter,706794,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Dragør Kommune,155,Hollænderhallen,701922,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Roskilde Kommune,265,Gundsømagle,711686,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Glostrup Kommune,161,Hvissingehallen,700826,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Faxe Kommune,320,Hylleholt,701124,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Gladsaxe Kommune,159,Værebro,706944,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Helsingør Kommune,217,Snekkersten Hallen,702682,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Randers Kommune,730,Randers Badmintonhaller,707182,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Halsnæs Kommune,260,Ølsted,710776,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Varde Kommune,573,Skovlund,709054,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Nyborg Kommune,450,Ellested Og Herrested,702004,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Haderslev Kommune,510,Fjelstrup,704736,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Herlev Kommune,163,Kildegårdhallen,701152,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Billund Kommune,530,Filskov,702968,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Middelfart Kommune,410,Gelsted,708388,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Københavns Kommune,101,2. Peder Lykke,749401,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Nyborg Kommune,450,Kullerup Og Refsvindinge,706642,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Holstebro Kommune,661,Mejrup,703338,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Silkeborg Kommune,740,Kjellerup,711260,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vejle Kommune,630,Nørremarkshallen Nord,705588,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Norddjurs Kommune,707,Glesborg,709072,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aalborg Kommune,851,KFUM Hallen,701344,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Albertslund Kommune,165,Herstedøster Skole,704718,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Køge Kommune,259,Ølby,705508,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Varde Kommune,573,Ølgod,710690,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aabenraa Kommune,580,Padborg,709832,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aabenraa,580,Hovslund,705386,2025-11-18 19:38:59,,ForeløbigOptælling,412,420,Radikale Venstre,4,,,53da03e1-a48b-42dd-847e-5acac3c6df51,B
+Aabenraa,580,Hovslund,705386,2025-11-18 19:38:59,,ForeløbigOptælling,412,420,Det Konservative Folkeparti,53,,5.0,34e0bb1a-fdd4-49e1-82f3-5bfc0ed56af6,C
+Aabenraa,580,Hovslund,705386,2025-11-18 19:38:59,,ForeløbigOptælling,412,420,borgernes lokalliste,5,,,31eef529-1426-4ab3-ad01-545b6ab63277,J
+Aabenraa,580,Hovslund,705386,2025-11-18 19:38:59,,ForeløbigOptælling,412,420,Enhedslisten - De Rød-Grønne,9,,4.0,7217f99f-3616-44c4-bc12-87c7f8dc7d5f,Ø
+Aabenraa,580,Hovslund,705386,2025-11-18 19:38:59,,ForeløbigOptælling,412,420,SF - Socialistisk Folkeparti,15,,7.0,ee272554-3a5b-4a90-ab6a-a7596bddec1b,F
+Aabenraa,580,Hovslund,705386,2025-11-18 19:38:59,,ForeløbigOptælling,412,420,Smilla og Borgernes Liste,1,,,e9a612b0-20cb-4803-a080-f2904b86b341,E
+Aabenraa,580,Hovslund,705386,2025-11-18 19:38:59,,ForeløbigOptælling,412,420,Danmarksdemokraterne - Inger Støjberg,52,,,29137a56-7732-4284-8000-9f3dd44aa86c,Æ
+Aabenraa,580,Hovslund,705386,2025-11-18 19:38:59,,ForeløbigOptælling,412,420,Moderaterne,1,,,309d5713-f91f-4d97-b44b-38ea826f2faa,M
+Aabenraa,580,Hovslund,705386,2025-11-18 19:38:59,,ForeløbigOptælling,412,420,Slesvigsk Parti,12,,-3.0,25bbd545-7413-47ba-89ce-48fb1b1e1718,S
+Aabenraa,580,Hovslund,705386,2025-11-18 19:38:59,,ForeløbigOptælling,412,420,Socialdemokratiet,58,,-41.0,5d12ab4f-523a-4f85-a084-704bae14a30c,A
+Aabenraa,580,Hovslund,705386,2025-11-18 19:38:59,,ForeløbigOptælling,412,420,Liberal Alliance,21,,18.0,f8025928-a11a-48c9-9f14-67ef6f9d9b71,I
+Aabenraa,580,Hovslund,705386,2025-11-18 19:38:59,,ForeløbigOptælling,412,420,KD - Kristendemokraterne,3,,2.0,b4750d6b-59b2-4b8b-af51-c1bad4530290,K
+Aabenraa,580,Hovslund,705386,2025-11-18 19:38:59,,ForeløbigOptælling,412,420,Dansk Folkeparti,77,,39.0,ebe905f7-2879-4aa5-9298-f2c7aedf226a,O
+Aabenraa,580,Hovslund,705386,2025-11-18 19:38:59,,ForeløbigOptælling,412,420,"Venstre, Danmarks Liberale Parti",101,,-58.0,efa3f963-6567-47ca-a4f0-b28890e5e733,V
+Silkeborg Kommune,740,Linå,711272,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vordingborg Kommune,390,Bogø,701742,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vejle Kommune,630,Ødsted Syd,710116,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Esbjerg Kommune,561,Sønderris,711090,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Kolding Kommune,621,Vonsild,707970,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vallensbæk Kommune,187,Egholmskolen,709762,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Horsens Kommune,615,Østbirk,701646,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Haderslev Kommune,510,Bevtoft,703080,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Esbjerg Kommune,561,Tjæreborg,703522,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aabenraa Kommune,580,Rødekro,706666,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aarhus Kommune,751,Midtpunktet - Skødstrup Idræts- og Kulturcenter,705544,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Furesø Kommune,190,Værløse,700970,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Hørsholm Kommune,223,Vallerød,711902,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Gladsaxe Kommune,159,Søborg,706974,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Slagelse Kommune,330,Slagelse - Slagelse Hallen,748853,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aarhus Kommune,751,Hasselager Hallen,703954,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Næstved Kommune,370,Tappernøje,707924,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Herning Kommune,657,Aulum,709506,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Slagelse Kommune,330,Dalmose - Dalmosehallen,705710,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Haderslev Kommune,510,Haderslev Vest,704724,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Brønderslev Kommune,810,Flauenskjold,700996,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Herning Kommune,657,Vind,709520,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Hjørring Kommune,860,Hjørring - Vest,702836,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Mariagerfjord Kommune,846,Assens,708668,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Fredericia Kommune,607,Taulov,705216,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aarhus Kommune,751,Skåde Skole,700902,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Odense Kommune,461,Dalumskolen,702866,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Hedensted Kommune,766,Daugård Og Ørum Sogne,705478,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aalborg Kommune,851,Vestbjerg Idræts- og Kulturcenter,748570,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Herning Kommune,657,Ilskov,705024,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Randers Kommune,730,Asferg Træningshus,708750,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aabenraa Kommune,580,Kliplev,706660,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Middelfart Kommune,410,Strib,703828,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Odense Kommune,461,UCL Seebladsgade,707300,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Herning Kommune,657,Feldborg,709514,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Varde Kommune,573,Næsbjerg,707562,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Rødovre Kommune,175,Rødovrehallen,709566,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aalborg Kommune,851,Tornhøjhallen,704494,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Kolding Kommune,621,Centrum Syd,701902,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Langeland Kommune,482,Bagenkop,707504,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aalborg Kommune,851,"Gl. Lindholm Skole, Kulturhuset",711766,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aarhus Kommune,751,Brabrand Hallen,706938,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Glostrup Kommune,161,Ejbyhallen,711278,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Halsnæs Kommune,260,Enghaven,707654,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Skive Kommune,779,Oddense - Otting,748870,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Samsø Kommune,741,Tranebjerg,709154,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Helsingør Kommune,217,Helsingør Hallen,701118,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Københavns Kommune,101,4. Øst,701580,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Norddjurs Kommune,707,Ørsted,704660,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Hedensted Kommune,766,Hornborg,749382,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Sønderborg Kommune,540,Vester Sottrup,706060,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Thisted Kommune,787,Østerild,748373,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Næstved Kommune,370,Kobberbakkeskolen - Rønnebæk,706418,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Ishøj Kommune,183,Ishøj Bycenter,709944,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Haderslev Kommune,510,Skrydstrup,704730,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Horsens Kommune,615,Nim,706254,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Rudersdal Kommune,230,Trørød,707194,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Skanderborg Kommune,746,Virring,709838,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Assens Kommune,420,Salbrovad,709286,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Hedensted Kommune,766,Lindved,700846,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aarhus Kommune,751,"Gammelgaardsskolen, Åbyhøj",700890,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Ikast-Brande Kommune,756,Ejstrupholm,709984,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Hørsholm Kommune,223,Grønnegade,707682,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Nyborg Kommune,450,Frørup Og Tårup,705380,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Sønderborg Kommune,540,Fynshav,701428,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Odder Kommune,727,Ørting-Falling,706210,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Rebild Kommune,840,Støvring,707882,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Fredericia Kommune,607,Erritsø,701876,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Lyngby-Taarbæk Kommune,173,Virum,704050,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Lejre Kommune,350,Osted,703434,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Herning Kommune,657,Sinding,701714,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Roskilde Kommune,265,Svogerslev,705900,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Varde Kommune,573,Blåvand,708972,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Silkeborg Kommune,740,Hjøllund,702052,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aalborg Kommune,851,Aalborghus Gymnasium,748034,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Favrskov Kommune,710,Hadsten Syd,711042,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Høje-Taastrup Kommune,169,Parkskolen,701958,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Helsingør Kommune,217,"Laden, Gl. Vapnagård",705752,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Rebild Kommune,840,Nørager,712164,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Horsens Kommune,615,Sejet,709476,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Randers Kommune,730,Vestervangsskolen,711576,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Horsens Kommune,615,Gedved,712014,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Jammerbugt Kommune,849,Halvrimmen,706102,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Tønder Kommune,550,Bedsted,703566,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Høje-Taastrup Kommune,169,Taastrup Kulturcenter,703720,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Rødovre Kommune,175,Islev,706324,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Rødovre Kommune,175,Rødovre,705066,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Glostrup Kommune,161,Sognegården,708406,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Sønderborg Kommune,540,Gråsten,704566,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Skive Kommune,779,Højslev,748881,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Stevns Kommune,336,Hårlevhallen,706800,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Hedensted,766,Hjarnø,749381,2025-11-18 19:48:00,,ForeløbigOptælling,73,75,Det Konservative Folkeparti,2,,0.0,c8c22c7c-5c1a-47d2-8027-4f85a4012d97,C
+Hedensted,766,Hjarnø,749381,2025-11-18 19:48:00,,ForeløbigOptælling,73,75,Seniorlisten Hedensted Kommune,0,,,7ab3645f-93a2-4e4e-8a0c-bdd801d552ad,G
+Hedensted,766,Hjarnø,749381,2025-11-18 19:48:00,,ForeløbigOptælling,73,75,Liberal Alliance,5,,2.0,35737937-9a0e-4b0e-bc4c-e31291435e42,I
+Hedensted,766,Hjarnø,749381,2025-11-18 19:48:00,,ForeløbigOptælling,73,75,SocialKonservative,1,,1.0,4bca7f08-65f1-481f-97de-a8c99d897857,J
+Hedensted,766,Hjarnø,749381,2025-11-18 19:48:00,,ForeløbigOptælling,73,75,Kristendemokraterne,1,,0.0,1e9e39da-008d-4fbe-ba7a-0de8c7d3d958,K
+Hedensted,766,Hjarnø,749381,2025-11-18 19:48:00,,ForeløbigOptælling,73,75,Moderaterne,5,,,0161aeb5-8556-4c6f-947d-13dbbaf0f188,M
+Hedensted,766,Hjarnø,749381,2025-11-18 19:48:00,,ForeløbigOptælling,73,75,Danmarksdemokraterne - Inger Støjberg,1,,,3173aa98-e059-45b0-a614-b4aff1ddb1f8,Æ
+Hedensted,766,Hjarnø,749381,2025-11-18 19:48:00,,ForeløbigOptælling,73,75,Enhedslisten - De Rød-Grønne,10,,1.0,c194684b-8fdc-4fd5-aaf0-a7b34025f61f,Ø
+Hedensted,766,Hjarnø,749381,2025-11-18 19:48:00,,ForeløbigOptælling,73,75,"Venstre, Danmarks Liberale Parti",24,,1.0,db7af7a9-036f-4625-a2c2-3c70bd76057b,V
+Hedensted,766,Hjarnø,749381,2025-11-18 19:48:00,,ForeløbigOptælling,73,75,Alternativet,1,,0.0,0558cd53-cf5d-4688-9050-7456badb6d5a,Å
+Hedensted,766,Hjarnø,749381,2025-11-18 19:48:00,,ForeløbigOptælling,73,75,SF - Socialistisk Folkeparti,6,,-2.0,f7ec7dcd-0cc8-430f-be1b-196313ee93f5,F
+Hedensted,766,Hjarnø,749381,2025-11-18 19:48:00,,ForeløbigOptælling,73,75,Socialdemokratiet,16,,-5.0,dcd40e65-63fd-4e66-ac91-48d474e42025,A
+Hedensted,766,Hjarnø,749381,2025-11-18 19:48:00,,ForeløbigOptælling,73,75,Dansk Folkeparti,1,,0.0,a22f9e7f-d967-465b-81fb-06bcd91de12b,O
+Vejle Kommune,630,Rødkilde Gymnasium Syd,703998,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Esbjerg Kommune,561,Skovbo,708726,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Viborg Kommune,791,Møldrup,711838,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aabenraa Kommune,580,Bolderslev,708364,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Faaborg-Midtfyn Kommune,430,Vester Aaby,708944,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Tønder Kommune,550,Nr. Løgum,711084,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Hedensted Kommune,766,Tørring,703894,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Halsnæs Kommune,260,Hundested,704878,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Rebild Kommune,840,Haverslev,709652,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Greve Kommune,253,Tunehallerne,718910,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Assens Kommune,420,Turup,711914,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Slagelse,330,Agersø - Agersøhallen,701108,2025-11-18 19:37:59,,ForeløbigOptælling,119,119,Socialdemokratiet,84,,-352.0,f859d7de-bf12-444d-a706-e1493a197511,A
+Slagelse,330,Agersø - Agersøhallen,701108,2025-11-18 19:37:59,,ForeløbigOptælling,119,119,Det Konservative Folkeparti,3,,-101.0,d0651307-a88f-4faf-bbd1-aad6324e437d,C
+Slagelse,330,Agersø - Agersøhallen,701108,2025-11-18 19:37:59,,ForeløbigOptælling,119,119,Liberal Alliance,2,,-7.0,61aa3da7-1219-4bde-86ce-e20f1db4f442,I
+Slagelse,330,Agersø - Agersøhallen,701108,2025-11-18 19:37:59,,ForeløbigOptælling,119,119,Radikale Venstre,0,,-37.0,c2f4d07a-540a-47ca-b0ea-cc7242b1c8b4,B
+Slagelse,330,Agersø - Agersøhallen,701108,2025-11-18 19:37:59,,ForeløbigOptælling,119,119,SF - Socialistisk Folkeparti,0,,-89.0,2093fe32-9998-4cf5-82d6-f5d6112b43d1,F
+Slagelse,330,Agersø - Agersøhallen,701108,2025-11-18 19:37:59,,ForeløbigOptælling,119,119,Storebæltslisten,0,,,5992511a-4ebd-48b8-8b27-edb1a41a3cc7,L
+Slagelse,330,Agersø - Agersøhallen,701108,2025-11-18 19:37:59,,ForeløbigOptælling,119,119,Moderaterne,0,,,2e9e7997-a5e1-4463-914e-4d5e76a5d07b,M
+Slagelse,330,Agersø - Agersøhallen,701108,2025-11-18 19:37:59,,ForeløbigOptælling,119,119,Dansk Folkeparti,4,,-70.0,118043b2-14bb-426a-baff-d14500c87ced,O
+Slagelse,330,Agersø - Agersøhallen,701108,2025-11-18 19:37:59,,ForeløbigOptælling,119,119,De lokale rebeller,1,,,a3e80c15-3f85-4336-92cc-b1eca59b8d9c,R
+Slagelse,330,Agersø - Agersøhallen,701108,2025-11-18 19:37:59,,ForeløbigOptælling,119,119,Trelleborglisten,1,,,75cf2276-4409-4814-b427-e330dfd336ed,T
+Slagelse,330,Agersø - Agersøhallen,701108,2025-11-18 19:37:59,,ForeløbigOptælling,119,119,"Venstre, Danmarks Liberale Parti",16,,-385.0,f1639dd9-cb8e-4b78-b3e8-f26bf9224a9c,V
+Slagelse,330,Agersø - Agersøhallen,701108,2025-11-18 19:37:59,,ForeløbigOptælling,119,119,Danmarksdemokraterne - Inger Støjberg,6,,,f46d5339-0a4d-41b1-9c7e-113b41bd174e,Æ
+Slagelse,330,Agersø - Agersøhallen,701108,2025-11-18 19:37:59,,ForeløbigOptælling,119,119,Enhedslisten - De Rød-Grønne,2,,-44.0,e192936d-adc2-4eb4-b41e-0de554f624ae,Ø
+Haderslev Kommune,510,Aarø,709300,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aarhus Kommune,751,"Sabro-Korsvejskolen, Sabro",710034,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Faaborg-Midtfyn Kommune,430,Espe,709014,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Københavns Kommune,101,9. Vesterbro,709384,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Guldborgsund Kommune,376,Nørre Alslev,701748,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Hedensted Kommune,766,Barrit,706828,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Hjørring Kommune,860,Lendum,701242,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Lolland Kommune,360,Maribo,705484,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Silkeborg Kommune,740,Balle,709850,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Køge Kommune,259,Bjæverskov,711350,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Haderslev Kommune,510,Haderslev Syd,707626,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Odsherred Kommune,306,Nr. Asmindrup,707376,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Viborg Kommune,791,Stoholm,704488,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Gladsaxe Kommune,159,Bagsværd,708600,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Varde Kommune,573,Fåborg,704654,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vejle Kommune,630,Børkop Syd,711442,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Københavns Kommune,101,8. Syd,704776,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Gribskov Kommune,270,Helsinge,704298,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Lejre Kommune,350,Lejre,710890,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Fanø Kommune,563,Nordby,702962,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Faaborg-Midtfyn Kommune,430,Ferritslev,707454,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Haderslev Kommune,510,Haderslev Nord,706096,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Varde Kommune,573,Lunde,710668,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Rudersdal Kommune,230,Vangebo,708708,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aarhus Kommune,751,Frederiksbjerghallerne,702188,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Brøndby Kommune,153,Kulturhuset Brønden,702448,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Randers Kommune,730,Rismølleskolen,707150,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aarhus Kommune,751,Beder Skole,709990,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Køge Kommune,259,Herfølge,705496,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Billund Kommune,530,Hejnsvig,708930,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Ringkøbing-Skjern Kommune,760,Tim,706568,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Hjørring Kommune,860,Hjørring - Nord,704384,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Ringsted Kommune,329,Kværkeby,709042,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Egedal Kommune,240,Ølstykke,703648,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aarhus Kommune,751,"Højvangskolen, Stavtrup",702240,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Kalundborg Kommune,326,Kr. Helsinge,704036,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Norddjurs Kommune,707,Anholt Skole,711832,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Thisted Kommune,787,Vorupør,748372,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Haderslev Kommune,510,Gram,703400,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Faaborg-Midtfyn Kommune,430,Horne,710612,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Odense Kommune,461,UngOdense (Tidl.Bækholmskolen),705862,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Viborg Kommune,791,Skals,709090,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Thisted Kommune,787,Vesløs,709112,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aalborg Kommune,851,Frejlev Skoles Idrætshal,705964,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Høje-Taastrup Kommune,169,Torstorp Skole,703634,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Middelfart Kommune,410,Aulby,706728,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Nordfyns Kommune,480,Bogense,748639,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Frederikshavn Kommune,813,Volstrup,712112,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Nordfyns Kommune,480,Veflinge,748631,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Høje-Taastrup Kommune,169,Sengeløse,701952,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Syddjurs Kommune,706,Rønde,711958,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aarhus Kommune,751,Tranbjerg Skole,702228,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Silkeborg Kommune,740,Them,700790,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Nyborg Kommune,450,Langtved,708340,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Solrød Kommune,269,Det Sydlige Strandområde,703740,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Lolland,360,Askø,709912,2025-11-18 19:25:41,,ForeløbigOptælling,40,40,Socialdemokratiet,0,,-9.0,26bf05c9-aa0e-4a9e-9684-54def4b22b3a,A
+Lolland,360,Askø,709912,2025-11-18 19:25:41,,ForeløbigOptælling,40,40,Det Konservative Folkeparti,0,,0.0,54327d4a-b6d9-4dc0-bf91-cf9e91d49ef4,C
+Lolland,360,Askø,709912,2025-11-18 19:25:41,,ForeløbigOptælling,40,40,Socialistisk Folkeparti,0,,,bb99dcd8-83e7-465a-981e-b14f8cf6fe5d,F
+Lolland,360,Askø,709912,2025-11-18 19:25:41,,ForeløbigOptælling,40,40,Vestlolland,0,,,11dfa50c-2ae2-416c-8d09-6cad94c052d9,D
+Lolland,360,Askø,709912,2025-11-18 19:25:41,,ForeløbigOptælling,40,40,Lokallisten Lolland,32,,32.0,1db5cd22-a6e4-4d48-b29a-17e2530ee796,L
+Lolland,360,Askø,709912,2025-11-18 19:25:41,,ForeløbigOptælling,40,40,Dansk Folkeparti,1,,-2.0,2b5a0e66-4674-40d8-aa4f-2d657b8b8a0b,O
+Lolland,360,Askø,709912,2025-11-18 19:25:41,,ForeløbigOptælling,40,40,Danmarksdemokraterne - Inger Støjberg,1,,,0be0fa08-7142-4958-870f-49532e9821fc,Æ
+Lolland,360,Askø,709912,2025-11-18 19:25:41,,ForeløbigOptælling,40,40,"Venstre, Danmarks Liberale Parti",0,,-27.0,0f37d66a-1ff0-4d70-bef9-1bf8e22ef4f1,V
+Lolland,360,Askø,709912,2025-11-18 19:25:41,,ForeløbigOptælling,40,40,Enhedslisten - De Rød-Grønne,6,,6.0,f6c75551-dca7-48ae-bbc8-f429e8c719d0,Ø
+Lolland,360,Askø,709912,2025-11-18 19:25:41,,ForeløbigOptælling,40,40,Liberal Alliance,0,,,fbf212ee-3a5f-40fd-87a9-037d42853416,I
+Lolland,360,Askø,709912,2025-11-18 19:25:41,,ForeløbigOptælling,40,40,Radikale Venstre,0,,0.0,33de8a68-f33b-46f9-8d08-bd82c47eaa3c,B
+Lolland,360,Askø,709912,2025-11-18 19:25:41,,ForeløbigOptælling,40,40,Din Stemme,0,,0.0,a67bdbbf-4209-49b2-aaec-07130c3cbd52,J
+Vejen Kommune,575,Lintrup,710606,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Odder,727,Tunø,710838,2025-11-18 19:31:56,,ForeløbigOptælling,51,53,Socialdemokratiet,16,,9.0,770ca116-c7fc-4576-a492-c79cbd97b359,A
+Odder,727,Tunø,710838,2025-11-18 19:31:56,,ForeløbigOptælling,51,53,Moderaterne,1,,,b1d1194b-8b9b-42dd-be34-aeb180a19522,M
+Odder,727,Tunø,710838,2025-11-18 19:31:56,,ForeløbigOptælling,51,53,"Venstre, Danmarks Liberale Parti",18,,-18.0,7737dbee-8e88-44e2-be6a-0d78c5ae5df2,V
+Odder,727,Tunø,710838,2025-11-18 19:31:56,,ForeløbigOptælling,51,53,Radikale Venstre,0,,0.0,fab3e07c-ebaf-4410-ac1a-ac1473acbde7,B
+Odder,727,Tunø,710838,2025-11-18 19:31:56,,ForeløbigOptælling,51,53,Liberal Alliance,1,,,61e95bc0-d7d8-49ad-a07a-3308cd3dea2a,I
+Odder,727,Tunø,710838,2025-11-18 19:31:56,,ForeløbigOptælling,51,53,Det Konservative Folkeparti,8,,7.0,00ae965f-ec45-4e9a-92e8-4e70e0e3aa6a,C
+Odder,727,Tunø,710838,2025-11-18 19:31:56,,ForeløbigOptælling,51,53,SF - Socialistisk Folkeparti,2,,-1.0,b2382ca9-779a-49fe-ae8c-d41e994e3143,F
+Odder,727,Tunø,710838,2025-11-18 19:31:56,,ForeløbigOptælling,51,53,Dansk Folkeparti,0,,-1.0,ed24a279-ced5-4f60-9bae-cb97b7041edf,O
+Odder,727,Tunø,710838,2025-11-18 19:31:56,,ForeløbigOptælling,51,53,Enhedslisten - De Rød-Grønne,5,,-6.0,44a5cbec-b71a-4fda-bf6e-0c6ab9f137e6,Ø
+Allerød Kommune,201,Lillerød,706698,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Tønder Kommune,550,Ballum,703560,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Køge Kommune,259,Borup,703912,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aalborg Kommune,851,Sulsted Skolehal,701402,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Tårnby Kommune,185,Vestamager,711216,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Hillerød Kommune,219,Brødeskov,701190,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Næstved Kommune,370,Tybjerg,703660,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Herning Kommune,657,Snejbjerg,707802,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Lyngby-Taarbæk Kommune,173,Lyngby Idrætsby,708642,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aarhus Kommune,751,"TST Aktiv-Center, Tilst",703948,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Frederikshavn Kommune,813,Frederikshavn,711060,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Hedensted Kommune,766,Rask Mølle,703900,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Hillerød Kommune,219,Hammersholt,707252,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Esbjerg,561,Mandø,703586,2025-11-18 19:26:42,,ForeløbigOptælling,30,30,Enhedslisten - De Rød-Grønne,1,,1.0,471bfe34-7529-4b7f-b721-b125bad41721,Ø
+Esbjerg,561,Mandø,703586,2025-11-18 19:26:42,,ForeløbigOptælling,30,30,Danmarksdemokraterne - Inger Støjberg,1,,,2a37777b-7e53-49df-8fd6-74241a76684b,Æ
+Esbjerg,561,Mandø,703586,2025-11-18 19:26:42,,ForeløbigOptælling,30,30,Borgerlig Fornuft,0,,,e438e0de-6aa5-4576-990d-c24e9e6ec0b1,E
+Esbjerg,561,Mandø,703586,2025-11-18 19:26:42,,ForeløbigOptælling,30,30,Liberal Alliance,0,,0.0,07ad4b3f-871b-431f-a3f1-5dc479023834,I
+Esbjerg,561,Mandø,703586,2025-11-18 19:26:42,,ForeløbigOptælling,30,30,Socialdemokratiet,5,,-1.0,8a657180-a4d2-43d1-af09-82303114be5a,A
+Esbjerg,561,Mandø,703586,2025-11-18 19:26:42,,ForeløbigOptælling,30,30,Radikale Venstre,1,,-1.0,47c6c8c3-7b36-4453-84c9-4b0ba6dd855e,B
+Esbjerg,561,Mandø,703586,2025-11-18 19:26:42,,ForeløbigOptælling,30,30,Det Konservative Folkeparti,0,,-1.0,6fcc28bd-ebce-484a-8a5a-9f57484a6f08,C
+Esbjerg,561,Mandø,703586,2025-11-18 19:26:42,,ForeløbigOptælling,30,30,SF - Socialistisk Folkeparti,1,,0.0,65452c62-a4f8-4df3-913e-80aca68afd83,F
+Esbjerg,561,Mandø,703586,2025-11-18 19:26:42,,ForeløbigOptælling,30,30,Esbjerg 2.0,1,,,34ee2ee5-6cd0-496a-8eaf-735e95fc5f69,J
+Esbjerg,561,Mandø,703586,2025-11-18 19:26:42,,ForeløbigOptælling,30,30,Ildsjælene,0,,,0b003568-19dc-41fa-ab3c-329ced0c8990,L
+Esbjerg,561,Mandø,703586,2025-11-18 19:26:42,,ForeløbigOptælling,30,30,Moderaterne,0,,,f83cf41a-b77e-4203-be60-7c5eb6a6a478,M
+Esbjerg,561,Mandø,703586,2025-11-18 19:26:42,,ForeløbigOptælling,30,30,"Venstre, Danmarks Liberale Parti",20,,10.0,985c61d7-fae5-4587-ac2a-ab98d2299e56,V
+Esbjerg,561,Mandø,703586,2025-11-18 19:26:42,,ForeløbigOptælling,30,30,Dansk Folkeparti,0,,-1.0,2ea6be20-a817-4d98-92e3-d2e8cb9993f8,O
+Esbjerg,561,Mandø,703586,2025-11-18 19:26:42,,ForeløbigOptælling,30,30,Alternativet,0,,,f628ede8-b095-45d0-884e-c10d63117b42,Å
+Københavns Kommune,101,1. Nordhavn,749398,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Assens Kommune,420,Glamsbjerg/Søllested,704912,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Københavns Kommune,101,4. Sundbyøster,707726,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Lejre Kommune,350,Kr.Såby,712008,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Assens Kommune,420,Haarby,707710,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Faxe Kommune,320,Faxe,701130,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Helsingør Kommune,217,Toldkammeret,748170,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Københavns Kommune,101,3. Øst,707672,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Tønder,550,Vodder,705162,2025-11-18 19:42:13,,ForeløbigOptælling,315,321,Socialdemokratiet,21,,-21.0,5c137e71-6566-4a82-90b0-62c955c700ce,A
+Tønder,550,Vodder,705162,2025-11-18 19:42:13,,ForeløbigOptælling,315,321,Det Konservative Folkeparti,3,,-21.0,ac7d6f3b-5f10-44cf-a6be-12a52b5e4e93,C
+Tønder,550,Vodder,705162,2025-11-18 19:42:13,,ForeløbigOptælling,315,321,Dansk Folkeparti,62,,53.0,cc64e476-0c6d-4c5f-ad4a-2a58138e8d29,O
+Tønder,550,Vodder,705162,2025-11-18 19:42:13,,ForeløbigOptælling,315,321,SF - Socialistisk Folkeparti,22,,14.0,c27b596c-a295-4a23-aa0e-038cdb79bfdc,F
+Tønder,550,Vodder,705162,2025-11-18 19:42:13,,ForeløbigOptælling,315,321,Liberal Alliance,17,,14.0,c1363435-f5d7-4049-89b9-27683adc1055,I
+Tønder,550,Vodder,705162,2025-11-18 19:42:13,,ForeløbigOptælling,315,321,Slesvigsk Parti,35,,17.0,d062c81c-ed3a-407a-a82b-f9747db532e4,S
+Tønder,550,Vodder,705162,2025-11-18 19:42:13,,ForeløbigOptælling,315,321,Tønder Listen,113,,-46.0,59e0ea77-9405-4594-b727-28bf8afa8b8f,T
+Tønder,550,Vodder,705162,2025-11-18 19:42:13,,ForeløbigOptælling,315,321,Velfærdsdemokraterne,3,,,50cc59dd-d387-4352-b41d-90d515408927,Y
+Tønder,550,Vodder,705162,2025-11-18 19:42:13,,ForeløbigOptælling,315,321,Danmarksdemokraterne - Inger Støjberg,19,,,e33a54c0-0e04-43aa-86a1-be9140a1d357,Æ
+Tønder,550,Vodder,705162,2025-11-18 19:42:13,,ForeløbigOptælling,315,321,Alternativet,0,,-4.0,b6bab73b-2fd7-4459-9248-a77b6b9174a0,Å
+Tønder,550,Vodder,705162,2025-11-18 19:42:13,,ForeløbigOptælling,315,321,"Venstre, Danmarks Liberale Parti",20,,-17.0,1ed1c17d-ed6f-4512-ac08-499ddc55e17b,V
+Hjørring Kommune,860,Vrejlev-Hæstrup,710436,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Kolding Kommune,621,Dalby/Tved/Rebæk,701908,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Skive Kommune,779,Rønbjerg,748876,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Favrskov Kommune,710,Lading,707272,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Tønder Kommune,550,Bredebro,712106,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Lyngby-Taarbæk Kommune,173,Lyngby Midt,710178,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Hjørring Kommune,860,Ugilt,701248,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Hedensted Kommune,766,Hornsyld,711310,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Favrskov Kommune,710,Hammel Syd,706342,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Slagelse Kommune,330,Sørbymagle - Sørbymagle forsamlingshus,704408,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aalborg Kommune,851,Ulstedhallen,708966,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aabenraa Kommune,580,Ravsted,706648,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aalborg Kommune,851,Vejgaard Østre Skole,708918,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Odder,727,Torrild,701640,2025-11-18 19:43:58,,ForeløbigOptælling,312,313,Radikale Venstre,8,,-11.0,fab3e07c-ebaf-4410-ac1a-ac1473acbde7,B
+Odder,727,Torrild,701640,2025-11-18 19:43:58,,ForeløbigOptælling,312,313,Det Konservative Folkeparti,99,,55.0,00ae965f-ec45-4e9a-92e8-4e70e0e3aa6a,C
+Odder,727,Torrild,701640,2025-11-18 19:43:58,,ForeløbigOptælling,312,313,Socialdemokratiet,11,,-39.0,770ca116-c7fc-4576-a492-c79cbd97b359,A
+Odder,727,Torrild,701640,2025-11-18 19:43:58,,ForeløbigOptælling,312,313,SF - Socialistisk Folkeparti,15,,-2.0,b2382ca9-779a-49fe-ae8c-d41e994e3143,F
+Odder,727,Torrild,701640,2025-11-18 19:43:58,,ForeløbigOptælling,312,313,Liberal Alliance,7,,,61e95bc0-d7d8-49ad-a07a-3308cd3dea2a,I
+Odder,727,Torrild,701640,2025-11-18 19:43:58,,ForeløbigOptælling,312,313,Dansk Folkeparti,10,,6.0,ed24a279-ced5-4f60-9bae-cb97b7041edf,O
+Odder,727,Torrild,701640,2025-11-18 19:43:58,,ForeløbigOptælling,312,313,Moderaterne,0,,,b1d1194b-8b9b-42dd-be34-aeb180a19522,M
+Odder,727,Torrild,701640,2025-11-18 19:43:58,,ForeløbigOptælling,312,313,"Venstre, Danmarks Liberale Parti",130,,-7.0,7737dbee-8e88-44e2-be6a-0d78c5ae5df2,V
+Odder,727,Torrild,701640,2025-11-18 19:43:58,,ForeløbigOptælling,312,313,Enhedslisten - De Rød-Grønne,32,,11.0,44a5cbec-b71a-4fda-bf6e-0c6ab9f137e6,Ø
+Odsherred Kommune,306,Fårevejle,704442,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Københavns Kommune,101,5. Syd,703386,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Rudersdal Kommune,230,Birkerød,711588,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Tønder Kommune,550,Skærbæk,709602,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Brønderslev Kommune,810,Jerslev,711454,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Frederiksberg Kommune,147,"11. Kreds, Lindevang",709552,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Ringkøbing-Skjern Kommune,760,Hee,712306,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Herning Kommune,657,Kølkær,701670,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Gribskov Kommune,270,Søborg,707246,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Esbjerg Kommune,561,Gjesing,708768,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Faxe Kommune,320,Nordskov,702698,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Syddjurs Kommune,706,Kolind,711940,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Køge Kommune,259,Køge By - Vest,709930,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Thisted Kommune,787,Nors,748375,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Hillerød Kommune,219,Nødebo,707266,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Københavns Kommune,101,3. Sølvgade,749404,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Esbjerg Kommune,561,Skads,705174,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Nyborg Kommune,450,"Langå, Svindinge Og Øksendrup",709812,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Varde Kommune,573,Ansager,701482,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Randers Kommune,730,Hald Forsamlingshus,702710,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Hedensted Kommune,766,Løsning Sogn,706834,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Ringsted Kommune,329,Nordrup,711810,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Haderslev Kommune,510,Starup,710846,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Middelfart Kommune,410,Middelfart Ø,708394,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vordingborg Kommune,390,Præstø,706306,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aarhus Kommune,751,"Møllevangskolen, Aarhus V",706866,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Nordfyns Kommune,480,Krogsbølle,748632,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Ringsted Kommune,329,Vetterslev,706072,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Silkeborg Kommune,740,Thorning,703820,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Randers Kommune,730,Huset Tværs,707212,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Lyngby-Taarbæk Kommune,173,Engelsborg,706998,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Kerteminde Kommune,440,Kerteminde,706574,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Frederikshavn Kommune,813,Gærum,710978,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Fredericia Kommune,607,Gymnasiet 1,707936,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Viborg Kommune,791,Viborg,702932,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Haderslev Kommune,510,Moltrup,701494,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Viborg Kommune,791,Ørum,709106,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Haderslev Kommune,510,Kelstrup,711872,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Københavns Kommune,101,7. Nord,710820,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Ringsted Kommune,329,Ørslev,703056,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Frederikssund Kommune,250,Skibby,702366,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Næstved Kommune,370,Næstved Firma Sport,706454,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Lyngby-Taarbæk Kommune,173,Lundtofte,710194,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Københavns Kommune,101,1. Østerbro,707732,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Rebild Kommune,840,Ravnkilde,706392,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Guldborgsund Kommune,376,Øster Ulslev,705042,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aarhus Kommune,751,"Generationernes Hus, Aarhus Ø",748351,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Jammerbugt Kommune,849,Arentsminde,703190,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Horsens Kommune,615,Brædstrup,701658,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vordingborg Kommune,390,Lundby,705010,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Nyborg Kommune,450,Nyborghallen,703754,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Esbjerg Kommune,561,Høm,707876,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Rødovre Kommune,175,Valhøj,707814,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Ikast-Brande Kommune,756,Bording,705552,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vesthimmerlands Kommune,820,Farsø,705538,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Svendborg Kommune,479,V.Skerninge,708006,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Odsherred Kommune,306,Lumsås,701326,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Holstebro Kommune,661,Nørre Boulevard Skolen,711920,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Thisted Kommune,787,Sennels,748377,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Esbjerg Kommune,561,Jerne,710374,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Esbjerg Kommune,561,Sædding,704330,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Hvidovre Kommune,167,Avedøre Skole,702080,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Køge Kommune,259,Gørslev,702164,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aalborg Kommune,851,Haraldslund,704474,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vejen Kommune,575,Andst,704520,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Helsingør Kommune,217,Tikøb Skole,708696,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Horsens Kommune,615,Torsted,707750,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Slagelse Kommune,330,Tårnborg - Taarnborg Forsamlingshus,748854,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aalborg Kommune,851,"Vodskov Kultur og Idrætscenter, Sal",708960,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Lemvig Kommune,665,Thyborøn,706550,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Ærø Kommune,492,Marstal,706902,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Randers Kommune,730,Hornbækhallen,707188,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Silkeborg Kommune,740,Funder,700814,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Hedensted Kommune,766,Aale,709918,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Københavns Kommune,101,2. Sundbyvester,711204,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Furesø Kommune,190,Søndersø,703986,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Skive Kommune,779,Brårup,748874,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Københavns Kommune,101,5. Vest,710832,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Københavns Kommune,101,2. Nord,706166,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Rebild Kommune,840,Øster Hornum,701822,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Greve Kommune,253,Greve Idrætscenter,718916,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Skanderborg Kommune,746,Niels Ebbesen,711236,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Næstved Kommune,370,Fuglebjerg,711122,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Tønder Kommune,550,Løgumkloster,701834,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Ishøj Kommune,183,Strandgårdskolen,700876,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Allerød Kommune,201,Blovstrød,711248,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aalborg Kommune,851,Mellervangskolens Idrætshal,711750,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Varde Kommune,573,Nordenskov,706078,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vordingborg Kommune,390,Mern,707828,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Jammerbugt Kommune,849,Jetsmark,704764,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vejen Kommune,575,Københoved,701380,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Viborg Kommune,791,Løgstrup,701332,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Silkeborg Kommune,740,Virklund,700796,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aarhus Kommune,751,"DOKK1, Aarhus C",708544,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Sønderborg,540,Kegnæs,707466,2025-11-18 19:41:12,,ForeløbigOptælling,292,295,Vibeke Schou - Personlig Frihed,9,,,eb626ff6-ab8c-4028-a312-b458b7047aa2,E
+Sønderborg,540,Kegnæs,707466,2025-11-18 19:41:12,,ForeløbigOptælling,292,295,SF - Socialistisk Folkeparti,22,,15.0,ccbf1035-71cd-4405-aa12-878ec19532fe,F
+Sønderborg,540,Kegnæs,707466,2025-11-18 19:41:12,,ForeløbigOptælling,292,295,Liberal Alliance,16,,10.0,c9c67ba8-59a0-4121-942b-7b197dd25487,I
+Sønderborg,540,Kegnæs,707466,2025-11-18 19:41:12,,ForeløbigOptælling,292,295,Alssundpartiet,0,,,cfafb891-dd54-4a81-a2e6-a455b211bbcd,G
+Sønderborg,540,Kegnæs,707466,2025-11-18 19:41:12,,ForeløbigOptælling,292,295,Dansk Folkeparti,18,,5.0,e714744c-699a-4ddf-b44a-b28cd78b63a5,O
+Sønderborg,540,Kegnæs,707466,2025-11-18 19:41:12,,ForeløbigOptælling,292,295,Moderaterne,0,,,ef86c2e9-cd46-4128-9bc6-7c03249055db,M
+Sønderborg,540,Kegnæs,707466,2025-11-18 19:41:12,,ForeløbigOptælling,292,295,Slesvigsk Parti,11,,-27.0,a869cdc4-b8eb-4f9b-8228-d5c6a8b98ade,S
+Sønderborg,540,Kegnæs,707466,2025-11-18 19:41:12,,ForeløbigOptælling,292,295,"Venstre, Danmarks Liberale Parti",64,,-33.0,5eaffc2d-af94-43f3-92d1-9de125c05512,V
+Sønderborg,540,Kegnæs,707466,2025-11-18 19:41:12,,ForeløbigOptælling,292,295,Danmarksdemokraterne - Inger Støjberg,18,,,28e6642b-f3a8-43fa-8e4f-bd244183e834,Æ
+Sønderborg,540,Kegnæs,707466,2025-11-18 19:41:12,,ForeløbigOptælling,292,295,Alternativet,0,,,c2024ee5-f68f-4544-8b5b-ab96058977f4,Å
+Sønderborg,540,Kegnæs,707466,2025-11-18 19:41:12,,ForeløbigOptælling,292,295,Enhedslisten - De Rød-Grønne,9,,0.0,57ee4847-8f49-4bd5-a340-041a5b8aa665,Ø
+Sønderborg,540,Kegnæs,707466,2025-11-18 19:41:12,,ForeløbigOptælling,292,295,Socialdemokratiet,120,,-28.0,171e8503-3f0a-4fb6-ac81-b94df32aa297,A
+Sønderborg,540,Kegnæs,707466,2025-11-18 19:41:12,,ForeløbigOptælling,292,295,Det Konservative Folkeparti,5,,-1.0,532e5dee-a9b6-41f8-853f-9dc37afc033d,C
+Sønderborg,540,Kegnæs,707466,2025-11-18 19:41:12,,ForeløbigOptælling,292,295,Kristendemokraterne,0,,,7313c02f-4896-46e2-86b0-af2ca427140f,K
+Jammerbugt Kommune,849,Thorup,704750,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Ringsted Kommune,329,Ringsted Nørretorv,711804,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aabenraa Kommune,580,Hjordkær,705392,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Randers Kommune,730,Søndermarkskolen,708744,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Faaborg-Midtfyn Kommune,430,Korinth,709008,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Rødovre Kommune,175,Tinderhøj,705072,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Kalundborg Kommune,326,Buerup,701026,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Assens Kommune,420,Vissenbjerg,748070,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vesthimmerlands Kommune,820,Strandby,708538,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Lemvig Kommune,665,Lemvig,706536,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Herning Kommune,657,Skibbild/Nøvling,703474,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Køge Kommune,259,Vemmedrup,706854,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Silkeborg Kommune,740,Gødvad,711296,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Ballerup Kommune,151,Skovlunde Skole - Lundebjerg,704024,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Kalundborg Kommune,326,Gierslev,702322,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Ballerup Kommune,151,Tapeten,701002,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Viborg Kommune,791,Karup,711744,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Kalundborg Kommune,326,Røsnæs,710188,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Kalundborg Kommune,326,Reersø,702334,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Langeland Kommune,482,Humble,704630,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Tønder Kommune,550,Abild,701794,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Morsø Kommune,773,Sydmors,711508,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Silkeborg Kommune,740,Fårvang,705416,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Frederikshavn Kommune,813,Sæby,748391,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Brønderslev Kommune,810,Ø. Brønderslev,705646,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Viborg Kommune,791,Mønsted,702956,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Københavns Kommune,101,3. Syd,704846,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Københavns Kommune,101,9. Sydhavn,706120,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Allerød Kommune,201,Skovvang,703802,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Faaborg-Midtfyn Kommune,430,Nr. Lyndelse,707460,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Sorø Kommune,340,Ruds Vedby,705564,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Slagelse Kommune,330,Boeslunde - Boeslunde Hallen,701098,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Haderslev Kommune,510,Vojens,707620,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Haderslev Kommune,510,Arnum,709148,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Greve Kommune,253,Arenaskolen ved Greve Kultur-Base,718892,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Rødovre Kommune,175,Milestedet,724738,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vejen Kommune,575,Skodborg,704538,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Hjørring Kommune,860,Bjergby-Mygdal,710488,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Fredensborg Kommune,210,Karlebo,700760,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Tønder Kommune,550,Rømø,705128,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Varde Kommune,573,Outrup,710662,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Frederikshavn Kommune,813,Østervrå,703516,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aarhus Kommune,751,Ormslev Præstegård,705582,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Høje-Taastrup Kommune,169,Rådhuset,707896,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Næstved Kommune,370,Herlufsholmhallen,711136,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Gribskov Kommune,270,Tibirke,701184,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Brønderslev Kommune,810,Dronninglund,705640,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vejen Kommune,575,Sdr. Hygum,704526,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Herning Kommune,657,Ørnhøj,705030,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Middelfart Kommune,410,Baaring,711266,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vejle Kommune,630,Grønbjerg Nord,706962,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Halsnæs Kommune,260,Frederiksværk,707698,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aabenraa Kommune,580,Felsted,708358,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aalborg Kommune,851,Gistrup Skoles Idrætshal,702950,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Svendborg,479,Drejø,703708,2025-11-18 19:47:13,,ForeløbigOptælling,39,51,SF - Socialistisk Folkeparti,1,,0.0,a5a60a09-6b89-433e-a8d0-70f2eb0e47dc,F
+Svendborg,479,Drejø,703708,2025-11-18 19:47:13,,ForeløbigOptælling,39,51,Stabilt Demokrati,0,,,5c1f3292-8979-4ebf-83d6-9d282d10ddfe,E
+Svendborg,479,Drejø,703708,2025-11-18 19:47:13,,ForeløbigOptælling,39,51,Nye Borgerlige,0,,-1.0,2a4913f6-4fc5-4b3e-a75f-f7ad87295b07,D
+Svendborg,479,Drejø,703708,2025-11-18 19:47:13,,ForeløbigOptælling,39,51,Socialdemokratiet,13,,-7.0,4b8f1e4c-2ec8-4352-8de3-29c64632822b,A
+Svendborg,479,Drejø,703708,2025-11-18 19:47:13,,ForeløbigOptælling,39,51,Dansk Folkeparti,0,,-1.0,21e169d0-7a0b-4394-b505-d62f88354852,O
+Svendborg,479,Drejø,703708,2025-11-18 19:47:13,,ForeløbigOptælling,39,51,"Venstre, Danmarks Liberale Parti",1,,-12.0,f0a7412b-0cb2-48aa-b818-7efe9c55ec1d,V
+Svendborg,479,Drejø,703708,2025-11-18 19:47:13,,ForeløbigOptælling,39,51,Den Lunefulde Liste,0,,0.0,757a2d69-df44-47b5-bba3-7a185d995895,J
+Svendborg,479,Drejø,703708,2025-11-18 19:47:13,,ForeløbigOptælling,39,51,Danmarksdemokraterne - Inger Støjberg,3,,,068b188a-3c3d-479d-8e72-1ae45168f34e,Æ
+Svendborg,479,Drejø,703708,2025-11-18 19:47:13,,ForeløbigOptælling,39,51,Radikale Venstre,7,,-8.0,cdf02f95-2274-48c1-b6cc-38007abb62e7,B
+Svendborg,479,Drejø,703708,2025-11-18 19:47:13,,ForeløbigOptælling,39,51,Det Konservative Folkeparti,5,,4.0,f5705ebf-158a-4e3f-adde-967482cf36db,C
+Svendborg,479,Drejø,703708,2025-11-18 19:47:13,,ForeløbigOptælling,39,51,Liberal Alliance,4,,3.0,01f3431e-b69a-41fa-a25a-80644995c8d8,I
+Svendborg,479,Drejø,703708,2025-11-18 19:47:13,,ForeløbigOptælling,39,51,Enhedslisten - De Rød-Grønne,5,,4.0,07e6ea84-4d80-4cbb-988f-f20a6d1c342c,Ø
+Svendborg,479,Drejø,703708,2025-11-18 19:47:13,,ForeløbigOptælling,39,51,Alternativet,0,,0.0,3a685555-cd2d-4976-a5fd-215076933551,Å
+Aabenraa Kommune,580,Tinglev,711228,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Roskilde Kommune,265,Gadstrup,707314,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Skive Kommune,779,Hem,748871,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aalborg Kommune,851,"HF og VUC Nord, Godsbanen",748033,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Hedensted Kommune,766,Glud,702118,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Mariagerfjord Kommune,846,Als,710066,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vejle Kommune,630,Egtved Syd,710134,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Esbjerg Kommune,561,Guldager,709664,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vejen Kommune,575,Lindknud,706022,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Hjørring Kommune,860,Hirtshals,710464,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Herlev Kommune,163,Herlev Hallerne,710346,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Roskilde Kommune,265,Roskilde Bymidte,707284,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Københavns Kommune,101,8. Vest,711890,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Ringkøbing-Skjern Kommune,760,Rækker Mølle,703702,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Slagelse Kommune,330,Korsør - Storebæltshallen,711630,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Gribskov Kommune,270,Annisse,705834,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Egedal Kommune,240,Slagslunde,705194,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Odense Kommune,461,Lumby Skole,702812,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Københavns Kommune,101,5. Øst,704962,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Esbjerg Kommune,561,Gredstedbro,701812,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Jammerbugt Kommune,849,Ingstrup,749359,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Ballerup Kommune,151,Egebjerghallen - Skovvejens Skole Øst,710152,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Nordfyns Kommune,480,Morud,748633,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aalborg Kommune,851,Farstruphallen,707350,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Rudersdal Kommune,230,Nærum,704274,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Gentofte Kommune,157,Bakkegård,702878,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Københavns Kommune,101,5. Nørrebro,706196,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Odense Kommune,461,Paarup Hallen,702830,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Kalundborg Kommune,326,Sejerø,708648,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Nordfyns Kommune,480,Særslev,748638,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aarhus Kommune,751,Borum Forsamlingshus,705576,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Horsens Kommune,615,Højvangen,709464,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Viborg Kommune,791,Hammershøj,701488,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
