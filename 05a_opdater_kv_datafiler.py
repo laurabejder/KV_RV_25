@@ -391,9 +391,9 @@ res = (
 )
 
 # only keep the regions where all the results are in
-completed_kommuner = res.groupby("region").filter(
+completed_kommuner = res.groupby("kommune").filter(
     lambda x: x["resultat_art"].isin(["Fintælling", "ForeløbigOptælling"]).all()
-)["region"].unique()  
+)["kommune"].unique()  
 print("Completed kommuner:", len(completed_kommuner)) 
 nat_resultater = nat_resultater[nat_resultater["kommune"].isin(completed_kommuner)]
 
