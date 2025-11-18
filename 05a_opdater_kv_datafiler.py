@@ -385,10 +385,12 @@ nat_resultater = (
 )
 
 res = (
-    pd.read_csv("data/struktureret/rv/rv25_resultater_partier.csv")
+    pd.read_csv("data/struktureret/kv/kv25_resultater_partier.csv")
     .drop_duplicates()
     .reset_index(drop=True)
 )
+#remove " Kommuner" suffix
+res["kommune"] = res["kommune"].str.replace(" Kommune", "", regex=False)
 
 # only keep the regions where all the results are in
 completed_kommuner = res.groupby("kommune").filter(
