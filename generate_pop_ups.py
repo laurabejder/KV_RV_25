@@ -106,7 +106,7 @@ def add_popups(
 
             # fixed-width label cell (so S: and SP: line up)
             label_span = (
-                f"<span style='display:inline-block; width:20px; font-size:1em;"
+                f"<span style='display:inline-block; width:30px; font-size:1em;"
                 f"vertical-align:middle; margin-left: 4px'>{party}</span>"
             )
 
