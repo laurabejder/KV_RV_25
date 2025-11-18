@@ -28,13 +28,16 @@ def download_folders(folders):
 remote_path = RV_REMOTE_PATH
 local_path = FROM_PATH + "rv"
 folders = FOLDERS
+print("Trying to download:", remote_path)
 download_folders(folders)
 print("Downloaded RV25 data.")
+
 
 # Download KV25 data
 remote_path = KV_REMOTE_PATH
 local_path = FROM_PATH + "kv"
 folders = FOLDERS
+print("Trying to download:", remote_path)
 download_folders(folders)
 print("Downloaded KV25 data.")
 
