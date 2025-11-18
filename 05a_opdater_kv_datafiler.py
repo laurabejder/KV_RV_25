@@ -376,6 +376,13 @@ nat_resultater = (
       .reset_index()
 )
 
+# only keep the kommuner where all the results are in
+completed_kommuner = kv25_resultater_partier.groupby("kommune").filter(
+    lambda x: x["resultat_art"].isin(["Fintælling", "ForeløbigOptælling"]).all()
+)["kommune"].unique() 
+print("Completed kommuner:", len(completed_kommuner)) 
+nat_resultater = nat_resultater[nat_resultater["kommune"].isin(completed_kommuner)]
+
 # make sure to strip kommune of " Kommune" suffix
 nat_resultater["kommune"] = nat_resultater["kommune"].str.replace(" Kommune", "", regex=False)
 nat_resultater = add_popups(nat_resultater)

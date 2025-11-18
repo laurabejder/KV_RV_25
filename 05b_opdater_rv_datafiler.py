@@ -383,6 +383,13 @@ nat_resultater["region"] = nat_resultater["region"].apply(lambda x: f"Region {x}
 
 nat_resultater = add_popups(nat_resultater)
 
+# only keep the regions where all the results are in
+completed_regioner = rv25_resultater_partier.groupby("region").filter(
+    lambda x: x["resultat_art"].isin(["Fintælling", "ForeløbigOptælling"]).all()
+)["region"].unique() 
+print("Completed regioner:", len(completed_regioner)) 
+nat_resultater = nat_resultater[nat_resultater["region"].isin(completed_regioner)]
+
 # save file
 out_path = NATIONAL_DIR / "nationalt_kommuner_parti_procenter.csv"
 nat_resultater.to_csv(out_path, index=False, sep=";")
