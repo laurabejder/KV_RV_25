@@ -247,28 +247,28 @@ def get_status(
     """Update status CSV with counted share and borgmester."""
     status_path = base_path / "status" / f"{regionnavn_lower}_status.csv"
     summary_df = pd.read_csv(status_path)
-    try:
-        # Udregn andelen af afstemningssteder, der er optalt
-        done_mask = afst["resultat_art"].isin(["Fintælling", "ForeløbigOptælling"])
-        done_share = f"{done_mask.sum()} ud af {len(afst)}"
-        summary_df["Optalte afstemningssteder"] = done_share
+    if "resultat_art" not in afst.columns:
+        afst["resultat_art"] = "Ukendt"
+       
+    # Udregn andelen af afstemningssteder, der er optalt
+    done_mask = afst["resultat_art"].isin(["Fintælling", "ForeløbigOptælling"])
+    done_share = f"{done_mask.sum()} ud af {len(afst)}"
+    summary_df["Optalte afstemningssteder"] = done_share
 
-        # Find regionsforpersonen for regionen, hvis det er afgjort
-        if region in regionsforpersoner["region"].values:
-            regionsforperson = regionsforpersoner.loc[
-                regionsforpersoner["region"] == region, "regionsforperson"
-            ].iat[0]
-            summary_df["Regionsformand"] = regionsforperson
-        else:
-            summary_df["Regionsformand"] = "Ikke afgjort"
+    # Find regionsforpersonen for regionen, hvis det er afgjort
+    if region in regionsforpersoner["region"].values:
+        regionsforperson = regionsforpersoner.loc[
+            regionsforpersoner["region"] == region, "regionsforperson"
+        ].iat[0]
+        summary_df["Regionsformand"] = regionsforperson
+    else:
+        summary_df["Regionsformand"] = "Ikke afgjort"
 
-        # Drop unødvendige kolonner og gem filen
-        summary_df = summary_df[["Optalte afstemningssteder", "Regionsformand"]]
-        summary_df.to_csv(status_path, index=False)
-        optalte += done_mask.sum()
-        return optalte
-    except Exception as e:
-        print(f"Failed to update status for {regionnavn_lower}: {e}")
+    # Drop unødvendige kolonner og gem filen
+    summary_df = summary_df[["Optalte afstemningssteder", "Regionsformand"]]
+    summary_df.to_csv(status_path, index=False)
+    optalte += done_mask.sum()
+    return optalte
 
 # Funktionen udregner kandidaternes personlige stemmetal per region og nationalt
 def get_stemmetal(stemmer, base_path: Path) -> None:
