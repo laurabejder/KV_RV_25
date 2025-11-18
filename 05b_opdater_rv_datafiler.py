@@ -243,7 +243,7 @@ def get_status(
     afst: pd.DataFrame,
     base_path: Path,
     optalte: int
-) -> None:
+) -> int:
     """Update status CSV with counted share and borgmester."""
     status_path = base_path / "status" / f"{regionnavn_lower}_status.csv"
     summary_df = pd.read_csv(status_path)
@@ -334,7 +334,7 @@ for region in rv25_resultater_partier["region"].unique():
         afstem_dir=AFSTEM_DIR,
     )
 
-    get_status(
+    optalte = get_status(
         regionnavn_lower=regionnavn_lower,
         regionsforpersoner=regionsforpersoner,
         afst=afstemningssted_niveau,
