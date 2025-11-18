@@ -18,7 +18,10 @@ def download_files(sftp, remote_dir, local_dir, folder_name):
         remote_file_path = remote_dir + "/" + folder_name + "/" + file
         local_file_path = os.path.join(local_dir, folder_name, new_file)
         os.makedirs(os.path.dirname(local_file_path), exist_ok=True)
-        sftp.get(remote_file_path, local_file_path)
+        try:
+            sftp.get(remote_file_path, local_file_path)
+        except Exception as e:
+            print(f"Failed to download {remote_file_path}: {e}")
 
 def download_folders(folders):
     for folder in folders:
