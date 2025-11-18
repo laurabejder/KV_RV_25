@@ -334,7 +334,7 @@ for region in rv25_resultater_partier["region"].unique():
         afstem_dir=AFSTEM_DIR,
     )
 
-    get_status(
+    optalte = get_status(
         regionnavn_lower=regionnavn_lower,
         regionsforpersoner=regionsforpersoner,
         afst=afstemningssted_niveau,
