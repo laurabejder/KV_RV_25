@@ -390,8 +390,14 @@ nat_resultater["region"] = nat_resultater["region"].apply(lambda x: f"Region {x}
 
 nat_resultater = add_popups(nat_resultater)
 
+res = (
+    pd.read_csv("data/struktureret/rv/rv25_resultater_partier.csv")
+    .drop_duplicates()
+    .reset_index(drop=True)
+)
+
 # only keep the regions where all the results are in
-completed_regioner = rv25_resultater_partier.groupby("region").filter(
+completed_regioner = res.groupby("region").filter(
     lambda x: x["resultat_art"].isin(["Fintælling", "ForeløbigOptælling"]).all()
 )["region"].unique() 
 print("Completed regioner:", len(completed_regioner)) 

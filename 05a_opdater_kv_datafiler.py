@@ -384,10 +384,16 @@ nat_resultater = (
       .reset_index()
 )
 
-# only keep the kommuner where all the results are in
-completed_kommuner = kv25_resultater_partier.groupby("kommune").filter(
+res = (
+    pd.read_csv("data/struktureret/rv/rv25_resultater_partier.csv")
+    .drop_duplicates()
+    .reset_index(drop=True)
+)
+
+# only keep the regions where all the results are in
+completed_kommuner = res.groupby("region").filter(
     lambda x: x["resultat_art"].isin(["Fintælling", "ForeløbigOptælling"]).all()
-)["kommune"].unique() 
+)["region"].unique()  
 print("Completed kommuner:", len(completed_kommuner)) 
 nat_resultater = nat_resultater[nat_resultater["kommune"].isin(completed_kommuner)]
 
