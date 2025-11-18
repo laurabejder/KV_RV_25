@@ -206,7 +206,6 @@ Aabenraa Kommune,580,Bylderup,706654,2025-11-11 20:53:07,,IngenResultater,0,0,,0
 Billund Kommune,530,Billund,704500,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Odense Kommune,461,Risingskolen,705850,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Aalborg Kommune,851,Gug Skole,706010,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
-Helsingør Kommune,217,Kvistgård Idrætsanlæg,705746,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Aarhus Kommune,751,"Rosenvangskolen, Viby J",700922,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Herning Kommune,657,Tjørring,709528,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Odense Kommune,461,Skt. Jørgens Hallen,746369,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
@@ -290,7 +289,16 @@ Odder Kommune,727,Hundslund,704986,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0
 Mariagerfjord Kommune,846,Hobro,702292,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Kerteminde Kommune,440,Hindsholm,712260,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Gladsaxe Kommune,159,Egegård,702286,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
-Vesthimmerlands Kommune,820,Ranum,709958,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vesthimmerlands,820,Ranum,709958,2025-11-18 20:03:15,,ForeløbigOptælling,809,843,Socialdemokratiet,118,,10.0,c41c84d3-b903-45e3-94d2-e76aa5bec8aa,A
+Vesthimmerlands,820,Ranum,709958,2025-11-18 20:03:15,,ForeløbigOptælling,809,843,Radikale Venstre,22,,-1.0,f9ab8914-52da-4413-9564-33fa23e08443,B
+Vesthimmerlands,820,Ranum,709958,2025-11-18 20:03:15,,ForeløbigOptælling,809,843,Dansk Folkeparti,15,,-21.0,65fdb79f-7b9f-439c-b8b1-feed1a052ea4,O
+Vesthimmerlands,820,Ranum,709958,2025-11-18 20:03:15,,ForeløbigOptælling,809,843,"Venstre, Danmarks Liberale Parti",138,,-131.0,3933574a-54d6-4dbd-9584-356216b045be,V
+Vesthimmerlands,820,Ranum,709958,2025-11-18 20:03:15,,ForeløbigOptælling,809,843,Det Konservative Folkeparti,75,,-23.0,fef782ea-35d4-4963-9641-7b32a9724ae0,C
+Vesthimmerlands,820,Ranum,709958,2025-11-18 20:03:15,,ForeløbigOptælling,809,843,Borgerlisten,11,,,e5aa6226-607f-4658-8692-0acedb4f7de1,L
+Vesthimmerlands,820,Ranum,709958,2025-11-18 20:03:15,,ForeløbigOptælling,809,843,Liberal Alliance,27,,,4ce3730a-509c-4773-b3e0-c6b65efbca97,I
+Vesthimmerlands,820,Ranum,709958,2025-11-18 20:03:15,,ForeløbigOptælling,809,843,Kristendemokraterne,23,,9.0,f1f62750-6395-4a90-8885-3c6a331299ed,K
+Vesthimmerlands,820,Ranum,709958,2025-11-18 20:03:15,,ForeløbigOptælling,809,843,SF - Socialistisk Folkeparti,236,,-42.0,da15d567-1327-4d0d-bf51-ec1cc52b0edc,F
+Vesthimmerlands,820,Ranum,709958,2025-11-18 20:03:15,,ForeløbigOptælling,809,843,Danmarksdemokraterne - Inger Støjberg,144,,,4dd60f38-5dd4-440e-976d-220fbd1c8caa,Æ
 Guldborgsund Kommune,376,Toreby,701778,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Brønderslev,810,Serritslev,708630,2025-11-18 19:58:16,,ForeløbigOptælling,491,497,Socialdemokratiet,58,,-53.0,a3b41fe0-9dce-436b-b0e8-b90836565bc8,A
 Brønderslev,810,Serritslev,708630,2025-11-18 19:58:16,,ForeløbigOptælling,491,497,Moderaterne,2,,,32e70c6d-fc52-4ee3-8b6d-863d06e585df,M
@@ -337,7 +345,16 @@ Odder Kommune,727,"Hou, Gosmer - Halling",703392,2025-11-11 20:53:07,,IngenResul
 Thisted Kommune,787,Hurup,748374,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Esbjerg Kommune,561,Gørding,707864,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Svendborg Kommune,479,Østre,705356,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
-Thisted Kommune,787,Bedsted,704712,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Thisted,787,Bedsted,704712,2025-11-18 20:02:45,,ForeløbigOptælling,1044,1057,Socialdemokratiet,177,,-118.0,e3d78339-2c35-4ee6-b49b-d9d89734d17c,A
+Thisted,787,Bedsted,704712,2025-11-18 20:02:45,,ForeløbigOptælling,1044,1057,Dansk Folkeparti,86,,68.0,23118d87-fc3f-4e0d-bdd3-1f74fe48ec4c,O
+Thisted,787,Bedsted,704712,2025-11-18 20:02:45,,ForeløbigOptælling,1044,1057,Liberal Alliance,47,,34.0,c531ec13-13ad-4d57-ba62-21fc8de664b9,I
+Thisted,787,Bedsted,704712,2025-11-18 20:02:45,,ForeløbigOptælling,1044,1057,SF - Socialistisk Folkeparti,55,,25.0,9c7d84dc-5f38-49d1-885d-925eec28c239,F
+Thisted,787,Bedsted,704712,2025-11-18 20:02:45,,ForeløbigOptælling,1044,1057,Danmarksdemokraterne - Inger Støjberg,145,,,99d70d00-742a-489e-87cb-a7095a46f255,Æ
+Thisted,787,Bedsted,704712,2025-11-18 20:02:45,,ForeløbigOptælling,1044,1057,Enhedslisten - De Rød-Grønne,71,,51.0,078f6417-1f00-4f31-b0bc-61752fe6a564,Ø
+Thisted,787,Bedsted,704712,2025-11-18 20:02:45,,ForeløbigOptælling,1044,1057,Radikale Venstre,13,,0.0,f140ee99-67ac-438c-969e-b565307c5299,B
+Thisted,787,Bedsted,704712,2025-11-18 20:02:45,,ForeløbigOptælling,1044,1057,Det Konservative Folkeparti,88,,-74.0,c26f0096-8588-4201-adfa-889cf9885da1,C
+Thisted,787,Bedsted,704712,2025-11-18 20:02:45,,ForeløbigOptælling,1044,1057,Thy Borgerlige,67,,,76a8255e-2126-413b-8f25-0d95d30aa518,T
+Thisted,787,Bedsted,704712,2025-11-18 20:02:45,,ForeløbigOptælling,1044,1057,Venstre,295,,,2382b54a-19dc-4a21-b004-d510ea42ac15,V
 Mariagerfjord Kommune,846,Hadsund,705600,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Aarhus Kommune,751,"Skjoldhøjskolen, Tilst",710040,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Holbæk Kommune,316,Holbæk Vest,705950,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
@@ -409,7 +426,14 @@ Odder,727,Alrø,711964,2025-11-18 19:28:43,,ForeløbigOptælling,98,98,Liberal A
 Odder,727,Alrø,711964,2025-11-18 19:28:43,,ForeløbigOptælling,98,98,Enhedslisten - De Rød-Grønne,9,,-1.0,44a5cbec-b71a-4fda-bf6e-0c6ab9f137e6,Ø
 Odder,727,Alrø,711964,2025-11-18 19:28:43,,ForeløbigOptælling,98,98,Radikale Venstre,4,,-3.0,fab3e07c-ebaf-4410-ac1a-ac1473acbde7,B
 Odder,727,Alrø,711964,2025-11-18 19:28:43,,ForeløbigOptælling,98,98,Dansk Folkeparti,1,,0.0,ed24a279-ced5-4f60-9bae-cb97b7041edf,O
-Lemvig Kommune,665,Harboøre,701882,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Lemvig,665,Harboøre,701882,2025-11-18 20:04:30,,ForeløbigOptælling,992,1001,Socialdemokratiet,145,,-6.0,20f1cd37-c0f6-426e-ad06-40abf6524b13,A
+Lemvig,665,Harboøre,701882,2025-11-18 20:04:30,,ForeløbigOptælling,992,1001,Radikale Venstre,10,,-3.0,9f6b25a2-11b3-4dfc-9b0a-39b86d45ad5a,B
+Lemvig,665,Harboøre,701882,2025-11-18 20:04:30,,ForeløbigOptælling,992,1001,Danmarksdemokraterne - Inger Støjberg,209,,,941c9a53-d1fd-4bfe-afa2-ba6034c41aa9,Æ
+Lemvig,665,Harboøre,701882,2025-11-18 20:04:30,,ForeløbigOptælling,992,1001,"Venstre, Danmarks Liberale Parti",527,,-145.0,b868c03a-7667-4940-b0b0-548268a9af70,V
+Lemvig,665,Harboøre,701882,2025-11-18 20:04:30,,ForeløbigOptælling,992,1001,Dansk Folkeparti,18,,-2.0,0d47b949-ee49-452f-a8e8-8dce4601d14a,O
+Lemvig,665,Harboøre,701882,2025-11-18 20:04:30,,ForeløbigOptælling,992,1001,Det Konservative Folkeparti,27,,-98.0,3a80779e-59c3-4c70-be18-d6b241f56c51,C
+Lemvig,665,Harboøre,701882,2025-11-18 20:04:30,,ForeløbigOptælling,992,1001,Land- og Bylisten,7,,,c3fada37-052e-4356-9a33-30fef02fecf7,L
+Lemvig,665,Harboøre,701882,2025-11-18 20:04:30,,ForeløbigOptælling,992,1001,SF - Socialistisk Folkeparti,49,,15.0,74ee1ac6-93f4-4a5c-8e72-7c760ecc88f4,F
 Hørsholm Kommune,223,Hørsholm,707664,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Roskilde Kommune,265,Østervang,704378,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Hjørring Kommune,860,Hjørring - Centrum,710442,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
@@ -435,10 +459,38 @@ Næstved Kommune,370,Fladså Hallen,707910,2025-11-11 20:53:07,,IngenResultater,
 Lolland Kommune,360,Errindlev,708426,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Hillerød Kommune,219,Gørløse,749323,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Odense Kommune,461,Kroggårdsskolen,702818,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
-Læsø Kommune,825,Læsø,702460,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
-Haderslev Kommune,510,Marstrup,703422,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Læsø,825,Læsø,702460,2025-11-18 20:04:00,,ForeløbigOptælling,1257,1269,Socialdemokratiet,100,,-100.0,dc014aa8-0b2c-4cdb-95da-7e6477660441,A
+Læsø,825,Læsø,702460,2025-11-18 20:04:00,,ForeløbigOptælling,1257,1269,Læsø Borgerliste,47,,,9aa6a365-4dd1-4542-95e3-477017bf6258,L
+Læsø,825,Læsø,702460,2025-11-18 20:04:00,,ForeløbigOptælling,1257,1269,SF - Socialistisk Folkeparti,102,,,25132db8-17e9-4766-9b4d-35262b44a4e3,F
+Læsø,825,Læsø,702460,2025-11-18 20:04:00,,ForeløbigOptælling,1257,1269,Dansk Folkeparti,201,,104.0,cc936701-6c40-48ea-8fb0-40b1d578526a,O
+Læsø,825,Læsø,702460,2025-11-18 20:04:00,,ForeløbigOptælling,1257,1269,"Venstre, Danmarks Liberale Parti",192,,-115.0,5edc04a6-bbf7-4ba9-b5b4-5c0141dceefa,V
+Læsø,825,Læsø,702460,2025-11-18 20:04:00,,ForeløbigOptælling,1257,1269,Det Konservative Folkeparti,573,,283.0,a04f570d-b464-47c7-875b-eb315464bb11,C
+Læsø,825,Læsø,702460,2025-11-18 20:04:00,,ForeløbigOptælling,1257,1269,Danmarksdemokraterne - Inger Støjberg,42,,,cae45565-a850-4027-a3c6-d2f563e0578f,Æ
+Haderslev,510,Marstrup,703422,2025-11-18 20:04:00,,ForeløbigOptælling,539,554,Dansk Folkeparti,51,,41.0,4f006138-69a7-4eb6-8ebf-2d27d5db1eea,O
+Haderslev,510,Marstrup,703422,2025-11-18 20:04:00,,ForeløbigOptælling,539,554,Slesvigsk Parti,16,,10.0,1d992b8d-b5c8-40dd-9424-075677ba7b0a,S
+Haderslev,510,Marstrup,703422,2025-11-18 20:04:00,,ForeløbigOptælling,539,554,Danmarksdemokraterne - Inger Støjberg,58,,,53e4ac5b-1574-40cf-a984-bb474d50b605,Æ
+Haderslev,510,Marstrup,703422,2025-11-18 20:04:00,,ForeløbigOptælling,539,554,Det Konservative Folkeparti,61,,37.0,34dcd17b-c9b2-4fb7-aa4b-8b08dfca609d,C
+Haderslev,510,Marstrup,703422,2025-11-18 20:04:00,,ForeløbigOptælling,539,554,Liberal Alliance,30,,30.0,f25aa20e-26fd-45d0-9511-c33f13fef93d,I
+Haderslev,510,Marstrup,703422,2025-11-18 20:04:00,,ForeløbigOptælling,539,554,Kristendemokraterne,8,,-4.0,44bf96c2-2a50-4433-851e-72385a9c2b52,K
+Haderslev,510,Marstrup,703422,2025-11-18 20:04:00,,ForeløbigOptælling,539,554,Socialdemokratiet,114,,54.0,91075beb-5b18-4836-b392-d283c68eac62,A
+Haderslev,510,Marstrup,703422,2025-11-18 20:04:00,,ForeløbigOptælling,539,554,Radikale Venstre,11,,-5.0,e80cb981-c16e-4c74-9689-6975279ecf1f,B
+Haderslev,510,Marstrup,703422,2025-11-18 20:04:00,,ForeløbigOptælling,539,554,Venstre - Danmarks Liberale Parti,139,,,7573ac11-60b5-44e0-b12f-ec4eacec20a3,V
+Haderslev,510,Marstrup,703422,2025-11-18 20:04:00,,ForeløbigOptælling,539,554,Alternativet,2,,0.0,4103fba7-5b01-4d5d-9d93-97d7eef3d7f2,Å
+Haderslev,510,Marstrup,703422,2025-11-18 20:04:00,,ForeløbigOptælling,539,554,Nye Borgerlige,3,,-26.0,007078c7-6369-4646-a0ad-2159c7954718,D
+Haderslev,510,Marstrup,703422,2025-11-18 20:04:00,,ForeløbigOptælling,539,554,SF - Socialistisk Folkeparti,36,,29.0,a68f197a-0780-4382-bc79-dcbf235e38e8,F
+Haderslev,510,Marstrup,703422,2025-11-18 20:04:00,,ForeløbigOptælling,539,554,Enhedslisten - De Rød Grønne,10,,,a54c25d8-5acd-4c89-9467-5ccf27ba3b38,Ø
 Silkeborg Kommune,740,Bryrup,700802,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
-Brønderslev Kommune,810,Hallund,704018,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Brønderslev,810,Hallund,704018,2025-11-18 20:02:45,,ForeløbigOptælling,333,335,Borgerlisten,2,,1.0,38952d53-ac64-46d3-b966-6d9d6191d42f,J
+Brønderslev,810,Hallund,704018,2025-11-18 20:02:45,,ForeløbigOptælling,333,335,Radikale Venstre,2,,2.0,4a14b09f-df64-4e3c-8984-39a5d212af2e,B
+Brønderslev,810,Hallund,704018,2025-11-18 20:02:45,,ForeløbigOptælling,333,335,Enhedslisten - De Rød-Grønne,10,,-2.0,9159d3eb-5318-4e35-84cd-4f6db2cc00a3,Ø
+Brønderslev,810,Hallund,704018,2025-11-18 20:02:45,,ForeløbigOptælling,333,335,Socialdemokratiet,61,,-17.0,a3b41fe0-9dce-436b-b0e8-b90836565bc8,A
+Brønderslev,810,Hallund,704018,2025-11-18 20:02:45,,ForeløbigOptælling,333,335,Det Konservative Folkeparti,33,,2.0,54fb6acf-e2a4-4bcc-8261-3108dd2cd19a,C
+Brønderslev,810,Hallund,704018,2025-11-18 20:02:45,,ForeløbigOptælling,333,335,Nye Borgerlige,3,,-22.0,31bb44db-1c96-41ff-8225-07e7d5ee1193,D
+Brønderslev,810,Hallund,704018,2025-11-18 20:02:45,,ForeløbigOptælling,333,335,Dansk Folkeparti,18,,0.0,9a4f8031-129b-4839-b72b-6201181553aa,O
+Brønderslev,810,Hallund,704018,2025-11-18 20:02:45,,ForeløbigOptælling,333,335,"Venstre, Danmarks Liberale Parti",122,,-54.0,412671e3-5a0a-44ad-b431-cd110480cb5f,V
+Brønderslev,810,Hallund,704018,2025-11-18 20:02:45,,ForeløbigOptælling,333,335,SF - Socialistisk Folkeparti,30,,21.0,31860d73-6783-4d06-8f53-1db58d8944f2,F
+Brønderslev,810,Hallund,704018,2025-11-18 20:02:45,,ForeløbigOptælling,333,335,Moderaterne,1,,,32e70c6d-fc52-4ee3-8b6d-863d06e585df,M
+Brønderslev,810,Hallund,704018,2025-11-18 20:02:45,,ForeløbigOptælling,333,335,Danmarksdemokraterne - Inger Støjberg,51,,,7a82f717-7207-4ef2-9291-3b290f266b2d,Æ
 Tønder,550,Sdr. Sejerslev,707858,2025-11-18 19:40:57,,ForeløbigOptælling,277,284,Det Konservative Folkeparti,13,,-18.0,ac7d6f3b-5f10-44cf-a6be-12a52b5e4e93,C
 Tønder,550,Sdr. Sejerslev,707858,2025-11-18 19:40:57,,ForeløbigOptælling,277,284,Velfærdsdemokraterne,3,,,50cc59dd-d387-4352-b41d-90d515408927,Y
 Tønder,550,Sdr. Sejerslev,707858,2025-11-18 19:40:57,,ForeløbigOptælling,277,284,Danmarksdemokraterne - Inger Støjberg,30,,,e33a54c0-0e04-43aa-86a1-be9140a1d357,Æ
@@ -465,7 +517,17 @@ Norddjurs Kommune,707,Allingåbro,710680,2025-11-11 20:53:07,,IngenResultater,0,
 Hedensted Kommune,766,Rårup,700852,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Aalborg Kommune,851,Båndby - Hallen,701356,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Holbæk Kommune,316,Tuse,705958,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
-Ringkøbing-Skjern Kommune,760,Ådum,748670,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Ringkøbing-Skjern,760,Ådum,748670,2025-11-18 20:03:45,,ForeløbigOptælling,562,566,Det Konservative Folkeparti,9,,,9ddb7ecd-0e1a-4653-9c0e-4151e99e99b1,C
+Ringkøbing-Skjern,760,Ådum,748670,2025-11-18 20:03:45,,ForeløbigOptælling,562,566,Socialdemokratiet,28,,,c95a0a1c-e01d-46ea-9deb-18fe2d621f7d,A
+Ringkøbing-Skjern,760,Ådum,748670,2025-11-18 20:03:45,,ForeløbigOptælling,562,566,Nye Borgerlige,2,,,a84d1ec0-e7b0-460e-9909-2cb2354f8cd8,D
+Ringkøbing-Skjern,760,Ådum,748670,2025-11-18 20:03:45,,ForeløbigOptælling,562,566,Dansk Folkeparti,22,,,621acd23-7a55-4ff2-9c7e-5a6e93f24685,O
+Ringkøbing-Skjern,760,Ådum,748670,2025-11-18 20:03:45,,ForeløbigOptælling,562,566,Danmarksdemokraterne - Inger Støjberg,201,,,e3b5db49-aa6f-4ee4-af37-360d7780d4a2,Æ
+Ringkøbing-Skjern,760,Ådum,748670,2025-11-18 20:03:45,,ForeløbigOptælling,562,566,SF - Socialistisk Folkeparti,40,,,bea8a6be-3559-4eca-9ca0-337ab0ba5846,F
+Ringkøbing-Skjern,760,Ådum,748670,2025-11-18 20:03:45,,ForeløbigOptælling,562,566,Liberal Alliance,22,,,1b55780e-e098-42be-87df-41523ecff737,I
+Ringkøbing-Skjern,760,Ådum,748670,2025-11-18 20:03:45,,ForeløbigOptælling,562,566,Borgerlisten,45,,,e0cdaaa1-66c7-41ea-acb1-4ebf574fe06b,J
+Ringkøbing-Skjern,760,Ådum,748670,2025-11-18 20:03:45,,ForeløbigOptælling,562,566,Kristendemokraterne,71,,,c123e6e3-38bd-4b9b-ae3d-5aec83faca90,K
+Ringkøbing-Skjern,760,Ådum,748670,2025-11-18 20:03:45,,ForeløbigOptælling,562,566,"Venstre, Danmarks Liberale Parti",118,,,d18c65b0-35f2-49b1-9d47-647c0e94de0e,V
+Ringkøbing-Skjern,760,Ådum,748670,2025-11-18 20:03:45,,ForeløbigOptælling,562,566,Enhedslisten - De Rød-Grønne,4,,,24ec196f-e79d-4f82-82f9-ffab5ad36cff,Ø
 Hvidovre Kommune,167,Frihedens Idrætscenter,702070,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Holstebro Kommune,661,Sevel,706148,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Kalundborg Kommune,326,Årby-Rørby,701008,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
@@ -605,7 +667,19 @@ Aarhus Kommune,751,Viby Hallen,700928,2025-11-11 20:53:07,,IngenResultater,0,0,,
 Silkeborg Kommune,740,Voel,705446,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Vejle Kommune,630,Skibet Hallen,702280,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Frederiksberg Kommune,147,"11. Kreds, Rådhuset",701726,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
-Hedensted Kommune,766,Hjortsvang,749378,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Hedensted,766,Hjortsvang,749378,2025-11-18 20:03:00,,ForeløbigOptælling,252,263,Socialdemokratiet,36,,-23.0,dcd40e65-63fd-4e66-ac91-48d474e42025,A
+Hedensted,766,Hjortsvang,749378,2025-11-18 20:03:00,,ForeløbigOptælling,252,263,Det Konservative Folkeparti,2,,-7.0,c8c22c7c-5c1a-47d2-8027-4f85a4012d97,C
+Hedensted,766,Hjortsvang,749378,2025-11-18 20:03:00,,ForeløbigOptælling,252,263,Seniorlisten Hedensted Kommune,2,,,7ab3645f-93a2-4e4e-8a0c-bdd801d552ad,G
+Hedensted,766,Hjortsvang,749378,2025-11-18 20:03:00,,ForeløbigOptælling,252,263,Liberal Alliance,13,,12.0,35737937-9a0e-4b0e-bc4c-e31291435e42,I
+Hedensted,766,Hjortsvang,749378,2025-11-18 20:03:00,,ForeløbigOptælling,252,263,SocialKonservative,0,,0.0,4bca7f08-65f1-481f-97de-a8c99d897857,J
+Hedensted,766,Hjortsvang,749378,2025-11-18 20:03:00,,ForeløbigOptælling,252,263,Kristendemokraterne,3,,-1.0,1e9e39da-008d-4fbe-ba7a-0de8c7d3d958,K
+Hedensted,766,Hjortsvang,749378,2025-11-18 20:03:00,,ForeløbigOptælling,252,263,Alternativet,0,,-3.0,0558cd53-cf5d-4688-9050-7456badb6d5a,Å
+Hedensted,766,Hjortsvang,749378,2025-11-18 20:03:00,,ForeløbigOptælling,252,263,SF - Socialistisk Folkeparti,14,,6.0,f7ec7dcd-0cc8-430f-be1b-196313ee93f5,F
+Hedensted,766,Hjortsvang,749378,2025-11-18 20:03:00,,ForeløbigOptælling,252,263,Moderaterne,1,,,0161aeb5-8556-4c6f-947d-13dbbaf0f188,M
+Hedensted,766,Hjortsvang,749378,2025-11-18 20:03:00,,ForeløbigOptælling,252,263,Dansk Folkeparti,21,,-5.0,a22f9e7f-d967-465b-81fb-06bcd91de12b,O
+Hedensted,766,Hjortsvang,749378,2025-11-18 20:03:00,,ForeløbigOptælling,252,263,"Venstre, Danmarks Liberale Parti",110,,-4.0,db7af7a9-036f-4625-a2c2-3c70bd76057b,V
+Hedensted,766,Hjortsvang,749378,2025-11-18 20:03:00,,ForeløbigOptælling,252,263,Danmarksdemokraterne - Inger Støjberg,43,,,3173aa98-e059-45b0-a614-b4aff1ddb1f8,Æ
+Hedensted,766,Hjortsvang,749378,2025-11-18 20:03:00,,ForeløbigOptælling,252,263,Enhedslisten - De Rød-Grønne,7,,-4.0,c194684b-8fdc-4fd5-aaf0-a7b34025f61f,Ø
 Randers Kommune,730,Romalt Aktivitetshal,702716,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Vejle Kommune,630,Bredsten Nord,702272,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Slagelse,330,Omø - Omø Forsamlingshus,705790,2025-11-18 19:27:42,,ForeløbigOptælling,106,107,Storebæltslisten,0,,,5992511a-4ebd-48b8-8b27-edb1a41a3cc7,L
@@ -666,7 +740,19 @@ Greve Kommune,253,Mosedeskolen,718898,2025-11-11 20:53:07,,IngenResultater,0,0,,
 Gladsaxe Kommune,159,Grønnemose,710060,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Ringkøbing-Skjern Kommune,760,Hvide Sande,712176,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Herning Kommune,657,Arnborg,706292,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
-Nyborg Kommune,450,Aunslevhallen,705368,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Nyborg,450,Aunslevhallen,705368,2025-11-18 20:00:45,,ForeløbigOptælling,976,995,Socialdemokratiet,182,,-44.0,7986f05b-aac7-46e4-bab1-1edebe0b3047,A
+Nyborg,450,Aunslevhallen,705368,2025-11-18 20:00:45,,ForeløbigOptælling,976,995,SF - Socialistisk Folkeparti,145,,69.0,a0df8edc-ecdd-49bb-a9cd-bc9e3d7feaf7,F
+Nyborg,450,Aunslevhallen,705368,2025-11-18 20:00:45,,ForeløbigOptælling,976,995,Vi Lokale Demokrater,17,,,ec2c1d27-c119-4d42-ac2f-20a52e4dc4c2,L
+Nyborg,450,Aunslevhallen,705368,2025-11-18 20:00:45,,ForeløbigOptælling,976,995,Danmarksdemokraterne - Inger Støjberg,54,,,b25d9a1d-4a29-4e93-9956-b4b92bd33aeb,Æ
+Nyborg,450,Aunslevhallen,705368,2025-11-18 20:00:45,,ForeløbigOptælling,976,995,Alternativet,18,,,a58c9570-7542-4675-a069-6089e361f6b8,Å
+Nyborg,450,Aunslevhallen,705368,2025-11-18 20:00:45,,ForeløbigOptælling,976,995,Det Konservative Folkeparti,47,,9.0,410243f4-8014-4c3f-a184-a7ac4f5e9362,C
+Nyborg,450,Aunslevhallen,705368,2025-11-18 20:00:45,,ForeløbigOptælling,976,995,Radikale Venstre,19,,-1.0,21cf7a33-3735-49e8-a766-7c44800d1269,B
+Nyborg,450,Aunslevhallen,705368,2025-11-18 20:00:45,,ForeløbigOptælling,976,995,Liberal Alliance,32,,27.0,c7c6b9b6-b006-45c8-a1ee-55fff9b37a86,I
+Nyborg,450,Aunslevhallen,705368,2025-11-18 20:00:45,,ForeløbigOptælling,976,995,Holger S. Jørgensen,6,,,c6bc32fc-587e-4b39-9c4e-6f2a7c44a5dd,Q
+Nyborg,450,Aunslevhallen,705368,2025-11-18 20:00:45,,ForeløbigOptælling,976,995,"Venstre, Danmarks Liberale Parti",355,,-222.0,02ad7894-0e3c-4439-aa75-ca3fee68afe9,V
+Nyborg,450,Aunslevhallen,705368,2025-11-18 20:00:45,,ForeløbigOptælling,976,995,Enhedslisten - De Rød-Grønne,23,,-16.0,a95ca6c6-7b7e-48d0-8726-25b2bd93fd4d,Ø
+Nyborg,450,Aunslevhallen,705368,2025-11-18 20:00:45,,ForeløbigOptælling,976,995,Bedre By Nyborg,2,,,2ea58b07-169a-45a0-85f9-5786a363d5db,N
+Nyborg,450,Aunslevhallen,705368,2025-11-18 20:00:45,,ForeløbigOptælling,976,995,Dansk Folkeparti,76,,51.0,cbf134e7-0f06-44bc-8dd5-9df81807b76d,O
 Billund Kommune,530,Grindsted,707400,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Fredericia Kommune,607,Indre By,712216,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Hedensted Kommune,766,Ø. Snede Sogn,702132,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
@@ -704,10 +790,29 @@ Aabenraa,580,Varnæs,708352,2025-11-18 19:53:30,,ForeløbigOptælling,629,635,"V
 Skive Kommune,779,Jebjerg-Lyby,748875,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Hillerød Kommune,219,Gadevang,710380,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Ringsted Kommune,329,Haraldsted,711816,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
-Vejen Kommune,575,Bække,701386,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vejen,575,Bække,701386,2025-11-18 20:03:30,,ForeløbigOptælling,973,990,Socialdemokratiet,221,,-78.0,67af087d-0761-4771-a08e-0e24ba98d1cb,A
+Vejen,575,Bække,701386,2025-11-18 20:03:30,,ForeløbigOptælling,973,990,Alternativet,5,,,f82e2e59-5420-4863-8a30-eb5bf4064a58,Å
+Vejen,575,Bække,701386,2025-11-18 20:03:30,,ForeløbigOptælling,973,990,Danmarksdemokraterne - Inger Støjberg,101,,,767559fd-f748-4629-a239-e6e58d2cbb45,Æ
+Vejen,575,Bække,701386,2025-11-18 20:03:30,,ForeløbigOptælling,973,990,Det Radikale Venstre,9,,,4c2c726c-f3f5-4d9b-a03c-a85807e9a295,B
+Vejen,575,Bække,701386,2025-11-18 20:03:30,,ForeløbigOptælling,973,990,Det Konservative Folkeparti,120,,-153.0,5e09f3c3-2c25-4bf9-9082-3682539c9a82,C
+Vejen,575,Bække,701386,2025-11-18 20:03:30,,ForeløbigOptælling,973,990,Socialistisk Folkeparti,38,,,8c781604-f08a-488f-9224-57443d7972fc,F
+Vejen,575,Bække,701386,2025-11-18 20:03:30,,ForeløbigOptælling,973,990,"Venstre, Danmarks Liberale Parti",315,,69.0,605f202b-a2bc-458b-9a68-a2c88e89e72d,V
+Vejen,575,Bække,701386,2025-11-18 20:03:30,,ForeløbigOptælling,973,990,Liberal Alliance,63,,55.0,c768da36-a535-4c38-b61a-0b404eaa8937,I
+Vejen,575,Bække,701386,2025-11-18 20:03:30,,ForeløbigOptælling,973,990,Dansk Folkeparti,90,,31.0,f856a95c-ab8f-4a02-99ed-5cfb3fcc08d4,O
+Vejen,575,Bække,701386,2025-11-18 20:03:30,,ForeløbigOptælling,973,990,Moderaterne,11,,,1449b089-fb60-4125-9c7b-ebf9436ab629,M
 Rødovre Kommune,175,Ørbygård,707822,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Aarhus Kommune,751,Solbjergskolen,709996,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Slagelse Kommune,330,Vestermose - Hallelev Forsamlingshus,710288,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vesthimmerlands,820,Gislum-Vognsild,710016,2025-11-18 19:59:46,,ForeløbigOptælling,562,573,Socialdemokratiet,144,,-23.0,c41c84d3-b903-45e3-94d2-e76aa5bec8aa,A
+Vesthimmerlands,820,Gislum-Vognsild,710016,2025-11-18 19:59:46,,ForeløbigOptælling,562,573,Kristendemokraterne,8,,5.0,f1f62750-6395-4a90-8885-3c6a331299ed,K
+Vesthimmerlands,820,Gislum-Vognsild,710016,2025-11-18 19:59:46,,ForeløbigOptælling,562,573,"Venstre, Danmarks Liberale Parti",169,,-11.0,3933574a-54d6-4dbd-9584-356216b045be,V
+Vesthimmerlands,820,Gislum-Vognsild,710016,2025-11-18 19:59:46,,ForeløbigOptælling,562,573,Danmarksdemokraterne - Inger Støjberg,82,,,4dd60f38-5dd4-440e-976d-220fbd1c8caa,Æ
+Vesthimmerlands,820,Gislum-Vognsild,710016,2025-11-18 19:59:46,,ForeløbigOptælling,562,573,Dansk Folkeparti,20,,3.0,65fdb79f-7b9f-439c-b8b1-feed1a052ea4,O
+Vesthimmerlands,820,Gislum-Vognsild,710016,2025-11-18 19:59:46,,ForeløbigOptælling,562,573,Det Konservative Folkeparti,92,,-25.0,fef782ea-35d4-4963-9641-7b32a9724ae0,C
+Vesthimmerlands,820,Gislum-Vognsild,710016,2025-11-18 19:59:46,,ForeløbigOptælling,562,573,SF - Socialistisk Folkeparti,26,,-19.0,da15d567-1327-4d0d-bf51-ec1cc52b0edc,F
+Vesthimmerlands,820,Gislum-Vognsild,710016,2025-11-18 19:59:46,,ForeløbigOptælling,562,573,Liberal Alliance,14,,,4ce3730a-509c-4773-b3e0-c6b65efbca97,I
+Vesthimmerlands,820,Gislum-Vognsild,710016,2025-11-18 19:59:46,,ForeløbigOptælling,562,573,Borgerlisten,2,,,e5aa6226-607f-4658-8692-0acedb4f7de1,L
+Vesthimmerlands,820,Gislum-Vognsild,710016,2025-11-18 19:59:46,,ForeløbigOptælling,562,573,Radikale Venstre,5,,-5.0,f9ab8914-52da-4413-9564-33fa23e08443,B
 Hjørring Kommune,860,Hjørring - Syd,702842,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Randers Kommune,730,Ø. Bjerregrav Forsamlingshus,702776,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Lolland Kommune,360,Femø,706816,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
@@ -729,7 +834,17 @@ Aalborg Kommune,851,Vester Hassing Hallen,710544,2025-11-11 20:53:07,,IngenResul
 Svendborg Kommune,479,Ollerup,706616,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Odense Kommune,461,Korup Skole,710430,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Odsherred Kommune,306,Vig,704468,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
-Ringkøbing-Skjern Kommune,760,Holmsland,706404,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Ringkøbing-Skjern,760,Holmsland,706404,2025-11-18 20:04:15,,ForeløbigOptælling,783,794,Det Konservative Folkeparti,54,,-64.0,9ddb7ecd-0e1a-4653-9c0e-4151e99e99b1,C
+Ringkøbing-Skjern,760,Holmsland,706404,2025-11-18 20:04:15,,ForeløbigOptælling,783,794,Liberal Alliance,46,,42.0,1b55780e-e098-42be-87df-41523ecff737,I
+Ringkøbing-Skjern,760,Holmsland,706404,2025-11-18 20:04:15,,ForeløbigOptælling,783,794,Borgerlisten,23,,,e0cdaaa1-66c7-41ea-acb1-4ebf574fe06b,J
+Ringkøbing-Skjern,760,Holmsland,706404,2025-11-18 20:04:15,,ForeløbigOptælling,783,794,"Venstre, Danmarks Liberale Parti",209,,-80.0,d18c65b0-35f2-49b1-9d47-647c0e94de0e,V
+Ringkøbing-Skjern,760,Holmsland,706404,2025-11-18 20:04:15,,ForeløbigOptælling,783,794,Enhedslisten - De Rød-Grønne,7,,3.0,24ec196f-e79d-4f82-82f9-ffab5ad36cff,Ø
+Ringkøbing-Skjern,760,Holmsland,706404,2025-11-18 20:04:15,,ForeløbigOptælling,783,794,Danmarksdemokraterne - Inger Støjberg,196,,,e3b5db49-aa6f-4ee4-af37-360d7780d4a2,Æ
+Ringkøbing-Skjern,760,Holmsland,706404,2025-11-18 20:04:15,,ForeløbigOptælling,783,794,Socialdemokratiet,67,,-15.0,c95a0a1c-e01d-46ea-9deb-18fe2d621f7d,A
+Ringkøbing-Skjern,760,Holmsland,706404,2025-11-18 20:04:15,,ForeløbigOptælling,783,794,SF - Socialistisk Folkeparti,73,,-5.0,bea8a6be-3559-4eca-9ca0-337ab0ba5846,F
+Ringkøbing-Skjern,760,Holmsland,706404,2025-11-18 20:04:15,,ForeløbigOptælling,783,794,Nye Borgerlige,2,,-51.0,a84d1ec0-e7b0-460e-9909-2cb2354f8cd8,D
+Ringkøbing-Skjern,760,Holmsland,706404,2025-11-18 20:04:15,,ForeløbigOptælling,783,794,Dansk Folkeparti,19,,-11.0,621acd23-7a55-4ff2-9c7e-5a6e93f24685,O
+Ringkøbing-Skjern,760,Holmsland,706404,2025-11-18 20:04:15,,ForeløbigOptælling,783,794,Kristendemokraterne,87,,-23.0,c123e6e3-38bd-4b9b-ae3d-5aec83faca90,K
 Thisted Kommune,787,Hanstholm,748376,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Guldborgsund Kommune,376,Våbensted,709670,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Favrskov Kommune,710,Foldby,704336,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
@@ -840,7 +955,15 @@ Ringsted Kommune,329,Bringstrup,703062,2025-11-11 20:53:07,,IngenResultater,0,0,
 Tønder Kommune,550,Agerskov,701806,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Lejre Kommune,350,Hvalsø,707762,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Hvidovre Kommune,167,Sønderkærskolen,702088,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
-Mariagerfjord Kommune,846,Valsgård,702354,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Mariagerfjord,846,Valsgård,702354,2025-11-18 20:01:15,,ForeløbigOptælling,1254,1269,SF - Socialistisk Folkeparti,84,,65.0,8469bd63-7023-4abb-9ba4-ee490b9863ba,F
+Mariagerfjord,846,Valsgård,702354,2025-11-18 20:01:15,,ForeløbigOptælling,1254,1269,Liberal Alliance,48,,,29dbccb2-5474-47cf-bd58-c22a4fc3d934,I
+Mariagerfjord,846,Valsgård,702354,2025-11-18 20:01:15,,ForeløbigOptælling,1254,1269,KD - Kristendemokraterne,8,,,debdea80-7f92-4b26-a393-ab0923089aa4,K
+Mariagerfjord,846,Valsgård,702354,2025-11-18 20:01:15,,ForeløbigOptælling,1254,1269,Socialdemokratiet,385,,-44.0,cf5fc68d-d612-497b-a8e3-8e00c5d7eda1,A
+Mariagerfjord,846,Valsgård,702354,2025-11-18 20:01:15,,ForeløbigOptælling,1254,1269,Det Konservative Folkeparti,136,,25.0,915ebfb4-aff1-43a7-9db8-aa238fd0fe22,C
+Mariagerfjord,846,Valsgård,702354,2025-11-18 20:01:15,,ForeløbigOptælling,1254,1269,Dansk Folkeparti,48,,-9.0,6952f78e-9212-4189-aef1-633ae00df550,O
+Mariagerfjord,846,Valsgård,702354,2025-11-18 20:01:15,,ForeløbigOptælling,1254,1269,"Venstre, Danmarks Liberale Parti",301,,-163.0,d9003947-f4bd-4e1c-8df6-e135024ee141,V
+Mariagerfjord,846,Valsgård,702354,2025-11-18 20:01:15,,ForeløbigOptælling,1254,1269,Danmarksdemokraterne - Inger Støjberg,222,,,247a7dbe-cb28-470a-96e1-4055693a8caa,Æ
+Mariagerfjord,846,Valsgård,702354,2025-11-18 20:01:15,,ForeløbigOptælling,1254,1269,Alternativet,22,,,65e2879d-6cd9-43a7-af8a-7578a75b3ca9,Å
 Aalborg Kommune,851,Klaruphallen,701338,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Furesø Kommune,190,Jonstrup,710104,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Hillerød Kommune,219,Uvelse,749325,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
@@ -852,7 +975,21 @@ Kalundborg Kommune,326,Snertinge,705664,2025-11-11 20:53:07,,IngenResultater,0,0
 Frederikshavn Kommune,813,Strandby,712132,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Lyngby-Taarbæk Kommune,173,Taarbæk,711474,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Vallensbæk Kommune,187,"Vallensbæk Skole, Multisalen",707962,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
-Guldborgsund Kommune,376,Gedser,705108,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Guldborgsund,376,Gedser,705108,2025-11-18 20:03:15,,ForeløbigOptælling,641,653,Socialdemokratiet,139,,-37.0,127c2d4f-63de-4315-95c8-2784f0cc7f4d,A
+Guldborgsund,376,Gedser,705108,2025-11-18 20:03:15,,ForeløbigOptælling,641,653,Radikale Venstre,10,,5.0,175f9545-66c9-431d-a51f-f00559fead49,B
+Guldborgsund,376,Gedser,705108,2025-11-18 20:03:15,,ForeløbigOptælling,641,653,Det Konservative Folkeparti,16,,-13.0,e2bd9ffa-52d7-4028-9d00-d41b271a309f,C
+Guldborgsund,376,Gedser,705108,2025-11-18 20:03:15,,ForeløbigOptælling,641,653,Lars Erdmanns Liste,0,,,02e9a0d8-a8d8-4263-9814-ffe05c242960,E
+Guldborgsund,376,Gedser,705108,2025-11-18 20:03:15,,ForeløbigOptælling,641,653,SF - Socialistisk Folkeparti,62,,28.0,346c34e9-95fc-4e1e-8554-ecc26371235d,F
+Guldborgsund,376,Gedser,705108,2025-11-18 20:03:15,,ForeløbigOptælling,641,653,Dit Guldborgsund,6,,,65c59918-7189-474c-9c4a-08622514e586,G
+Guldborgsund,376,Gedser,705108,2025-11-18 20:03:15,,ForeløbigOptælling,641,653,Liberal Alliance,27,,,bf8755df-594b-4752-aaf1-2314453eb909,I
+Guldborgsund,376,Gedser,705108,2025-11-18 20:03:15,,ForeløbigOptælling,641,653,Guldborgsundlisten,139,,-33.0,f60c9586-053f-4ba6-a320-6bb799da906d,L
+Guldborgsund,376,Gedser,705108,2025-11-18 20:03:15,,ForeløbigOptælling,641,653,Moderaterne,17,,,054f574e-d78d-4ebd-aceb-6720ed30bcab,M
+Guldborgsund,376,Gedser,705108,2025-11-18 20:03:15,,ForeløbigOptælling,641,653,Sydhavslisten,18,,,15404f71-4e05-444e-a4e6-84b36fc517af,T
+Guldborgsund,376,Gedser,705108,2025-11-18 20:03:15,,ForeløbigOptælling,641,653,Danmarksdemokraterne - Inger Støjberg,25,,,677ec3c1-a035-4651-a439-1805e01b73d2,Æ
+Guldborgsund,376,Gedser,705108,2025-11-18 20:03:15,,ForeløbigOptælling,641,653,Folkebevægelsen Danmark,1,,,8c316083-5a0f-41e4-92a5-cd0a4c96f3eb,Z
+Guldborgsund,376,Gedser,705108,2025-11-18 20:03:15,,ForeløbigOptælling,641,653,Dansk Folkeparti,97,,-79.0,1537e6bb-6ab9-4074-958c-07b6e352faee,O
+Guldborgsund,376,Gedser,705108,2025-11-18 20:03:15,,ForeløbigOptælling,641,653,Enhedslisten - De Rød-Grønne,39,,-7.0,ff5631ce-2bf9-48b5-930d-f147f8969c0d,Ø
+Guldborgsund,376,Gedser,705108,2025-11-18 20:03:15,,ForeløbigOptælling,641,653,"Venstre, Danmarks Liberale Parti",45,,27.0,64ce45fa-5bc6-49cc-89c9-5a113380201d,V
 Norddjurs Kommune,707,Vivild,701476,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Egedal Kommune,240,Smørum Idrætscenter,711116,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Roskilde Kommune,265,Trekroner,704402,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
@@ -1226,6 +1363,18 @@ Varde Kommune,573,Tistrup,704624,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0
 Jammerbugt Kommune,849,Biersted,701500,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Rebild Kommune,840,Bælum,711096,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Hillerød Kommune,219,Hillerødsholmsskolen,704344,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Assens,420,Dreslette,701526,2025-11-18 20:00:30,,ForeløbigOptælling,499,505,Det Konservative Folkeparti,32,,-34.0,b9166339-9089-44e8-a04a-778cd8c19ab8,C
+Assens,420,Dreslette,701526,2025-11-18 20:00:30,,ForeløbigOptælling,499,505,Liberal Alliance,31,,,01ce3756-4179-4491-a669-37957192a067,I
+Assens,420,Dreslette,701526,2025-11-18 20:00:30,,ForeløbigOptælling,499,505,"Venstre, Danmarks Liberale Parti",175,,-128.0,922cfbe6-4d57-4534-b570-1c3030918f5b,V
+Assens,420,Dreslette,701526,2025-11-18 20:00:30,,ForeløbigOptælling,499,505,Socialdemokratiet,108,,-41.0,19898600-5161-4020-9e88-2df96f276652,A
+Assens,420,Dreslette,701526,2025-11-18 20:00:30,,ForeløbigOptælling,499,505,Vi Lokale Demokrater,1,,,b65e9a45-7e0a-4a8b-b6a3-2df3ceb5233d,L
+Assens,420,Dreslette,701526,2025-11-18 20:00:30,,ForeløbigOptælling,499,505,Danmarksdemokraterne - Inger Støjberg,30,,,ece3f275-03ee-4fff-9e10-afcf6a548d79,Æ
+Assens,420,Dreslette,701526,2025-11-18 20:00:30,,ForeløbigOptælling,499,505,Enhedslisten - De Rød-Grønne,23,,0.0,46181833-767a-4739-93c5-87a4428355ae,Ø
+Assens,420,Dreslette,701526,2025-11-18 20:00:30,,ForeløbigOptælling,499,505,SF - Socialistisk Folkeparti,51,,13.0,c41ec281-b186-4015-9e79-677595463e5c,F
+Assens,420,Dreslette,701526,2025-11-18 20:00:30,,ForeløbigOptælling,499,505,Radikale Venstre,8,,0.0,1139b68d-b3a1-4221-85ed-df6a72a2ece8,B
+Assens,420,Dreslette,701526,2025-11-18 20:00:30,,ForeløbigOptælling,499,505,Dansk Folkeparti,34,,5.0,eaa66ebd-6b4a-41aa-b597-82255fe80b24,O
+Assens,420,Dreslette,701526,2025-11-18 20:00:30,,ForeløbigOptælling,499,505,Nye Borgerlige,3,,-11.0,1856371c-fd8e-4752-81ec-7e3fa4af78be,D
+Assens,420,Dreslette,701526,2025-11-18 20:00:30,,ForeløbigOptælling,499,505,Alternativet,3,,-2.0,20298354-38c7-4d02-aa80-34c99083ee27,Å
 Glostrup Kommune,161,Nordvanghallen,702064,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Randers Kommune,730,Purhushallen,708738,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Bornholms Regionskommune,400,Aakirkeby,704742,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
@@ -1272,7 +1421,16 @@ Faaborg-Midtfyn Kommune,430,Nørre Broby,707442,2025-11-11 20:53:07,,IngenResult
 Aarhus Kommune,751,Hasle Skole,706860,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Viborg Kommune,791,Rødding,709100,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Odder Kommune,727,Gylling,704968,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
-Vesthimmerlands Kommune,820,Salling,706876,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vesthimmerlands,820,Salling,706876,2025-11-18 20:01:00,,ForeløbigOptælling,640,647,SF - Socialistisk Folkeparti,59,,-63.0,da15d567-1327-4d0d-bf51-ec1cc52b0edc,F
+Vesthimmerlands,820,Salling,706876,2025-11-18 20:01:00,,ForeløbigOptælling,640,647,Socialdemokratiet,77,,-11.0,c41c84d3-b903-45e3-94d2-e76aa5bec8aa,A
+Vesthimmerlands,820,Salling,706876,2025-11-18 20:01:00,,ForeløbigOptælling,640,647,Det Konservative Folkeparti,79,,-7.0,fef782ea-35d4-4963-9641-7b32a9724ae0,C
+Vesthimmerlands,820,Salling,706876,2025-11-18 20:01:00,,ForeløbigOptælling,640,647,Dansk Folkeparti,23,,-12.0,65fdb79f-7b9f-439c-b8b1-feed1a052ea4,O
+Vesthimmerlands,820,Salling,706876,2025-11-18 20:01:00,,ForeløbigOptælling,640,647,"Venstre, Danmarks Liberale Parti",223,,-42.0,3933574a-54d6-4dbd-9584-356216b045be,V
+Vesthimmerlands,820,Salling,706876,2025-11-18 20:01:00,,ForeløbigOptælling,640,647,Danmarksdemokraterne - Inger Støjberg,146,,,4dd60f38-5dd4-440e-976d-220fbd1c8caa,Æ
+Vesthimmerlands,820,Salling,706876,2025-11-18 20:01:00,,ForeløbigOptælling,640,647,Radikale Venstre,1,,-3.0,f9ab8914-52da-4413-9564-33fa23e08443,B
+Vesthimmerlands,820,Salling,706876,2025-11-18 20:01:00,,ForeløbigOptælling,640,647,Borgerlisten,5,,,e5aa6226-607f-4658-8692-0acedb4f7de1,L
+Vesthimmerlands,820,Salling,706876,2025-11-18 20:01:00,,ForeløbigOptælling,640,647,Kristendemokraterne,9,,4.0,f1f62750-6395-4a90-8885-3c6a331299ed,K
+Vesthimmerlands,820,Salling,706876,2025-11-18 20:01:00,,ForeløbigOptælling,640,647,Liberal Alliance,18,,,4ce3730a-509c-4773-b3e0-c6b65efbca97,I
 Københavns Kommune,101,9. Øst,709330,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Jammerbugt Kommune,849,Saltum,703310,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Aalborg Kommune,851,Multihallen Ved Vadumhallen,706034,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
@@ -1367,7 +1525,16 @@ Københavns Kommune,101,4. Øst,701580,2025-11-11 20:53:07,,IngenResultater,0,0,
 Norddjurs Kommune,707,Ørsted,704660,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Hedensted Kommune,766,Hornborg,749382,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Sønderborg Kommune,540,Vester Sottrup,706060,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
-Thisted Kommune,787,Østerild,748373,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Thisted,787,Østerild,748373,2025-11-18 20:03:00,,ForeløbigOptælling,667,674,Danmarksdemokraterne - Inger Støjberg,90,,,99d70d00-742a-489e-87cb-a7095a46f255,Æ
+Thisted,787,Østerild,748373,2025-11-18 20:03:00,,ForeløbigOptælling,667,674,Liberal Alliance,112,,108.0,c531ec13-13ad-4d57-ba62-21fc8de664b9,I
+Thisted,787,Østerild,748373,2025-11-18 20:03:00,,ForeløbigOptælling,667,674,Venstre,108,,,2382b54a-19dc-4a21-b004-d510ea42ac15,V
+Thisted,787,Østerild,748373,2025-11-18 20:03:00,,ForeløbigOptælling,667,674,Socialdemokratiet,163,,100.0,e3d78339-2c35-4ee6-b49b-d9d89734d17c,A
+Thisted,787,Østerild,748373,2025-11-18 20:03:00,,ForeløbigOptælling,667,674,Radikale Venstre,8,,4.0,f140ee99-67ac-438c-969e-b565307c5299,B
+Thisted,787,Østerild,748373,2025-11-18 20:03:00,,ForeløbigOptælling,667,674,Det Konservative Folkeparti,99,,67.0,c26f0096-8588-4201-adfa-889cf9885da1,C
+Thisted,787,Østerild,748373,2025-11-18 20:03:00,,ForeløbigOptælling,667,674,SF - Socialistisk Folkeparti,30,,19.0,9c7d84dc-5f38-49d1-885d-925eec28c239,F
+Thisted,787,Østerild,748373,2025-11-18 20:03:00,,ForeløbigOptælling,667,674,Dansk Folkeparti,32,,15.0,23118d87-fc3f-4e0d-bdd3-1f74fe48ec4c,O
+Thisted,787,Østerild,748373,2025-11-18 20:03:00,,ForeløbigOptælling,667,674,Thy Borgerlige,10,,,76a8255e-2126-413b-8f25-0d95d30aa518,T
+Thisted,787,Østerild,748373,2025-11-18 20:03:00,,ForeløbigOptælling,667,674,Enhedslisten - De Rød-Grønne,15,,-4.0,078f6417-1f00-4f31-b0bc-61752fe6a564,Ø
 Næstved Kommune,370,Kobberbakkeskolen - Rønnebæk,706418,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Ishøj Kommune,183,Ishøj Bycenter,709944,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Haderslev Kommune,510,Skrydstrup,704730,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
@@ -1416,7 +1583,19 @@ Favrskov Kommune,710,Hadsten Syd,711042,2025-11-11 20:53:07,,IngenResultater,0,0
 Høje-Taastrup Kommune,169,Parkskolen,701958,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Helsingør Kommune,217,"Laden, Gl. Vapnagård",705752,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Rebild Kommune,840,Nørager,712164,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
-Horsens Kommune,615,Sejet,709476,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Horsens,615,Sejet,709476,2025-11-18 20:01:30,,ForeløbigOptælling,286,294,Radikale Venstre,8,,4.0,f1959397-ad61-4f6e-9c2c-e0968653a358,B
+Horsens,615,Sejet,709476,2025-11-18 20:01:30,,ForeløbigOptælling,286,294,SF - Socialistisk Folkeparti,16,,3.0,519492bd-2632-4595-a0eb-3a5b5080f7b4,F
+Horsens,615,Sejet,709476,2025-11-18 20:01:30,,ForeløbigOptælling,286,294,Liberal Alliance,23,,17.0,2a8fd36f-3b0a-4ee0-a806-9663be55bad1,I
+Horsens,615,Sejet,709476,2025-11-18 20:01:30,,ForeløbigOptælling,286,294,Moderaterne,2,,,4e57ac10-0c43-4f35-8172-d946dca38af6,M
+Horsens,615,Sejet,709476,2025-11-18 20:01:30,,ForeløbigOptælling,286,294,Socialdemokratiet,90,,-4.0,00ad4c34-7804-4b93-99a3-e36d827684c1,A
+Horsens,615,Sejet,709476,2025-11-18 20:01:30,,ForeløbigOptælling,286,294,Det Konservative Folkeparti,32,,-8.0,14485245-bfdd-401e-a2d3-d65a345898c0,C
+Horsens,615,Sejet,709476,2025-11-18 20:01:30,,ForeløbigOptælling,286,294,Nye Borgerlige,2,,-4.0,a434e779-d83c-4f1c-9471-b13f44fd75d3,D
+Horsens,615,Sejet,709476,2025-11-18 20:01:30,,ForeløbigOptælling,286,294,Miljølisten Horsens,3,,3.0,9d8b9a05-ba60-4088-a313-d35f37218804,L
+Horsens,615,Sejet,709476,2025-11-18 20:01:30,,ForeløbigOptælling,286,294,Dansk Folkeparti,49,,-5.0,a70d0576-5d0a-4771-ada2-6893e3208367,O
+Horsens,615,Sejet,709476,2025-11-18 20:01:30,,ForeløbigOptælling,286,294,Søren Astrup,1,,,ec1e6b15-f7f3-4196-8bb1-d1dff1a6e073,T
+Horsens,615,Sejet,709476,2025-11-18 20:01:30,,ForeløbigOptælling,286,294,"Venstre, Danmarks Liberale Parti",30,,-18.0,f2dcf3a5-d124-47b2-a6b8-f4c0a9119951,V
+Horsens,615,Sejet,709476,2025-11-18 20:01:30,,ForeløbigOptælling,286,294,Danmarksdemokraterne - Inger Støjberg,19,,,5dd2a8e9-1ea3-4938-b0e7-107965b16602,Æ
+Horsens,615,Sejet,709476,2025-11-18 20:01:30,,ForeløbigOptælling,286,294,Enhedslisten - De Rød-Grønne,11,,-3.0,aca991b4-08c8-4482-8ce6-33d762d90569,Ø
 Randers Kommune,730,Vestervangsskolen,711576,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Horsens Kommune,615,Gedved,712014,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Jammerbugt Kommune,849,Halvrimmen,706102,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
@@ -1444,7 +1623,20 @@ Hedensted,766,Hjarnø,749381,2025-11-18 19:48:00,,ForeløbigOptælling,73,75,Dan
 Vejle Kommune,630,Rødkilde Gymnasium Syd,703998,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Esbjerg Kommune,561,Skovbo,708726,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Viborg Kommune,791,Møldrup,711838,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
-Aabenraa Kommune,580,Bolderslev,708364,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Aabenraa,580,Bolderslev,708364,2025-11-18 20:00:45,,ForeløbigOptælling,1036,1053,Radikale Venstre,6,,,53da03e1-a48b-42dd-847e-5acac3c6df51,B
+Aabenraa,580,Bolderslev,708364,2025-11-18 20:00:45,,ForeløbigOptælling,1036,1053,Socialdemokratiet,144,,-113.0,5d12ab4f-523a-4f85-a084-704bae14a30c,A
+Aabenraa,580,Bolderslev,708364,2025-11-18 20:00:45,,ForeløbigOptælling,1036,1053,Det Konservative Folkeparti,134,,31.0,34e0bb1a-fdd4-49e1-82f3-5bfc0ed56af6,C
+Aabenraa,580,Bolderslev,708364,2025-11-18 20:00:45,,ForeløbigOptælling,1036,1053,Smilla og Borgernes Liste,6,,,e9a612b0-20cb-4803-a080-f2904b86b341,E
+Aabenraa,580,Bolderslev,708364,2025-11-18 20:00:45,,ForeløbigOptælling,1036,1053,SF - Socialistisk Folkeparti,26,,11.0,ee272554-3a5b-4a90-ab6a-a7596bddec1b,F
+Aabenraa,580,Bolderslev,708364,2025-11-18 20:00:45,,ForeløbigOptælling,1036,1053,KD - Kristendemokraterne,4,,-4.0,b4750d6b-59b2-4b8b-af51-c1bad4530290,K
+Aabenraa,580,Bolderslev,708364,2025-11-18 20:00:45,,ForeløbigOptælling,1036,1053,borgernes lokalliste,5,,,31eef529-1426-4ab3-ad01-545b6ab63277,J
+Aabenraa,580,Bolderslev,708364,2025-11-18 20:00:45,,ForeløbigOptælling,1036,1053,Liberal Alliance,43,,36.0,f8025928-a11a-48c9-9f14-67ef6f9d9b71,I
+Aabenraa,580,Bolderslev,708364,2025-11-18 20:00:45,,ForeløbigOptælling,1036,1053,Enhedslisten - De Rød-Grønne,10,,-3.0,7217f99f-3616-44c4-bc12-87c7f8dc7d5f,Ø
+Aabenraa,580,Bolderslev,708364,2025-11-18 20:00:45,,ForeløbigOptælling,1036,1053,Slesvigsk Parti,87,,-31.0,25bbd545-7413-47ba-89ce-48fb1b1e1718,S
+Aabenraa,580,Bolderslev,708364,2025-11-18 20:00:45,,ForeløbigOptælling,1036,1053,"Venstre, Danmarks Liberale Parti",259,,-166.0,efa3f963-6567-47ca-a4f0-b28890e5e733,V
+Aabenraa,580,Bolderslev,708364,2025-11-18 20:00:45,,ForeløbigOptælling,1036,1053,Danmarksdemokraterne - Inger Støjberg,167,,,29137a56-7732-4284-8000-9f3dd44aa86c,Æ
+Aabenraa,580,Bolderslev,708364,2025-11-18 20:00:45,,ForeløbigOptælling,1036,1053,Dansk Folkeparti,137,,61.0,ebe905f7-2879-4aa5-9298-f2c7aedf226a,O
+Aabenraa,580,Bolderslev,708364,2025-11-18 20:00:45,,ForeløbigOptælling,1036,1053,Moderaterne,8,,,309d5713-f91f-4d97-b44b-38ea826f2faa,M
 Faaborg-Midtfyn Kommune,430,Vester Aaby,708944,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Tønder,550,Nr. Løgum,711084,2025-11-18 19:51:13,,ForeløbigOptælling,690,699,Socialdemokratiet,73,,-18.0,5c137e71-6566-4a82-90b0-62c955c700ce,A
 Tønder,550,Nr. Løgum,711084,2025-11-18 19:51:13,,ForeløbigOptælling,690,699,Dansk Folkeparti,50,,27.0,cc64e476-0c6d-4c5f-ad4a-2a58138e8d29,O
@@ -1542,7 +1734,6 @@ Lolland,360,Askø,709912,2025-11-18 19:25:41,,ForeløbigOptælling,40,40,Enhedsl
 Lolland,360,Askø,709912,2025-11-18 19:25:41,,ForeløbigOptælling,40,40,Liberal Alliance,0,,,fbf212ee-3a5f-40fd-87a9-037d42853416,I
 Lolland,360,Askø,709912,2025-11-18 19:25:41,,ForeløbigOptælling,40,40,Radikale Venstre,0,,0.0,33de8a68-f33b-46f9-8d08-bd82c47eaa3c,B
 Lolland,360,Askø,709912,2025-11-18 19:25:41,,ForeløbigOptælling,40,40,Din Stemme,0,,0.0,a67bdbbf-4209-49b2-aaec-07130c3cbd52,J
-Vejen Kommune,575,Lintrup,710606,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Odder,727,Tunø,710838,2025-11-18 19:31:56,,ForeløbigOptælling,51,53,Socialdemokratiet,16,,9.0,770ca116-c7fc-4576-a492-c79cbd97b359,A
 Odder,727,Tunø,710838,2025-11-18 19:31:56,,ForeløbigOptælling,51,53,Moderaterne,1,,,b1d1194b-8b9b-42dd-be34-aeb180a19522,M
 Odder,727,Tunø,710838,2025-11-18 19:31:56,,ForeløbigOptælling,51,53,"Venstre, Danmarks Liberale Parti",18,,-18.0,7737dbee-8e88-44e2-be6a-0d78c5ae5df2,V
@@ -1635,7 +1826,16 @@ Tønder,550,Bredebro,712106,2025-11-18 19:58:01,,ForeløbigOptælling,962,980,De
 Lyngby-Taarbæk Kommune,173,Lyngby Midt,710178,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Hjørring Kommune,860,Ugilt,701248,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Hedensted Kommune,766,Hornsyld,711310,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
-Favrskov Kommune,710,Hammel Syd,706342,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Favrskov,710,Hammel Syd,706342,2025-11-18 20:00:45,,ForeløbigOptælling,1130,1151,Socialdemokratiet,254,,-153.0,510eefc2-3787-4645-ad82-ce39348e7a11,A
+Favrskov,710,Hammel Syd,706342,2025-11-18 20:00:45,,ForeløbigOptælling,1130,1151,Radikale Venstre,42,,16.0,e5c336cb-9fe8-4b5f-b3c1-b906a64f7be3,B
+Favrskov,710,Hammel Syd,706342,2025-11-18 20:00:45,,ForeløbigOptælling,1130,1151,Det Konservative Folkeparti,250,,34.0,f0661158-14c3-4d17-93f1-858d1d197704,C
+Favrskov,710,Hammel Syd,706342,2025-11-18 20:00:45,,ForeløbigOptælling,1130,1151,Liberal Alliance,66,,56.0,408f0425-f3b6-4fc3-bdd6-2f257e9181a8,I
+Favrskov,710,Hammel Syd,706342,2025-11-18 20:00:45,,ForeløbigOptælling,1130,1151,Dansk Folkeparti,96,,50.0,3c1bb563-565d-4f19-8993-c5cbe2566ad3,O
+Favrskov,710,Hammel Syd,706342,2025-11-18 20:00:45,,ForeløbigOptælling,1130,1151,SF - Socialistisk Folkeparti,86,,43.0,9a05a8f0-c867-41a5-a866-225069c59419,F
+Favrskov,710,Hammel Syd,706342,2025-11-18 20:00:45,,ForeløbigOptælling,1130,1151,"Venstre, Danmarks Liberale Parti",149,,-22.0,ce888947-65d2-463d-b432-5efcfd65a0a2,V
+Favrskov,710,Hammel Syd,706342,2025-11-18 20:00:45,,ForeløbigOptælling,1130,1151,Danmarksdemokraterne - Inger Støjberg,108,,,e7728c11-4b54-4400-b2d2-43ac8247fb9f,Æ
+Favrskov,710,Hammel Syd,706342,2025-11-18 20:00:45,,ForeløbigOptælling,1130,1151,Alternativet,10,,,bc3fd319-761a-402e-bc5c-db75a31060aa,Å
+Favrskov,710,Hammel Syd,706342,2025-11-18 20:00:45,,ForeløbigOptælling,1130,1151,Enhedslisten - De Rød-Grønne,69,,3.0,f1a2c587-3777-4ddb-8f13-85d01998d2f1,Ø
 Slagelse Kommune,330,Sørbymagle - Sørbymagle forsamlingshus,704408,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Aalborg Kommune,851,Ulstedhallen,708966,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Aabenraa Kommune,580,Ravsted,706648,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
@@ -1676,7 +1876,19 @@ Middelfart Kommune,410,Middelfart Ø,708394,2025-11-11 20:53:07,,IngenResultater
 Vordingborg Kommune,390,Præstø,706306,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Aarhus Kommune,751,"Møllevangskolen, Aarhus V",706866,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Nordfyns Kommune,480,Krogsbølle,748632,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
-Ringsted Kommune,329,Vetterslev,706072,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Ringsted,329,Vetterslev,706072,2025-11-18 20:02:00,,ForeløbigOptælling,819,828,Radikale Venstre,10,,-16.0,70808d1d-e585-452e-9382-77ec1907bc67,B
+Ringsted,329,Vetterslev,706072,2025-11-18 20:02:00,,ForeløbigOptælling,819,828,Nye Borgerlige,13,,-26.0,34536ac2-e665-4bfc-97b7-ee8eec31ff30,D
+Ringsted,329,Vetterslev,706072,2025-11-18 20:02:00,,ForeløbigOptælling,819,828,SF - Socialistisk Folkeparti,51,,-7.0,7642c7eb-2bff-4dc8-82e6-468ee2d0c8fe,F
+Ringsted,329,Vetterslev,706072,2025-11-18 20:02:00,,ForeløbigOptælling,819,828,Dansk Folkeparti,46,,11.0,4de1b3f5-9e92-4f2d-b21d-30628b70bf68,O
+Ringsted,329,Vetterslev,706072,2025-11-18 20:02:00,,ForeløbigOptælling,819,828,Det Konservative Folkeparti,294,,126.0,3f489234-0453-4c3f-ab58-7bddfa4402fa,C
+Ringsted,329,Vetterslev,706072,2025-11-18 20:02:00,,ForeløbigOptælling,819,828,Socialdemokratiet,203,,38.0,fafc81ab-8985-47b8-8885-4dc97b76148d,A
+Ringsted,329,Vetterslev,706072,2025-11-18 20:02:00,,ForeløbigOptælling,819,828,KristenDemokraterne,2,,,01b2e54e-6e5c-4499-bcc3-a1a867e78680,K
+Ringsted,329,Vetterslev,706072,2025-11-18 20:02:00,,ForeløbigOptælling,819,828,Landsbylisten,3,,,a4ca24a3-6c44-4a4a-a7c1-79df1df61c25,L
+Ringsted,329,Vetterslev,706072,2025-11-18 20:02:00,,ForeløbigOptælling,819,828,Det Nære Parti,3,,,083f349d-ac23-454c-9a7d-0df92812eb02,N
+Ringsted,329,Vetterslev,706072,2025-11-18 20:02:00,,ForeløbigOptælling,819,828,"Venstre, Danmarks Liberale Parti",110,,-133.0,6962b2e7-c315-4de4-b384-0b9216998ed6,V
+Ringsted,329,Vetterslev,706072,2025-11-18 20:02:00,,ForeløbigOptælling,819,828,Enhedslisten - De Rød-Grønne,25,,-3.0,6287a3f9-b9a4-440b-b315-176dbd138617,Ø
+Ringsted,329,Vetterslev,706072,2025-11-18 20:02:00,,ForeløbigOptælling,819,828,Danmarksdemokraterne - Inger Støjberg,34,,,40bbee4f-fbdf-425a-a5fe-400020af1a0e,Æ
+Ringsted,329,Vetterslev,706072,2025-11-18 20:02:00,,ForeløbigOptælling,819,828,Liberal Alliance,25,,17.0,ce58703c-cc74-48d7-bab6-9f3e5db15f51,I
 Silkeborg Kommune,740,Thorning,703820,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Randers Kommune,730,Huset Tværs,707212,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Lyngby-Taarbæk Kommune,173,Engelsborg,706998,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
@@ -1796,10 +2008,21 @@ Københavns Kommune,101,3. Syd,704846,2025-11-11 20:53:07,,IngenResultater,0,0,,
 Københavns Kommune,101,9. Sydhavn,706120,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Allerød Kommune,201,Skovvang,703802,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Faaborg-Midtfyn Kommune,430,Nr. Lyndelse,707460,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
-Sorø Kommune,340,Ruds Vedby,705564,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Slagelse Kommune,330,Boeslunde - Boeslunde Hallen,701098,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Haderslev Kommune,510,Vojens,707620,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
-Haderslev Kommune,510,Arnum,709148,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Haderslev,510,Arnum,709148,2025-11-18 20:04:15,,ForeløbigOptælling,371,378,Det Konservative Folkeparti,11,,-82.0,34dcd17b-c9b2-4fb7-aa4b-8b08dfca609d,C
+Haderslev,510,Arnum,709148,2025-11-18 20:04:15,,ForeløbigOptælling,371,378,SF - Socialistisk Folkeparti,10,,0.0,a68f197a-0780-4382-bc79-dcbf235e38e8,F
+Haderslev,510,Arnum,709148,2025-11-18 20:04:15,,ForeløbigOptælling,371,378,Dansk Folkeparti,54,,12.0,4f006138-69a7-4eb6-8ebf-2d27d5db1eea,O
+Haderslev,510,Arnum,709148,2025-11-18 20:04:15,,ForeløbigOptælling,371,378,Venstre - Danmarks Liberale Parti,110,,,7573ac11-60b5-44e0-b12f-ec4eacec20a3,V
+Haderslev,510,Arnum,709148,2025-11-18 20:04:15,,ForeløbigOptælling,371,378,Enhedslisten - De Rød Grønne,6,,,a54c25d8-5acd-4c89-9467-5ccf27ba3b38,Ø
+Haderslev,510,Arnum,709148,2025-11-18 20:04:15,,ForeløbigOptælling,371,378,Alternativet,2,,0.0,4103fba7-5b01-4d5d-9d93-97d7eef3d7f2,Å
+Haderslev,510,Arnum,709148,2025-11-18 20:04:15,,ForeløbigOptælling,371,378,Socialdemokratiet,60,,-90.0,91075beb-5b18-4836-b392-d283c68eac62,A
+Haderslev,510,Arnum,709148,2025-11-18 20:04:15,,ForeløbigOptælling,371,378,Radikale Venstre,9,,-19.0,e80cb981-c16e-4c74-9689-6975279ecf1f,B
+Haderslev,510,Arnum,709148,2025-11-18 20:04:15,,ForeløbigOptælling,371,378,Nye Borgerlige,1,,-49.0,007078c7-6369-4646-a0ad-2159c7954718,D
+Haderslev,510,Arnum,709148,2025-11-18 20:04:15,,ForeløbigOptælling,371,378,Kristendemokraterne,10,,2.0,44bf96c2-2a50-4433-851e-72385a9c2b52,K
+Haderslev,510,Arnum,709148,2025-11-18 20:04:15,,ForeløbigOptælling,371,378,Liberal Alliance,17,,15.0,f25aa20e-26fd-45d0-9511-c33f13fef93d,I
+Haderslev,510,Arnum,709148,2025-11-18 20:04:15,,ForeløbigOptælling,371,378,Danmarksdemokraterne - Inger Støjberg,77,,,53e4ac5b-1574-40cf-a984-bb474d50b605,Æ
+Haderslev,510,Arnum,709148,2025-11-18 20:04:15,,ForeløbigOptælling,371,378,Slesvigsk Parti,4,,-7.0,1d992b8d-b5c8-40dd-9424-075677ba7b0a,S
 Greve Kommune,253,Arenaskolen ved Greve Kultur-Base,718892,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Rødovre Kommune,175,Milestedet,724738,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Vejen Kommune,575,Skodborg,704538,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
@@ -1837,6 +2060,19 @@ Brønderslev Kommune,810,Dronninglund,705640,2025-11-11 20:53:07,,IngenResultate
 Vejen Kommune,575,Sdr. Hygum,704526,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Herning Kommune,657,Ørnhøj,705030,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Middelfart Kommune,410,Baaring,711266,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
+Vejle,630,Grønbjerg Nord,706962,2025-11-18 20:00:15,,ForeløbigOptælling,537,547,Det Konservative Folkeparti,26,,-7.0,e68a793b-6f71-4a0a-90c5-fb3cf9032f7a,C
+Vejle,630,Grønbjerg Nord,706962,2025-11-18 20:00:15,,ForeløbigOptælling,537,547,SF - Socialistisk Folkeparti,30,,17.0,18e546db-1d52-403a-a083-423cc726b338,F
+Vejle,630,Grønbjerg Nord,706962,2025-11-18 20:00:15,,ForeløbigOptælling,537,547,Radikale Venstre,9,,-1.0,6791e764-03bb-4402-bffb-e4550b9a1875,B
+Vejle,630,Grønbjerg Nord,706962,2025-11-18 20:00:15,,ForeløbigOptælling,537,547,Kommunistisk Parti,1,,,e48516f9-d16e-4798-a7f5-0c4570a9f363,R
+Vejle,630,Grønbjerg Nord,706962,2025-11-18 20:00:15,,ForeløbigOptælling,537,547,Dansk Folkeparti,38,,7.0,265fc27c-ef1a-43a7-aaed-e498e23b2ba5,O
+Vejle,630,Grønbjerg Nord,706962,2025-11-18 20:00:15,,ForeløbigOptælling,537,547,Socialdemokratiet,61,,-16.0,08070939-5c7f-4f73-b300-49b5715623cb,A
+Vejle,630,Grønbjerg Nord,706962,2025-11-18 20:00:15,,ForeløbigOptælling,537,547,Liberal Alliance,18,,8.0,1033ff69-cbbc-4e78-a348-3a3446689ee6,I
+Vejle,630,Grønbjerg Nord,706962,2025-11-18 20:00:15,,ForeløbigOptælling,537,547,Moderaterne,4,,,c6d0806c-c539-4b29-abf5-c3c469c60ef1,M
+Vejle,630,Grønbjerg Nord,706962,2025-11-18 20:00:15,,ForeløbigOptælling,537,547,Kristendemokraterne,3,,-1.0,a61fe264-ddca-449e-a182-efcb4fd630ab,K
+Vejle,630,Grønbjerg Nord,706962,2025-11-18 20:00:15,,ForeløbigOptælling,537,547,Danmarksdemokraterne - Inger Støjberg,102,,,fbd02688-efb0-4d01-b50c-f05e81db52fc,Æ
+Vejle,630,Grønbjerg Nord,706962,2025-11-18 20:00:15,,ForeløbigOptælling,537,547,Alternativet,4,,1.0,8bd0e21b-e596-483f-abc5-ab72e7e6f99b,Å
+Vejle,630,Grønbjerg Nord,706962,2025-11-18 20:00:15,,ForeløbigOptælling,537,547,Enhedslisten - De Rød-Grønne,8,,-7.0,aeb4c977-0936-4e10-84c2-8752517f042f,Ø
+Vejle,630,Grønbjerg Nord,706962,2025-11-18 20:00:15,,ForeløbigOptælling,537,547,"Venstre, Danmarks Liberale Parti",233,,-98.0,eaacd4ba-58cf-4b14-b8f6-5b2473c82ba0,V
 Halsnæs Kommune,260,Frederiksværk,707698,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Aabenraa Kommune,580,Felsted,708358,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
 Aalborg Kommune,851,Gistrup Skoles Idrætshal,702950,2025-11-11 20:53:07,,IngenResultater,0,0,,0,0.0,0.0,,
