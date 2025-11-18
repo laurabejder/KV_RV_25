@@ -1,7 +1,2 @@
 region,kommune,kommune_kode,afstemningsområde,afstemningsområde_dagi_id,frigivelsestidspunkt,godkendelsestidspunkt,resultat_art,total_gyldige_stemmer,total_afgivne_stemmer,kandidat,kandidat_id,parti,parti_id,parti_bogstav,stemmer
-Østdanmark,København,101,2. Nord,706166,2025-08-19 06:43:55,,Fintælling,36188,36437,Sophie Hæstorp Andersen,f3aaff51-2178-4ffe-8893-2b0c92473b00,Socialdemokratiet,8fbb2d9c-b8c0-466d-86d7-e9e49f9afc09,A,11039
-Østdanmark,København,101,2. Nord,706166,2025-08-19 06:43:55,,Fintælling,36188,36437,Lars Weiss,28c98c16-a601-487f-9823-3bdb6bf35e95,Socialdemokratiet,8fbb2d9c-b8c0-466d-86d7-e9e49f9afc09,A,4020
-Østdanmark,København,101,2. Nord,706166,2025-08-19 06:43:55,,Fintælling,36188,36437,Laura Rosenvinge,64753851-4d34-4c40-81a7-7d47e4cbb0fa,Socialdemokratiet,8fbb2d9c-b8c0-466d-86d7-e9e49f9afc09,A,2579
-Østdanmark,København,101,2. Nord,706166,2025-08-19 06:43:55,,Fintælling,36188,36437,Sophie Hæstorp Andersen,41aad080-e504-42e0-92cc-722783755fda,Venstre,c721c742-8e4a-40f8-983e-7b8e63fa451e,V,11039
-Østdanmark,København,101,2. Nord,706166,2025-08-19 06:43:55,,Fintælling,36188,36437,Lars Weiss,ea49cd31-8bab-4223-8f2d-4482c2bd0946,Venstre,c721c742-8e4a-40f8-983e-7b8e63fa451e,V,4020
-Østdanmark,København,101,2. Nord,706166,2025-08-19 06:43:55,,Fintælling,36188,36437,Laura Rosenvinge,13db3fad-d457-43e7-acef-e307e70e8975,Venstre,c721c742-8e4a-40f8-983e-7b8e63fa451e,V,2579
+

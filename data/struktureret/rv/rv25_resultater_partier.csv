@@ -1,8 +1,1 @@
 region,kommune,kommune_kode,afstemningsområde,afstemningsområde_dagi_id,frigivelsestidspunkt,godkendelsestidspunkt,resultat_art,total_gyldige_stemmer,total_afgivne_stemmer,parti,stemmer,listestemmer,difference_forrige_valg,parti_id,parti_bogstav
-Østdanmark,København,101,3. Nordvest,706166,2025-08-19 06:43:57,,IngenResultater,0,0,,0,0,0,,
-Midtjylland,Aarhus Kommune,751,"Virupskolen, Hjortshøj",711374,2025-11-11 20:52:47,,IngenResultater,0,0,,0,0,0,,
-Østdanmark,København,101,2. Nord,706166,2025-08-19 06:43:55,,Fintælling,36188,36437,Socialdemokratiet,18094,1548,-4,8fbb2d9c-b8c0-466d-86d7-e9e49f9afc09,A
-Østdanmark,København,101,2. Nord,706166,2025-08-19 06:43:55,,Fintælling,36188,36437,Venstre,18094,1548,-4,c721c742-8e4a-40f8-983e-7b8e63fa451e,V
-Østdanmark,København,101,1. ,707732,2025-08-19 06:43:53,,ForeløbigOptælling,36188,36437,Socialdemokratiet,18094,1548,-4,9481c773-dfd5-472a-b6bb-d5c2cfa917a6,A
-Østdanmark,København,101,1. ,707732,2025-08-19 06:43:53,,ForeløbigOptælling,36188,36437,Venstre,18094,1548,-4,851e9e81-38f8-478d-b136-97343a740070,V
-Midtjylland,Aarhus Kommune,751,Aarhus Rådhus,708568,2025-11-11 20:52:47,,IngenResultater,0,0,,0,0,0,,
