@@ -117,4 +117,7 @@ if df_kandidater.empty:
         "kandidat", "kandidat_id", "parti", "parti_id", "parti_bogstav", "stemmer"
     ])
 
+# drop parti_id, frigivelsestidspunkt and godkendelsestidspunkt columns before saving
+df_kandidater = df_kandidater.drop(columns=["parti_id", "frigivelsestidspunkt", "godkendelsestidspunkt"], errors='ignore')
+
 df_kandidater.to_csv(outdir / "rv25_resultater_kandidater.csv", index=False)
