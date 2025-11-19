@@ -303,6 +303,21 @@ alle = borgmestre[borgmestre['borgmester'].notna()].shape[0] # find the number o
 
 # Loop over resultaterne fra kommunerne og opdater datafilerne
 for kommune_id in kv25_resultater_partier["kommune_kode"].unique():
+    #if kommune_id == 101 print("debug for københavn")
+    if kommune_id == 101:
+        #change the party with the listebogstav R to KP
+        kv25_resultater_partier.loc[
+            (kv25_resultater_partier["kommune_kode"] == 101) & 
+            (kv25_resultater_partier["parti_bogstav"] == "R"), "parti_bogstav"
+        ] = "KP"
+        #
+        # print those rows
+        print(kv25_resultater_partier[
+            (kv25_resultater_partier["kommune_kode"] == 101) & 
+            (kv25_resultater_partier["parti_bogstav"] == "KP")
+        ])
+
+
     data = kv25_resultater_partier.query("kommune_kode == @kommune_id").copy()
     kommunenavn = data["kommune"].iat[0].replace(" Kommune", "")
     kommunenavn_lower = kommunenavn.lower()
