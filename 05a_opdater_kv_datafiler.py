@@ -29,6 +29,7 @@ kv25_resultater_partier = (
 )
 
 kv25_resultater_partier["kommune"] = kv25_resultater_partier["kommune"].str.replace(" Kommune", "", regex=False)
+kv25_resultater_partier["kommune"] = kv25_resultater_partier["kommune"].str.replace("s Regionskommune", "", regex=False)
 kv25_resultater_partier["kommune"] = kv25_resultater_partier["kommune"].str.replace("Københavns Kommune", "Københavns", regex=False)
 kv25_resultater_partier["kommune"] = kv25_resultater_partier["kommune"].str.replace("Københavns", "København", regex=False)
 
