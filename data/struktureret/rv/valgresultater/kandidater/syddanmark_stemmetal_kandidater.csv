@@ -51,8 +51,8 @@ kandidat,parti,stemmer
 "Maria Glinvad Damgaard, Haderslev",Socialdemokratiet,1699
 "Halil Özsari, Odense",Socialdemokratiet,1689
 "Michael Nielsen, Kerteminde",Konservative,1687
-"Kim Eskesen, Esbjerg",Socialdemokratiet,1668
 "Martin Schmidt Konradsen, Odense",Enhedslisten,1668
+"Kim Eskesen, Esbjerg",Socialdemokratiet,1668
 "Carsten Sørensen, Odense",Dansk Folkeparti,1618
 "Jasmin Bjelosevic, Vejle",Socialdemokratiet,1599
 "Susanne Dyreborg, Esbjerg",Danmarksdemokraterne,1459
@@ -102,8 +102,8 @@ Abdinoor Adam Hassan,Moderaterne,898
 "Peter Nikolajsen, Esbjerg",Liberal Alliance,745
 "Hans-Christian Gjerlevsen, Aabenraa",Dansk Folkeparti,737
 "Michael Christensen, Aabenraa",SF,728
-"Kirsten Gaulshøj, Esbjerg",Dansk Folkeparti,726
 "Anna Mette Skov Borring, Årslev",Radikale,726
+"Kirsten Gaulshøj, Esbjerg",Dansk Folkeparti,726
 "Sabrina Bech Bartholin, Esbjerg",E,710
 "Christina Kokkendoff, Kolding",Liberal Alliance,701
 "Christian Fini, Vejle",Liberal Alliance,698
@@ -140,14 +140,14 @@ Paul Erik Planitzer,Kristendemokraterne,511
 "Rasmus Sandvej, Kolding",Konservative,465
 "Linda Lund Lauridsen, Esbjerg",Danmarksdemokraterne,455
 "Lisa Jonasson, Sønderborg",Venstre,454
-"Betina Wettengel, Kolding",Konservative,442
 "Kim Lei-Jensen, Odense",Radikale,442
+"Betina Wettengel, Kolding",Konservative,442
 "Zeb Meier Watz, Odense C",Radikale,432
 "Preben Steen, Vejle",Konservative,431
 "Jan Strandhave, Svendborg",Venstre,427
 "Maria Dalum, Odense",Alternativet,398
-Camilla Schuster Nygaard,Moderaterne,397
 "Hans Mortensen, Esbjerg",Venstre,397
+Camilla Schuster Nygaard,Moderaterne,397
 "Kim Andkjær Doberck, Kruså",Dansk Folkeparti,393
 "Thies Mathiasen, Haderslev",Dansk Folkeparti,390
 Bent Olsen,Moderaterne,389
@@ -168,8 +168,8 @@ Ester Esmarch,Kristendemokraterne,361
 "Laila Poulsen, Vejen",Danmarksdemokraterne,331
 "Lars E. Boesen, Middelfart",Radikale,329
 "Thomas Søndergaard Ammons, Vejle",Enhedslisten,321
-"Julie Bruus Jensen, Odense",Venstre,311
 "Allan Svendsen, Tønder",Dansk Folkeparti,311
+"Julie Bruus Jensen, Odense",Venstre,311
 "Marianne Mix, Svendborg",Dansk Folkeparti,303
 Vibeke Henriksen,Moderaterne,302
 Lone Hansen,Moderaterne,299
@@ -193,9 +193,9 @@ Evis Sadikaj,Moderaterne,218
 Smita Salagare,Moderaterne,213
 "Ole Dupont Kofod, Glamsbjerg",Alternativet,209
 "Daniel Juhl, Faaborg-Midtfyn",Danmarksdemokraterne,201
-"Lone Kiilerich, Kerteminde",Dansk Folkeparti,199
-"Emely Wind Thomsen, Gråsten",Dansk Folkeparti,199
 "Kjeld Jeggesen, Fredericia",Danmarksdemokraterne,199
+"Emely Wind Thomsen, Gråsten",Dansk Folkeparti,199
+"Lone Kiilerich, Kerteminde",Dansk Folkeparti,199
 "Jette Julius Kristiansen, Aabenraa",Dansk Folkeparti,192
 Andreas Lausen,Moderaterne,191
 "Morten Pabst Petersen, Middelfart",Enhedslisten,188
@@ -204,8 +204,8 @@ Hans-Jørgen Jagd,Moderaterne,178
 Hanna-Maria Lyng,Kristendemokraterne,176
 "Tonny Stenkilde, Vissenbjerg",Konservative,174
 "Noah B. Bandholm, Vejle",Venstre,170
-"Lars Mejsner, Middelfart",Danmarksdemokraterne,168
 Jens Chr. Olesen,Kristendemokraterne,168
+"Lars Mejsner, Middelfart",Danmarksdemokraterne,168
 "Kenny Holm, Sjølund",Radikale,167
 "Hans Biering Fonsbøl, Vejle",Alternativet,165
 Allan Sørensen,Moderaterne,157
@@ -214,8 +214,8 @@ Allan Sørensen,Moderaterne,157
 "Ken Guldberg Jespersen, Kerteminde",Venstre,144
 "Martin Ludvigsen, Kerteminde",Danmarksdemokraterne,140
 Andreas Simonsen Sinding,Moderaterne,137
-Christian Bjerre,Kristendemokraterne,134
 Kasper-Peder Von Bach,Moderaterne,134
+Christian Bjerre,Kristendemokraterne,134
 "Preben Rasmussen, Aabenraa",Enhedslisten,128
 "Ronald Kongstad, Fredericia",Danmarksdemokraterne,127
 "Bodil Lilliegaard, Rudkøbing",Dansk Folkeparti,126
@@ -248,8 +248,8 @@ Tobias Christensen,R,48
 Christian Træholt,R,46
 Preben Thorsen,Moderaterne,45
 Bjarne Vium Mikkelsen,Kristendemokraterne,43
-Karl Peter Warming,Moderaterne,41
 "Maiken Huglstad Pedersen, Esbjerg",E,41
+Karl Peter Warming,Moderaterne,41
 Mathias Rothausen,R,35
 Troels Lillegaard,R,34
 Thue Uhre Lauridsen,Moderaterne,31
