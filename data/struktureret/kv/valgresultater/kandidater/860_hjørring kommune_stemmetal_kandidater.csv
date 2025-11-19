@@ -1,13 +1,13 @@
 kandidat,parti,stemmer
-Mai-Britt Beith,Socialdemokratiet,3847
+Mai-Britt Beith,Socialdemokratiet,3849
 "Per Møller, Hjørring",Konservative,2735
 "Søren Smalbro, Bjergby",Venstre,2481
 Thomas Klimek,Socialdemokratiet,1054
-Gry Bruun Nielsen,Radikale,916
+Gry Bruun Nielsen,Radikale,915
 "Ellen Raunsmed, Løkken",SF,769
 "Søren Homann, Tårs",Konservative,653
-"Andreas Huus Andersen, Hjørring",Danmarksdemokraterne,612
-Sven Bertelsen,Socialdemokratiet,604
+"Andreas Huus Andersen, Hjørring",Danmarksdemokraterne,611
+Sven Bertelsen,Socialdemokratiet,605
 "Betina D. Jensen, Hjørring",Venstre,596
 "Claus Mørkbak Højrup, Hjørring",Venstre,574
 "Lars Høgh, Tornby",Venstre,560
@@ -19,9 +19,9 @@ Henrik Taagaard,Socialdemokratiet,557
 "Michael Engbjerg, Hirtshals",Venstre,392
 "Jørgen Bing, Tårs",SF,374
 "Lone Olsen, Tårs",Venstre,362
-"Daniel Vestergaard, Lendum",Konservative,361
 "Frode Larsen, Vrå",Dansk Folkeparti,361
 "Lars-Peter Boel, Skallerup",Venstre,360
+"Daniel Vestergaard, Lendum",Konservative,358
 "Annette Jensen, Sindal",Venstre,293
 "Stefan Karlborg, Løkken",Venstre,289
 Martin Prentow,Socialdemokratiet,257
@@ -36,8 +36,8 @@ Tim Jensen,Socialdemokratiet,255
 "Louise Frilev, Hirtshals",Venstre,193
 Line Kraghede Jensen,Socialdemokratiet,189
 Pernille Buhelt,Socialdemokratiet,181
-"Lene Skjelbo, Hjørring",SF,175
 "Holger Kjærgaard, Vrå",Enhedslisten,175
+"Lene Skjelbo, Hjørring",SF,175
 Julie Vinther,Socialdemokratiet,174
 "Martin Brag, Bjergby",Venstre,157
 "Karl H. Bornhøft, Harken",SF,153
@@ -48,15 +48,15 @@ Peter Ernst Sundbæk,Socialdemokratiet,139
 "Anne V. Lauritsen, Rakkeby",L,138
 "Svenning Christensen, Lønstrup",Liberal Alliance,137
 Laura Jensen,Moderaterne,126
-Hassan Alouch,Radikale,124
 "Søren Sloth, Sindal",Venstre,124
+Hassan Alouch,Radikale,124
 "Martin Lønborg, Lørslev",Venstre,118
 Børge Bech,Socialdemokratiet,114
 Jes Bastholm,Socialdemokratiet,114
 "Arne Hyldgaard, Nr. Harritslev",Dansk Folkeparti,113
 "Ib Østenkær, Hjørring",Dansk Folkeparti,111
+"Daniel Krag Nielsen, Hjørring",Konservative,110
 "Jan Bering, Hjørring",Venstre,109
-"Daniel Krag Nielsen, Hjørring",Konservative,107
 "Tania Lange, Hjørring",L,103
 "Hans Jensen, Hjørring",Enhedslisten,95
 Jesper Overgaard,Radikale,93
@@ -79,20 +79,20 @@ Kasper Beith Søndergaard,Socialdemokratiet,54
 "Christian Simonsen, Hjørring",E,45
 "Lisa H. Pedersen, Hjørring",Venstre,44
 "Kenneth Birch, Vrå",Konservative,43
-"Elsebeth Maarup, Lønstrup",Dansk Folkeparti,41
 "Per Kanstrup, Vrå",L,41
+"Elsebeth Maarup, Lønstrup",Dansk Folkeparti,41
 Rikke Kirstine Lomholt,Moderaterne,36
 "Jimmi Kruse Sørensen, Sindal",SF,34
 "Carsten Andersen, Hjørring",J,33
 "Erik Gerald Balle, Vrå",SF,29
 "Arne Nygreen, Hjørring",Enhedslisten,27
 "Kristian Jensen, Bindslev",L,20
-"Orla Kjærgaard, Hjørring",Dansk Folkeparti,18
 Daniel Lundberg Svendsen,Radikale,18
+"Orla Kjærgaard, Hjørring",Dansk Folkeparti,18
 "Mette Præstegaard, Hirtshals",L,18
 "Lars Christian Thomsen, Hjørring",Konservative,15
-"Harry Jensen, Hjørring",Enhedslisten,14
 "Anders Rydahl-Jensen, Hjørring",Venstre,14
+"Harry Jensen, Hjørring",Enhedslisten,14
 "Peter Yde Knudsen, Nr. Lyngby",Enhedslisten,14
 Jens Peter Hanghøj Laursen,Radikale,14
 "Inger-Margrethe Jensen, Højene",SF,12
@@ -100,8 +100,8 @@ Jens Peter Hanghøj Laursen,Radikale,14
 "Simon Hoekstra, Tolne",L,9
 "Marthin Stadsvold, Løkken",L,8
 "Ole Moltsen, Tårs",L,7
-"Jane Borring Larsen, Hjørring",L,4
 "Birthe Andersen, Hjørring",L,4
+"Jane Borring Larsen, Hjørring",L,4
 Theis Magle,Radikale,4
 "Asta Bjerre, Bollehede",L,3
 "Gunnar E. Nielsen, Hjørring",L,1
