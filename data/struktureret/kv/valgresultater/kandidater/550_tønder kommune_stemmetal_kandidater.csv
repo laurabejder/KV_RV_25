@@ -1,7 +1,7 @@
 kandidat,parti,stemmer
 Jørgen Popp Petersen,Slesvigsk Parti,3845
 Anita Uggerholt Eriksen,T,1454
-"Allan Svendsen, Rømø",Dansk Folkeparti,545
+Allan Svendsen,Dansk Folkeparti,545
 Torben Struck,Socialdemokratiet,471
 Martin Iversen,Venstre,458
 Louise Thomsen Terp,Slesvigsk Parti,403
@@ -10,21 +10,21 @@ Morten Gaarde Gad,Venstre,340
 Jan Fogh,Venstre,336
 Tilde Holch Duedahl,Venstre,300
 Bjarne Lund Henneberg,SF,281
-"Mads-Magnus Dam, Frifelt",Dansk Folkeparti,271
+Mads-Magnus Dam,Dansk Folkeparti,271
 Poul Erik Kjær,Venstre,258
 Anette Abildgaard Larsen,Konservative,255
 Flemming Gjelstrup,Socialdemokratiet,248
 Bo Jessen,T,246
-"Lars Lund Hansen, Skærbæk",Liberal Alliance,242
-"Jørn Andersen, Tønder",Danmarksdemokraterne,228
+Lars Lund Hansen,Liberal Alliance,242
+Jørn Andersen,Danmarksdemokraterne,228
 Rikke Weng-Ludvigsen,SF,204
 Karen Inger Refslund Andersen,T,202
 Neel Rudebeck,Venstre,188
 Jesper Steenholdt,T,180
 Mathias Knudsen,Slesvigsk Parti,169
-"Pernille Mai Brylle, Vesterende Ballum",Dansk Folkeparti,168
+Pernille Mai Brylle,Dansk Folkeparti,168
 Lars Rømer,Socialdemokratiet,168
-"Jens Laurids Sørensen, Skærbæk",Liberal Alliance,164
+Jens Laurids Sørensen,Liberal Alliance,164
 Mette Nielsen,Socialdemokratiet,163
 Harald Christensen,Socialdemokratiet,160
 Karl Henning Clausen,T,142
@@ -35,48 +35,48 @@ Hans Otto Sørensen,Venstre,122
 Bodil Thye,Socialdemokratiet,122
 Carl Marius Gaarde,SF,117
 Jens Nissen,Socialdemokratiet,111
-"Niels Schmidt, Agerskov",Danmarksdemokraterne,110
+Niels Schmidt,Danmarksdemokraterne,110
 Randi Damstedt,Slesvigsk Parti,105
 Kjeld Oksen,Venstre,100
 Leif Hansen,Slesvigsk Parti,93
 Astrid Ørting Jørgensen,Venstre,91
 Rita Westergaard,T,90
-"Anders Lund, Skærbæk",Danmarksdemokraterne,89
+Anders Lund,Danmarksdemokraterne,89
 Kim Hauborg,Socialdemokratiet,88
 Ruben Baagøe Jacobsen,T,86
 Jens Møller,Venstre,85
 Eva Ebbesen,T,83
-"Barbara Krarup Hansen, Tønder",Y,82
+Barbara Krarup Hansen,Y,82
 Poul Erik Dransfeldt Hunderup,T,79
 Keen Andersen,Venstre,65
 Alina Racila,Socialdemokratiet,64
 Lasse Sabinus Weng-Ludvigsen,SF,64
-"Ulla Oksen, Agerskov",Dansk Folkeparti,63
+Ulla Oksen,Dansk Folkeparti,63
 Henrik S. Sønnichsen,Venstre,63
 Jon Bak Fabricius,Venstre,62
 Henrik Scholz,Socialdemokratiet,60
 Lone C. Rahr Madsen,Venstre,60
-"Anders H. Andersen, Sølsted",Danmarksdemokraterne,59
+Anders H. Andersen,Danmarksdemokraterne,59
 Jytte Madvig Evald,Alternativet,59
 Susanne Pedersen,Venstre,58
 Mette Pedersen,T,57
 Henning Gad,Socialdemokratiet,54
 Linda Oksen,Venstre,53
-"Kurt Condrup, Løgumkloster",Dansk Folkeparti,53
-"Kim Pedersen, Toftlund",Dansk Folkeparti,53
+Kurt Condrup,Dansk Folkeparti,53
+Kim Pedersen,Dansk Folkeparti,53
 Karoline Kosegarten Knudsen,T,50
 Dorthe Rudebeck Schack,Venstre,49
 Claus Hansen,Slesvigsk Parti,48
 Leif Høeg Jensen,Venstre,47
 Victor Puck Terp,Slesvigsk Parti,44
-"Betina Pedersen, Toftlund",Dansk Folkeparti,43
+Betina Pedersen,Dansk Folkeparti,43
 Jakob Tästensen,Slesvigsk Parti,39
 Mette-Emilie Beck,Socialdemokratiet,37
-"Bent Olesen, Skærbæk",Dansk Folkeparti,36
+Bent Olesen,Dansk Folkeparti,36
 Finn Hansen,T,34
 Helle Glass,Konservative,33
-"Karin Asta Lildballe, Højer",Dansk Folkeparti,33
-"Freddy Bucka Andresen, Tønder",Liberal Alliance,30
+Karin Asta Lildballe,Dansk Folkeparti,33
+Freddy Bucka Andresen,Liberal Alliance,30
 Christian Olenius Veirum,T,30
 Simon Seidelin,Venstre,30
 Pia Hedegaard Kristensen,T,29
@@ -92,7 +92,7 @@ Stefan Marcussen,Venstre,18
 Inge Jepsen,Venstre,17
 Mike Dyrby Petersen,Socialdemokratiet,16
 Emil Seidelin,Venstre,16
-"Jørgen Lildballe, Højer",Dansk Folkeparti,14
+Jørgen Lildballe,Dansk Folkeparti,14
 Preben Helleberg Jensen,Konservative,12
 Steen Andersen,T,12
 Hauke Grella,Slesvigsk Parti,12
@@ -105,4 +105,4 @@ Johan Johansen,Venstre,6
 Jan Salskov,Socialdemokratiet,5
 Søren T. Hansen,Venstre,3
 Kjeld Callesen,Venstre,3
-"Sigurd Lidegaard Olesen, Tønder",Y,1
+Sigurd Lidegaard Olesen,Y,1

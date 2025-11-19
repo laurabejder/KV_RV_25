@@ -276,6 +276,9 @@ def get_stemmetal(stemmer, base_path: Path) -> None:
     stemmer['bogstav'] = stemmer['parti_bogstav'].map({p['listebogstav']:p['bogstav'] for p in partier_info}).fillna(stemmer['parti_bogstav'])
     stemmer = stemmer[['kandidat','parti','kommune','stemmer', 'kommune_kode']]
 
+    # if there is a , in kandidat only keep the part before the ,
+    stemmer['kandidat'] = stemmer['kandidat'].str.split(',').str[0]
+
     stemmer.sort_values(by=['stemmer'], ascending=False, inplace=True)
 
     # Gem resultater per kommune
