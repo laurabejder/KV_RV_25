@@ -390,22 +390,22 @@ nat_resultater["region"] = nat_resultater["region"].apply(lambda x: f"Region {x}
 
 nat_resultater = add_popups(nat_resultater)
 
-# res = (
-#     pd.read_csv("data/struktureret/rv/rv25_resultater_partier.csv")
-#     .drop_duplicates()
-#     .reset_index(drop=True)
-# )
+res = (
+    pd.read_csv("data/struktureret/rv/rv25_resultater_partier.csv")
+    .drop_duplicates()
+    .reset_index(drop=True)
+)
 
-# # only keep the regions where all the results are in
-# completed_regioner = res.groupby("region").filter(
-#     lambda x: x["resultat_art"].isin(["Fintælling", "ForeløbigOptælling"]).all()
-# )["region"].unique() 
-# # add "Region " prefix
-# completed_regioner = [f"Region {r}" for r in completed_regioner]
+# only keep the regions where all the results are in
+completed_regioner = res.groupby("region").filter(
+    lambda x: x["resultat_art"].isin(["Fintælling", "ForeløbigOptælling"]).all()
+)["region"].unique() 
+# add "Region " prefix
+completed_regioner = [f"Region {r}" for r in completed_regioner]
 
-# print("Completed regioner:", len(completed_regioner), completed_regioner) 
-# nat_resultater = nat_resultater[nat_resultater["region"].isin(completed_regioner)]
-# # save file
+print("Completed regioner:", len(completed_regioner), completed_regioner) 
+nat_resultater = nat_resultater[nat_resultater["region"].isin(completed_regioner)]
+# save file
 out_path = NATIONAL_DIR / "nationalt_kommuner_parti_procenter.csv"
 nat_resultater.to_csv(out_path, index=False, sep=";")
 
