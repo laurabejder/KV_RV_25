@@ -509,6 +509,11 @@ andre_row = pd.DataFrame({
     "procent_21": [national_totals.loc[minor_parties_mask, "procent_21"].sum()],
 })
 
+if "L" in national_totals["bogstav"].values:
+    andre_row["procent_25"] += national_totals.loc[national_totals["bogstav"] == "P", "procent_25"].values[0]
+    andre_row["procent_21"] += national_totals.loc[national_totals["bogstav"] == "P", "procent_21"].values[0]
+    minor_parties_mask = minor_parties_mask | (national_totals["bogstav"] == "P")
+
 national_totals = pd.concat([
     national_totals.loc[~minor_parties_mask],
     andre_row
