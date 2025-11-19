@@ -1,2 +1,421 @@
 kandidat,parti,stemmer
-
+"Benny Damgaard, Lolland",Danmarksdemokraterne,126
+Pia Kjærsgaard,Dansk Folkeparti,53
+"Iben Krog, København",Venstre,44
+"Jan Erik Abildskov Nielsen, Lolland",Enhedslisten,36
+"Torben Klitmøller Hollmann, Lolland",Socialdemokratiet,34
+"Josefine Paaske, Køge",Venstre,8
+"Joan Kragh, Guldborgsund",SF,7
+"Camilla Hove Lund, Holbæk",Venstre,6
+"Vagn Kjær-Hansen, Brøndby",SF,6
+Karen Esmark Hansen,T,5
+"Mette Aagaard, Lolland",Konservative,5
+"Lars Gaardhøj, København",Socialdemokratiet,4
+"Lars Christiansen, Maribo",SF,4
+Allan Blak,Dansk Folkeparti,4
+"Helge Adam Møller, Næstved",Konservative,3
+"Nicolai Wang, København",Liberal Alliance,3
+"Susanne Lundvald, Næstved",Socialdemokratiet,3
+"Anders Koefoed, Slagelse",Venstre,2
+"Vilhelm Møller, Faxe",Konservative,2
+"Carli Hækkerup, Ringsted",Enhedslisten,2
+"Laila Kildesgaard, Bornholm",Socialdemokratiet,2
+"Henrik Jacobsen, Lolland",Konservative,2
+Flemming Blicher,U,2
+"Susanne Due Kristensen, Hillerød",Socialdemokratiet,2
+"John Hansen, Guldborgsund",Socialdemokratiet,2
+Kasper Ibsen,T,1
+"René Vejby Kierch, Roskilde",Socialdemokratiet,1
+"Villum Christensen, Slagelse",Liberal Alliance,1
+"Jesper Marcus, Gentofte",Konservative,1
+"Marie Hansen, Kalundborg",Danmarksdemokraterne,1
+"Benny Bindslev, Tårnby",Danmarksdemokraterne,1
+"Martin Thor Pedersen, Helsingør",Socialdemokratiet,1
+"Anne Møller Ronex, Holbæk",Radikale,1
+"Gül Øzcan, Glostrup",Enhedslisten,1
+"Palle Eghjort, Vordingborg",Enhedslisten,1
+"Michael Monberg, Køge",Alternativet,1
+"Bruno Jerup, Næstved",Enhedslisten,1
+"Helle Nørregaard, Vordingborg",Enhedslisten,1
+"Kim Hjerrild, Frederiksberg",Alternativet,1
+"Liselott Blixt, Greve",N,1
+"Nadeem Farooq, Høje-Taastrup",Radikale,1
+"Bente Borg Donkin, Helsingør",SF,1
+"Christina Dilling-Munk, Ringsted",SF,1
+"Nicolai Kampmann, Hvidovre",Socialdemokratiet,1
+Steen Løfstrøm,Dansk Folkeparti,1
+"Claus Ljungberg Jørgensen, København",Venstre,1
+"Bente Lerche-Thomsen, Guldborgsund",Enhedslisten,1
+Cæcilia Nilsson,Kristendemokraterne,1
+"Dorthe Mikkelsen, Vallensbæk",Liberal Alliance,1
+"Rasmus Oxfeldt Larsen, Vordingborg",Socialdemokratiet,1
+"Magnus Mørk, Hårlev",R,1
+"Palle Kristiansen, Slagelse",Danmarksdemokraterne,0
+"Stig Ekman, Bispebjerg",Socialdemokratiet,0
+"Susanne Damsgaard, Gladsaxe",Danmarksdemokraterne,0
+"Torben Conrad, København N",Enhedslisten,0
+"Niklas Svenningsen, Nivå",R,0
+"Stina Højgaard, Greve",Socialdemokratiet,0
+"Steen Tofteng, Gribskov",Liberal Alliance,0
+"Torben Kjeldsen, Rørvig",SF,0
+"Steen S. Hansen, Stevns",Socialdemokratiet,0
+"Trine Birk Andersen, Holbæk",Socialdemokratiet,0
+"Simon Rigét, Gribskov",Alternativet,0
+"Stine Østlund, Hillerød",Konservative,0
+"Simon Krabbe, Ballerup",Konservative,0
+"Sofie de Bretteville, Ballerup",Socialdemokratiet,0
+Sine Bilfeldt,P,0
+"Ole Terkelsen, Valby",Socialdemokratiet,0
+"Vibeke Grønbæk, Vordingborg",Radikale,0
+"Oruc Polat, Albertslund",Radikale,0
+"Olaf Johansen, Slagelse",SF,0
+"Sara Smith Hald, Valby",Socialdemokratiet,0
+"Sofie Holm, København",Radikale,0
+"Stinus Lindgreen, Lyngby-Taarbæk",Radikale,0
+"Torben Skytte Raahede, København",Venstre,0
+"Trine Schaltz, København",SF,0
+"Trine Egetved, Gribskov",Konservative,0
+"Sine Reffstrup, Ringsted",Socialdemokratiet,0
+"Nina Skaarup, Måløv",Venstre,0
+"Sanne Friborg, Bornholm",Enhedslisten,0
+"Tormod Olsen, København",Enhedslisten,0
+"Sten Schmidl Søbjærg, Gribskov",Liberal Alliance,0
+"Søren Burcharth, København",Radikale,0
+"Sadek Al-Amood, Valby",SF,0
+"Therese Hejnfelt, Frederikssund",Konservative,0
+"Rasmus Abrahamsen, Greve",Moderaterne,0
+"Peter Dits Christensen, Solrød",Liberal Alliance,0
+"Thue Christian Thann Nikolajsen, København NV",Enhedslisten,0
+"Peter Horsted Hansen, Odsherred",Konservative,0
+"Randi Mondorf, Rudersdal",Venstre,0
+"Vibeke Westh, Frederiksberg",Socialdemokratiet,0
+"Qasam Nazir Ahmad, Frederiksværk",Alternativet,0
+"Ulrik Juhl Hansen, Vesterbro",Socialdemokratiet,0
+"Peter L. Sørensen, Gribskov",Radikale,0
+"Thomas von Jessen, Fredensborg",Konservative,0
+"Poul Reher Jensen, Gladsaxe",SF,0
+"Thomas Skov Rasmussen, Egedal",Venstre,0
+"Thomas Rohden, København",Radikale,0
+"Turan Akbulut, Høje-Taastrup",Konservative,0
+"Rasmus Meggele Stein, Stevns",Moderaterne,0
+"Pia Skourup, Ishøj",Venstre,0
+"Therese Skaarup, Gentofte",Danmarksdemokraterne,0
+"Thomas Adelskov, Odsherred",Socialdemokratiet,0
+"Peter Roswall, Stevns",Enhedslisten,0
+"Thomas Anker, København",Alternativet,0
+"Victoria Helene Olsen, Roskilde",Konservative,0
+"Thomas Baark, Guldborgsund",Radikale,0
+"Peter Westermann, København",SF,0
+"Peter la Cour, Hvidovre",Enhedslisten,0
+"Phillip Bergenhammer Østergaard, Tårnby",SF,0
+"Thomas Christophersen, Holbæk",Konservative,0
+"Thomas Garfort, Rønne",SF,0
+"Rasmus Lund-Nielsen, Gladsaxe",Moderaterne,0
+"Rasmus Petersen, Frederikssund",Enhedslisten,0
+"Patrick Lehto, Tårnby",Konservative,0
+"Søren Hyldgaard, Rudersdal",Moderaterne,0
+"Zishan Ali, Ballerup",Moderaterne,0
+"Patrizia Venturelli Christensen, Gentofte",Liberal Alliance,0
+Sabine Lind,L,0
+"Rune Jørgensen, København Ø",R,0
+"Paul Thomsen, Farum",Venstre,0
+"Ruben Kidde, Frederiksberg",Radikale,0
+"Susanne Pahlmann, Greve",Enhedslisten,0
+"Yurdal Cicek, Næstved",Alternativet,0
+"Rosa Mørch Jørgensen, København S",R,0
+"Robert Mørck, Furesø",Liberal Alliance,0
+"Rikke Mortensen, Egedal",Radikale,0
+"Per Fabricius Ramsing, København",Alternativet,0
+"Tine Hessner, Furesø",Radikale,0
+"Søren Friis Trebbien, Hvidovre",Konservative,0
+"Søren Kragh, Sorø",Liberal Alliance,0
+Søsser Grønnegård,Dansk Folkeparti,0
+Rikke Galina Frydensbjerg Carlsson,P,0
+"Tina-Mia Eriksen, Ringsted",Konservative,0
+"Rikke Engelbrecht Andersen, Næstved",Venstre,0
+Søren Lund Hansen,Dansk Folkeparti,0
+"Rico Djernis, København",Konservative,0
+"Per Roswall, Gribskov",Venstre,0
+René Danielsson,Dansk Folkeparti,0
+"René Arnt, Taastrup",Moderaterne,0
+"Søren Rasmussen, Vangede",Enhedslisten,0
+"Rebecca Plomin, Gladsaxe",Konservative,0
+"Ravin Gomei, Roskilde",R,0
+"Søren Vang Fischer, Kalundborg",Venstre,0
+"Søs Haugaard, København",Radikale,0
+"Trine Dybkjær, Gentofte",Radikale,0
+Abaz Sabani,L,0
+"Felex Pedersen, Odsherred",Socialdemokratiet,0
+"Flemming Damgaard Larsen, Lejre",Venstre,0
+"Flemming Sørensen, Holbæk",Liberal Alliance,0
+"Frank Hedegaard, København",SF,0
+"Frederik Germann, Halsnæs",Konservative,0
+"Frederik Haugstrup Jacobsen, Østerbro",Socialdemokratiet,0
+"Frederik Tuxen Bjerrum, Frederiksberg",Liberal Alliance,0
+"Freja Wirlander, Hvidovre",Radikale,0
+"Gert Biilmann, Herlev",Venstre,0
+"Gert Jensen, Glostrup",Venstre,0
+"Gert L. Heglund, Gentofte",Liberal Alliance,0
+Gert Løfgren,Dansk Folkeparti,0
+"Gert Petersen, Roskilde",Enhedslisten,0
+Finn Andersen,Kristendemokraterne,0
+"Dorte Vilhelmsen, Herlev",Konservative,0
+"Eva Larsen, Greve",SF,0
+"Dorthe Beck-Nyling, København",Moderaterne,0
+"Edris Qasimi, Sorø",Radikale,0
+"Edvard Aas, Furesø",Danmarksdemokraterne,0
+"Egil Hulgaard, Furesø",Konservative,0
+"Egon Bo, Slagelse",Konservative,0
+"Eik Dahl Bidstrup, Dragør",Liberal Alliance,0
+Elisabeth Bergsøe,J,0
+"Emilie Borch Sloth, Glostrup",Radikale,0
+"Emilie Esmann, Amager",SF,0
+"Emilie U. Andersen-Ranberg, Hørsholm",Radikale,0
+"Emin Bülent Kaya, Køge",Moderaterne,0
+"Erik Moesby Nordstrøm, Furesø",Moderaterne,0
+"Eva Fotland, København",N,0
+Eva Guldfred,Kristendemokraterne,0
+Githa Nelander,Dansk Folkeparti,0
+"Gitte Kjær-Westermann, Lyngby-Taarbæk",Radikale,0
+"Gitte Simoni, Roskilde",Socialdemokratiet,0
+"Gitte Svendsdatter, Odsherred",Danmarksdemokraterne,0
+"Irfan Gilani, Brøndby",Radikale,0
+"Jacob Netteberg, Birkerød",Radikale,0
+"Jacob Rosenberg, Frederiksberg",Konservative,0
+"Jan Carlsen, Roskilde",Moderaterne,0
+Jan Erik Messmann,Dansk Folkeparti,0
+"Jan Færch, Solrød",Konservative,0
+"Jan H. Klit, København",Konservative,0
+Jan Herskov,Dansk Folkeparti,0
+"Jan Kjældgaard, Farum",SF,0
+"Jan Kjærgaard, Faxe",Enhedslisten,0
+"Jan Månsson, Sorø",Socialdemokratiet,0
+"Jane Christensen, Kalundborg",Konservative,0
+Imad Daher,L,0
+"Ida Busk, København",Konservative,0
+"Håkon Nielsen, Rødovre",Socialdemokratiet,0
+"Hari Neupane, Ørestad",Socialdemokratiet,0
+"Glenn Hansen, Vordingborg",Danmarksdemokraterne,0
+"Gunnar Sumberg, Gladsaxe",Venstre,0
+"Hanne Svenningsen, Lejre",SF,0
+Hans Nielsen,P,0
+"Harald Viuff, København SV",Enhedslisten,0
+"Helena Hedegaard Udsen, København",Enhedslisten,0
+"Helene Vadsten, Sorø",Enhedslisten,0
+"Helle Barth, Dragør",Venstre,0
+"Helle Jørgensen, Glostrup",Danmarksdemokraterne,0
+"Helle Lethmar, Køge",Socialdemokratiet,0
+Henrik Vendelbo Petersen,U,0
+"Dorthe Adelsbech, Faxe",Venstre,0
+"Dorte Holm Hansen, Odsherred",Venstre,0
+"Niels Hörup, Solrød Strand",Venstre,0
+Auli Romanow,Dansk Folkeparti,0
+B. Tscherning,P,0
+"Bachir Belmajdoub, København",N,0
+"Benny Hansen, Ishøj",N,0
+"Bent Jørgensen, Roskilde",Venstre,0
+"Bente Abrahamsen, Faxe",Danmarksdemokraterne,0
+"Bergur Løkke Rasmussen, Helsingør",Moderaterne,0
+"Birgit Gedionsen, Solrød",Enhedslisten,0
+"Birgit Jensen Hamming, Holbæk",Enhedslisten,0
+"Birgitte Kehler Holst, København",Alternativet,0
+"Birgitte Neergaard-Kofod, Egedal",Konservative,0
+Bjarne Hartung Kirkegaard,Kristendemokraterne,0
+"Bjarne Kongsted, Holbæk",Venstre,0
+"Bjørn Bjerrehøj, Tårnby",Radikale,0
+"Bob Richard Nielsen, Guldborgsund",Danmarksdemokraterne,0
+Axel Ljungquist,Kristendemokraterne,0
+"Astrid Barslund, Lejre",Danmarksdemokraterne,0
+Don Winther,L,0
+"Arne Würgler, Gribskov",Enhedslisten,0
+"Ali Ünsal, Køge",Konservative,0
+"Alice Rudkjær, Rudersdal",Socialdemokratiet,0
+"Alina Protsyk, København",Radikale,0
+Allan Øster Steensen,Dansk Folkeparti,0
+"Amanda Amadea Badu, Lejre",Enhedslisten,0
+"Anders Medum Groth, Furesø",Radikale,0
+"Andreas Raben, København",Moderaterne,0
+Anette Skafte,Dansk Folkeparti,0
+"Anja Rosengreen, Halsnæs",SF,0
+"Anna Spindler, Holbæk",Danmarksdemokraterne,0
+"Annelise Madsen, Ishøj",N,0
+"Annie Hagel, Gilleleje",Enhedslisten,0
+"Arne Olsen, Sorø",Danmarksdemokraterne,0
+"Arne S. Hansen, Tårnby",Danmarksdemokraterne,0
+"Bodil Kornbek, Lyngby-Taarbæk",Socialdemokratiet,0
+"Brian Høier, Tårnby",Socialdemokratiet,0
+"Brian Køster, Hvidovre",Radikale,0
+"Brian Mørch, Solrød",Danmarksdemokraterne,0
+"Cille Egholm, København",Venstre,0
+"Claus Bakke, Vordingborg",Venstre,0
+"Claus Buch, København NV",Venstre,0
+"Claus Carlsen, Roskilde",R,0
+"Claus Heje, Høje-Taastrup",Socialdemokratiet,0
+"Claus Neergaard, Næstved",Konservative,0
+"Claus Rasmussen, Albertslund",Venstre,0
+"Claus Rehfeld, København",Radikale,0
+"Claus Wachmann, Gladsaxe",Radikale,0
+"Dan Kiving, Sorø",Enhedslisten,0
+David Gerschwald,Dansk Folkeparti,0
+"Deniz Kücükavci, Herlev",Moderaterne,0
+"Dickte Noël Toft, Hørsholm",Socialdemokratiet,0
+"Dina Person, Slagelse",Danmarksdemokraterne,0
+Ditte Sieling Emanuel,L,0
+"Christoffer Buster Reinhardt, Rudersdal",Konservative,0
+"Christine Dal Thrane, Lyngby-Taarbæk",Venstre,0
+"Christina Thorholm, Hillerød",Radikale,0
+"Celine Lind Jakobsen, Fredensborg",Konservative,0
+Britta Kristensen,Kristendemokraterne,0
+"Camilla Hoffmann, København",Socialdemokratiet,0
+"Camilla Sabroe Parbst, Roskilde",Konservative,0
+Carsten Bardy Aaen,L,0
+"Carsten Petersen, Sorø",Konservative,0
+"Charlotte Bagge, Stege",Moderaterne,0
+"Christina Falkberg, Gladsaxe",Radikale,0
+"Charlotte Saabye Sørensen, København N",Radikale,0
+"Christian Fink Elkjær, Rudersdal",Radikale,0
+"Christian Vigilius, Gentofte",Konservative,0
+"Christian Wedell-Neergaard, Køge",Konservative,0
+"Christian Wegener Jørgensen, København",Enhedslisten,0
+"Christian Wikström, Hørsholm",Venstre,0
+"Janus Balleby Rønbach, Brøndby",Enhedslisten,0
+"Jarl Feyling, København",Socialdemokratiet,0
+"Jeanette Vedelstjerne, Lyngby-Taarbæk",Moderaterne,0
+"Mads Søe Daugaard, Kalundborg",Moderaterne,0
+"Maibritt Nielsen, Frederikssund",Danmarksdemokraterne,0
+"Maj Allin Thorup, Hørsholm",Konservative,0
+"Maja Roesen, Køge",SF,0
+"Malene Holm, København",N,0
+"Maria Katarina Nielsen, Frederikssund",Radikale,0
+"Mariann Hansen, Greve",Alternativet,0
+"Marianne Bredgaard Karlsson, Fredensborg",Radikale,0
+"Marianne Dithmer, Herlev",Enhedslisten,0
+"Marianne Fritzen, Odsherred",Radikale,0
+"Marie-Louise Jørgensen, Hvidovre",SF,0
+"Mark Bjerre Ebbesen, Køge",Venstre,0
+Markus Hvass,U,0
+"Martin Baden, Ishøj",Socialdemokratiet,0
+"Martin Buhl, Frederiksberg",Enhedslisten,0
+"Magnus Dræby, Halsnæs",Radikale,0
+"Mads Justsen, Gentofte",Venstre,0
+"Jeanne Blum, Ringsted",Danmarksdemokraterne,0
+"Luise Bak, Vallensbæk",Enhedslisten,0
+"Lasse Holt, Lyngby-Taarbæk",Liberal Alliance,0
+Lasse Larsen,J,0
+Lave Knud Broch,J,0
+"Line Andrup, Egedal",Socialdemokratiet,0
+"Line Ervolder, København",Konservative,0
+"Line Krogh Lay, Stevns",Radikale,0
+"Lisbeth Dam Larsen, Dragør",Moderaterne,0
+"Lisbeth Kjærholt, Høje-Taastrup",Venstre,0
+"Lisbeth Skov, Allerød",Venstre,0
+Lise-Lotte Dahlgaard Mortensen,L,0
+"Liselotte Katarina Rotfeld, Næstved",Alternativet,0
+"Lisette Lind Larsen, Faxe",Socialdemokratiet,0
+"Lone Mortensen, Greve",Venstre,0
+"Louise Theilade Thomsen, København",Venstre,0
+"Ludwig Heldt, København",Socialdemokratiet,0
+"Martin Grønkjær, Brøndby",Venstre,0
+"Martin Kjærulff, København NV",Alternativet,0
+Martin Rosbjørn,Dansk Folkeparti,0
+"Martin Schepelern, København",Radikale,0
+"Mogens Anneberg, Bornholm",Konservative,0
+"Mogens Hallager, Roskilde",Konservative,0
+Mogens Riis Pedersen,Kristendemokraterne,0
+"Morten Bille, Ullerød",Venstre,0
+"Morten Hjort, Stege",Enhedslisten,0
+"Morten Stig Pedersen, Holbæk",Enhedslisten,0
+Nana Harring,Dansk Folkeparti,0
+"Nana L. Buttenschøn, Glostrup",Alternativet,0
+"Nanna Høyrup, Hundested",Alternativet,0
+Nickolai Hamann,Dansk Folkeparti,0
+Nicolai Otto Mønsted Hermansen,L,0
+Niels Chresten Andersen,Kristendemokraterne,0
+"Niels Christian Dahl, Allerød",Socialdemokratiet,0
+"Niels Erik Danielsen, Høng",Enhedslisten,0
+"Mille Koch Rømer, Østerbro",Socialdemokratiet,0
+"Mikkel Krog, Lejre",Socialdemokratiet,0
+"Mia Linda Møller, Næstved",Moderaterne,0
+"Mathias Schwartz Kirkegaard, Greve",Konservative,0
+"Merete Them Kjølholm, Allerød",Radikale,0
+"Mette Bang Larsen, Frederiksberg",Enhedslisten,0
+"Mette Bram, Frederiksberg",Alternativet,0
+"Mette Friis, Nyrup",Alternativet,0
+Mette Strange Hagen,L,0
+"Michael Hemming Nielsen, Gribskov",Enhedslisten,0
+Mikkel Hartwich,Dansk Folkeparti,0
+"Michael Hendriksen, Bornholm",Danmarksdemokraterne,0
+"Michael Mathiesen, Helsingør",Konservative,0
+"Michael Rask, Greve",Liberal Alliance,0
+"Michael Rosenmark, Ringsted",Danmarksdemokraterne,0
+"Michael Schmidt, Halsnæs",Socialdemokratiet,0
+Michaell Ravn,J,0
+"Lartey Lawson, København",Radikale,0
+"Lars Winther, Egedal",Liberal Alliance,0
+Lars Thomsen,L,0
+"Katrine Ehlern, København",N,0
+"John Tefke, Lyngby",Konservative,0
+John Vind,Dansk Folkeparti,0
+Johnnie Gregersen,Kristendemokraterne,0
+"Jonas Niemann, Gentofte",SF,0
+"Jonas Nørgaard, Odsherred",Danmarksdemokraterne,0
+"Josée Linnemann, Fredensborg",Moderaterne,0
+"Julie Herdal Molbech, København",Radikale,0
+"Julie Hoff Sørensen, Stevns",SF,0
+Julie Jacobsen,Dansk Folkeparti,0
+"Jørgen Johansen, Allerød",Konservative,0
+"Jørgen Suhr, Hillerød",Radikale,0
+"Karin Nødgaard, Ringsted",Venstre,0
+"Kashif Ahmad, København",Radikale,0
+"John Schmidt Andersen, Frederikssund",Venstre,0
+"Johannes Jacobsen, Køge",Enhedslisten,0
+"Jesper Luthman, Espergærde",Radikale,0
+"Jens-Kristian Lütken, København",Venstre,0
+"Jeppe Fransson, Roskilde",Radikale,0
+"Jeppe Lynge Ravn, Odsherred",Enhedslisten,0
+"Jesper Adler, Vordingborg",Konservative,0
+"Jesper Hammer, Fredensborg",Venstre,0
+Jesper Housgaard,Kristendemokraterne,0
+Jesper Morville,J,0
+"Johannes Grand, Ballerup",Liberal Alliance,0
+"Jesper Tvilde, Fredensborg",Konservative,0
+"Jess Eiberg Hansen, Greve",Konservative,0
+Jette Juul,Dansk Folkeparti,0
+"Jette Leth Buhl, Næstved",SF,0
+"Jette Wied Weiss, Stevns",Danmarksdemokraterne,0
+"Kasper Cederholm, København",Danmarksdemokraterne,0
+"Katrine Schiller, Halsnæs",Danmarksdemokraterne,0
+"Lars Lindskov, Roskilde",Moderaterne,0
+"Katrine Skov, Gladsaxe",Socialdemokratiet,0
+"Klavs A. Holm, Hellerup",Moderaterne,0
+"Knud Mogensen, Helsingør",Radikale,0
+"Knud Rasmussen, Solrød",N,0
+"Kristian Flindt Dyrkjøb, København V",Alternativet,0
+"Kristian Kirk Mailand, Bornholm",Radikale,0
+Kristian Tørning,Dansk Folkeparti,0
+"Kristina Kongsted, Helsingør",Venstre,0
+Kurt Pedersen,Kristendemokraterne,0
+"Kurt Pii, Frederiksberg",Moderaterne,0
+"Kåre Spliid, Sorø",Venstre,0
+"Lars Carstensen, Furesø",Konservative,0
+Lars Emanuel,P,0
+"Lars Green Bach, Ballerup",Radikale,0
+"Lars Hoppe Søe, Næstved",Radikale,0
+"Klaus Kristiansen, Lejre",Liberal Alliance,0
+"Klaus Kjelstrup, Køge",Danmarksdemokraterne,0
+"Klara Poder, Rødovre",R,0
+"Kim Drejer Nielsen, Rødovre",Konservative,0
+"Ken Patrick Petersson, Taastrup",SF,0
+"Ken Riberholt-Rischel, Gribskov",Danmarksdemokraterne,0
+"Kenneth Gøtterup, Amager",Konservative,0
+"Kenneth Nielsen, Slagelse",Socialdemokratiet,0
+"Kim B. Nielsen, Roskilde",Danmarksdemokraterne,0
+"Kim Elmose, Roskilde",SF,0
+"Kirsten Rask, Kalundborg",Socialdemokratiet,0
+"Kim Larsen, Kastrup",Enhedslisten,0
+"Kim Lykkegaard, København N",R,0
+"Kim Mandix, København",Radikale,0
+"Kim Pagels, Solrød",Radikale,0
+Kim W. Bilfeldt,P,0
+"Kirsten Balle, Herlev",SF,0
+"Åge Skovrind, Roskilde",Enhedslisten,0
