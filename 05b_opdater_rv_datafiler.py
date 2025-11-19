@@ -57,7 +57,27 @@ except requests.HTTPError as e:
     print("Response snippet:", resp.text[:500])
     raise
 
-regionsforpersoner = pd.read_csv(io.StringIO(resp.text))
+# Try to read with proper encoding, fallback to fixing encoding issues
+try:
+    regionsforpersoner = pd.read_csv(io.StringIO(resp.text), encoding='utf-8')
+except:
+    regionsforpersoner = pd.read_csv(io.StringIO(resp.text))
+
+# Fix encoding issues in region names (e.g., "Ã\x98stdanmark" -> "Østdanmark")
+if "region" in regionsforpersoner.columns:
+    def fix_encoding(text):
+        if pd.isna(text):
+            return text
+        text_str = str(text)
+        # Try to fix double-encoded UTF-8
+        try:
+            # If it's double-encoded, encode as latin1 then decode as utf-8
+            if 'Ã' in text_str or '\x98' in text_str:
+                return text_str.encode('latin1').decode('utf-8')
+        except:
+            pass
+        return text_str
+    regionsforpersoner["region"] = regionsforpersoner["region"].apply(fix_encoding)
 
 # Og definer navnene på regionerne i 2025
 regioner = ["Østdanmark", "Midtjylland", "Nordjylland", "Syddanmark"]
@@ -238,6 +258,7 @@ def get_afstemningsområde_percentages(
 
 # Funktionen kombinerer data fra kombit og vores håndholdte regionsforpersondata og opdaterer statusfilen
 def get_status(
+    regionnavn: str,
     regionnavn_lower: str,
     regionsforpersoner: pd.DataFrame,
     afst: pd.DataFrame,
@@ -256,12 +277,43 @@ def get_status(
     summary_df["Optalte afstemningssteder"] = done_share
 
     # Find regionsforpersonen for regionen, hvis det er afgjort
-    if region in regionsforpersoner["region"].values:
+    # Try both with and without "Region " prefix, and handle encoding issues
+    region_full = f"Region {regionnavn}"
+    found = False
+    
+    # Try exact match first
+    if regionnavn in regionsforpersoner["region"].values:
         regionsforperson = regionsforpersoner.loc[
-            regionsforpersoner["region"] == region, "regionsforperson"
+            regionsforpersoner["region"] == regionnavn, "formand"
         ].iat[0]
         summary_df["Regionsformand"] = regionsforperson
+        found = True
+    elif region_full in regionsforpersoner["region"].values:
+        regionsforperson = regionsforpersoner.loc[
+            regionsforpersoner["region"] == region_full, "formand"
+        ].iat[0]
+        summary_df["Regionsformand"] = regionsforperson
+        found = True
     else:
+        # Try case-insensitive and normalized matching
+        region_normalized = regionnavn.lower().strip()
+        region_full_normalized = region_full.lower().strip()
+        
+        for idx, df_region in enumerate(regionsforpersoner["region"].values):
+            df_region_normalized = str(df_region).lower().strip() if pd.notna(df_region) else ""
+            # Remove "Region " prefix for comparison
+            df_region_no_prefix = df_region_normalized.replace("region ", "")
+            
+            if (region_normalized == df_region_normalized or 
+                region_normalized == df_region_no_prefix or
+                region_full_normalized == df_region_normalized):
+                regionsforperson = regionsforpersoner.iloc[idx]["formand"]
+                if pd.notna(regionsforperson):
+                    summary_df["Regionsformand"] = regionsforperson
+                    found = True
+                    break
+    
+    if not found:
         summary_df["Regionsformand"] = "Ikke afgjort"
 
     # Drop unødvendige kolonner og gem filen
@@ -335,6 +387,7 @@ for region in rv25_resultater_partier["region"].unique():
     )
 
     optalte = get_status(
+        regionnavn=regionnavn,
         regionnavn_lower=regionnavn_lower,
         regionsforpersoner=regionsforpersoner,
         afst=afstemningssted_niveau,
