@@ -405,7 +405,6 @@ completed_regioner = [f"Region {r}" for r in completed_regioner]
 
 print("Completed regioner:", len(completed_regioner), completed_regioner) 
 nat_resultater = nat_resultater[nat_resultater["region"].isin(completed_regioner)]
-print(nat_resultater)
 # save file
 out_path = NATIONAL_DIR / "nationalt_kommuner_parti_procenter.csv"
 nat_resultater.to_csv(out_path, index=False, sep=";")
