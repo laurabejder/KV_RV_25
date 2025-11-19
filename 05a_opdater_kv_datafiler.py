@@ -479,6 +479,12 @@ andre_row = pd.DataFrame({
     "procent_21": [national_totals.loc[minor_parties_mask, "procent_21"].sum()],
 })
 
+# if listebogstav is L, add those percentages to andre_row instead of creating a new row
+if "L" in national_totals["bogstav"].values:
+    andre_row["procent_25"] += national_totals.loc[national_totals["bogstav"] == "L", "procent_25"].values[0]
+    andre_row["procent_21"] += national_totals.loc[national_totals["bogstav"] == "L", "procent_21"].values[0]
+    minor_parties_mask = minor_parties_mask | (national_totals["bogstav"] == "L")
+
 national_totals = pd.concat([
     national_totals.loc[~minor_parties_mask],
     andre_row
