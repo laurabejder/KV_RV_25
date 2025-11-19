@@ -67,8 +67,8 @@ Mikael Simonsen,Liberal Alliance,784
 "Annemette Bach, Vesthimmerlands Kommune",SF,730
 "Diana Kjærulff, Aalborg",Venstre,707
 "Mathias Lassen Antonsen, Hals",Socialdemokratiet,695
-Bo Ritterbusch,Liberal Alliance,673
 "Peter Holm, Aalborg",Socialdemokratiet,673
+Bo Ritterbusch,Liberal Alliance,673
 "Jan Andersen, Mariagerfjord",Venstre,669
 "Runa Friis Hansen, Hjørring",Enhedslisten,660
 "Andreas Huus Andersen, Hjørring",Danmarksdemokraterne,644
@@ -93,8 +93,8 @@ HP Beck,Liberal Alliance,456
 "Niels H. Bünemann, Skagen",Venstre,450
 Peter Thellufsen Pedersen,Liberal Alliance,447
 "Oskar Schmidt, Skagen",Socialdemokratiet,443
-"Jeanette Sagan, Rebild",Konservative,428
 "Jamie Voldby, Brønderslev",Danmarksdemokraterne,428
+"Jeanette Sagan, Rebild",Konservative,428
 "Michael Portefée P. Lex, Rebild",Radikale,423
 "Per Alstrup, Rebild",SF,417
 "Susanne Krebs, Aalborg",Radikale,413
@@ -127,14 +127,14 @@ John Bjerg,L,224
 "Anette Jensen Smith, Hobro",Alternativet,217
 "Rikke Pedersen, Aalborg",Konservative,215
 "Jørgen Ravn Christensen, Jammerbugt",Konservative,215
+"Kristina Johansen, Brønderslev",SF,198
 "Brian Winther, Læsø",Danmarksdemokraterne,198
 "Thomas Møller, Thisted",Venstre,198
-"Kristina Johansen, Brønderslev",SF,198
-"Steen Asgeir Petersen, Thisted",Radikale,196
 "Sune Kragelund, Aalborg",Radikale,196
+"Steen Asgeir Petersen, Thisted",Radikale,196
 "Annemette Chemnitz Eilers, Brønderslev",Enhedslisten,193
-"Bent Skovgaard Olsen, Skørping",Enhedslisten,192
 "Lene Burchardt, Aalborg",Konservative,192
+"Bent Skovgaard Olsen, Skørping",Enhedslisten,192
 Lars Rem,Liberal Alliance,186
 Kim Gaarsdahl,Liberal Alliance,184
 "Johnny Christensen, Nibe",Dansk Folkeparti,182
@@ -153,17 +153,17 @@ Kim Gaarsdahl,Liberal Alliance,184
 "Frede Hansen, Aalborg",Radikale,128
 Tania Lange,L,127
 Laura Jensen,Moderaterne,122
-"Hassan Alouch, Hjørring",Radikale,121
-Johnni Winther,Moderaterne,121
 "Dorthe Kerschus, Brønderslev",Radikale,121
+Johnni Winther,Moderaterne,121
+"Hassan Alouch, Hjørring",Radikale,121
 "Jens Martin Fjordbak, Frederikshavn",Konservative,115
 Henrik Viholm,Liberal Alliance,113
 Nikolaj C. Andersen,Moderaterne,111
 "Magnus Rothmann, Aalborg",Kristendemokraterne,110
 Michel Thrysøe,Liberal Alliance,109
 Rasmus Tymm,Liberal Alliance,107
-"Jørgen Bjerregaard, Brovst",Kristendemokraterne,105
 Paw Rytter,Moderaterne,105
+"Jørgen Bjerregaard, Brovst",Kristendemokraterne,105
 "Andreas Müller, Sindal",Kristendemokraterne,101
 Frederik Blicher Pedersen,Liberal Alliance,98
 Jesper Riis Hansen,L,96
@@ -176,15 +176,15 @@ Rikke Kirstine Lomholt,Moderaterne,95
 "John Ørtoft, Vejgaard",Enhedslisten,69
 "Bjarne B. Madsen, Frederikshavn",Konservative,65
 "John Søndergaard, Frederikshavn",Enhedslisten,64
-"Hans Jørgen Nygaard, Frederikshavn",Radikale,63
 Thomas Christiansen,Liberal Alliance,63
+"Hans Jørgen Nygaard, Frederikshavn",Radikale,63
 Anne V. Lauritsen,L,62
 "Annegrete Jensen, Jammerbugt",Radikale,57
 "Mathias Skrydstrup Kristensen, Aalborg",Enhedslisten,55
 "Charlotte Greibe, Hobro",Kristendemokraterne,53
 "Pernille Andreasen, Arentsminde",Enhedslisten,50
-"Jacob Conrad, Aars",Enhedslisten,48
 Anita Storgaard,L,48
+"Jacob Conrad, Aars",Enhedslisten,48
 "Niels Kristian Pilgaard Jensen, Jammerbugt",Radikale,46
 "Jesper Veiby, Aalborg",Kristendemokraterne,45
 "Daniel  Svendsen, Hjørring",Radikale,42
@@ -192,11 +192,11 @@ Kent Budolfsen,Liberal Alliance,39
 Ronny Van Tieu,Liberal Alliance,39
 "Majbrit P. Rothmann, Aalborg",Kristendemokraterne,38
 "Jørgen Olsson, Birkelse",Enhedslisten,37
-Lindhardt Højen,L,33
 Asger Trier,L,33
+Lindhardt Højen,L,33
 "Theis Magle, Hjørring",Radikale,31
-Jimmy Abel Nielsen,Liberal Alliance,30
 "Hans Jørgen Kristensen, Kallerup",Radikale,30
+Jimmy Abel Nielsen,Liberal Alliance,30
 Thomas Heuniche,Liberal Alliance,27
 "Sigurd Andersen, Nørresundby",Venstre,25
 "Jakup F. Jacobsen, Fjerritslev",Kristendemokraterne,25
