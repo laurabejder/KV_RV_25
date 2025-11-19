@@ -3,6 +3,7 @@
 # import os
 # from dotenv import load_dotenv
 
+
 # if DW_TOKEN is None:
 #     raise ValueError("DW_TOKEN not found in .env file")
 
@@ -10,8 +11,6 @@
 
 
 # print("Publishing charts...")
-
-# print(dw_charts)
 
 # for chart in dw_charts.values():
 #     for values in chart.values():
@@ -30,5 +29,3 @@
 #             }
 
 #             response = requests.post(url, json=payload, headers=headers)
-
-#             print(response.text)
