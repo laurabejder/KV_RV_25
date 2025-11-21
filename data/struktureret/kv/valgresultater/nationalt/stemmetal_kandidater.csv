@@ -101,7 +101,7 @@ Anders Bertel,Socialdemokratiet,Viborg,2524
 Kasper Bjerregaard,Venstre,Norddjurs,2515
 Peter Larsen,SF,Aalborg,2513
 Jens Kloppenborg,Venstre,Rudersdal,2502
-Søren Smalbro,Venstre,Hjørring,2485
+Søren Smalbro,Venstre,Hjørring,2489
 Tomas Breddam,Socialdemokratiet,Roskilde,2481
 Frederik Tolstrup,Venstre,Bornholm,2477
 Christian Lund,Venstre,Vejen,2435
@@ -424,7 +424,7 @@ Kasper Fuhr Christensen,E,Randers,930
 Torben Wallner,Konservative,Skanderborg,930
 Henrik Agesen,Venstre,Jammerbugt,930
 Helle Frederiksen,Socialdemokratiet,Aalborg,928
-Gry Bruun Nielsen,Radikale,Hjørring,919
+Gry Bruun Nielsen,Radikale,Hjørring,918
 Christina Wex,Konservative,Gentofte,917
 Jimmy Simonsen,Venstre,Sønderborg,916
 Lone Børlum,Socialdemokratiet,Herning,915
@@ -800,11 +800,11 @@ Joanne Bywater,Liberal Alliance,København,600
 Cecilie Louise Stabell,SF,Lolland,600
 Dino Selimović,Konservative,Esbjerg,600
 Johan Hahn,E,Egedal,599
+Betina D. Jensen,Venstre,Hjørring,599
 Annemette Bach,SF,Vesthimmerlands,598
 Hanne Ringgaard Møller,Radikale,Svendborg,598
 Allan Blak,Dansk Folkeparti,Lolland,598
 Miki Dam Larsen,Socialdemokratiet,Allerød,598
-Betina D. Jensen,Venstre,Hjørring,598
 Dennis Charles Hansen,Socialdemokratiet,Aalborg,598
 Jens Jakobsen,Venstre,Assens,597
 Heidi Skovbølling Holm,Socialdemokratiet,Horsens,597
@@ -875,7 +875,7 @@ Bergur Løkke Rasmussen,Moderaterne,Helsingør,561
 Rikke Worsøe,Venstre,Herning,561
 Niclas Turan Kandemir,Socialdemokratiet,Odense,561
 Lars Høgh,Venstre,Hjørring,560
-Henrik Taagaard,Socialdemokratiet,Hjørring,559
+Henrik Taagaard,Socialdemokratiet,Hjørring,558
 Jette Juul,Dansk Folkeparti,Hillerød,557
 Inge Duus Hjortlund,SF,Lyngby-Taarbæk,557
 Asger Andersen,Socialdemokratiet,Vesthimmerlands,557
@@ -1970,13 +1970,12 @@ Felex Pedersen,Socialdemokratiet,Odsherred,291
 Sif Thomsen,Socialdemokratiet,Holbæk,291
 Lars Søndergaard,Venstre,Fredensborg,291
 Kasper Vindbjerg,SF,Norddjurs,291
-Lene Ladegaard,Venstre,Vesthimmerlands,290
-Stefan Karlborg,Venstre,Hjørring,290
-Alex Haurand,SF,Kerteminde,290
 Peter Poulsen,Venstre,Norddjurs,290
+Lene Ladegaard,Venstre,Vesthimmerlands,290
+Alex Haurand,SF,Kerteminde,290
 Tina Agergaard Hansen,Venstre,Varde,289
 Jens Dissing Odgaard,Venstre,Lyngby-Taarbæk,289
-Susanne Olander,Socialdemokratiet,Thisted,288
+Stefan Karlborg,Venstre,Hjørring,288
 Janne Elsborg,SF,Frederikssund,288
 Torben Guldbæk,Liberal Alliance,København,288
 Fritz Birk Sørensen,Socialdemokratiet,Norddjurs,288
@@ -1984,25 +1983,26 @@ Frank Rune Kristensen Nielsen,Dansk Folkeparti,Skanderborg,288
 Sine Reffstrup,Socialdemokratiet,Ringsted,288
 Leif Curdes,Slesvigsk Parti,Sønderborg,288
 Rasmus Hebsgaard,Konservative,Ikast-Brande,288
+Susanne Olander,Socialdemokratiet,Thisted,288
 Ulla Flintholm,Venstre,Jammerbugt,288
-Mustafa Diken,Venstre,Svendborg,288
-Lise Tønner,L,Gladsaxe,288
 Carsten Provstgaard,Moderaterne,Hvidovre,288
 Poul Kristensen,Socialdemokratiet,Faaborg-Midtfyn,288
+Lise Tønner,L,Gladsaxe,288
+Mustafa Diken,Venstre,Svendborg,288
+Ole Wessung,Konservative,Hørsholm,287
 Jette Jacobsen,Venstre,Haderslev,287
 Bodil Pedersen,Socialdemokratiet,Holstebro,287
 Glenn Lundt,Venstre,Kolding,287
 Gunnar Lisby Kjær,Venstre,Lemvig,287
-Jakob Riddersholm,Danmarksdemokraterne,Billund,287
-Ole Wessung,Konservative,Hørsholm,287
 Joakim Rex Blankschøn,Socialdemokratiet,Næstved,287
-René Schneider,Konservative,Favrskov,286
-Niels Bjerre Degn,Socialdemokratiet,Furesø,286
-Mads Cort,Liberal Alliance,Svendborg,286
+Jakob Riddersholm,Danmarksdemokraterne,Billund,287
 Sebastian Bærnthsen,Venstre,Bornholm,286
-Diana Opperby,Socialdemokratiet,Randers,286
-Tina Ostersen,Dansk Folkeparti,Ikast-Brande,286
 Lone Mortensen,Venstre,Greve,286
+Niels Bjerre Degn,Socialdemokratiet,Furesø,286
+René Schneider,Konservative,Favrskov,286
+Mads Cort,Liberal Alliance,Svendborg,286
+Tina Ostersen,Dansk Folkeparti,Ikast-Brande,286
+Diana Opperby,Socialdemokratiet,Randers,286
 Anders Bo Jørgensen,J,Lolland,286
 Mona Musse,Enhedslisten,Ringsted,285
 Johnny B. L. Dahlgaard,Venstre,Ringsted,285
@@ -4212,18 +4212,17 @@ Jannik Haulik Jørgensen,Socialdemokratiet,Halsnæs,113
 Tobias Nyegaard Jelkær Larsen,Enhedslisten,Ballerup,113
 Henrik Thomsen,Liberal Alliance,Ringsted,113
 Mads Reiflin Johannessen,Venstre,Odense,113
-Sanne Johansen,Socialdemokratiet,Frederikssund,113
-Jørgen Clausen,Danmarksdemokraterne,Svendborg,113
-Ib Østenkær,Dansk Folkeparti,Hjørring,113
-Jimmi Stegmann,Dansk Folkeparti,Odsherred,113
-Brian O'Brien Grønvold,R,København,113
-Claus Larsen,Konservative,Rudersdal,113
 Anne-Marie Storm Pedersen,SF,Halsnæs,113
+Jørgen Clausen,Danmarksdemokraterne,Svendborg,113
+Jimmi Stegmann,Dansk Folkeparti,Odsherred,113
+Lene Aagaard,Venstre,Odder,113
+Sanne Johansen,Socialdemokratiet,Frederikssund,113
+Claus Larsen,Konservative,Rudersdal,113
 Lene Roland,Danmarksdemokraterne,Randers,113
 Anne-Marie Venge,Enhedslisten,Ringsted,113
 Henrik Lund,SF,Glostrup,113
 Ib Stougaard,Socialdemokratiet,Holstebro,113
-Lene Aagaard,Venstre,Odder,113
+Brian O'Brien Grønvold,R,København,113
 Johannes Jørgensen,Venstre,Morsø,112
 Lasse Krogh Larsen,Venstre,Morsø,112
 Tommy Frøslev,Socialdemokratiet,Halsnæs,112
@@ -4232,22 +4231,23 @@ Martin Kjærulff,Alternativet,København,112
 Leif Johansen,Konservative,Allerød,112
 Jonas Breindahl,Radikale,Hvidovre,112
 Henrik Vest,Venstre,Kolding,112
-Annette Nielsen,Socialdemokratiet,Brønderslev,112
+Jackie Lehmann Hansen,Socialdemokratiet,Guldborgsund,112
+Ib Østenkær,Dansk Folkeparti,Hjørring,112
+Bitten Vivi Jensen,J,Frederiksberg,112
 Mathilde Frank,Moderaterne,Odense,112
 Dorthe Beck-Nyling,Moderaterne,København,112
-Morten Dreyer,Dansk Folkeparti,Dragør,112
+Annette Nielsen,Socialdemokratiet,Brønderslev,112
 Stine Klok,Enhedslisten,Høje-Taastrup,112
 Steen Jakobsen-Hansen,Dansk Folkeparti,Greve,112
-Bitten Vivi Jensen,J,Frederiksberg,112
-Jackie Lehmann Hansen,Socialdemokratiet,Guldborgsund,112
-Gry Tange,Konservative,Rebild,111
-Andre Osnes,Socialdemokratiet,Aalborg,111
-Reinhold Schæfer,SF,Ringsted,111
-Jannich Panduro Nielsen,Danmarksdemokraterne,Silkeborg,111
-Alexander Dahl,E,Egedal,111
+Morten Dreyer,Dansk Folkeparti,Dragør,112
 Jørgen Richardt Nielsen,Socialdemokratiet,Faxe,111
-Gustav Wilde,Liberal Alliance,Svendborg,111
 Kasper Flygare,Socialdemokratiet,Bornholm,111
+Gustav Wilde,Liberal Alliance,Svendborg,111
+Andre Osnes,Socialdemokratiet,Aalborg,111
+Jannich Panduro Nielsen,Danmarksdemokraterne,Silkeborg,111
+Gry Tange,Konservative,Rebild,111
+Reinhold Schæfer,SF,Ringsted,111
+Alexander Dahl,E,Egedal,111
 Jørgen Bjerregaard,Kristendemokraterne,Jammerbugt,111
 Christian Dyremose Bræstrup,Konservative,Lyngby-Taarbæk,111
 Henrik Struntze,Danmarksdemokraterne,Vesthimmerlands,111
@@ -6272,29 +6272,29 @@ Nanna Marie Christensen,SF,Jammerbugt,48
 Nanna Sofie Flindt-Larsen,N,Norddjurs,48
 Mette Østergaard Jensen,E,Kerteminde,48
 Sanna Lund,L,Rudersdal,48
-Knud Erik Trans,Dansk Folkeparti,Esbjerg,48
 Thomas Madsen,Liberal Alliance,Skanderborg,48
+Knud Erik Trans,Dansk Folkeparti,Esbjerg,48
+Mathias Precht,Moderaterne,Tårnby,48
 Michael Rusbjerg,Venstre,Herlev,48
 Henrik Hollender,Socialdemokratiet,Brøndby,48
-Martin Kristensen,SF,Skive,48
 Klaus Vanggaard,Dansk Folkeparti,Ikast-Brande,48
-Mathias Precht,Moderaterne,Tårnby,48
-Vagn Pedersen,SF,Skive,47
-Michael Grønbech,SF,Frederikssund,47
-Mikkel Christian Iversholt,L,Gribskov,47
-Bent Jørgensen,Enhedslisten,Vordingborg,47
-Stefan la Fata,Socialdemokratiet,Guldborgsund,47
-Knud Gaarn-Larsen,Kristendemokraterne,Viborg,47
+Martin Kristensen,SF,Skive,48
 Leif Høeg Jensen,Venstre,Tønder,47
+Ingrid Boldsen,SF,Syddjurs,47
+Mikkel Hedegreen,Konservative,Brøndby,47
+Dan Zaklikowesky,Alternativet,Helsingør,47
+Hans Biering Fonsbøl,Alternativet,Vejle,47
+Knud Gaarn-Larsen,Kristendemokraterne,Viborg,47
+Carsten Borup,Alternativet,Aarhus,47
+Mikkel Christian Iversholt,L,Gribskov,47
+Michael Grønbech,SF,Frederikssund,47
+Bent Jørgensen,Enhedslisten,Vordingborg,47
 René Eriksen,Konservative,Billund,47
 Carsten Dalgaard,Konservative,Ikast-Brande,47
-Dan Zaklikowesky,Alternativet,Helsingør,47
-Mikkel Hedegreen,Konservative,Brøndby,47
-Ingrid Boldsen,SF,Syddjurs,47
-Thomas Dahlgaard,Venstre,Morsø,47
-Carsten Borup,Alternativet,Aarhus,47
-Rebecha Foged,Venstre,Faaborg-Midtfyn,47
+Stefan la Fata,Socialdemokratiet,Guldborgsund,47
 Jørgen Stefansen,Enhedslisten,Aalborg,47
+Thomas Dahlgaard,Venstre,Morsø,47
+Rebecha Foged,Venstre,Faaborg-Midtfyn,47
 Agnete Damkjær,Venstre,Assens,47
 Pia Lystrup Holleufer,Liberal Alliance,Hvidovre,47
 Søren Grønlund Christensen,Socialdemokratiet,Odder,47
@@ -6308,62 +6308,62 @@ Jesper Bay,Socialdemokratiet,Nyborg,47
 Steffen Gram Lauridsen,Venstre,Skanderborg,47
 Marianne Kyed,Venstre,Middelfart,47
 Tina Jensen,Liberal Alliance,Ikast-Brande,47
-Hans Biering Fonsbøl,Alternativet,Vejle,47
-Mark Hein,Radikale,Rudersdal,47
-Augusta Elmeskov,Socialdemokratiet,Lejre,47
+Karina Kjærulff Sørensen,Socialdemokratiet,Rødovre,47
+Vagn Pedersen,SF,Skive,47
 Søren Schow,E,Bornholm,47
-Gitte Boffy Lillelund,SF,Ballerup,47
-Sander Pennerup,Y,København,47
 Casper Damgaard,Radikale,Esbjerg,47
+Mark Hein,Radikale,Rudersdal,47
 Flemming Neperus,SF,Langeland,47
+Sander Pennerup,Y,København,47
 Malthe Scharling Borlund Bonde,Konservative,Mariagerfjord,47
 Claus Gundersen,L,Faaborg-Midtfyn,47
-Karina Kjærulff Sørensen,Socialdemokratiet,Rødovre,47
+Augusta Elmeskov,Socialdemokratiet,Lejre,47
 Bente Tarp Rasmussen,Danmarksdemokraterne,Fredericia,47
-Mike Clausen,SF,Lolland,47
-Mikael Wendelboe,Konservative,Fredensborg,47
+Gitte Boffy Lillelund,SF,Ballerup,47
 Birgitte Højer Poulsen,SF,Rudersdal,47
-Morten Bybjerg Nygaard,Socialdemokratiet,Glostrup,46
-Alexander Bork,Konservative,Aabenraa,46
+Mikael Wendelboe,Konservative,Fredensborg,47
+Mike Clausen,SF,Lolland,47
+Thomas Nyboe Stein,Enhedslisten,Herlev,46
+Morten Nielsen,Danmarksdemokraterne,Fredericia,46
+Nikolaj Wesley Simonsen,Moderaterne,Egedal,46
+Anette Kildentoft,Dansk Folkeparti,Holbæk,46
 Chris Holmsgaard,Moderaterne,Aalborg,46
+Erik Bernth Nielsen,SF,Vesthimmerlands,46
 Bendt Lund Nielsen,Enhedslisten,Favrskov,46
 Kristian Kirk Mailand,Radikale,Bornholm,46
-John Albøger Sørensen,Konservative,Vallensbæk,46
-Sebastian Cohrt,Radikale,Odsherred,46
-Merete Horn,Konservative,Kerteminde,46
-Christopher Pedersen,G,Guldborgsund,46
-Ole Juhl Christoffersen,SF,Varde,46
-Emil Boesen,Enhedslisten,Bornholm,46
-Thomas Nyboe Stein,Enhedslisten,Herlev,46
-Hanne Frølund,Radikale,Herning,46
-Kent Larsen,Dansk Folkeparti,Nyborg,46
-Nikolaj Wesley Simonsen,Moderaterne,Egedal,46
-Dorte M. Nielsen,SF,Hjørring,46
 Anders Lautrup-Larsen,Venstre,Gentofte,46
-Anette Kildentoft,Dansk Folkeparti,Holbæk,46
-Erik Bernth Nielsen,SF,Vesthimmerlands,46
+Hanne Frølund,Radikale,Herning,46
+Sebastian Cohrt,Radikale,Odsherred,46
+John Albøger Sørensen,Konservative,Vallensbæk,46
+Merete Horn,Konservative,Kerteminde,46
 Camilla Damm-Frydenberg,SF,Allerød,46
-Morten Nielsen,Danmarksdemokraterne,Fredericia,46
-Chris Christiansen,Konservative,Lolland,46
+Emil Boesen,Enhedslisten,Bornholm,46
+Kent Larsen,Dansk Folkeparti,Nyborg,46
+Alexander Bork,Konservative,Aabenraa,46
+Steen Knoblauch,N,Norddjurs,46
+Lianne Hansen,D,Sorø,46
+Bodil Grove Christensen,Radikale,Herning,46
+Niels Ravn Schmidt,Konservative,Kolding,46
+Ole Juhl Christoffersen,SF,Varde,46
+Christopher Pedersen,G,Guldborgsund,46
+Morten Jans,Venstre,Langeland,46
+B. S. Andersen,Socialdemokratiet,Køge,46
+Katrine Ildal Nielsen,Konservative,Lyngby-Taarbæk,46
+Morten Bybjerg Nygaard,Socialdemokratiet,Glostrup,46
+Kasper Kruse,Moderaterne,Frederikshavn,46
 Heidi Salee,T,Faxe,46
 Casper Sørensen,Frie Grønne,Randers,46
 Morten Koborg,Socialdemokratiet,Guldborgsund,46
 Michael Schrøder,Venstre,Frederiksberg,46
-B. S. Andersen,Socialdemokratiet,Køge,46
 Niels Tvilling Larsen,Liberal Alliance,Aalborg,46
 Kristina Taaning,Radikale,Herning,46
-Morten Jans,Venstre,Langeland,46
+Chris Christiansen,Konservative,Lolland,46
 Morten Liliendahl,Liberal Alliance,Randers,46
-Kasper Kruse,Moderaterne,Frederikshavn,46
-René Villadsen,Venstre,Esbjerg,46
 Flemming Albrechtsen,Dansk Folkeparti,Gladsaxe,46
 Jens Høj Justesen,SF,Nyborg,46
 Marlene Andersen,SF,Aalborg,46
-Bodil Grove Christensen,Radikale,Herning,46
 Mette Rotesan,Enhedslisten,Hvidovre,46
-Niels Ravn Schmidt,Konservative,Kolding,46
-Steen Knoblauch,N,Norddjurs,46
-Lianne Hansen,D,Sorø,46
+René Villadsen,Venstre,Esbjerg,46
 John Kaptain,Venstre,Brønderslev,46
 Tine Astrup Eriksen,Enhedslisten,Bornholm,46
 Susanne Haunsvig,Konservative,Stevns,46
@@ -6382,24 +6382,24 @@ Candice Progler-Thomsen,Konservative,Lolland,46
 Jens Chr. Nielsen,Liberal Alliance,Aabenraa,46
 Kim Sommer,Dansk Folkeparti,Odense,46
 Brian T.  Andersen,Kristendemokraterne,Herning,46
-Katrine Ildal Nielsen,Konservative,Lyngby-Taarbæk,46
+Mie Thustrup,N,Holbæk,46
 Jonna Refstrup,Konservative,Odense,46
+Mai-Britt Strøm,Socialdemokratiet,Svendborg,46
 Marianne Larsen,L,Gladsaxe,46
 Martin Vrede Nielsen,Socialdemokratiet,Lolland,46
-Mai-Britt Strøm,Socialdemokratiet,Svendborg,46
-Mie Thustrup,N,Holbæk,46
-Christian Estrup,Liberal Alliance,Egedal,45
-Helle Kanstrup,L,Rebild,45
 Hans Sørensen Doktor,Radikale,Horsens,45
-Michael Frank Hansen,Konservative,Gribskov,45
-Erik Boye Kirk,Socialdemokratiet,Norddjurs,45
-Erik Skovgaard Nielsen,Venstre,Dragør,45
-Solveig Fredslund,D,Assens,45
-Kamila Holt,Moderaterne,Kerteminde,45
-Christian Simonsen,E,Hjørring,45
 Jacob Møller Rasmussen,SF,Herlev,45
-Henrik Holleufer,Liberal Alliance,Hvidovre,45
+Christian Simonsen,E,Hjørring,45
+Randi Jørgensen,SF,Egedal,45
+Kamila Holt,Moderaterne,Kerteminde,45
+Solveig Fredslund,D,Assens,45
+Erik Skovgaard Nielsen,Venstre,Dragør,45
+Erik Boye Kirk,Socialdemokratiet,Norddjurs,45
+Helle Kanstrup,L,Rebild,45
+Christian Estrup,Liberal Alliance,Egedal,45
+Michael Frank Hansen,Konservative,Gribskov,45
 Inger Lis Sørensen,Socialdemokratiet,Viborg,45
+Henrik Holleufer,Liberal Alliance,Hvidovre,45
 Henrik Maximus Hougaard,Moderaterne,Holstebro,45
 Søren Bjerg Nielsen,Dansk Folkeparti,København,45
 Melissa Gilroy,Radikale,Fanø,45
@@ -6415,7 +6415,7 @@ Casper Pedersen,Enhedslisten,Gladsaxe,45
 Poul Hjul Andersen,Venstre,Vesthimmerlands,45
 Serena Albeck Jonas,Venstre,Sønderborg,45
 Peter Simoni,Konservative,Vejen,45
-Randi Jørgensen,SF,Egedal,45
+Dorte M. Nielsen,SF,Hjørring,45
 Bodil Morgenstern,Enhedslisten,Vordingborg,45
 Winni Bente Birch,Dansk Folkeparti,Vordingborg,45
 Emil Bredahl Lavsen,Konservative,Slagelse,45
@@ -6430,33 +6430,33 @@ Jeanett Debb,Konservative,Rudersdal,45
 Kurt Vind Christiansen,Liberal Alliance,Hedensted,45
 Maj-Britt Oreskov,Dansk Folkeparti,Lolland,45
 Jørgen Bonne,Venstre,Brøndby,45
-Rune Jørgensen,R,København,45
 Bodil K. Olsen,Enhedslisten,Favrskov,45
-Per Nielsen,Socialdemokratiet,Varde,45
-Svend Lund,Danmarksdemokraterne,Skive,45
-Carl-Børge Christiansen,Venstre,Gribskov,45
 Gert Helenius,Radikale,Kolding,45
+Per Nielsen,Socialdemokratiet,Varde,45
+Carl-Børge Christiansen,Venstre,Gribskov,45
+Rune Jørgensen,R,København,45
+Svend Lund,Danmarksdemokraterne,Skive,45
 Helle Meldgaard,Enhedslisten,Skive,44
+Mie Revsbech Møller,Radikale,Odsherred,44
 Inge Nielsen Græsborg,Dansk Folkeparti,Herning,44
 Lone Degn,Enhedslisten,Aarhus,44
+Brian Hornuff,Konservative,Roskilde,44
 René Arnt,Moderaterne,Høje-Taastrup,44
 Marlene Frandsen,Liberal Alliance,Glostrup,44
+Tina Refning Larsen,Liberal Alliance,Kerteminde,44
 Thor C. Jonasen,Alternativet,Aarhus,44
 Lars Kaspersen,Socialdemokratiet,Gladsaxe,44
 Camilla Selena Sørensen,SF,Haderslev,44
+Kim Kastoft,Enhedslisten,Svendborg,44
 Stine Darmer,Liberal Alliance,Hørsholm,44
-Kurt Normark,Socialdemokratiet,Hvidovre,44
 Søren Preuss,Konservative,Lyngby-Taarbæk,44
 Ib Tune Olsen,SF,Hørsholm,44
-Lau Sørensen,Konservative,Holstebro,44
+Kurt Normark,Socialdemokratiet,Hvidovre,44
 Helena Feldborg Andersen,Konservative,Odense,44
 Jens-Christian Navarro Poulsen,Radikale,Frederiksberg,44
 Hanne Munch Kristiansen,Radikale,Favrskov,44
+Lau Sørensen,Konservative,Holstebro,44
 Aud Spurkeland Grøne,Socialdemokratiet,Odsherred,44
-Kim Kastoft,Enhedslisten,Svendborg,44
-Mie Revsbech Møller,Radikale,Odsherred,44
-Tina Refning Larsen,Liberal Alliance,Kerteminde,44
-Brian Hornuff,Konservative,Roskilde,44
 Kirsten Høj Nielsen,Socialdemokratiet,Fredericia,44
 Michael Brønd,Socialdemokratiet,Ballerup,44
 Robert V. Rasmussen,Socialdemokratiet,Samsø,44
@@ -6505,8 +6505,8 @@ Helen Nørret Schmidt,Radikale,Ringsted,43
 Christian G. Lauridsen,Dansk Folkeparti,Aabenraa,43
 Martin Saxen,Z,Lyngby-Taarbæk,43
 Nicholai Vigger Knudsen,Danmarksdemokraterne,Syddjurs,43
-Hanne Stender Damkjær,Radikale,Skanderborg,43
 Sebastian Ribergaard Juul,Socialdemokratiet,Odder,43
+Hanne Stender Damkjær,Radikale,Skanderborg,43
 Marek Bang Poulsen,Radikale,Odense,43
 Marianne Husted,Venstre,Lejre,43
 Jørn Gustavsen,Venstre,Nyborg,43
@@ -6532,8 +6532,8 @@ Malene Bay,Dansk Folkeparti,Hvidovre,43
 Jonas Lauge Andersen,Konservative,Holbæk,43
 Christian Sonne-Schmidt,Venstre,Brønderslev,43
 Flemming Engler,Socialdemokratiet,Guldborgsund,42
-Melina Amalie Pedersen,Socialdemokratiet,Holbæk,42
 Kim Tapdrup,Venstre,Syddjurs,42
+Melina Amalie Pedersen,Socialdemokratiet,Holbæk,42
 John Bo Hansen,Z,Guldborgsund,42
 Rasmus Sprotte,SF,Bornholm,42
 Jonas Danielsen,Liberal Alliance,Køge,42
