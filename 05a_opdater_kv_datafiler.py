@@ -414,6 +414,7 @@ res = (
 res["kommune"] = res["kommune"].str.replace(" Kommune", "", regex=False)
 res["kommune"] = res["kommune"].str.replace("Københavns Kommune", "Københavns", regex=False)
 res["kommune"] = res["kommune"].str.replace("Københavns", "København", regex=False)
+res["kommune"] = res["kommune"].str.replace("s Regionskommune", "", regex=False)
 
 # only keep the regions where all the results are in
 completed_kommuner = res.groupby("kommune").filter(
@@ -426,6 +427,7 @@ nat_resultater = nat_resultater[nat_resultater["kommune"].isin(completed_kommune
 # make sure to strip kommune of " Kommune" suffix
 nat_resultater["kommune"] = nat_resultater["kommune"].str.replace(" Kommune", "", regex=False)
 nat_resultater["kommune"] = nat_resultater["kommune"].str.replace("s Kommune", "", regex=False)
+nat_resultater["kommune"] = nat_resultater["kommune"].str.replace("s Regionskommune", "", regex=False)
 nat_resultater = add_popups(nat_resultater)
 
 # save file
