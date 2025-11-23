@@ -264,6 +264,22 @@ def get_status(
             borgmestre_df["kommune_kode"] == kommune_id, "borgmester"
         ].iat[0]
         summary_df["Borgmester"] = borgmester
+        # find the borgmesterparti
+        borgmester_parti = borgmestre_df.loc[
+            borgmestre_df["kommune_kode"] == kommune_id, "borgmesterparti"
+        ].iat[0]
+        # get the bogstav for the borgmesterparti from partier_info
+        borgmester_bogstav = None
+        for parti in partier_info:
+            if parti["navn"] == borgmester_parti:
+                borgmester_bogstav = parti["bogstav"]
+                break
+        #otherwise set borgmester_bogstav to borgmester_parti
+        if borgmester_bogstav is None:
+            borgmester_bogstav = borgmester_parti
+
+        # add borgmester_bogstav in () after borgmester name
+        summary_df["Borgmester"] = summary_df["Borgmester"] + f" ({borgmester_bogstav})"
     else:
         summary_df["Borgmester"] = "Ikke afgjort"
 
