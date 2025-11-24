@@ -7,7 +7,7 @@ from pathlib import Path
 from config import FROM_PATH, TO_PATH, FOLDERS
 
 def get_mandater(from_path=FROM_PATH, to_path=TO_PATH, folder=FOLDERS, valg="kv"):
-    mandat_folder = folder[2]  # "verifikation/mandatfordeling"
+    mandat_folder = folder[1]  # "verifikation/mandatfordeling"
     filer = glob.glob(os.path.join(from_path, valg, mandat_folder, "*.json"))
     
     mandater = []
