@@ -3,7 +3,7 @@ name: structure_rv_data
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 19 * * *'
+    - cron: '0 13 * * *'
 
 jobs:
   daily:
