@@ -258,29 +258,38 @@ def get_status(
     done_share = f"{done_mask.sum()} ud af {len(afst)}"
     summary_df["Optalte valgsteder"] = done_share
 
-    # Find borgmesteren for kommunen, hvis det er afgjort
+        # Find borgmesteren for kommunen, hvis det er afgjort
     if kommune_id in borgmestre_df["kommune_kode"].values:
+        # --- Part 1: Initial Data Retrieval ---
         borgmester = borgmestre_df.loc[
             borgmestre_df["kommune_kode"] == kommune_id, "borgmester"
         ].iat[0]
-        summary_df["Borgmester"] = borgmester
-        # find the borgmesterparti
         borgmester_parti = borgmestre_df.loc[
             borgmestre_df["kommune_kode"] == kommune_id, "borgmesterparti"
         ].iat[0]
-        # get the bogstav for the borgmesterparti from partier_info
-        borgmester_bogstav = None
-        for parti in partier_info:
-            if parti["navn"] == borgmester_parti:
-                borgmester_bogstav = parti["bogstav"]
-                break
-        #otherwise set borgmester_bogstav to borgmester_parti
-        if borgmester_bogstav is None:
-            borgmester_bogstav = borgmester_parti
 
-        # add borgmester_bogstav in () after borgmester name
-        summary_df["Borgmester"] = summary_df["Borgmester"] + f" ({borgmester_bogstav})"
+        # --- Part 2: Find Party Letter ---
+        borgmester_bogstav = None
+        if pd.isna(borgmester_parti): # Check if the party name itself is missing/NaN
+            borgmester_bogstav = None # Keep it None if the party is missing
+        else:
+            for parti in partier_info:
+                if parti["navn"] == borgmester_parti:
+                    borgmester_bogstav = parti["bogstav"]
+                    break
+
+        # --- Part 3: Apply Result to DataFrame ---
+        # Check if a valid party letter was found AND a mayor name exists
+        if borgmester_bogstav is not None and not pd.isna(borgmester):
+            # 1. Ensure the mayor's name is converted to string (necessary for concatenation)
+            # 2. Concatenate the name and the party letter
+            summary_df["Borgmester"] = str(borgmester) + f" ({borgmester_bogstav})"
+        else:
+            # If the mayor or the party letter is missing, it's considered 'Ikke afgjort'
+            summary_df["Borgmester"] = "Ikke afgjort"
+
     else:
+        # If the kommune_id is not in borgmestre_df at all
         summary_df["Borgmester"] = "Ikke afgjort"
 
     # Drop unødvendige kolonner og gem filen
